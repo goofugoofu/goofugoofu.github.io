@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Subscribe · AI Tool Map</title>
+  <script src="js/theme-boot.js"></script>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div id="app"></div>
+  <script src="js/i18n.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    const WAITLIST_KEY = "ai-tool-map-waitlist";
+
+    function loadMonetization() {
+      return fetchJSON("data/monetization.json").catch(() => ({
+        stripe_payment_link: "",
+        stripe_sponsored_link: "",
+        waitlist_mailto: "",
+        plans: [],
+      }));
+    }
+
+    function saveWaitlist(entry) {
+      let list = [];
+      try { list = JSON.parse(localStorage.getItem(WAITLIST_KEY) || "[]"); } catch (_) {}
+      if (!Array.isArray(list)) list = [];
+      list.push({ ...entry, at: new Date().toISOString() });
+      localStorage.setItem(WAITLIST_KEY, JSON.stringify(list.slice(-200)));
+    }
+
+    function comingLabel(ui) {
+      return getLang() === "zh" ? (ui.pay_coming_zh || ui.pay_coming) : (ui.pay_coming_en || ui.pay_coming);
+    }
+
+    bootPage({
+      active: "subscribe",
+      render: async (ui) => {
+        const main = document.getElementById("main");
+        const mon = await loadMonetization();
+        const payLink = (mon.stripe_payment_link || "").trim();
+        const sponsoredLink = (mon.stripe_sponsored_link || "").trim();
+        const mailto = (mon.waitlist_mailto || "").trim();
+        const plans = Array.isArray(mon.plans) ? mon.plans : [];
+        const coming = comingLabel(ui);
+
+        const plansHTML = plans.map((p) => {
+          const name = tField(p, "name") || p.id;
+          const price = tField(p, "price_label") || coming;
+          const desc = tField(p, "desc") || "";
+          return `
+            <div class="plan-card">
+              <h3>${escapeHTML(name)}</h3>
+              <p class="plan-price">${escapeHTML(price)}</p>
+              <p class="muted small">${escapeHTML(desc)}</p>
+            </div>
+          `;
+        }).join("");
+
+        const payBtn = payLink
+          ? `<a class="btn btn-primary" id="pay-cta" href="${escapeHTML(payLink)}" target="_blank" rel="noopener noreferrer" data-i18n="pay_cta">${ui.pay_cta}</a>`
+          : `<button type="button" class="btn btn-primary" id="pay-cta" disabled title="${escapeHTML(coming)}">${escapeHTML(coming)}</button>`;
+
+        const sponsoredBtn = sponsoredLink
+          ? `<a class="btn btn-primary" id="sponsored-cta" href="${escapeHTML(sponsoredLink)}" target="_blank" rel="noopener noreferrer" data-i18n="sponsored_cta">${ui.sponsored_cta}</a>`
+          : `<button type="button" class="btn btn-ghost" id="sponsored-cta" disabled>${escapeHTML(ui.sponsored_coming || coming)}</button>`;
+
+        const mailtoSub = mailto
+          ? `<a class="btn btn-ghost" href="mailto:${escapeHTML(mailto)}?subject=${encodeURIComponent("AI Tool Map waitlist")}">${ui.waitlist_mailto_btn}</a>`
+          : "";
+        const mailtoBiz = mailto
+          ? `<a class="btn btn-ghost" href="mailto:${escapeHTML(mailto)}?subject=${encodeURIComponent("AI Tool Map sponsored listing")}">${ui.waitlist_mailto_btn}</a>`
+          : "";
+
+        main.innerHTML = `
+          <section class="hero">
+            <h1 data-i18n="subscribe_title">${ui.subscribe_title}</h1>
+            <p data-i18n="subscribe_sub">${ui.subscribe_sub}</p>
+            <div class="quick-links">
+              <a class="quick-link" href="index.html"><span class="emoji">🏠</span><span data-i18n="nav_home">${ui.nav_home}</span></a>
+              <a class="quick-link" href="weekly.html"><span class="emoji">✨</span><span data-i18n="quick_weekly">${ui.quick_weekly}</span></a>
+            </div>
+          </section>
+
+          <section class="section">
+            <div class="section-head">
+              <div>
+                <h2 data-i18n="plans_heading">${ui.plans_heading}</h2>
+                <p data-i18n="plans_sub">${ui.plans_sub}</p>
+              </div>
+            </div>
+            <div class="plans-grid">${plansHTML || `<div class="empty">${escapeHTML(coming)}</div>`}</div>
+            <div class="cta-row">${payBtn}</div>
+            ${payLink ? "" : `<p class="notice-banner">${escapeHTML(coming)} — ${getLang() === "zh" ? "把 Stripe Payment Link 写进 data/monetization.json 后重新部署即可。" : "Paste a Stripe Payment Link into data/monetization.json and redeploy."}</p>`}
+          </section>
+
+          <section class="section split-2">
+            <div class="panel">
+              <h2 data-i18n="subscribe_heading">${ui.subscribe_heading}</h2>
+              <p class="muted small" style="margin-bottom:1rem" data-i18n="subscribe_desc">${ui.subscribe_desc}</p>
+              <form class="form" id="sub-form">
+                <label for="sub-email" data-i18n="email_placeholder">${ui.email_placeholder}</label>
+                <input id="sub-email" type="email" required data-i18n-placeholder="email_placeholder" placeholder="${ui.email_placeholder}" />
+                <div class="cta-row">
+                  <button type="submit" class="btn btn-primary" data-i18n="waitlist_btn">${ui.waitlist_btn}</button>
+                  ${mailtoSub}
+                </div>
+                <p class="form-note" id="sub-note" data-i18n="waitlist_thanks">${ui.waitlist_thanks}</p>
+              </form>
+            </div>
+            <div class="panel">
+              <h2 data-i18n="biz_heading">${ui.biz_heading}</h2>
+              <p class="muted small" style="margin-bottom:1rem" data-i18n="biz_desc">${ui.biz_desc}</p>
+              <form class="form" id="biz-form">
+                <label for="biz-name" data-i18n="biz_name">${ui.biz_name}</label>
+                <input id="biz-name" type="text" required />
+                <label for="biz-email" data-i18n="biz_email">${ui.biz_email}</label>
+                <input id="biz-email" type="email" required />
+                <label for="biz-msg" data-i18n="biz_message">${ui.biz_message}</label>
+                <textarea id="biz-msg" required></textarea>
+                <div class="cta-row">
+                  ${sponsoredBtn}
+                  <button type="submit" class="btn btn-ghost" data-i18n="biz_waitlist_btn">${ui.biz_waitlist_btn}</button>
+                  ${mailtoBiz}
+                </div>
+                <p class="form-note" id="biz-note" data-i18n="biz_waitlist_thanks">${ui.biz_waitlist_thanks}</p>
+              </form>
+            </div>
+          </section>
+        `;
+        applyStaticUI(ui);
+
+        document.getElementById("sub-form").addEventListener("submit", (e) => {
+          e.preventDefault();
+          const email = document.getElementById("sub-email").value.trim();
+          saveWaitlist({ type: "newsletter", email });
+          document.getElementById("sub-note").classList.add("show");
+          if (mailto) {
+            // optional: also open mail client with prefilled body
+          }
+        });
+        document.getElementById("biz-form").addEventListener("submit", (e) => {
+          e.preventDefault();
+          saveWaitlist({
+            type: "sponsored",
+            name: document.getElementById("biz-name").value.trim(),
+            email: document.getElementById("biz-email").value.trim(),
+            message: document.getElementById("biz-msg").value.trim(),
+          });
+          document.getElementById("biz-note").classList.add("show");
+        });
+      },
+    });
+  </script>
+</body>
+</html>

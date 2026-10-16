@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>This week · AI Tool Map</title>
+  <script src="js/theme-boot.js"></script>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div id="app"></div>
+  <script src="js/i18n.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    bootPage({
+      active: "weekly",
+      render: async (ui) => {
+        const main = document.getElementById("main");
+        const [weekly, tools] = await Promise.all([
+          fetchJSON("data/weekly.json"),
+          fetchJSON("data/tools.json"),
+        ]);
+        const toolMap = {};
+        tools.forEach((t) => { toolMap[t.id] = t; });
+
+        const items = weekly.map((w) => {
+          const highlights = (getLang() === "zh" ? w.highlights_zh : w.highlights_en) || [];
+          const list = highlights.map((h) => `<li>${escapeHTML(h)}</li>`).join("");
+          const toolLinks = (w.tool_ids || [])
+            .map((id) => toolMap[id])
+            .filter(Boolean)
+            .map((t) => toolCardHTML(t, ui))
+            .join("");
+
+          return `
+            <article class="feed-item">
+              <div class="date">${escapeHTML(tField(w, "week_label"))} · ${escapeHTML(w.date_range)}</div>
+              <h3>${escapeHTML(tField(w, "title"))}</h3>
+              <p>${escapeHTML(tField(w, "intro"))}</p>
+              <ul>${list}</ul>
+              <div class="grid" style="margin-top:1rem">${toolLinks}</div>
+            </article>
+          `;
+        }).join("");
+
+        main.innerHTML = `
+          <section class="hero">
+            <h1 data-i18n="weekly_title">${ui.weekly_title}</h1>
+            <p data-i18n="weekly_sub">${ui.weekly_sub}</p>
+            <p class="muted small" style="margin-top:0.75rem" data-i18n="newsletter_note">${ui.newsletter_note}</p>
+            <div class="quick-links">
+              <a class="quick-link" href="index.html"><span class="emoji">🏠</span><span data-i18n="nav_home">${ui.nav_home}</span></a>
+              <a class="quick-link" href="daily.html"><span class="emoji">📰</span><span data-i18n="quick_daily">${ui.quick_daily}</span></a>
+              <a class="quick-link" href="subscribe.html"><span class="emoji">✉️</span><span data-i18n="quick_subscribe">${ui.quick_subscribe}</span></a>
+            </div>
+          </section>
+          <p class="help-hint" data-i18n="weekly_hint">${ui.weekly_hint}</p>
+          <section class="section">
+            <div class="feed">${items}</div>
+          </section>
+        `;
+        applyStaticUI(ui);
+      },
+    });
+  </script>
+</body>
+</html>

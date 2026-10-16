@@ -1,0 +1,11 @@
+.env
+.env.*
+*.pem
+*.key
+.venv/
+.venv-hf/
+__pycache__/
+.DS_Store
+node_modules/
+data/scan_cache/
+.hf-cli/
