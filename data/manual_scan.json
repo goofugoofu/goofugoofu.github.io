@@ -1,0 +1,35 @@
+{
+  "_comment": "Optional manual / RunningHub / Higgsfield items. X posts go in data/x_hits.json (or X_BEARER_TOKEN). Set enabled true to include.",
+  "items": [
+    {
+      "enabled": false,
+      "source": "X (manual stub)",
+      "name": "Grok realtime tools chatter",
+      "url": "https://x.com/search?q=AI%20tools",
+      "blurb_en": "Disabled: use data/x_hits.json or X_BEARER_TOKEN instead of this stub.",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "enabled": true,
+      "source": "RunningHub (stub)",
+      "name": "RunningHub public listing",
+      "url": "https://www.runninghub.ai",
+      "blurb_en": "TODO: scrape or API when a stable public feed exists. Placeholder keeps the source in the pipeline.",
+      "tags": [
+        "image-video"
+      ]
+    },
+    {
+      "enabled": true,
+      "source": "Higgsfield (stub)",
+      "name": "Higgsfield public site",
+      "url": "https://higgsfield.ai",
+      "blurb_en": "TODO: public changelog/API not wired yet. Placeholder for cinematic AI video updates.",
+      "tags": [
+        "image-video"
+      ]
+    }
+  ]
+}

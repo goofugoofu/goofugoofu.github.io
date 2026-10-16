@@ -1,0 +1,25 @@
+{
+  "stripe_payment_link": "",
+  "stripe_sponsored_link": "",
+  "waitlist_mailto": "",
+  "plans": [
+    {
+      "id": "weekly",
+      "name_zh": "每周精选",
+      "name_en": "Weekly picks",
+      "price_label_zh": "即将上线",
+      "price_label_en": "Coming soon",
+      "desc_zh": "每日扫描精选 + 本周新品合集，邮件送达。",
+      "desc_en": "Daily scan highlights + weekly roundup by email."
+    },
+    {
+      "id": "pro",
+      "name_zh": "深度对比 Pro",
+      "name_en": "Deep-dive Pro",
+      "price_label_zh": "即将上线",
+      "price_label_en": "Coming soon",
+      "desc_zh": "场景对比表、工具短名单与优先更新。",
+      "desc_en": "Scenario comparisons, shortlists, and priority updates."
+    }
+  ]
+}
