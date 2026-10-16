@@ -41,6 +41,15 @@ Use the **Theme** dropdown in the header (persisted as `localStorage` key `ai-to
 Themes apply via `data-theme` on `<html>` and CSS variables. `js/theme-boot.js` runs in `<head>` to avoid a flash of the wrong theme.
 
 
+
+## Live public site (current)
+
+- **GitHub Pages (live):** https://goofugoofu.github.io/
+- Source mirror: https://github.com/goofugoofu/ai-tool-map
+- Pages repo: https://github.com/goofugoofu/goofugoofu.github.io
+
+Hugging Face Space (`TonyGooF/ai-tool-map`) is **prepared** (`scripts/deploy-hf.sh` + README `sdk: static` frontmatter) but **not deployed yet** — shell has no write token until browser auth at https://hf.co/oauth/device is confirmed (do not confuse with App Store codes).
+
 ## Deploy to Hugging Face Space (static)
 
 ```bash
