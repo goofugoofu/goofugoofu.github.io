@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Today's finds · AI Tool Map</title>
+  <script src="js/theme-boot.js"></script>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div id="app"></div>
+  <script src="js/i18n.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    bootPage({
+      active: "daily",
+      render: async (ui) => {
+        const main = document.getElementById("main");
+        const [daily, tools, scenarios] = await Promise.all([
+          fetchJSON("data/daily.json"),
+          fetchJSON("data/tools.json"),
+          fetchJSON("data/scenarios.json"),
+        ]);
+        const toolMap = {};
+        tools.forEach((t) => { toolMap[t.id] = t; });
+        const scenarioMap = scenarioMapFrom(scenarios);
+
+        const items = daily.map((d) => {
+          const related = (d.related_tool_ids || [])
+            .map((id) => toolMap[id])
+            .filter(Boolean)
+            .map((t) => `<a class="pill-link" href="tool.html?id=${encodeURIComponent(t.id)}">${escapeHTML(tField(t, "name"))}</a>`)
+            .join("");
+          const tags = (d.tags || [])
+            .map((sid) => {
+              const s = scenarioMap[sid];
+              return s
+                ? `<a class="pill-link" href="scenario.html?id=${encodeURIComponent(sid)}">${escapeHTML(tField(s, "name"))}</a>`
+                : "";
+            })
+            .join("");
+          return `
+            <article class="feed-item">
+              <div class="date">${escapeHTML(d.date)}</div>
+              <h3>${escapeHTML(tField(d, "title"))}</h3>
+              <p>${escapeHTML(tField(d, "summary"))}</p>
+              <div class="feed-links">${related}${tags}</div>
+            </article>
+          `;
+        }).join("");
+
+        main.innerHTML = `
+          <section class="hero">
+            <h1 data-i18n="daily_title">${ui.daily_title}</h1>
+            <p data-i18n="daily_sub">${ui.daily_sub}</p>
+            <div class="quick-links">
+              <a class="quick-link" href="index.html"><span class="emoji">🏠</span><span data-i18n="nav_home">${ui.nav_home}</span></a>
+              <a class="quick-link" href="weekly.html"><span class="emoji">✨</span><span data-i18n="quick_weekly">${ui.quick_weekly}</span></a>
+            </div>
+          </section>
+          <p class="help-hint" data-i18n="daily_hint">${ui.daily_hint}</p>
+          <section class="section">
+            <div class="feed">${items}</div>
+          </section>
+        `;
+        applyStaticUI(ui);
+      },
+    });
+  </script>
+</body>
+</html>

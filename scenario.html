@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Scenario · AI Tool Map</title>
+  <script src="js/theme-boot.js"></script>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div id="app"></div>
+  <script src="js/i18n.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    bootPage({
+      active: "home",
+      render: async (ui) => {
+        const main = document.getElementById("main");
+        const id = qs("id");
+        const [scenarios, tools] = await Promise.all([
+          fetchJSON("data/scenarios.json"),
+          fetchJSON("data/tools.json"),
+        ]);
+        const scenario = scenarios.find((s) => s.id === id);
+        if (!scenario) {
+          main.innerHTML = `${emptyState(ui)}<p><a class="back-link" href="index.html">${ui.back_home}</a></p>`;
+          applyStaticUI(ui);
+          return;
+        }
+        const list = tools.filter((t) => t.scenarios.includes(id));
+        document.title = `${tField(scenario, "name")} · AI Tool Map`;
+        main.innerHTML = `
+          <section class="detail-hero">
+            <a class="back-link" href="index.html" data-i18n="back_home">${ui.back_home}</a>
+            <div class="card-icon" style="font-size:2.2rem">${scenario.icon}</div>
+            <h1>${escapeHTML(tField(scenario, "name"))}</h1>
+            <p class="muted">${escapeHTML(tField(scenario, "desc"))}</p>
+          </section>
+          <section class="section">
+            <div class="section-head">
+              <h2 data-i18n="scenario_tools">${ui.scenario_tools}</h2>
+              <span class="badge">${list.length} ${ui.tools_count}</span>
+            </div>
+            <p class="help-hint" data-i18n="scenario_hint">${ui.scenario_hint}</p>
+            <div class="grid">
+              ${list.length ? list.map((t) => toolCardHTML(t, ui)).join("") : emptyState(ui)}
+            </div>
+          </section>
+        `;
+        applyStaticUI(ui);
+      },
+    });
+  </script>
+</body>
+</html>

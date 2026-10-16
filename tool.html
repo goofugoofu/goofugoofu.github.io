@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tool · AI Tool Map</title>
+  <script src="js/theme-boot.js"></script>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div id="app"></div>
+  <script src="js/i18n.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    bootPage({
+      active: "home",
+      render: async (ui) => {
+        const main = document.getElementById("main");
+        const id = qs("id");
+        const [scenarios, tools] = await Promise.all([
+          fetchJSON("data/scenarios.json"),
+          fetchJSON("data/tools.json"),
+        ]);
+        const tool = tools.find((t) => t.id === id);
+        if (!tool) {
+          main.innerHTML = `<div class="empty"><strong>${escapeHTML(ui.tool_not_found)}</strong></div><p><a class="back-link" href="index.html">${ui.back_home}</a></p>`;
+          applyStaticUI(ui);
+          return;
+        }
+        const scenarioMap = scenarioMapFrom(scenarios);
+        const name = tField(tool, "name");
+        document.title = `${name} · AI Tool Map`;
+        const badges = [
+          `<span class="badge pricing">${pricingLabel(tool.pricing, ui)}</span>`,
+        ];
+        if (tool.is_new_this_week) badges.push(`<span class="badge new">${ui.new_badge}</span>`);
+        if (tool.sponsored) badges.push(`<span class="badge sponsored">${ui.sponsored}</span>`);
+
+        const scenarioPills = (tool.scenarios || []).map((sid) => {
+          const s = scenarioMap[sid];
+          if (!s) return "";
+          return `<a class="pill-link" href="scenario.html?id=${encodeURIComponent(sid)}">${escapeHTML(tField(s, "name"))}</a>`;
+        }).join("");
+
+        const visit = tool.affiliate_url || tool.url;
+        const affiliateNote = tool.affiliate_url
+          ? `<a class="btn btn-ghost" href="${escapeHTML(tool.affiliate_url)}" target="_blank" rel="noopener noreferrer">${ui.affiliate_link}</a>`
+          : "";
+
+        main.innerHTML = `
+          <section class="detail-hero">
+            <a class="back-link" href="index.html" data-i18n="back_home">${ui.back_home}</a>
+            <div class="meta-row">${badges.join("")}</div>
+            <h1>${escapeHTML(name)}</h1>
+            <p class="muted">${escapeHTML(tField(tool, "one_liner"))}</p>
+            <div class="actions">
+              <a class="btn btn-primary" href="${escapeHTML(visit)}" target="_blank" rel="noopener noreferrer">${ui.visit_site}</a>
+              ${affiliateNote}
+            </div>
+          </section>
+          <section class="section detail-grid">
+            <div class="panel">
+              <h2 data-i18n="use_when">${ui.use_when}</h2>
+              <p>${escapeHTML(tField(tool, "use_when"))}</p>
+              <h2 style="margin-top:1.25rem" data-i18n="avoid_when">${ui.avoid_when}</h2>
+              <p>${escapeHTML(tField(tool, "avoid_when"))}</p>
+            </div>
+            <div class="panel">
+              <h2 data-i18n="related_scenarios">${ui.related_scenarios}</h2>
+              <div class="meta-row">${scenarioPills}</div>
+              <h2 style="margin-top:1.25rem" data-i18n="sources">${ui.sources}</h2>
+              <p class="small muted">${escapeHTML((tool.sources || []).join(" · "))}</p>
+              <h2 style="margin-top:1.25rem" data-i18n="updated">${ui.updated}</h2>
+              <p class="small muted">${escapeHTML(tool.launched_or_updated_at || "")}</p>
+            </div>
+          </section>
+        `;
+        applyStaticUI(ui);
+      },
+    });
+  </script>
+</body>
+</html>
