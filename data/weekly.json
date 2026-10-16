@@ -1,0 +1,105 @@
+[
+  {
+    "id": "week-2026-w42-scan",
+    "week_label_zh": "2026 年第 42 周",
+    "week_label_en": "Week 42, 2026",
+    "date_range": "2026-10-12 — 2026-10-18",
+    "title_zh": "本周扫描更新（2026-10-16）",
+    "title_en": "Weekly scan update (2026-10-16)",
+    "intro_zh": "自动扫描写入。今日来源统计：Product Hunt×6、Hugging Face×4、Hugging Face Spaces×2、GitHub×6、X×7、RunningHub×1、Higgsfield×1。可作通讯草稿。",
+    "intro_en": "Auto-scan write-up. Today's source counts: Product Hunt×6, Hugging Face×4, Hugging Face Spaces×2, GitHub×6, X×7, RunningHub×1, Higgsfield×1. Reuse as newsletter draft.",
+    "tool_ids": [
+      "dreamscale-labs",
+      "kerno",
+      "embeddinggemma-2",
+      "qwen-image",
+      "minicpm-v",
+      "deepsite",
+      "chatgpt",
+      "claude",
+      "gemini",
+      "runninghub",
+      "higgsfield"
+    ],
+    "highlights_zh": [
+      "Navige（来自 Product Hunt）",
+      "CodeCrab（来自 Product Hunt）",
+      "Dreamscale Labs（来自 Product Hunt）",
+      "Shrine（来自 Product Hunt）",
+      "SuperLocalMemory（来自 Product Hunt）",
+      "Kerno 1.0（来自 Product Hunt）",
+      "embeddinggemma-2（来自 Hugging Face）",
+      "humanizer（来自 Hugging Face）"
+    ],
+    "highlights_en": [
+      "Navige (via Product Hunt)",
+      "CodeCrab (via Product Hunt)",
+      "Dreamscale Labs (via Product Hunt)",
+      "Shrine (via Product Hunt)",
+      "SuperLocalMemory (via Product Hunt)",
+      "Kerno 1.0 (via Product Hunt)",
+      "embeddinggemma-2 (via Hugging Face)",
+      "humanizer (via Hugging Face)"
+    ],
+    "updated_at": "2026-10-16T06:05:25.292978+00:00"
+  },
+  {
+    "id": "week-2026-w42-1",
+    "week_label_zh": "2026 年第 42 周",
+    "week_label_en": "Week 42, 2026",
+    "date_range": "2026-10-13 — 2026-10-16",
+    "title_zh": "本周新品：视频运镜 + Agent IDE + 神经搜索",
+    "title_en": "This week: cinematic video, agent IDEs, neural search",
+    "intro_zh": "本周从 X、Product Hunt、Hugging Face、RunningHub、Higgsfield、GitHub 扫到的重点新品与大版本，按场景归类，可直接作为通讯正文源。",
+    "intro_en": "Highlights scooped from X, Product Hunt, Hugging Face, RunningHub, Higgsfield and GitHub — organized by scenario, ready as newsletter copy.",
+    "tool_ids": [
+      "higgsfield",
+      "runninghub",
+      "kling",
+      "runway",
+      "windsurf",
+      "v0",
+      "exa",
+      "huggingface",
+      "grok"
+    ],
+    "highlights_zh": [
+      "图像/视频：Higgsfield、Kling、Runway、RunningHub 集体升温",
+      "写代码：Windsurf、v0 强化 Agent / UI 生成",
+      "研究：Exa API、Hugging Face 开源波次",
+      "综合：Grok 实时信息能力更新"
+    ],
+    "highlights_en": [
+      "Image/Video: Higgsfield, Kling, Runway, RunningHub heating up",
+      "Coding: Windsurf and v0 push agents / UI gen",
+      "Research: Exa API and Hugging Face open-source wave",
+      "General: Grok real-time context updates"
+    ]
+  },
+  {
+    "id": "week-2026-w41-1",
+    "week_label_zh": "2026 年第 41 周",
+    "week_label_en": "Week 41, 2026",
+    "date_range": "2026-10-06 — 2026-10-12",
+    "title_zh": "上周回顾：Bolt / Replit Agent 与视频工具",
+    "title_en": "Last week recap: Bolt / Replit Agent and video tools",
+    "intro_zh": "上一周 vibe coding 与短视频工具持续活跃，目录已收录并可对比定价档位。",
+    "intro_en": "Vibe coding and short-video tools stayed active; all are in the directory with pricing tiers.",
+    "tool_ids": [
+      "bolt-new",
+      "replit-agent",
+      "runway",
+      "cursor"
+    ],
+    "highlights_zh": [
+      "浏览器内全栈原型（Bolt.new、Replit Agent）",
+      "Runway 视频能力更新",
+      "Cursor 日常开发仍是主力编辑器选项"
+    ],
+    "highlights_en": [
+      "In-browser full-stack prototypes (Bolt.new, Replit Agent)",
+      "Runway video capability updates",
+      "Cursor remains a core daily-driver IDE option"
+    ]
+  }
+]

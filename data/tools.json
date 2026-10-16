@@ -1,0 +1,940 @@
+[
+  {
+    "id": "chatgpt",
+    "name_zh": "ChatGPT",
+    "name_en": "ChatGPT",
+    "url": "https://chatgpt.com",
+    "scenarios": [
+      "writing",
+      "research",
+      "coding",
+      "office"
+    ],
+    "one_liner_zh": "通用对话助手，覆盖写作、编程与日常问答。",
+    "one_liner_en": "General-purpose chat assistant for writing, coding and Q&A.",
+    "use_when_zh": "需要快速草稿、头脑风暴或多模态问答时。",
+    "use_when_en": "You need fast drafts, brainstorming or multimodal Q&A.",
+    "avoid_when_zh": "需要严格可追溯引用来源或企业强合规审计时。",
+    "avoid_when_en": "You need strict citation trails or heavy enterprise compliance.",
+    "pricing": "subscription",
+    "sources": [
+      "Product Hunt",
+      "X"
+    ],
+    "launched_or_updated_at": "2026-10-01",
+    "is_new_this_week": false,
+    "sponsored": false,
+    "affiliate_url": null
+  },
+  {
+    "id": "claude",
+    "name_zh": "Claude",
+    "name_en": "Claude",
+    "url": "https://claude.ai",
+    "scenarios": [
+      "writing",
+      "coding",
+      "research",
+      "agents"
+    ],
+    "one_liner_zh": "长上下文写作与编程助手，擅长细致分析。",
+    "one_liner_en": "Long-context writing and coding assistant strong at careful analysis.",
+    "use_when_zh": "处理长文档、复杂代码库或需要谨慎推理时。",
+    "use_when_en": "Working with long docs, complex codebases or careful reasoning.",
+    "avoid_when_zh": "只要极短延迟的闲聊或实时联网检索时（用专用搜索工具更好）。",
+    "avoid_when_en": "You only need ultra-low-latency chat or live web search.",
+    "pricing": "subscription",
+    "sources": [
+      "Product Hunt",
+      "X"
+    ],
+    "launched_or_updated_at": "2026-09-28",
+    "is_new_this_week": false,
+    "sponsored": false,
+    "affiliate_url": null
+  },
+  {
+    "id": "gemini",
+    "name_zh": "Google Gemini",
+    "name_en": "Google Gemini",
+    "url": "https://gemini.google.com",
+    "scenarios": [
+      "writing",
+      "research",
+      "image-video",
+      "office"
+    ],
+    "one_liner_zh": "谷歌生态内的多模态助手，擅长检索与文档协作。",
+    "one_liner_en": "Google's multimodal assistant strong at search and Docs workflows.",
+    "use_when_zh": "已在用 Google Workspace，需要联网与多模态时。",
+    "use_when_en": "You already use Google Workspace and need web + multimodal.",
+    "avoid_when_zh": "希望完全脱离谷歌账号与数据生态时。",
+    "avoid_when_en": "You want to stay fully outside Google's account ecosystem.",
+    "pricing": "free",
+    "sources": [
+      "Product Hunt",
+      "X"
+    ],
+    "launched_or_updated_at": "2026-10-05",
+    "is_new_this_week": false,
+    "sponsored": false,
+    "affiliate_url": null
+  },
+  {
+    "id": "jasper",
+    "name_zh": "Jasper",
+    "name_en": "Jasper",
+    "url": "https://www.jasper.ai",
+    "scenarios": [
+      "writing"
+    ],
+    "one_liner_zh": "面向营销团队的品牌文案与内容流水线。",
+    "one_liner_en": "Brand copy and content pipelines for marketing teams.",
+    "use_when_zh": "需要品牌语气一致、多渠道营销内容批量产出时。",
+    "use_when_en": "You need on-brand multi-channel marketing content at scale.",
+    "avoid_when_zh": "个人临时写一两篇博客——通用聊天模型更便宜。",
+    "avoid_when_en": "One-off personal blog posts — a general chat model is cheaper.",
+    "pricing": "subscription",
+    "sources": [
+      "Product Hunt"
+    ],
+    "launched_or_updated_at": "2026-08-12",
+    "is_new_this_week": false,
+    "sponsored": true,
+    "affiliate_url": "https://www.jasper.ai/?ref=aitoolmap"
+  },
+  {
+    "id": "copy-ai",
+    "name_zh": "Copy.ai",
+    "name_en": "Copy.ai",
+    "url": "https://www.copy.ai",
+    "scenarios": [
+      "writing",
+      "office"
+    ],
+    "one_liner_zh": "销售与 GTM 团队的文案与工作流自动化。",
+    "one_liner_en": "Copy and workflow automation for sales and GTM teams.",
+    "use_when_zh": "要批量产出销售邮件、落地页与社媒文案时。",
+    "use_when_en": "Batching sales emails, landing pages and social copy.",
+    "avoid_when_zh": "需要深度技术长文或学术写作时。",
+    "avoid_when_en": "You need deep technical long-form or academic writing.",
+    "pricing": "subscription",
+    "sources": [
+      "Product Hunt",
+      "X"
+    ],
+    "launched_or_updated_at": "2026-07-20",
+    "is_new_this_week": false,
+    "sponsored": false,
+    "affiliate_url": null
+  },
+  {
+    "id": "midjourney",
+    "name_zh": "Midjourney",
+    "name_en": "Midjourney",
+    "url": "https://www.midjourney.com",
+    "scenarios": [
+      "image-video"
+    ],
+    "one_liner_zh": "高质量艺术风格图像生成，社区氛围强。",
+    "one_liner_en": "High-quality artistic image generation with a strong community.",
+    "use_when_zh": "要概念艺术、海报或有风格感的视觉时。",
+    "use_when_en": "You want concept art, posters or stylized visuals.",
+    "avoid_when_zh": "需要精确文字渲染或可商用素材的严格版权证明时。",
+    "avoid_when_en": "You need exact text-in-image or strict commercial rights proof.",
+    "pricing": "subscription",
+    "sources": [
+      "X",
+      "Product Hunt"
+    ],
+    "launched_or_updated_at": "2026-09-15",
+    "is_new_this_week": false,
+    "sponsored": false,
+    "affiliate_url": null
+  },
+  {
+    "id": "runway",
+    "name_zh": "Runway",
+    "name_en": "Runway",
+    "url": "https://runwayml.com",
+    "scenarios": [
+      "image-video"
+    ],
+    "one_liner_zh": "AI 视频生成与剪辑套件，适合短片与特效。",
+    "one_liner_en": "AI video generation and editing suite for shorts and effects.",
+    "use_when_zh": "要从文本/图片生成短视频或做创意特效时。",
+    "use_when_en": "Generating short clips from text/image or creative VFX.",
+    "avoid_when_zh": "只要简单字幕剪辑——剪映/CapCut 更轻。",
+    "avoid_when_en": "Simple caption edits — CapCut is lighter.",
+    "pricing": "subscription",
+    "sources": [
+      "Product Hunt",
+      "X"
+    ],
+    "launched_or_updated_at": "2026-10-10",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null
+  },
+  {
+    "id": "kling",
+    "name_zh": "可灵 Kling",
+    "name_en": "Kling AI",
+    "url": "https://klingai.com",
+    "scenarios": [
+      "image-video"
+    ],
+    "one_liner_zh": "国产高质量文生视频与图生视频工具。",
+    "one_liner_en": "Strong text-to-video and image-to-video from China.",
+    "use_when_zh": "需要较长镜头、运动流畅的 AI 视频时。",
+    "use_when_en": "You want longer shots with smooth motion in AI video.",
+    "avoid_when_zh": "团队必须全英文工作流且要欧美合规托管时。",
+    "avoid_when_en": "Your team needs fully English workflows and EU/US hosting.",
+    "pricing": "usage",
+    "sources": [
+      "X",
+      "Product Hunt"
+    ],
+    "launched_or_updated_at": "2026-10-12",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null
+  },
+  {
+    "id": "higgsfield",
+    "name_zh": "Higgsfield",
+    "name_en": "Higgsfield",
+    "url": "https://higgsfield.ai",
+    "scenarios": [
+      "image-video"
+    ],
+    "one_liner_zh": "电影级运镜与角色一致的 AI 视频创作平台。",
+    "one_liner_en": "Cinematic camera moves and character-consistent AI video.",
+    "use_when_zh": "要可控运镜、角色一致性强的短片时。",
+    "use_when_en": "You need controllable camera and consistent characters.",
+    "avoid_when_zh": "只要静态插画——用图像模型更划算。",
+    "avoid_when_en": "Static illustrations only — image models are cheaper.",
+    "pricing": "subscription",
+    "sources": [
+      "Higgsfield",
+      "X"
+    ],
+    "launched_or_updated_at": "2026-10-14",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null
+  },
+  {
+    "id": "runninghub",
+    "name_zh": "RunningHub",
+    "name_en": "RunningHub",
+    "url": "https://www.runninghub.ai",
+    "scenarios": [
+      "image-video",
+      "agents"
+    ],
+    "one_liner_zh": "云端 ComfyUI / 工作流平台，免装本地环境。",
+    "one_liner_en": "Cloud ComfyUI / workflow platform without local setup.",
+    "use_when_zh": "想跑复杂图像工作流但不想维护本地 GPU 时。",
+    "use_when_en": "You want complex image workflows without local GPUs.",
+    "avoid_when_zh": "数据绝不能出本机、或工作流极简单时。",
+    "avoid_when_en": "Data must stay on-device, or your workflow is trivial.",
+    "pricing": "usage",
+    "sources": [
+      "RunningHub",
+      "X"
+    ],
+    "launched_or_updated_at": "2026-10-13",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null
+  },
+  {
+    "id": "cursor",
+    "name_zh": "Cursor",
+    "name_en": "Cursor",
+    "url": "https://cursor.com",
+    "scenarios": [
+      "coding"
+    ],
+    "one_liner_zh": "AI 原生代码编辑器，适合日常开发与重构。",
+    "one_liner_en": "AI-native code editor for day-to-day coding and refactors.",
+    "use_when_zh": "在真实代码库里写功能、修 bug、做 code review 时。",
+    "use_when_en": "Building features, fixing bugs and reviewing in real repos.",
+    "avoid_when_zh": "完全不会编程、只想一句话出完整产品时（可先试 vibe 平台）。",
+    "avoid_when_en": "Non-coders who only want one-shot apps — try vibe platforms first.",
+    "pricing": "subscription",
+    "sources": [
+      "Product Hunt",
+      "X",
+      "GitHub"
+    ],
+    "launched_or_updated_at": "2026-10-08",
+    "is_new_this_week": false,
+    "sponsored": false,
+    "affiliate_url": null
+  },
+  {
+    "id": "github-copilot",
+    "name_zh": "GitHub Copilot",
+    "name_en": "GitHub Copilot",
+    "url": "https://github.com/features/copilot",
+    "scenarios": [
+      "coding"
+    ],
+    "one_liner_zh": "嵌入 IDE 的补全与聊天助手，GitHub 深度集成。",
+    "one_liner_en": "IDE completion and chat deeply integrated with GitHub.",
+    "use_when_zh": "已在用 VS Code / JetBrains 且仓库在 GitHub 时。",
+    "use_when_en": "You use VS Code / JetBrains and repos live on GitHub.",
+    "avoid_when_zh": "需要完全离线或非 GitHub 托管的强隔离环境时。",
+    "avoid_when_en": "Fully offline or non-GitHub strongly isolated environments.",
+    "pricing": "subscription",
+    "sources": [
+      "GitHub",
+      "Product Hunt"
+    ],
+    "launched_or_updated_at": "2026-09-01",
+    "is_new_this_week": false,
+    "sponsored": false,
+    "affiliate_url": null
+  },
+  {
+    "id": "v0",
+    "name_zh": "v0 by Vercel",
+    "name_en": "v0 by Vercel",
+    "url": "https://v0.dev",
+    "scenarios": [
+      "coding",
+      "image-video"
+    ],
+    "one_liner_zh": "用自然语言生成 React / Tailwind UI 组件。",
+    "one_liner_en": "Generate React / Tailwind UI components from natural language.",
+    "use_when_zh": "快速出前端界面原型并导出到 Next.js 时。",
+    "use_when_en": "Prototyping UI fast and exporting into Next.js.",
+    "avoid_when_zh": "要做后端逻辑或非 Web UI 时。",
+    "avoid_when_en": "Backend logic or non-web UI work.",
+    "pricing": "subscription",
+    "sources": [
+      "Product Hunt",
+      "X"
+    ],
+    "launched_or_updated_at": "2026-10-11",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null
+  },
+  {
+    "id": "bolt-new",
+    "name_zh": "Bolt.new",
+    "name_en": "Bolt.new",
+    "url": "https://bolt.new",
+    "scenarios": [
+      "coding"
+    ],
+    "one_liner_zh": "浏览器里 vibe coding：一句话搭全栈小应用。",
+    "one_liner_en": "In-browser vibe coding: full-stack apps from a prompt.",
+    "use_when_zh": "想快速验证想法、不配本地环境时。",
+    "use_when_en": "Validating ideas fast without local setup.",
+    "avoid_when_zh": "大型遗留系统或严格企业安全要求时。",
+    "avoid_when_en": "Large legacy systems or strict enterprise security needs.",
+    "pricing": "usage",
+    "sources": [
+      "Product Hunt",
+      "X"
+    ],
+    "launched_or_updated_at": "2026-10-09",
+    "is_new_this_week": false,
+    "sponsored": false,
+    "affiliate_url": null
+  },
+  {
+    "id": "replit-agent",
+    "name_zh": "Replit Agent",
+    "name_en": "Replit Agent",
+    "url": "https://replit.com",
+    "scenarios": [
+      "coding",
+      "agents"
+    ],
+    "one_liner_zh": "云端 IDE 里的 Agent，能建应用并部署。",
+    "one_liner_en": "Cloud IDE agent that builds and deploys apps.",
+    "use_when_zh": "希望从提示到部署一条龙在浏览器完成时。",
+    "use_when_en": "You want prompt-to-deploy entirely in the browser.",
+    "avoid_when_zh": "需要私有 VPC / 自有基础设施深度集成时。",
+    "avoid_when_en": "Deep private VPC / own-infra integration is required.",
+    "pricing": "subscription",
+    "sources": [
+      "Product Hunt",
+      "X"
+    ],
+    "launched_or_updated_at": "2026-10-07",
+    "is_new_this_week": false,
+    "sponsored": false,
+    "affiliate_url": null
+  },
+  {
+    "id": "windsurf",
+    "name_zh": "Windsurf",
+    "name_en": "Windsurf",
+    "url": "https://windsurf.com",
+    "scenarios": [
+      "coding",
+      "agents"
+    ],
+    "one_liner_zh": "Cascade Agent 驱动的 AI IDE，强调多文件协作。",
+    "one_liner_en": "Cascade-agent AI IDE focused on multi-file collaboration.",
+    "use_when_zh": "需要跨多文件的 Agent 式改码体验时。",
+    "use_when_en": "You want agentic edits across many files.",
+    "avoid_when_zh": "团队已深度绑定其他 IDE 生态且切换成本高时。",
+    "avoid_when_en": "Team is locked into another IDE with high switching cost.",
+    "pricing": "subscription",
+    "sources": [
+      "Product Hunt",
+      "X",
+      "GitHub"
+    ],
+    "launched_or_updated_at": "2026-10-15",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null
+  },
+  {
+    "id": "langchain",
+    "name_zh": "LangChain / LangGraph",
+    "name_en": "LangChain / LangGraph",
+    "url": "https://www.langchain.com",
+    "scenarios": [
+      "agents",
+      "coding"
+    ],
+    "one_liner_zh": "构建 LLM 应用与有状态 Agent 工作流的框架。",
+    "one_liner_en": "Framework for LLM apps and stateful agent workflows.",
+    "use_when_zh": "要自建可编排的 Agent / RAG 流水线时。",
+    "use_when_en": "Building your own orchestrated agent / RAG pipelines.",
+    "avoid_when_zh": "只要开箱即用聊天机器人、不想写代码时。",
+    "avoid_when_en": "You only want a no-code chatbot.",
+    "pricing": "free",
+    "sources": [
+      "GitHub",
+      "X"
+    ],
+    "launched_or_updated_at": "2026-10-06",
+    "is_new_this_week": false,
+    "sponsored": false,
+    "affiliate_url": null
+  },
+  {
+    "id": "crewai",
+    "name_zh": "CrewAI",
+    "name_en": "CrewAI",
+    "url": "https://www.crewai.com",
+    "scenarios": [
+      "agents"
+    ],
+    "one_liner_zh": "多角色 Agent 协作框架，适合角色分工任务。",
+    "one_liner_en": "Multi-agent crew framework for role-based tasks.",
+    "use_when_zh": "要把调研、写作、审查拆成多个 Agent 角色时。",
+    "use_when_en": "Splitting research, writing and review across agent roles.",
+    "avoid_when_zh": "单步问答或简单 RAG 就够用时。",
+    "avoid_when_en": "Single-step Q&A or simple RAG is enough.",
+    "pricing": "free",
+    "sources": [
+      "GitHub",
+      "Product Hunt"
+    ],
+    "launched_or_updated_at": "2026-09-22",
+    "is_new_this_week": false,
+    "sponsored": false,
+    "affiliate_url": null
+  },
+  {
+    "id": "dify",
+    "name_zh": "Dify",
+    "name_en": "Dify",
+    "url": "https://dify.ai",
+    "scenarios": [
+      "agents",
+      "office"
+    ],
+    "one_liner_zh": "开源 LLM 应用开发平台，可视化编排工作流。",
+    "one_liner_en": "Open-source LLM app platform with visual workflow builders.",
+    "use_when_zh": "要快速搭 RAG / Agent 应用并可自托管时。",
+    "use_when_en": "Spinning up RAG / agent apps with optional self-hosting.",
+    "avoid_when_zh": "只要消费级聊天、无部署需求时。",
+    "avoid_when_en": "Consumer chat only with no deployment needs.",
+    "pricing": "free",
+    "sources": [
+      "GitHub",
+      "Product Hunt",
+      "X"
+    ],
+    "launched_or_updated_at": "2026-10-04",
+    "is_new_this_week": false,
+    "sponsored": false,
+    "affiliate_url": null
+  },
+  {
+    "id": "perplexity",
+    "name_zh": "Perplexity",
+    "name_en": "Perplexity",
+    "url": "https://www.perplexity.ai",
+    "scenarios": [
+      "research",
+      "writing"
+    ],
+    "one_liner_zh": "带引用来源的 AI 搜索引擎，适合快速调研。",
+    "one_liner_en": "AI search with citations — great for quick research.",
+    "use_when_zh": "需要可点击来源的答案与市场/技术速查时。",
+    "use_when_en": "You need clickable sources for market or tech lookups.",
+    "avoid_when_zh": "超长私有文档库深度分析（用专用 RAG 更好）。",
+    "avoid_when_en": "Deep analysis of huge private corpora — use dedicated RAG.",
+    "pricing": "subscription",
+    "sources": [
+      "Product Hunt",
+      "X"
+    ],
+    "launched_or_updated_at": "2026-10-03",
+    "is_new_this_week": false,
+    "sponsored": false,
+    "affiliate_url": null
+  },
+  {
+    "id": "consensus",
+    "name_zh": "Consensus",
+    "name_en": "Consensus",
+    "url": "https://consensus.app",
+    "scenarios": [
+      "research"
+    ],
+    "one_liner_zh": "基于科学论文的 AI 检索，强调证据摘要。",
+    "one_liner_en": "AI search over scientific papers with evidence summaries.",
+    "use_when_zh": "做学术/医学/科研相关问题核验时。",
+    "use_when_en": "Validating academic, medical or scientific questions.",
+    "avoid_when_zh": "查最新产品发布或非学术新闻时。",
+    "avoid_when_en": "Tracking product launches or non-academic news.",
+    "pricing": "subscription",
+    "sources": [
+      "Product Hunt"
+    ],
+    "launched_or_updated_at": "2026-08-30",
+    "is_new_this_week": false,
+    "sponsored": false,
+    "affiliate_url": null
+  },
+  {
+    "id": "exa",
+    "name_zh": "Exa",
+    "name_en": "Exa",
+    "url": "https://exa.ai",
+    "scenarios": [
+      "research",
+      "agents",
+      "coding"
+    ],
+    "one_liner_zh": "面向开发者的神经搜索 API，适合 Agent 取数。",
+    "one_liner_en": "Neural search API for developers — great for agent retrieval.",
+    "use_when_zh": "给 Agent / RAG 接高质量网页检索 API 时。",
+    "use_when_en": "Wiring high-quality web retrieval into agents / RAG.",
+    "avoid_when_zh": "终端用户只要一个搜索框聊天界面时。",
+    "avoid_when_en": "End users who only want a chat search box.",
+    "pricing": "usage",
+    "sources": [
+      "GitHub",
+      "Product Hunt",
+      "X"
+    ],
+    "launched_or_updated_at": "2026-10-14",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null
+  },
+  {
+    "id": "notion-ai",
+    "name_zh": "Notion AI",
+    "name_en": "Notion AI",
+    "url": "https://www.notion.com/product/ai",
+    "scenarios": [
+      "office",
+      "writing"
+    ],
+    "one_liner_zh": "嵌在 Notion 工作区里的写作与知识库助手。",
+    "one_liner_en": "Writing and wiki assistant embedded in Notion workspaces.",
+    "use_when_zh": "团队知识已在 Notion，需要总结与起草时。",
+    "use_when_en": "Team knowledge already lives in Notion for summarize/draft.",
+    "avoid_when_zh": "主要工作流在 Google Docs / Confluence 时。",
+    "avoid_when_en": "Your primary docs live in Google Docs / Confluence.",
+    "pricing": "subscription",
+    "sources": [
+      "Product Hunt",
+      "X"
+    ],
+    "launched_or_updated_at": "2026-09-10",
+    "is_new_this_week": false,
+    "sponsored": false,
+    "affiliate_url": null
+  },
+  {
+    "id": "gamma",
+    "name_zh": "Gamma",
+    "name_en": "Gamma",
+    "url": "https://gamma.app",
+    "scenarios": [
+      "office",
+      "writing"
+    ],
+    "one_liner_zh": "一句话生成可编辑演示文稿与文档。",
+    "one_liner_en": "Generate editable decks and docs from a prompt.",
+    "use_when_zh": "要快速出一轮汇报 PPT / 提案初稿时。",
+    "use_when_en": "You need a first-pass presentation or proposal fast.",
+    "avoid_when_zh": "企业模板与品牌规范极严、必须用官方母版时。",
+    "avoid_when_en": "Strict corporate masters that must use official templates.",
+    "pricing": "subscription",
+    "sources": [
+      "Product Hunt",
+      "X"
+    ],
+    "launched_or_updated_at": "2026-10-02",
+    "is_new_this_week": false,
+    "sponsored": true,
+    "affiliate_url": "https://gamma.app/?ref=aitoolmap"
+  },
+  {
+    "id": "fireflies",
+    "name_zh": "Fireflies.ai",
+    "name_en": "Fireflies.ai",
+    "url": "https://fireflies.ai",
+    "scenarios": [
+      "office"
+    ],
+    "one_liner_zh": "会议录音转写、摘要与待办自动提取。",
+    "one_liner_en": "Meeting transcription, summaries and action-item extraction.",
+    "use_when_zh": "线上会议多、需要自动纪要同步 CRM 时。",
+    "use_when_en": "Many online meetings and auto notes into CRM.",
+    "avoid_when_zh": "会议涉及高度机密且不能第三方录音时。",
+    "avoid_when_en": "Highly confidential meetings that cannot be third-party recorded.",
+    "pricing": "subscription",
+    "sources": [
+      "Product Hunt"
+    ],
+    "launched_or_updated_at": "2026-08-18",
+    "is_new_this_week": false,
+    "sponsored": false,
+    "affiliate_url": null
+  },
+  {
+    "id": "otter",
+    "name_zh": "Otter.ai",
+    "name_en": "Otter.ai",
+    "url": "https://otter.ai",
+    "scenarios": [
+      "office"
+    ],
+    "one_liner_zh": "实时会议笔记与协作转写工具。",
+    "one_liner_en": "Live meeting notes and collaborative transcription.",
+    "use_when_zh": "需要实时字幕与会后可搜索笔记时。",
+    "use_when_en": "You want live captions and searchable post-meeting notes.",
+    "avoid_when_zh": "主要语言非英语且准确率要求极高时需先试用。",
+    "avoid_when_en": "Non-English primary language with strict accuracy — trial first.",
+    "pricing": "subscription",
+    "sources": [
+      "Product Hunt",
+      "X"
+    ],
+    "launched_or_updated_at": "2026-07-05",
+    "is_new_this_week": false,
+    "sponsored": false,
+    "affiliate_url": null
+  },
+  {
+    "id": "huggingface",
+    "name_zh": "Hugging Face",
+    "name_en": "Hugging Face",
+    "url": "https://huggingface.co",
+    "scenarios": [
+      "research",
+      "coding",
+      "agents"
+    ],
+    "one_liner_zh": "模型、数据集与 Space 的开源 AI 枢纽。",
+    "one_liner_en": "Open hub for models, datasets and Spaces.",
+    "use_when_zh": "找开源模型、试用 Space 或发模型卡片时。",
+    "use_when_en": "Finding open models, trying Spaces or publishing model cards.",
+    "avoid_when_zh": "只要闭源 SaaS 聊天、无技术背景时。",
+    "avoid_when_en": "Closed SaaS chat only with no technical background.",
+    "pricing": "free",
+    "sources": [
+      "Hugging Face",
+      "GitHub",
+      "X"
+    ],
+    "launched_or_updated_at": "2026-10-15",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null
+  },
+  {
+    "id": "grok",
+    "name_zh": "Grok",
+    "name_en": "Grok",
+    "url": "https://grok.com",
+    "scenarios": [
+      "writing",
+      "research",
+      "coding"
+    ],
+    "one_liner_zh": "xAI 助手，实时结合 X 上的信息与工具调用。",
+    "one_liner_en": "xAI assistant with real-time X context and tool use.",
+    "use_when_zh": "要结合热点与实时社交信息做调研/创作时。",
+    "use_when_en": "Research or creation that benefits from live social context.",
+    "avoid_when_zh": "完全不使用 X、且需要其他生态深度集成时。",
+    "avoid_when_en": "You never use X and need other ecosystem-deep integrations.",
+    "pricing": "subscription",
+    "sources": [
+      "X",
+      "Product Hunt"
+    ],
+    "launched_or_updated_at": "2026-10-16",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null
+  },
+  {
+    "id": "withhuman",
+    "name_zh": "withHuman",
+    "name_en": "withHuman",
+    "url": "https://www.producthunt.com/products/withhuman",
+    "scenarios": [
+      "agents",
+      "coding"
+    ],
+    "one_liner_zh": "开源的人机审批层，让 AI Agent 在关键步骤前征求人类确认。",
+    "one_liner_en": "Open-source human-approval layer so AI agents pause for people on critical steps.",
+    "use_when_zh": "部署会改数据、发消息或花钱的 Agent，需要人工闸门时。",
+    "use_when_en": "Agents that change data, send messages, or spend money need a human gate.",
+    "avoid_when_zh": "纯只读问答、或不想引入额外审批流程时。",
+    "avoid_when_en": "Read-only Q&A, or you don’t want an approval workflow.",
+    "pricing": "free",
+    "sources": [
+      "Product Hunt"
+    ],
+    "launched_or_updated_at": "2026-10-16",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null
+  },
+  {
+    "id": "glm-legal",
+    "name_zh": "GLM-Legal",
+    "name_en": "GLM-Legal",
+    "url": "https://www.producthunt.com/products/z-ai",
+    "scenarios": [
+      "research",
+      "office"
+    ],
+    "one_liner_zh": "面向合同审阅与合规的法律向 AI 模型（Z.ai）。",
+    "one_liner_en": "Legal-focused AI model from Z.ai for contract review and compliance.",
+    "use_when_zh": "需要快速过合同条款、合规要点草稿时（仍需律师复核）。",
+    "use_when_en": "Drafting contract/compliance reviews — always have a lawyer verify.",
+    "avoid_when_zh": "把输出当最终法律意见，或处理高度机密未脱敏材料时。",
+    "avoid_when_en": "Treating output as final legal advice, or feeding unsanitized secrets.",
+    "pricing": "subscription",
+    "sources": [
+      "Product Hunt"
+    ],
+    "launched_or_updated_at": "2026-10-16",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null
+  },
+  {
+    "id": "saidtrace",
+    "name_zh": "SaidTrace",
+    "name_en": "SaidTrace",
+    "url": "https://www.producthunt.com/products/saidtrace",
+    "scenarios": [
+      "office",
+      "writing"
+    ],
+    "one_liner_zh": "私密语音备忘录，可选用你指定的 AI 来整理。",
+    "one_liner_en": "Private voice memos with the AI provider you choose.",
+    "use_when_zh": "想用语音记灵感/待办，又在意隐私与模型选择时。",
+    "use_when_en": "Voice capture for ideas/todos when privacy and model choice matter.",
+    "avoid_when_zh": "只要简单系统自带录音、无需 AI 整理时。",
+    "avoid_when_en": "Plain phone voice memos with no AI cleanup needed.",
+    "pricing": "subscription",
+    "sources": [
+      "Product Hunt"
+    ],
+    "launched_or_updated_at": "2026-10-16",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null
+  },
+  {
+    "id": "kerno",
+    "name_zh": "Kerno",
+    "name_en": "Kerno",
+    "url": "https://www.producthunt.com/products/kerno",
+    "scenarios": [
+      "coding",
+      "agents"
+    ],
+    "one_liner_zh": "面向运行时的 AI 后端 QA 工程师，帮你抓接口与服务问题。",
+    "one_liner_en": "AI runtime backend QA engineer for catching API and service issues.",
+    "use_when_zh": "后端服务多、希望 AI 辅助做运行时质量检查时。",
+    "use_when_en": "Many backend services and you want AI-assisted runtime QA.",
+    "avoid_when_zh": "纯前端静态站、或已有完善传统测试体系且无需 AI 时。",
+    "avoid_when_en": "Static frontends only, or classic tests already cover you fully.",
+    "pricing": "subscription",
+    "sources": [
+      "Product Hunt"
+    ],
+    "launched_or_updated_at": "2026-10-16",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null
+  },
+  {
+    "id": "chatway-mcp",
+    "name_zh": "Chatway MCP",
+    "name_en": "Chatway MCP",
+    "url": "https://www.producthunt.com/products/chatway",
+    "scenarios": [
+      "agents",
+      "office"
+    ],
+    "one_liner_zh": "通过 MCP 让 ChatGPT / Claude 直接处理客服工单。",
+    "one_liner_en": "Let ChatGPT & Claude handle support tickets via MCP.",
+    "use_when_zh": "客服工单量大，想把常用回复与查询接到大模型时。",
+    "use_when_en": "High ticket volume and you want LLMs wired into support workflows.",
+    "avoid_when_zh": "工单含强监管/不可外泄客户数据且未做好脱敏时。",
+    "avoid_when_en": "Regulated or sensitive customer data without redaction controls.",
+    "pricing": "subscription",
+    "sources": [
+      "Product Hunt"
+    ],
+    "launched_or_updated_at": "2026-10-16",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null
+  },
+  {
+    "id": "dreamscale-labs",
+    "name_zh": "Dreamscale Labs",
+    "name_en": "Dreamscale Labs",
+    "url": "https://www.producthunt.com/products/dreamscale-labs",
+    "scenarios": [
+      "agents",
+      "research"
+    ],
+    "one_liner_zh": "在云端运行机器人相关 AI 模型的平台。",
+    "one_liner_en": "Run strong robot AI models in the cloud.",
+    "use_when_zh": "做机器人/仿真相关原型，需要云端模型推理时。",
+    "use_when_en": "Robotics or sim prototypes that need cloud model inference.",
+    "avoid_when_zh": "与机器人无关的普通办公/写作任务。",
+    "avoid_when_en": "Everyday writing or office work unrelated to robotics.",
+    "pricing": "usage",
+    "sources": [
+      "Product Hunt"
+    ],
+    "launched_or_updated_at": "2026-10-16",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null
+  },
+  {
+    "id": "embeddinggemma-2",
+    "name_zh": "EmbeddingGemma 2",
+    "name_en": "EmbeddingGemma 2",
+    "url": "https://huggingface.co/google/embeddinggemma-2",
+    "scenarios": [
+      "research",
+      "coding",
+      "agents"
+    ],
+    "one_liner_zh": "Google 开源的向量嵌入模型，适合检索与 RAG。",
+    "one_liner_en": "Google’s open embedding model for retrieval and RAG.",
+    "use_when_zh": "自建搜索/RAG，需要可靠的文本向量时。",
+    "use_when_en": "Building search/RAG and need solid text embeddings.",
+    "avoid_when_zh": "只要现成 SaaS 搜索、不想自己部署模型时。",
+    "avoid_when_en": "You only want turnkey SaaS search with no model hosting.",
+    "pricing": "free",
+    "sources": [
+      "Hugging Face"
+    ],
+    "launched_or_updated_at": "2026-10-16",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null
+  },
+  {
+    "id": "qwen-image",
+    "name_zh": "Qwen-Image",
+    "name_en": "Qwen-Image",
+    "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
+    "scenarios": [
+      "image-video"
+    ],
+    "one_liner_zh": "通义千问图像生成模型（Turbo），开源可自托管。",
+    "one_liner_en": "Qwen text-to-image model (Turbo) — open and self-hostable.",
+    "use_when_zh": "要开源文生图、可本地或私有化部署时。",
+    "use_when_en": "You want open text-to-image with local/private deploy options.",
+    "avoid_when_zh": "只要最省事的网页点选出图（用 Midjourney 等更轻）。",
+    "avoid_when_en": "You only want the easiest web UI — Midjourney-class apps are lighter.",
+    "pricing": "free",
+    "sources": [
+      "Hugging Face"
+    ],
+    "launched_or_updated_at": "2026-10-16",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null
+  },
+  {
+    "id": "minicpm-v",
+    "name_zh": "MiniCPM-V",
+    "name_en": "MiniCPM-V",
+    "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
+    "scenarios": [
+      "image-video",
+      "research"
+    ],
+    "one_liner_zh": "开源多模态模型，擅长看图问答与图文理解。",
+    "one_liner_en": "Open multimodal model for image Q&A and vision-language tasks.",
+    "use_when_zh": "需要私有化/开源的看图理解与图文对话时。",
+    "use_when_en": "Private/open vision-language chat and image understanding.",
+    "avoid_when_zh": "只要手机 App 里随手问一张图（用消费级助手即可）。",
+    "avoid_when_en": "Casual one-off photo questions in a consumer chat app.",
+    "pricing": "free",
+    "sources": [
+      "Hugging Face"
+    ],
+    "launched_or_updated_at": "2026-10-16",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null
+  },
+  {
+    "id": "deepsite",
+    "name_zh": "DeepSite",
+    "name_en": "DeepSite",
+    "url": "https://huggingface.co/spaces/enzostvs/deepsite",
+    "scenarios": [
+      "coding"
+    ],
+    "one_liner_zh": "热门 HF Space：用对话快速生成网站页面。",
+    "one_liner_en": "Popular HF Space for building site pages from chat prompts.",
+    "use_when_zh": "想快速出落地页/小站原型、先看效果时。",
+    "use_when_en": "Spinning up landing-page or small-site prototypes fast.",
+    "avoid_when_zh": "企业级大站、复杂权限与后端一体交付时。",
+    "avoid_when_en": "Large enterprise sites with complex auth and backends.",
+    "pricing": "free",
+    "sources": [
+      "Hugging Face Spaces"
+    ],
+    "launched_or_updated_at": "2026-10-16",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null
+  }
+]

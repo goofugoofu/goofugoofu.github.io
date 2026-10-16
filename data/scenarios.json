@@ -1,0 +1,50 @@
+[
+  {
+    "id": "writing",
+    "name_zh": "写文案",
+    "name_en": "Writing",
+    "desc_zh": "写文章、文案、邮件、脚本",
+    "desc_en": "Articles, marketing copy, email and scripts",
+    "icon": "✍️"
+  },
+  {
+    "id": "image-video",
+    "name_zh": "做图/视频",
+    "name_en": "Image / Video",
+    "desc_zh": "做图、剪视频、做短片特效",
+    "desc_en": "Make images, edit video, short clips and effects",
+    "icon": "🎬"
+  },
+  {
+    "id": "coding",
+    "name_zh": "写代码 / Vibe Coding",
+    "name_en": "Coding / Vibe Coding",
+    "desc_zh": "用 AI 写代码、快速搭小应用",
+    "desc_en": "Write code with AI or vibe-code a small app",
+    "icon": "💻"
+  },
+  {
+    "id": "agents",
+    "name_zh": "智能体 / Agent",
+    "name_en": "Agents",
+    "desc_zh": "让 AI 自动完成多步任务",
+    "desc_en": "Let AI run multi-step tasks for you",
+    "icon": "🤖"
+  },
+  {
+    "id": "research",
+    "name_zh": "研究与检索",
+    "name_en": "Research / Search",
+    "desc_zh": "查资料、做调研、找答案",
+    "desc_en": "Look things up, research, find answers",
+    "icon": "🔍"
+  },
+  {
+    "id": "office",
+    "name_zh": "办公效率",
+    "name_en": "Office Productivity",
+    "desc_zh": "会议纪要、PPT、表格和日常办公",
+    "desc_en": "Meeting notes, slides, sheets and everyday office work",
+    "icon": "📊"
+  }
+]
