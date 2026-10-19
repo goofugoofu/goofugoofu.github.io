@@ -3,7 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>AI Tool Map</title>
+  <title>AI 工具地图 | AI Tool Map</title>
+  <meta name="description" content="按场景挑选 AI 工具：写作、图像视频、编程、办公。每日新品扫描与双语目录。 | Scenario-based AI tool directory with daily scans." />
+  <meta property="og:title" content="AI 工具地图 | AI Tool Map" />
+  <meta property="og:description" content="按场景挑选 AI 工具：写作、图像视频、编程、办公。每日新品扫描与双语目录。" />
+  <meta property="og:type" content="website" />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:locale" content="zh_CN" />
+  <meta name="twitter:card" content="summary" />
+  <link rel="canonical" href="https://goofugoofu.github.io/" />
   <script src="js/theme-boot.js"></script>
   <link rel="stylesheet" href="css/styles.css" />
 </head>
@@ -14,6 +22,7 @@
   <script>
     bootPage({
       active: "home",
+      metaKey: "meta_desc_home",
       render: async (ui) => {
         const main = document.getElementById("main");
         const [scenarios, tools, daily] = await Promise.all([
@@ -46,6 +55,27 @@
 
         const featured = tools.filter((t) => t.is_new_this_week).slice(0, 6);
         const allPreview = tools.slice(0, 9);
+
+        injectJsonLd("ld-website", {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          name: "AI Tool Map",
+          alternateName: "AI 工具地图",
+          url: "https://goofugoofu.github.io/",
+          inLanguage: ["zh-CN", "en"],
+          description: ui.meta_desc_home || "Scenario-based bilingual AI tool directory",
+        });
+        injectJsonLd("ld-itemlist", {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          name: "AI tool scenarios",
+          itemListElement: scenarios.map((s, n) => ({
+            "@type": "ListItem",
+            position: n + 1,
+            name: tField(s, "name"),
+            url: new URL(`scenario.html?id=${encodeURIComponent(s.id)}`, location.href).href,
+          })),
+        });
 
         main.innerHTML = `
           <section class="hero">
@@ -107,7 +137,7 @@
                 <p data-i18n="new_section_sub">${ui.new_section_sub}</p>
               </div>
             </div>
-            <div class="grid">${featured.map((t) => toolCardHTML(t, ui)).join("")}</div>
+            <div class="grid">${featured.length ? featured.map((t) => toolCardHTML(t, ui)).join("") : emptyState(ui, "tools")}</div>
           </section>
 
           <section class="section">

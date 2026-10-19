@@ -3,7 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Today's finds · AI Tool Map</title>
+  <title>今天新发现 · AI 工具地图 | Daily finds</title>
+  <meta name="description" content="今天新发现：AI 工具与产品短摘要，每日更新。 | Short daily AI tool outlines." />
+  <meta property="og:title" content="今天新发现 · AI 工具地图 | Daily finds" />
+  <meta property="og:description" content="今天新发现：AI 工具与产品短摘要，每日更新。" />
+  <meta property="og:type" content="website" />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:locale" content="zh_CN" />
+  <meta name="twitter:card" content="summary" />
+  <link rel="canonical" href="https://goofugoofu.github.io/daily.html" />
   <script src="js/theme-boot.js"></script>
   <link rel="stylesheet" href="css/styles.css" />
 </head>
@@ -14,6 +22,7 @@
   <script>
     bootPage({
       active: "daily",
+      metaKey: "meta_desc_daily",
       render: async (ui) => {
         const main = document.getElementById("main");
         const [daily, tools, scenarios] = await Promise.all([
@@ -60,7 +69,7 @@
           </section>
           <p class="help-hint" data-i18n="daily_hint">${ui.daily_hint}</p>
           <section class="section">
-            <div class="feed">${items}</div>
+            <div class="feed">${items || emptyState(ui, "daily", { ctaHref: "index.html", ctaLabel: ui.empty_cta_home })}</div>
           </section>
         `;
         applyStaticUI(ui);

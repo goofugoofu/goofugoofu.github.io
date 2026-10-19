@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>关于 · AI 工具地图 | About</title>
+  <meta name="description" content="关于 AI 工具地图：场景推荐、日更扫描与诚实对比。 | Mission: scenario picks, daily scans, honest guidance." />
+  <meta property="og:title" content="关于 · AI 工具地图 | About" />
+  <meta property="og:description" content="关于 AI 工具地图：场景推荐、日更扫描与诚实对比。" />
+  <meta property="og:type" content="website" />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:locale" content="zh_CN" />
+  <meta name="twitter:card" content="summary" />
+  <link rel="canonical" href="https://goofugoofu.github.io/about.html" />
+  <script src="js/theme-boot.js"></script>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div id="app"></div>
+  <script src="js/i18n.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    const WAITLIST_KEY = "ai-tool-map-waitlist";
+
+    function saveWaitlist(entry) {
+      let list = [];
+      try { list = JSON.parse(localStorage.getItem(WAITLIST_KEY) || "[]"); } catch (_) {}
+      if (!Array.isArray(list)) list = [];
+      list.push({ ...entry, at: new Date().toISOString() });
+      localStorage.setItem(WAITLIST_KEY, JSON.stringify(list.slice(-200)));
+    }
+
+    bootPage({
+      active: "about",
+      metaKey: "meta_desc_about",
+      render: async (ui) => {
+        const main = document.getElementById("main");
+        const mon = await loadSiteConfig();
+        const mailto = (mon.waitlist_mailto || mon.contact_email || "").trim();
+        const mailtoBtn = mailto
+          ? `<a class="btn btn-ghost" href="mailto:${escapeHTML(mailto)}?subject=${encodeURIComponent("AI Tool Map contact")}">${ui.waitlist_mailto_btn}</a>`
+          : "";
+
+        main.innerHTML = `
+          <section class="hero">
+            <h1 data-i18n="about_title">${ui.about_title}</h1>
+            <p data-i18n="about_sub">${ui.about_sub}</p>
+            <div class="quick-links">
+              <a class="quick-link" href="index.html"><span class="emoji">🏠</span><span data-i18n="nav_home">${ui.nav_home}</span></a>
+              <a class="quick-link" href="subscribe.html"><span class="emoji">✉️</span><span data-i18n="quick_subscribe">${ui.quick_subscribe}</span></a>
+            </div>
+          </section>
+
+          <section class="section">
+            <div class="panel about-panel">
+              <p data-i18n="about_body">${ui.about_body}</p>
+            </div>
+          </section>
+
+          <section class="section split-2">
+            <div class="panel">
+              <h2 data-i18n="about_mission_title">${ui.about_mission_title}</h2>
+              <p class="muted" data-i18n="about_mission">${ui.about_mission}</p>
+            </div>
+            <div class="panel">
+              <h2 data-i18n="about_contact_title">${ui.about_contact_title}</h2>
+              <p class="muted small" style="margin-bottom:1rem" data-i18n="about_contact_desc">${ui.about_contact_desc}</p>
+              <form class="form" id="contact-form">
+                <label for="c-name" data-i18n="biz_name">${ui.biz_name}</label>
+                <input id="c-name" type="text" required autocomplete="name" />
+                <label for="c-email" data-i18n="biz_email">${ui.biz_email}</label>
+                <input id="c-email" type="email" required autocomplete="email" />
+                <label for="c-msg" data-i18n="biz_message">${ui.biz_message}</label>
+                <textarea id="c-msg" required></textarea>
+                <div class="cta-row">
+                  <button type="submit" class="btn btn-primary" data-i18n="biz_waitlist_btn">${ui.biz_waitlist_btn}</button>
+                  ${mailtoBtn}
+                  <a class="btn btn-ghost" href="subscribe.html" data-i18n="about_cta_subscribe">${ui.about_cta_subscribe}</a>
+                </div>
+                <p class="form-note" id="c-note" data-i18n="biz_waitlist_thanks">${ui.biz_waitlist_thanks}</p>
+              </form>
+            </div>
+          </section>
+        `;
+        applyStaticUI(ui);
+
+        document.getElementById("contact-form").addEventListener("submit", (e) => {
+          e.preventDefault();
+          saveWaitlist({
+            type: "contact",
+            name: document.getElementById("c-name").value.trim(),
+            email: document.getElementById("c-email").value.trim(),
+            message: document.getElementById("c-msg").value.trim(),
+          });
+          document.getElementById("c-note").classList.add("show");
+        });
+      },
+    });
+  </script>
+</body>
+</html>

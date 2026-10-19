@@ -3,7 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>This week · AI Tool Map</title>
+  <title>本周新品 · AI 工具地图 | New this week</title>
+  <meta name="description" content="本周新品：值得关注的新 AI 工具合集。 | This week’s noteworthy new AI tools." />
+  <meta property="og:title" content="本周新品 · AI 工具地图 | New this week" />
+  <meta property="og:description" content="本周新品：值得关注的新 AI 工具合集。" />
+  <meta property="og:type" content="website" />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:locale" content="zh_CN" />
+  <meta name="twitter:card" content="summary" />
+  <link rel="canonical" href="https://goofugoofu.github.io/weekly.html" />
   <script src="js/theme-boot.js"></script>
   <link rel="stylesheet" href="css/styles.css" />
 </head>
@@ -14,6 +22,7 @@
   <script>
     bootPage({
       active: "weekly",
+      metaKey: "meta_desc_weekly",
       render: async (ui) => {
         const main = document.getElementById("main");
         const [weekly, tools] = await Promise.all([
@@ -56,7 +65,7 @@
           </section>
           <p class="help-hint" data-i18n="weekly_hint">${ui.weekly_hint}</p>
           <section class="section">
-            <div class="feed">${items}</div>
+            <div class="feed">${items || emptyState(ui, "weekly", { ctaHref: "daily.html", ctaLabel: ui.empty_cta_daily })}</div>
           </section>
         `;
         applyStaticUI(ui);
