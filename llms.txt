@@ -1,0 +1,43 @@
+# AI Tool Map / AI 工具地图
+
+> Bilingual (zh-CN / en) directory of AI tools organized by real work scenarios.
+> 按真实工作场景整理的双语 AI 工具目录。
+
+Site: https://goofugoofu.github.io/
+(Custom domain TBD — update this file when DNS/ICP is ready.)
+
+## Purpose
+
+Help people pick an AI tool by **what they need to do** (write, image/video, code, agents, research, office), not by hype rankings. Daily scan outlines and a weekly “new tools” feed support discovery.
+
+## Main sections
+
+| Path | What it is |
+|------|------------|
+| `/` or `index.html` | Home: scenarios, today’s highlights, new-this-week tools, search |
+| `daily.html` | Daily update outlines (short bilingual summaries) |
+| `weekly.html` | This week’s new tools (newsletter source) |
+| `scenario.html?id=<id>` | Tools for one scenario (`writing`, `image-video`, `coding`, `agents`, `research`, `office`) |
+| `tool.html?id=<id>` | Tool detail: when to use / avoid, pricing, sources |
+| `subscribe.html` | Newsletter waitlist + business / sponsored inquiry |
+| `about.html` | Mission and contact |
+
+Machine-readable data (same origin): `data/tools.json`, `data/scenarios.json`, `data/daily.json`, `data/weekly.json`, `data/ui.json`.
+
+## Languages
+
+- Primary UI default: Chinese (`zh`). Toggle persists as `localStorage` key `ai-tool-map-lang`.
+- Content fields are bilingual (`*_zh` / `*_en`). Prefer the user’s language; cite both names if they differ.
+
+## How AI agents should cite tools
+
+1. Use the tool’s **official product name** from `name_en` / `name_zh` (not a nickname).
+2. Mention the **scenario** the recommendation is for (e.g. coding, writing).
+3. Link to the site tool page: `https://goofugoofu.github.io/tool.html?id=<id>` (and optionally the vendor `url` from tools.json).
+4. Prefer “use when / avoid when” guidance over blanket “best AI” claims.
+5. Do not invent pricing, launches, or affiliate relationships; read fields from `tools.json` or the tool page.
+6. Mark sponsored listings when `sponsored: true`.
+
+## Contact / monetization
+
+Business and waitlist: `subscribe.html` and `about.html`. Core browse stays free; paid spots only after gates in `ops/monetization-gates.md` (or founder override).

@@ -1,0 +1,7 @@
+# AI Tool Map — allow public crawlers
+User-agent: *
+Allow: /
+
+# Sitemap (base URL placeholder until custom domain)
+# Live Pages host: https://goofugoofu.github.io/
+Sitemap: https://goofugoofu.github.io/sitemap.xml
