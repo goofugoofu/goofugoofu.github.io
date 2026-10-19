@@ -1,0 +1,1014 @@
+[
+  {
+    "license": "proprietary",
+    "pricing_note_zh": "按 token 计费，以官网为准",
+    "pricing_note_en": "Token-based; check official pricing",
+    "status": "ga",
+    "params_note_zh": "未公开",
+    "params_note_en": "Undisclosed",
+    "featured": true,
+    "id": "gpt-4o",
+    "name_zh": "GPT-4o",
+    "name_en": "GPT-4o",
+    "vendor_id": "openai",
+    "vendor_zh": "OpenAI",
+    "vendor_en": "OpenAI",
+    "family": "GPT",
+    "modalities": [
+      "text",
+      "image",
+      "audio"
+    ],
+    "context_window": 128000,
+    "official_url": "https://platform.openai.com/docs/models/gpt-4o",
+    "card_zh": "OpenAI 旗舰多模态模型，适合日常对话、看图与轻量语音场景。",
+    "card_en": "OpenAI flagship multimodal model for chat, vision, and light audio.",
+    "strengths_zh": [
+      "多模态",
+      "生态成熟",
+      "工具调用"
+    ],
+    "strengths_en": [
+      "Multimodal",
+      "Mature ecosystem",
+      "Tool use"
+    ],
+    "updated_at": "2026-09-15",
+    "tags": [
+      "chat",
+      "multimodal"
+    ]
+  },
+  {
+    "license": "proprietary",
+    "pricing_note_zh": "按 token 计费，以官网为准",
+    "pricing_note_en": "Token-based; check official pricing",
+    "status": "ga",
+    "params_note_zh": "未公开",
+    "params_note_en": "Undisclosed",
+    "featured": true,
+    "id": "gpt-4-1",
+    "name_zh": "GPT-4.1",
+    "name_en": "GPT-4.1",
+    "vendor_id": "openai",
+    "vendor_zh": "OpenAI",
+    "vendor_en": "OpenAI",
+    "family": "GPT",
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "context_window": 1000000,
+    "official_url": "https://platform.openai.com/docs/models",
+    "card_zh": "偏指令跟随与长上下文的 GPT 系列模型，适合编程与复杂任务。",
+    "card_en": "GPT-series model tuned for instruction following and long context; strong for coding.",
+    "strengths_zh": [
+      "长上下文",
+      "编程",
+      "指令遵循"
+    ],
+    "strengths_en": [
+      "Long context",
+      "Coding",
+      "Instruction following"
+    ],
+    "updated_at": "2026-09-20",
+    "tags": [
+      "chat",
+      "coding"
+    ]
+  },
+  {
+    "license": "proprietary",
+    "pricing_note_zh": "按 token 计费，以官网为准",
+    "pricing_note_en": "Token-based; check official pricing",
+    "status": "ga",
+    "params_note_zh": "未公开",
+    "params_note_en": "Undisclosed",
+    "featured": false,
+    "id": "o3",
+    "name_zh": "OpenAI o3",
+    "name_en": "OpenAI o3",
+    "vendor_id": "openai",
+    "vendor_zh": "OpenAI",
+    "vendor_en": "OpenAI",
+    "family": "o-series",
+    "modalities": [
+      "text"
+    ],
+    "context_window": 200000,
+    "official_url": "https://platform.openai.com/docs/models",
+    "card_zh": "偏推理的 o 系列模型，适合数学、科学与复杂多步问题。",
+    "card_en": "Reasoning-focused o-series model for math, science, and multi-step problems.",
+    "strengths_zh": [
+      "深度推理",
+      "数学",
+      "多步规划"
+    ],
+    "strengths_en": [
+      "Deep reasoning",
+      "Math",
+      "Multi-step planning"
+    ],
+    "updated_at": "2026-08-01",
+    "tags": [
+      "reasoning",
+      "chat"
+    ]
+  },
+  {
+    "license": "proprietary",
+    "pricing_note_zh": "按 token 计费，以官网为准",
+    "pricing_note_en": "Token-based; check official pricing",
+    "status": "ga",
+    "params_note_zh": "未公开",
+    "params_note_en": "Undisclosed",
+    "featured": false,
+    "id": "o4-mini",
+    "name_zh": "OpenAI o4-mini",
+    "name_en": "OpenAI o4-mini",
+    "vendor_id": "openai",
+    "vendor_zh": "OpenAI",
+    "vendor_en": "OpenAI",
+    "family": "o-series",
+    "modalities": [
+      "text"
+    ],
+    "context_window": 200000,
+    "official_url": "https://platform.openai.com/docs/models",
+    "card_zh": "更省成本的推理小模型，适合高频推理调用。",
+    "card_en": "Cost-efficient reasoning mini model for high-volume reasoning calls.",
+    "strengths_zh": [
+      "性价比",
+      "推理",
+      "速度快"
+    ],
+    "strengths_en": [
+      "Cost efficiency",
+      "Reasoning",
+      "Speed"
+    ],
+    "updated_at": "2026-08-01",
+    "tags": [
+      "reasoning",
+      "chat"
+    ]
+  },
+  {
+    "license": "proprietary",
+    "pricing_note_zh": "按 token 计费，以官网为准",
+    "pricing_note_en": "Token-based; check official pricing",
+    "status": "ga",
+    "params_note_zh": "未公开",
+    "params_note_en": "Undisclosed",
+    "featured": true,
+    "id": "claude-sonnet-4-5",
+    "name_zh": "Claude Sonnet 4.5",
+    "name_en": "Claude Sonnet 4.5",
+    "vendor_id": "anthropic",
+    "vendor_zh": "Anthropic",
+    "vendor_en": "Anthropic",
+    "family": "Claude",
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "context_window": 200000,
+    "official_url": "https://docs.anthropic.com/en/docs/about-claude/models",
+    "card_zh": "Anthropic 主力平衡型：写作、编程与长文档分析都很稳。",
+    "card_en": "Anthropic’s balanced workhorse for writing, coding, and long-document analysis.",
+    "strengths_zh": [
+      "写作质量",
+      "编程",
+      "安全对齐"
+    ],
+    "strengths_en": [
+      "Writing quality",
+      "Coding",
+      "Safety alignment"
+    ],
+    "updated_at": "2026-09-29",
+    "tags": [
+      "chat",
+      "coding",
+      "multimodal"
+    ]
+  },
+  {
+    "license": "proprietary",
+    "pricing_note_zh": "按 token 计费，以官网为准",
+    "pricing_note_en": "Token-based; check official pricing",
+    "status": "ga",
+    "params_note_zh": "未公开",
+    "params_note_en": "Undisclosed",
+    "featured": true,
+    "id": "claude-opus-4-1",
+    "name_zh": "Claude Opus 4.1",
+    "name_en": "Claude Opus 4.1",
+    "vendor_id": "anthropic",
+    "vendor_zh": "Anthropic",
+    "vendor_en": "Anthropic",
+    "family": "Claude",
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "context_window": 200000,
+    "official_url": "https://docs.anthropic.com/en/docs/about-claude/models",
+    "card_zh": "Claude 最强档，适合高难度推理、研究与复杂代码库。",
+    "card_en": "Top-tier Claude for hard reasoning, research, and complex codebases.",
+    "strengths_zh": [
+      "最强推理",
+      "研究",
+      "复杂代码"
+    ],
+    "strengths_en": [
+      "Top reasoning",
+      "Research",
+      "Complex code"
+    ],
+    "updated_at": "2026-08-05",
+    "tags": [
+      "chat",
+      "coding",
+      "reasoning"
+    ]
+  },
+  {
+    "license": "proprietary",
+    "pricing_note_zh": "按 token 计费，以官网为准",
+    "pricing_note_en": "Token-based; check official pricing",
+    "status": "ga",
+    "params_note_zh": "未公开",
+    "params_note_en": "Undisclosed",
+    "featured": true,
+    "id": "claude-haiku-4-5",
+    "name_zh": "Claude Haiku 4.5",
+    "name_en": "Claude Haiku 4.5",
+    "vendor_id": "anthropic",
+    "vendor_zh": "Anthropic",
+    "vendor_en": "Anthropic",
+    "family": "Claude",
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "context_window": 200000,
+    "official_url": "https://docs.anthropic.com/en/docs/about-claude/models",
+    "card_zh": "轻量快速的 Claude，适合客服、分类与高吞吐场景。",
+    "card_en": "Fast, light Claude for support, classification, and high-throughput jobs.",
+    "strengths_zh": [
+      "低延迟",
+      "成本低",
+      "吞吐高"
+    ],
+    "strengths_en": [
+      "Low latency",
+      "Low cost",
+      "High throughput"
+    ],
+    "updated_at": "2026-10-01",
+    "tags": [
+      "chat",
+      "multimodal"
+    ]
+  },
+  {
+    "license": "proprietary",
+    "pricing_note_zh": "按 token 计费，以官网为准",
+    "pricing_note_en": "Token-based; check official pricing",
+    "status": "ga",
+    "params_note_zh": "未公开",
+    "params_note_en": "Undisclosed",
+    "featured": true,
+    "id": "gemini-2-5-pro",
+    "name_zh": "Gemini 2.5 Pro",
+    "name_en": "Gemini 2.5 Pro",
+    "vendor_id": "google",
+    "vendor_zh": "Google DeepMind",
+    "vendor_en": "Google DeepMind",
+    "family": "Gemini",
+    "modalities": [
+      "text",
+      "image",
+      "audio",
+      "video"
+    ],
+    "context_window": 1000000,
+    "official_url": "https://ai.google.dev/gemini-api/docs/models",
+    "card_zh": "Google 旗舰多模态，超长上下文与音视频理解突出。",
+    "card_en": "Google flagship multimodal with very long context and strong A/V understanding.",
+    "strengths_zh": [
+      "超长上下文",
+      "音视频",
+      "谷歌生态"
+    ],
+    "strengths_en": [
+      "Huge context",
+      "Audio/video",
+      "Google stack"
+    ],
+    "updated_at": "2026-09-10",
+    "tags": [
+      "chat",
+      "multimodal"
+    ]
+  },
+  {
+    "license": "proprietary",
+    "pricing_note_zh": "按 token 计费，以官网为准",
+    "pricing_note_en": "Token-based; check official pricing",
+    "status": "ga",
+    "params_note_zh": "未公开",
+    "params_note_en": "Undisclosed",
+    "featured": false,
+    "id": "gemini-2-5-flash",
+    "name_zh": "Gemini 2.5 Flash",
+    "name_en": "Gemini 2.5 Flash",
+    "vendor_id": "google",
+    "vendor_zh": "Google DeepMind",
+    "vendor_en": "Google DeepMind",
+    "family": "Gemini",
+    "modalities": [
+      "text",
+      "image",
+      "audio",
+      "video"
+    ],
+    "context_window": 1000000,
+    "official_url": "https://ai.google.dev/gemini-api/docs/models",
+    "card_zh": "Gemini 高速档，适合实时应用与大批量处理。",
+    "card_en": "Fast Gemini tier for realtime apps and bulk processing.",
+    "strengths_zh": [
+      "速度快",
+      "价格友好",
+      "多模态"
+    ],
+    "strengths_en": [
+      "Speed",
+      "Affordable",
+      "Multimodal"
+    ],
+    "updated_at": "2026-09-10",
+    "tags": [
+      "chat",
+      "multimodal"
+    ]
+  },
+  {
+    "license": "llama",
+    "pricing_note_zh": "按 token 计费，以官网为准",
+    "pricing_note_en": "Token-based; check official pricing",
+    "status": "ga",
+    "params_note_zh": "开源权重（以 Meta 许可为准）",
+    "params_note_en": "Open weights (see Meta license)",
+    "featured": true,
+    "id": "llama-4-maverick",
+    "name_zh": "Llama 4 Maverick",
+    "name_en": "Llama 4 Maverick",
+    "vendor_id": "meta",
+    "vendor_zh": "Meta",
+    "vendor_en": "Meta",
+    "family": "Llama",
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "context_window": 1000000,
+    "official_url": "https://www.llama.com",
+    "card_zh": "Meta Llama 4 主力开源多模态，可自托管与微调。",
+    "card_en": "Meta Llama 4 open multimodal workhorse for self-host and fine-tuning.",
+    "strengths_zh": [
+      "开源",
+      "可自托管",
+      "社区生态"
+    ],
+    "strengths_en": [
+      "Open",
+      "Self-hostable",
+      "Community"
+    ],
+    "updated_at": "2026-04-05",
+    "tags": [
+      "chat",
+      "open-source",
+      "multimodal"
+    ]
+  },
+  {
+    "license": "llama",
+    "pricing_note_zh": "按 token 计费，以官网为准",
+    "pricing_note_en": "Token-based; check official pricing",
+    "status": "ga",
+    "params_note_zh": "开源权重（以 Meta 许可为准）",
+    "params_note_en": "Open weights (see Meta license)",
+    "featured": false,
+    "id": "llama-4-scout",
+    "name_zh": "Llama 4 Scout",
+    "name_en": "Llama 4 Scout",
+    "vendor_id": "meta",
+    "vendor_zh": "Meta",
+    "vendor_en": "Meta",
+    "family": "Llama",
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "context_window": 10000000,
+    "official_url": "https://www.llama.com",
+    "card_zh": "Llama 4 超长上下文变体，适合海量文档检索场景。",
+    "card_en": "Llama 4 ultra-long-context variant for massive document workloads.",
+    "strengths_zh": [
+      "超长上下文",
+      "开源",
+      "检索增强"
+    ],
+    "strengths_en": [
+      "Ultra-long context",
+      "Open",
+      "RAG-friendly"
+    ],
+    "updated_at": "2026-04-05",
+    "tags": [
+      "chat",
+      "open-source",
+      "multimodal"
+    ]
+  },
+  {
+    "license": "proprietary",
+    "pricing_note_zh": "按 token 计费，以官网为准",
+    "pricing_note_en": "Token-based; check official pricing",
+    "status": "ga",
+    "params_note_zh": "未公开",
+    "params_note_en": "Undisclosed",
+    "featured": false,
+    "id": "mistral-large-2",
+    "name_zh": "Mistral Large",
+    "name_en": "Mistral Large",
+    "vendor_id": "mistral",
+    "vendor_zh": "Mistral AI",
+    "vendor_en": "Mistral AI",
+    "family": "Mistral",
+    "modalities": [
+      "text"
+    ],
+    "context_window": 128000,
+    "official_url": "https://docs.mistral.ai/getting-started/models/",
+    "card_zh": "欧洲旗舰商用模型，多语言与企业合规友好。",
+    "card_en": "European flagship commercial model; strong multilingual and enterprise fit.",
+    "strengths_zh": [
+      "多语言",
+      "欧洲合规",
+      "API 简洁"
+    ],
+    "strengths_en": [
+      "Multilingual",
+      "EU-friendly",
+      "Clean API"
+    ],
+    "updated_at": "2026-07-01",
+    "tags": [
+      "chat"
+    ]
+  },
+  {
+    "license": "proprietary",
+    "pricing_note_zh": "按 token 计费，以官网为准",
+    "pricing_note_en": "Token-based; check official pricing",
+    "status": "ga",
+    "params_note_zh": "未公开",
+    "params_note_en": "Undisclosed",
+    "featured": false,
+    "id": "mistral-small",
+    "name_zh": "Mistral Small",
+    "name_en": "Mistral Small",
+    "vendor_id": "mistral",
+    "vendor_zh": "Mistral AI",
+    "vendor_en": "Mistral AI",
+    "family": "Mistral",
+    "modalities": [
+      "text"
+    ],
+    "context_window": 128000,
+    "official_url": "https://docs.mistral.ai/getting-started/models/",
+    "card_zh": "轻量高效，适合分类、抽取与边缘部署。",
+    "card_en": "Efficient small model for classify, extract, and edge-style deploy.",
+    "strengths_zh": [
+      "低成本",
+      "延迟低",
+      "任务型"
+    ],
+    "strengths_en": [
+      "Low cost",
+      "Low latency",
+      "Task-oriented"
+    ],
+    "updated_at": "2026-07-01",
+    "tags": [
+      "chat"
+    ]
+  },
+  {
+    "license": "proprietary",
+    "pricing_note_zh": "按 token 计费，以官网为准",
+    "pricing_note_en": "Token-based; check official pricing",
+    "status": "ga",
+    "params_note_zh": "未公开",
+    "params_note_en": "Undisclosed",
+    "featured": false,
+    "id": "pixtral-large",
+    "name_zh": "Pixtral Large",
+    "name_en": "Pixtral Large",
+    "vendor_id": "mistral",
+    "vendor_zh": "Mistral AI",
+    "vendor_en": "Mistral AI",
+    "family": "Pixtral",
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "context_window": 128000,
+    "official_url": "https://docs.mistral.ai/getting-started/models/",
+    "card_zh": "Mistral 多模态视觉语言模型，适合图文理解。",
+    "card_en": "Mistral vision-language model for image+text understanding.",
+    "strengths_zh": [
+      "视觉理解",
+      "欧洲厂商",
+      "API"
+    ],
+    "strengths_en": [
+      "Vision",
+      "EU vendor",
+      "API"
+    ],
+    "updated_at": "2026-06-01",
+    "tags": [
+      "multimodal",
+      "chat"
+    ]
+  },
+  {
+    "license": "mit-like",
+    "pricing_note_zh": "按 token 计费，以官网为准",
+    "pricing_note_en": "Token-based; check official pricing",
+    "status": "ga",
+    "params_note_zh": "约 671B MoE（激活约 37B）",
+    "params_note_en": "~671B MoE (~37B active)",
+    "featured": true,
+    "id": "deepseek-v3",
+    "name_zh": "DeepSeek-V3",
+    "name_en": "DeepSeek-V3",
+    "vendor_id": "deepseek",
+    "vendor_zh": "深度求索",
+    "vendor_en": "DeepSeek",
+    "family": "DeepSeek",
+    "modalities": [
+      "text"
+    ],
+    "context_window": 128000,
+    "official_url": "https://www.deepseek.com",
+    "card_zh": "国产开源主力，性价比与中文能力突出。",
+    "card_en": "Leading open Chinese model with strong value and Chinese capability.",
+    "strengths_zh": [
+      "性价比",
+      "中文",
+      "开源"
+    ],
+    "strengths_en": [
+      "Value",
+      "Chinese",
+      "Open"
+    ],
+    "updated_at": "2026-03-24",
+    "tags": [
+      "chat",
+      "open-source",
+      "coding"
+    ]
+  },
+  {
+    "license": "mit-like",
+    "pricing_note_zh": "按 token 计费，以官网为准",
+    "pricing_note_en": "Token-based; check official pricing",
+    "status": "ga",
+    "params_note_zh": "推理专用开源模型",
+    "params_note_en": "Open reasoning model",
+    "featured": true,
+    "id": "deepseek-r1",
+    "name_zh": "DeepSeek-R1",
+    "name_en": "DeepSeek-R1",
+    "vendor_id": "deepseek",
+    "vendor_zh": "深度求索",
+    "vendor_en": "DeepSeek",
+    "family": "DeepSeek",
+    "modalities": [
+      "text"
+    ],
+    "context_window": 128000,
+    "official_url": "https://www.deepseek.com",
+    "card_zh": "开源推理模型，数学与代码竞赛表现强。",
+    "card_en": "Open reasoning model strong on math and coding contests.",
+    "strengths_zh": [
+      "推理",
+      "数学",
+      "开源可复现"
+    ],
+    "strengths_en": [
+      "Reasoning",
+      "Math",
+      "Reproducible"
+    ],
+    "updated_at": "2026-01-20",
+    "tags": [
+      "reasoning",
+      "open-source",
+      "coding"
+    ]
+  },
+  {
+    "license": "apache-2.0-like",
+    "pricing_note_zh": "按 token 计费，以官网为准",
+    "pricing_note_en": "Token-based; check official pricing",
+    "status": "ga",
+    "params_note_zh": "235B 级开源旗舰（以官方为准）",
+    "params_note_en": "235B-class open flagship (see official)",
+    "featured": true,
+    "id": "qwen3-235b",
+    "name_zh": "Qwen3-235B",
+    "name_en": "Qwen3-235B",
+    "vendor_id": "alibaba",
+    "vendor_zh": "阿里云 / 通义",
+    "vendor_en": "Alibaba / Qwen",
+    "family": "Qwen",
+    "modalities": [
+      "text"
+    ],
+    "context_window": 128000,
+    "official_url": "https://qwenlm.github.io",
+    "card_zh": "通义千问第三代旗舰，中英双语与工具调用强。",
+    "card_en": "Qwen3 flagship with strong bilingual and tool-use skills.",
+    "strengths_zh": [
+      "中文",
+      "开源生态",
+      "代理工具"
+    ],
+    "strengths_en": [
+      "Chinese",
+      "Open ecosystem",
+      "Agent tools"
+    ],
+    "updated_at": "2026-04-28",
+    "tags": [
+      "chat",
+      "open-source"
+    ]
+  },
+  {
+    "license": "apache-2.0-like",
+    "pricing_note_zh": "按 token 计费，以官网为准",
+    "pricing_note_en": "Token-based; check official pricing",
+    "status": "ga",
+    "params_note_zh": "多规格开源视觉语言模型",
+    "params_note_en": "Open VLM in multiple sizes",
+    "featured": false,
+    "id": "qwen2-5-vl",
+    "name_zh": "Qwen2.5-VL",
+    "name_en": "Qwen2.5-VL",
+    "vendor_id": "alibaba",
+    "vendor_zh": "阿里云 / 通义",
+    "vendor_en": "Alibaba / Qwen",
+    "family": "Qwen",
+    "modalities": [
+      "text",
+      "image",
+      "video"
+    ],
+    "context_window": 128000,
+    "official_url": "https://qwenlm.github.io",
+    "card_zh": "通义视觉语言模型，文档/截图/视频帧理解好用。",
+    "card_en": "Qwen vision-language model strong on docs, screenshots, and video frames.",
+    "strengths_zh": [
+      "视觉",
+      "中文 OCR",
+      "开源"
+    ],
+    "strengths_en": [
+      "Vision",
+      "Chinese OCR",
+      "Open"
+    ],
+    "updated_at": "2026-01-28",
+    "tags": [
+      "multimodal",
+      "open-source"
+    ]
+  },
+  {
+    "license": "proprietary",
+    "pricing_note_zh": "按 token 计费，以官网为准",
+    "pricing_note_en": "Token-based; check official pricing",
+    "status": "ga",
+    "params_note_zh": "未公开",
+    "params_note_en": "Undisclosed",
+    "featured": false,
+    "id": "qwen-max",
+    "name_zh": "通义千问 Max",
+    "name_en": "Qwen-Max",
+    "vendor_id": "alibaba",
+    "vendor_zh": "阿里云 / 通义",
+    "vendor_en": "Alibaba / Qwen",
+    "family": "Qwen",
+    "modalities": [
+      "text"
+    ],
+    "context_window": 128000,
+    "official_url": "https://help.aliyun.com/zh/model-studio/",
+    "card_zh": "阿里云商用旗舰 API，适合国内业务落地。",
+    "card_en": "Alibaba Cloud commercial flagship API for China production apps.",
+    "strengths_zh": [
+      "国内合规",
+      "稳定 API",
+      "中文"
+    ],
+    "strengths_en": [
+      "China compliance",
+      "Stable API",
+      "Chinese"
+    ],
+    "updated_at": "2026-06-01",
+    "tags": [
+      "chat"
+    ]
+  },
+  {
+    "license": "modified-mit",
+    "pricing_note_zh": "按 token 计费，以官网为准",
+    "pricing_note_en": "Token-based; check official pricing",
+    "status": "ga",
+    "params_note_zh": "开源 MoE（以官方发布为准）",
+    "params_note_en": "Open MoE (see official release)",
+    "featured": true,
+    "id": "kimi-k2",
+    "name_zh": "Kimi K2",
+    "name_en": "Kimi K2",
+    "vendor_id": "moonshot",
+    "vendor_zh": "月之暗面",
+    "vendor_en": "Moonshot AI",
+    "family": "Kimi",
+    "modalities": [
+      "text"
+    ],
+    "context_window": 128000,
+    "official_url": "https://www.moonshot.cn",
+    "card_zh": "月之暗面开源长上下文/智能体向模型，中文长文出色。",
+    "card_en": "Moonshot open long-context / agent-oriented model; strong Chinese long-form.",
+    "strengths_zh": [
+      "长文",
+      "中文",
+      "智能体"
+    ],
+    "strengths_en": [
+      "Long-form",
+      "Chinese",
+      "Agents"
+    ],
+    "updated_at": "2026-07-11",
+    "tags": [
+      "chat",
+      "open-source",
+      "agents"
+    ]
+  },
+  {
+    "license": "proprietary",
+    "pricing_note_zh": "按 token 计费，以官网为准",
+    "pricing_note_en": "Token-based; check official pricing",
+    "status": "ga",
+    "params_note_zh": "未公开",
+    "params_note_en": "Undisclosed",
+    "featured": false,
+    "id": "kimi-chat",
+    "name_zh": "Kimi 智能助手",
+    "name_en": "Kimi Chat",
+    "vendor_id": "moonshot",
+    "vendor_zh": "月之暗面",
+    "vendor_en": "Moonshot AI",
+    "family": "Kimi",
+    "modalities": [
+      "text"
+    ],
+    "context_window": 200000,
+    "official_url": "https://kimi.moonshot.cn",
+    "card_zh": "面向用户的超长上下文助手产品，适合读论文与资料库。",
+    "card_en": "Consumer long-context assistant for papers and large document sets.",
+    "strengths_zh": [
+      "超长上下文",
+      "联网检索",
+      "中文产品"
+    ],
+    "strengths_en": [
+      "Long context",
+      "Web browse",
+      "CN product"
+    ],
+    "updated_at": "2026-08-01",
+    "tags": [
+      "chat",
+      "research"
+    ]
+  },
+  {
+    "license": "proprietary",
+    "pricing_note_zh": "按 token 计费，以官网为准",
+    "pricing_note_en": "Token-based; check official pricing",
+    "status": "ga",
+    "params_note_zh": "未公开",
+    "params_note_en": "Undisclosed",
+    "featured": false,
+    "id": "doubao-1-5-pro",
+    "name_zh": "豆包大模型 1.5 Pro",
+    "name_en": "Doubao 1.5 Pro",
+    "vendor_id": "bytedance",
+    "vendor_zh": "字节跳动",
+    "vendor_en": "ByteDance",
+    "family": "Doubao",
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "context_window": 256000,
+    "official_url": "https://www.volcengine.com/product/doubao",
+    "card_zh": "字节火山引擎商用模型，内容与创作场景常见。",
+    "card_en": "ByteDance Volcengine commercial model common in content/creation apps.",
+    "strengths_zh": [
+      "国内生态",
+      "创作",
+      "多模态"
+    ],
+    "strengths_en": [
+      "China stack",
+      "Creation",
+      "Multimodal"
+    ],
+    "updated_at": "2026-05-01",
+    "tags": [
+      "chat",
+      "multimodal"
+    ]
+  },
+  {
+    "license": "open",
+    "pricing_note_zh": "按 token 计费，以官网为准",
+    "pricing_note_en": "Token-based; check official pricing",
+    "status": "ga",
+    "params_note_zh": "开源/商用双轨（以智谱发布为准）",
+    "params_note_en": "Open + commercial tracks (see Zhipu)",
+    "featured": true,
+    "id": "glm-4-5",
+    "name_zh": "GLM-4.5",
+    "name_en": "GLM-4.5",
+    "vendor_id": "zhipu",
+    "vendor_zh": "智谱 AI",
+    "vendor_en": "Zhipu AI",
+    "family": "GLM",
+    "modalities": [
+      "text"
+    ],
+    "context_window": 128000,
+    "official_url": "https://www.zhipuai.cn",
+    "card_zh": "智谱新一代 GLM，中文理解与 Agent 能力提升。",
+    "card_en": "Next-gen Zhipu GLM with stronger Chinese and agent skills.",
+    "strengths_zh": [
+      "中文",
+      "Agent",
+      "学术渊源"
+    ],
+    "strengths_en": [
+      "Chinese",
+      "Agents",
+      "Academic roots"
+    ],
+    "updated_at": "2026-07-28",
+    "tags": [
+      "chat",
+      "open-source",
+      "agents"
+    ]
+  },
+  {
+    "license": "proprietary",
+    "pricing_note_zh": "按 token 计费，以官网为准",
+    "pricing_note_en": "Token-based; check official pricing",
+    "status": "ga",
+    "params_note_zh": "未公开",
+    "params_note_en": "Undisclosed",
+    "featured": false,
+    "id": "glm-4v",
+    "name_zh": "GLM-4V",
+    "name_en": "GLM-4V",
+    "vendor_id": "zhipu",
+    "vendor_zh": "智谱 AI",
+    "vendor_en": "Zhipu AI",
+    "family": "GLM",
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "context_window": 8000,
+    "official_url": "https://www.zhipuai.cn",
+    "card_zh": "智谱视觉语言模型，适合中文图文问答。",
+    "card_en": "Zhipu vision-language model for Chinese image QA.",
+    "strengths_zh": [
+      "视觉",
+      "中文",
+      "API"
+    ],
+    "strengths_en": [
+      "Vision",
+      "Chinese",
+      "API"
+    ],
+    "updated_at": "2026-03-01",
+    "tags": [
+      "multimodal"
+    ]
+  },
+  {
+    "license": "proprietary",
+    "pricing_note_zh": "按 token 计费，以官网为准",
+    "pricing_note_en": "Token-based; check official pricing",
+    "status": "ga",
+    "params_note_zh": "未公开",
+    "params_note_en": "Undisclosed",
+    "featured": true,
+    "id": "grok-4",
+    "name_zh": "Grok 4",
+    "name_en": "Grok 4",
+    "vendor_id": "xai",
+    "vendor_zh": "xAI",
+    "vendor_en": "xAI",
+    "family": "Grok",
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "context_window": 256000,
+    "official_url": "https://x.ai",
+    "card_zh": "xAI 旗舰，与 X 平台信息流结合紧密。",
+    "card_en": "xAI flagship closely tied to the X information firehose.",
+    "strengths_zh": [
+      "实时信息",
+      "幽默风格",
+      "X 生态"
+    ],
+    "strengths_en": [
+      "Realtime info",
+      "Witty style",
+      "X ecosystem"
+    ],
+    "updated_at": "2026-07-09",
+    "tags": [
+      "chat",
+      "multimodal"
+    ]
+  },
+  {
+    "license": "proprietary",
+    "pricing_note_zh": "按 token 计费，以官网为准",
+    "pricing_note_en": "Token-based; check official pricing",
+    "status": "ga",
+    "params_note_zh": "未公开",
+    "params_note_en": "Undisclosed",
+    "featured": false,
+    "id": "command-a",
+    "name_zh": "Command A",
+    "name_en": "Command A",
+    "vendor_id": "cohere",
+    "vendor_zh": "Cohere",
+    "vendor_en": "Cohere",
+    "family": "Command",
+    "modalities": [
+      "text"
+    ],
+    "context_window": 256000,
+    "official_url": "https://docs.cohere.com/docs/models",
+    "card_zh": "Cohere 企业向旗舰，RAG 与检索增强场景成熟。",
+    "card_en": "Cohere enterprise flagship; mature for RAG and retrieval apps.",
+    "strengths_zh": [
+      "企业 RAG",
+      "多语言",
+      "安全可控"
+    ],
+    "strengths_en": [
+      "Enterprise RAG",
+      "Multilingual",
+      "Governed"
+    ],
+    "updated_at": "2026-03-01",
+    "tags": [
+      "chat",
+      "research"
+    ]
+  }
+]

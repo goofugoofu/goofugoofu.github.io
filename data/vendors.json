@@ -1,0 +1,86 @@
+[
+  {
+    "id": "openai",
+    "name_zh": "OpenAI",
+    "name_en": "OpenAI",
+    "url": "https://openai.com",
+    "region": "us"
+  },
+  {
+    "id": "anthropic",
+    "name_zh": "Anthropic",
+    "name_en": "Anthropic",
+    "url": "https://www.anthropic.com",
+    "region": "us"
+  },
+  {
+    "id": "google",
+    "name_zh": "Google DeepMind",
+    "name_en": "Google DeepMind",
+    "url": "https://deepmind.google",
+    "region": "us"
+  },
+  {
+    "id": "meta",
+    "name_zh": "Meta",
+    "name_en": "Meta",
+    "url": "https://ai.meta.com",
+    "region": "us"
+  },
+  {
+    "id": "mistral",
+    "name_zh": "Mistral AI",
+    "name_en": "Mistral AI",
+    "url": "https://mistral.ai",
+    "region": "eu"
+  },
+  {
+    "id": "deepseek",
+    "name_zh": "深度求索",
+    "name_en": "DeepSeek",
+    "url": "https://www.deepseek.com",
+    "region": "cn"
+  },
+  {
+    "id": "alibaba",
+    "name_zh": "阿里云 / 通义",
+    "name_en": "Alibaba Cloud / Qwen",
+    "url": "https://qwenlm.github.io",
+    "region": "cn"
+  },
+  {
+    "id": "moonshot",
+    "name_zh": "月之暗面",
+    "name_en": "Moonshot AI",
+    "url": "https://www.moonshot.cn",
+    "region": "cn"
+  },
+  {
+    "id": "bytedance",
+    "name_zh": "字节跳动",
+    "name_en": "ByteDance",
+    "url": "https://www.volcengine.com",
+    "region": "cn"
+  },
+  {
+    "id": "zhipu",
+    "name_zh": "智谱 AI",
+    "name_en": "Zhipu AI",
+    "url": "https://www.zhipuai.cn",
+    "region": "cn"
+  },
+  {
+    "id": "xai",
+    "name_zh": "xAI",
+    "name_en": "xAI",
+    "url": "https://x.ai",
+    "region": "us"
+  },
+  {
+    "id": "cohere",
+    "name_zh": "Cohere",
+    "name_en": "Cohere",
+    "url": "https://cohere.com",
+    "region": "ca"
+  }
+]
