@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>模型详情 · 大模型情报 | Model</title>
+  <meta name="description" content="查看该大模型的模态、上下文、许可与官网入口。" />
+  <meta property="og:type" content="website" />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://goofugoofu.github.io/model.html" />
+  <script src="js/theme-boot.js"></script>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div id="app"></div>
+  <script src="js/i18n.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    bootPage({
+      active: "models",
+      render: async (ui) => {
+        const main = document.getElementById("main");
+        const id = qs("id");
+        const models = await fetchJSON("data/models.json");
+        const model = models.find((m) => m.id === id);
+        if (!model) {
+          main.innerHTML = emptyState(ui, "models", { ctaHref: "models.html", ctaLabel: ui.back_models })
+            + `<p class="muted small" style="text-align:center;margin-top:0.75rem">${escapeHTML(ui.model_not_found)}</p>`;
+          applyStaticUI(ui);
+          return;
+        }
+        const name = tField(model, "name");
+        setPageMeta({
+          title: `${name} · ${ui.site_name}`,
+          description: tField(model, "card") || ui.meta_desc_model,
+        });
+        injectJsonLd("ld-model", modelJsonLd(model));
+        const badges = [
+          `<span class="badge">${escapeHTML(tField(model, "vendor"))}</span>`,
+          `<span class="badge">${escapeHTML(licenseLabel(model.license, ui))}</span>`,
+          `<span class="badge">${escapeHTML(model.status === "ga" ? ui.status_ga : ui.status_preview)}</span>`,
+        ];
+        if (model.featured) badges.push(`<span class="badge new">${escapeHTML(ui.featured_badge)}</span>`);
+        const mods = (model.modalities || []).map((m) => `<span class="badge">${escapeHTML(modalityLabel(m, ui))}</span>`).join("");
+        const strengths = (getLang() === "zh" ? model.strengths_zh : model.strengths_en) || model.strengths_en || [];
+        const strengthList = strengths.map((s) => `<li>${escapeHTML(s)}</li>`).join("");
+
+        main.innerHTML = `
+          <section class="detail-hero">
+            <a class="back-link" href="models.html" data-i18n="back_models">${ui.back_models}</a>
+            <div class="meta-row">${badges.join("")}</div>
+            <h1>${escapeHTML(name)}</h1>
+            <p class="muted">${escapeHTML(tField(model, "card"))}</p>
+            <div class="actions">
+              <a class="btn btn-primary" href="${escapeHTML(model.official_url)}" target="_blank" rel="noopener noreferrer" data-i18n="official_link">${ui.official_link}</a>
+            </div>
+          </section>
+          <section class="section detail-grid">
+            <div class="panel">
+              <h2 data-i18n="vendor">${ui.vendor}</h2>
+              <p>${escapeHTML(tField(model, "vendor"))} · ${escapeHTML(model.family || "")}</p>
+              <h2 style="margin-top:1.25rem" data-i18n="context_window">${ui.context_window}</h2>
+              <p>${escapeHTML(formatContext(model.context_window))} ${escapeHTML(ui.tokens_label)}</p>
+              <h2 style="margin-top:1.25rem">${ui.filter_modality}</h2>
+              <div class="meta-row">${mods}</div>
+              <h2 style="margin-top:1.25rem" data-i18n="strengths">${ui.strengths}</h2>
+              <ul class="strength-list">${strengthList}</ul>
+            </div>
+            <div class="panel">
+              <h2 data-i18n="params_note">${ui.params_note}</h2>
+              <p>${escapeHTML(tField(model, "params_note"))}</p>
+              <h2 style="margin-top:1.25rem" data-i18n="pricing_note">${ui.pricing_note}</h2>
+              <p>${escapeHTML(tField(model, "pricing_note"))}</p>
+              <h2 style="margin-top:1.25rem" data-i18n="filter_license">${ui.filter_license}</h2>
+              <p>${escapeHTML(model.license)} · ${escapeHTML(licenseLabel(model.license, ui))}</p>
+              <h2 style="margin-top:1.25rem" data-i18n="updated">${ui.updated}</h2>
+              <p class="small muted">${escapeHTML(model.updated_at || "")}</p>
+            </div>
+          </section>
+        `;
+        applyStaticUI(ui);
+      },
+    });
+  </script>
+</body>
+</html>

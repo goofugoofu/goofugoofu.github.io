@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>AI 工具地图 | AI Tool Map</title>
-  <meta name="description" content="按场景挑选 AI 工具：写作、图像视频、编程、办公。每日新品扫描与双语目录。 | Scenario-based AI tool directory with daily scans." />
-  <meta property="og:title" content="AI 工具地图 | AI Tool Map" />
-  <meta property="og:description" content="按场景挑选 AI 工具：写作、图像视频、编程、办公。每日新品扫描与双语目录。" />
+  <title>大模型情报 · AI Tool Map</title>
+  <meta name="description" content="大模型情报门户：模型卡、AI 工具场景、资讯与对比。双语目录，日更扫描。" />
+  <meta property="og:title" content="大模型情报 · AI Tool Map" />
+  <meta property="og:description" content="模型 · 工具 · 资讯 —— 大模型信息门户" />
   <meta property="og:type" content="website" />
   <meta name="robots" content="index,follow" />
   <meta property="og:locale" content="zh_CN" />
@@ -25,16 +25,35 @@
       metaKey: "meta_desc_home",
       render: async (ui) => {
         const main = document.getElementById("main");
-        const [scenarios, tools, daily] = await Promise.all([
+        const [scenarios, tools, daily, models, news, compares] = await Promise.all([
           fetchJSON("data/scenarios.json"),
           fetchJSON("data/tools.json"),
           fetchJSON("data/daily.json"),
+          fetchJSON("data/models.json"),
+          fetchJSON("data/news.json"),
+          fetchJSON("data/compares.json"),
         ]);
-        const today = "2026-10-16";
-        const todayItems = daily.filter((d) => d.date === today).slice(0, 4);
+
+        const publishedNews = news
+          .filter((n) => n.status === "published")
+          .sort((a, b) => String(b.date).localeCompare(String(a.date)));
+        const latestNewsDate = publishedNews[0]?.date || "";
+        const dailyDates = daily.map((d) => d.date).sort();
+        const latestDaily = dailyDates[dailyDates.length - 1] || "";
+        const todayItems = daily.filter((d) => d.date === latestDaily).slice(0, 3);
+
+        const featuredModels = models
+          .filter((m) => m.featured)
+          .sort((a, b) => String(b.updated_at).localeCompare(String(a.updated_at)))
+          .slice(0, 6);
+        const modelCards = (featuredModels.length ? featuredModels : models.slice(0, 6))
+          .map((m) => modelCardHTML(m, ui))
+          .join("");
+
+        const newsHTML = publishedNews.slice(0, 5).map((n) => newsItemHTML(n, ui)).join("");
 
         const scenarioCards = scenarios.map((s) => {
-          const count = tools.filter((t) => t.scenarios.includes(s.id)).length;
+          const count = tools.filter((t) => (t.scenarios || []).includes(s.id)).length;
           return `
             <a class="card card-scenario" href="scenario.html?id=${encodeURIComponent(s.id)}">
               <div class="card-icon">${s.icon}</div>
@@ -45,6 +64,14 @@
           `;
         }).join("");
 
+        const compareCards = compares.map((c) => `
+          <a class="card card-compare" href="compare.html?id=${encodeURIComponent(c.id)}">
+            <h3>${escapeHTML(tField(c, "title"))}</h3>
+            <p>${escapeHTML(tField(c, "desc"))}</p>
+            <div class="meta-row"><span class="badge">${(c.rows || []).length}</span></div>
+          </a>
+        `).join("");
+
         const dailyHTML = todayItems.map((d) => `
           <article class="feed-item">
             <div class="date">${escapeHTML(d.date)}</div>
@@ -53,34 +80,35 @@
           </article>
         `).join("");
 
-        const featured = tools.filter((t) => t.is_new_this_week).slice(0, 6);
-        const allPreview = tools.slice(0, 9);
+        const toolsPreview = tools.filter((t) => t.is_new_this_week).slice(0, 6);
+        const toolsHTML = (toolsPreview.length ? toolsPreview : tools.slice(0, 6))
+          .map((t) => toolCardHTML(t, ui)).join("");
 
         injectJsonLd("ld-website", {
           "@context": "https://schema.org",
           "@type": "WebSite",
           name: "AI Tool Map",
-          alternateName: "AI 工具地图",
+          alternateName: ["大模型情报", "AI 情报台", "AI Intelligence Desk"],
           url: "https://goofugoofu.github.io/",
           inLanguage: ["zh-CN", "en"],
-          description: ui.meta_desc_home || "Scenario-based bilingual AI tool directory",
-        });
-        injectJsonLd("ld-itemlist", {
-          "@context": "https://schema.org",
-          "@type": "ItemList",
-          name: "AI tool scenarios",
-          itemListElement: scenarios.map((s, n) => ({
-            "@type": "ListItem",
-            position: n + 1,
-            name: tField(s, "name"),
-            url: new URL(`scenario.html?id=${encodeURIComponent(s.id)}`, location.href).href,
-          })),
+          description: ui.meta_desc_home,
+          potentialAction: {
+            "@type": "SearchAction",
+            target: "https://goofugoofu.github.io/search.html?q={search_term_string}",
+            "query-input": "required name=search_term_string",
+          },
         });
 
         main.innerHTML = `
-          <section class="hero">
+          <section class="hero hero-portal">
             <h1 data-i18n="site_name">${ui.site_name}</h1>
             <p data-i18n="tagline">${ui.tagline}</p>
+            <form class="hero-search" action="search.html" method="get" role="search">
+              <label class="sr-only" for="hero-q" data-i18n="nav_search">${ui.nav_search}</label>
+              <input type="search" id="hero-q" name="q" class="search-box search-box-lg"
+                data-i18n-placeholder="search_placeholder" placeholder="${escapeHTML(ui.search_placeholder)}" />
+              <button type="submit" class="btn btn-primary" data-i18n="search_btn">${ui.search_btn}</button>
+            </form>
             <div class="howto" aria-label="${ui.howto_title}">
               <div class="howto-step">
                 <span class="num">1</span>
@@ -99,79 +127,79 @@
               </div>
             </div>
             <div class="quick-links">
-              <a class="quick-link" href="daily.html"><span class="emoji">📰</span><span data-i18n="quick_daily">${ui.quick_daily}</span></a>
-              <a class="quick-link" href="weekly.html"><span class="emoji">✨</span><span data-i18n="quick_weekly">${ui.quick_weekly}</span></a>
-              <a class="quick-link" href="subscribe.html"><span class="emoji">✉️</span><span data-i18n="quick_subscribe">${ui.quick_subscribe}</span></a>
+              <a class="quick-link" href="models.html"><span class="emoji">🧠</span><span data-i18n="nav_models">${ui.nav_models}</span></a>
+              <a class="quick-link" href="news.html"><span class="emoji">📰</span><span data-i18n="nav_news">${ui.nav_news}</span></a>
+              <a class="quick-link" href="compare.html"><span class="emoji">⚖️</span><span data-i18n="nav_compare">${ui.nav_compare}</span></a>
+              <a class="quick-link" href="daily.html"><span class="emoji">📡</span><span data-i18n="nav_daily">${ui.nav_daily}</span></a>
             </div>
           </section>
 
           <section class="section">
             <div class="section-head">
               <div>
-                <h2 data-i18n="scenarios_title">${ui.scenarios_title}</h2>
-                <p data-i18n="scenarios_sub">${ui.scenarios_sub}</p>
+                <h2 data-i18n="home_news_title">${ui.home_news_title}</h2>
+                <p data-i18n="home_news_sub">${ui.home_news_sub}${latestNewsDate ? ` · ${latestNewsDate}` : ""}</p>
+              </div>
+              <a class="quick-link" href="news.html" data-i18n="view_all_news">${ui.view_all_news}</a>
+            </div>
+            <div class="feed">${newsHTML || emptyState(ui, "news", { ctaHref: "models.html", ctaLabel: ui.empty_cta_models })}</div>
+          </section>
+
+          <section class="section">
+            <div class="section-head">
+              <div>
+                <h2 data-i18n="home_models_title">${ui.home_models_title}</h2>
+                <p data-i18n="home_models_sub">${ui.home_models_sub}</p>
+              </div>
+              <a class="quick-link" href="models.html" data-i18n="view_all_models">${ui.view_all_models}</a>
+            </div>
+            <div class="grid">${modelCards || emptyState(ui, "models")}</div>
+          </section>
+
+          <section class="section" id="scenarios">
+            <div class="section-head">
+              <div>
+                <h2 data-i18n="home_scenarios_title">${ui.home_scenarios_title}</h2>
+                <p data-i18n="home_scenarios_sub">${ui.home_scenarios_sub}</p>
               </div>
             </div>
-            <p class="help-hint" data-i18n="scenarios_hint">${ui.scenarios_hint}</p>
             <div class="grid grid-scenarios">${scenarioCards}</div>
           </section>
 
           <section class="section">
             <div class="section-head">
               <div>
-                <h2 data-i18n="today_title">${ui.today_title}</h2>
-                <p data-i18n="today_sub">${ui.today_sub}</p>
+                <h2 data-i18n="home_compare_title">${ui.home_compare_title}</h2>
+                <p data-i18n="home_compare_sub">${ui.home_compare_sub}</p>
               </div>
-              <div class="quick-links" style="margin:0">
-                <a class="quick-link" href="daily.html" data-i18n="view_all_daily">${ui.view_all_daily}</a>
-                <a class="quick-link" href="weekly.html" data-i18n="view_weekly">${ui.view_weekly}</a>
-              </div>
+              <a class="quick-link" href="compare.html" data-i18n="view_compares">${ui.view_compares}</a>
             </div>
-            <div class="feed">${dailyHTML || emptyState(ui)}</div>
+            <div class="grid grid-compares">${compareCards}</div>
           </section>
 
           <section class="section">
             <div class="section-head">
               <div>
-                <h2 data-i18n="new_section_title">${ui.new_section_title}</h2>
+                <h2 data-i18n="home_daily_teaser">${ui.home_daily_teaser}</h2>
+                <p>${latestDaily || ""}</p>
+              </div>
+              <a class="quick-link" href="daily.html" data-i18n="view_all_daily">${ui.view_all_daily}</a>
+            </div>
+            <div class="feed">${dailyHTML || emptyState(ui, "daily")}</div>
+          </section>
+
+          <section class="section">
+            <div class="section-head">
+              <div>
+                <h2 data-i18n="home_tools_teaser">${ui.home_tools_teaser}</h2>
                 <p data-i18n="new_section_sub">${ui.new_section_sub}</p>
               </div>
+              <a class="quick-link" href="weekly.html" data-i18n="view_weekly">${ui.view_weekly}</a>
             </div>
-            <div class="grid">${featured.length ? featured.map((t) => toolCardHTML(t, ui)).join("") : emptyState(ui, "tools")}</div>
-          </section>
-
-          <section class="section">
-            <div class="section-head">
-              <div>
-                <h2 data-i18n="all_tools">${ui.all_tools}</h2>
-                <p data-i18n="all_tools_sub">${ui.all_tools_sub}</p>
-              </div>
-              <input type="search" id="home-search" class="search-box" data-i18n-placeholder="search_placeholder" placeholder="${ui.search_placeholder}" />
-            </div>
-            <div class="grid" id="all-tools-grid">
-              ${allPreview.map((t) => toolCardHTML(t, ui)).join("")}
-            </div>
+            <div class="grid">${toolsHTML || emptyState(ui, "tools")}</div>
           </section>
         `;
-
         applyStaticUI(ui);
-
-        const search = document.getElementById("home-search");
-        const grid = document.getElementById("all-tools-grid");
-        search.addEventListener("input", () => {
-          const q = search.value.trim().toLowerCase();
-          const filtered = !q
-            ? tools.slice(0, 9)
-            : tools.filter((t) => {
-                const blob = [
-                  t.name_zh, t.name_en, t.one_liner_zh, t.one_liner_en, ...(t.scenarios || [])
-                ].join(" ").toLowerCase();
-                return blob.includes(q);
-              });
-          grid.innerHTML = filtered.length
-            ? filtered.map((t) => toolCardHTML(t, ui)).join("")
-            : emptyState(ui, "search");
-        });
       },
     });
   </script>

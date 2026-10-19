@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>模型库 · 大模型情报 | Models</title>
+  <meta name="description" content="大模型模型库：OpenAI、Anthropic、Gemini、DeepSeek、Qwen、Kimi 等卡片。" />
+  <meta property="og:title" content="模型库 · 大模型情报" />
+  <meta property="og:description" content="主流大模型卡片一览" />
+  <meta property="og:type" content="website" />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://goofugoofu.github.io/models.html" />
+  <script src="js/theme-boot.js"></script>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div id="app"></div>
+  <script src="js/i18n.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    bootPage({
+      active: "models",
+      metaKey: "meta_desc_models",
+      render: async (ui) => {
+        const main = document.getElementById("main");
+        const models = await fetchJSON("data/models.json");
+        const vendors = [...new Set(models.map((m) => m.vendor_id))].sort();
+        const modalities = [...new Set(models.flatMap((m) => m.modalities || []))].sort();
+
+        const renderList = () => {
+          const vendor = document.getElementById("f-vendor")?.value || "";
+          const modality = document.getElementById("f-modality")?.value || "";
+          const license = document.getElementById("f-license")?.value || "";
+          let list = models.slice();
+          if (vendor) list = list.filter((m) => m.vendor_id === vendor);
+          if (modality) list = list.filter((m) => (m.modalities || []).includes(modality));
+          if (license === "open") list = list.filter((m) => isOpenLicense(m.license));
+          if (license === "proprietary") list = list.filter((m) => !isOpenLicense(m.license));
+          list.sort((a, b) => String(b.updated_at).localeCompare(String(a.updated_at)));
+          const grid = document.getElementById("models-grid");
+          if (grid) {
+            grid.innerHTML = list.length
+              ? list.map((m) => modelCardHTML(m, ui)).join("")
+              : emptyState(ui, "models");
+          }
+        };
+
+        const vendorOpts = vendors.map((v) => {
+          const sample = models.find((m) => m.vendor_id === v);
+          const label = tField(sample, "vendor") || v;
+          return `<option value="${escapeHTML(v)}">${escapeHTML(label)}</option>`;
+        }).join("");
+        const modOpts = modalities.map((m) =>
+          `<option value="${escapeHTML(m)}">${escapeHTML(modalityLabel(m, ui))}</option>`
+        ).join("");
+
+        main.innerHTML = `
+          <section class="hero">
+            <h1 data-i18n="models_title">${ui.models_title}</h1>
+            <p data-i18n="models_sub">${ui.models_sub}</p>
+            <p class="help-hint" data-i18n="models_hint">${ui.models_hint}</p>
+          </section>
+          <section class="section">
+            <div class="filters" role="search">
+              <label>${ui.filter_vendor}
+                <select id="f-vendor" class="filter-select">
+                  <option value="">${ui.filter_all}</option>
+                  ${vendorOpts}
+                </select>
+              </label>
+              <label>${ui.filter_modality}
+                <select id="f-modality" class="filter-select">
+                  <option value="">${ui.filter_all}</option>
+                  ${modOpts}
+                </select>
+              </label>
+              <label>${ui.filter_license}
+                <select id="f-license" class="filter-select">
+                  <option value="">${ui.filter_all}</option>
+                  <option value="open">${ui.license_open}</option>
+                  <option value="proprietary">${ui.license_proprietary}</option>
+                </select>
+              </label>
+            </div>
+            <div class="grid" id="models-grid"></div>
+          </section>
+        `;
+        applyStaticUI(ui);
+        ["f-vendor", "f-modality", "f-license"].forEach((id) => {
+          document.getElementById(id).addEventListener("change", renderList);
+        });
+        renderList();
+      },
+    });
+  </script>
+</body>
+</html>

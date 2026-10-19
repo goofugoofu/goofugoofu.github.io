@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>资讯 · 大模型情报 | News</title>
+  <meta name="description" content="大模型与 AI 产品资讯归档：发布、定价、政策与研究动态。" />
+  <meta property="og:title" content="资讯 · 大模型情报" />
+  <meta property="og:type" content="website" />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://goofugoofu.github.io/news.html" />
+  <script src="js/theme-boot.js"></script>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div id="app"></div>
+  <script src="js/i18n.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    bootPage({
+      active: "news",
+      metaKey: "meta_desc_news",
+      render: async (ui) => {
+        const main = document.getElementById("main");
+        const [news, models, tools] = await Promise.all([
+          fetchJSON("data/news.json"),
+          fetchJSON("data/models.json"),
+          fetchJSON("data/tools.json"),
+        ]);
+        const modelMap = {};
+        models.forEach((m) => { modelMap[m.id] = m; });
+        const toolMap = {};
+        tools.forEach((t) => { toolMap[t.id] = t; });
+        const types = ["", "release", "pricing", "policy", "research", "product"];
+
+        const render = () => {
+          const type = document.getElementById("f-type")?.value || "";
+          let list = news.filter((n) => n.status === "published");
+          if (type) list = list.filter((n) => n.type === type);
+          list.sort((a, b) => String(b.date).localeCompare(String(a.date)));
+          const feed = document.getElementById("news-feed");
+          if (!feed) return;
+          feed.innerHTML = list.length ? list.map((n) => {
+            const relatedModels = (n.related_model_ids || [])
+              .map((id) => modelMap[id])
+              .filter(Boolean)
+              .map((m) => `<a class="pill-link" href="model.html?id=${encodeURIComponent(m.id)}">${escapeHTML(tField(m, "name"))}</a>`)
+              .join("");
+            const relatedTools = (n.related_tool_ids || [])
+              .map((id) => toolMap[id])
+              .filter(Boolean)
+              .map((t) => `<a class="pill-link" href="tool.html?id=${encodeURIComponent(t.id)}">${escapeHTML(tField(t, "name"))}</a>`)
+              .join("");
+            return `
+              <article class="feed-item" id="${escapeHTML(n.id)}">
+                <div class="date">${escapeHTML(n.date)} · <span class="badge">${escapeHTML(newsTypeLabel(n.type, ui))}</span></div>
+                <h3>${escapeHTML(tField(n, "title"))}</h3>
+                <p>${escapeHTML(tField(n, "summary"))}</p>
+                <div class="feed-links">
+                  ${n.source_url ? `<a class="pill-link" href="${escapeHTML(n.source_url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(ui.source_label)}: ${escapeHTML(n.source || "")}</a>` : ""}
+                  ${relatedModels}${relatedTools}
+                </div>
+              </article>
+            `;
+          }).join("") : emptyState(ui, "news", { ctaHref: "models.html", ctaLabel: ui.empty_cta_models });
+        };
+
+        const typeOpts = types.map((t) => {
+          if (!t) return `<option value="">${ui.filter_all}</option>`;
+          return `<option value="${t}">${escapeHTML(newsTypeLabel(t, ui))}</option>`;
+        }).join("");
+
+        main.innerHTML = `
+          <section class="hero">
+            <h1 data-i18n="news_title">${ui.news_title}</h1>
+            <p data-i18n="news_sub">${ui.news_sub}</p>
+            <p class="help-hint" data-i18n="news_hint">${ui.news_hint}</p>
+            <div class="quick-links">
+              <a class="quick-link" href="daily.html" data-i18n="nav_daily">${ui.nav_daily}</a>
+              <a class="quick-link" href="models.html" data-i18n="nav_models">${ui.nav_models}</a>
+            </div>
+          </section>
+          <section class="section">
+            <div class="filters">
+              <label>${ui.filter_type}
+                <select id="f-type" class="filter-select">${typeOpts}</select>
+              </label>
+            </div>
+            <div class="feed" id="news-feed"></div>
+          </section>
+        `;
+        applyStaticUI(ui);
+        document.getElementById("f-type").addEventListener("change", render);
+        render();
+        if (location.hash) {
+          const el = document.getElementById(location.hash.slice(1));
+          if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+      },
+    });
+  </script>
+</body>
+</html>
