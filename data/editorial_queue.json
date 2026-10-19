@@ -1,0 +1,72 @@
+[
+  {
+    "id": "eq-gravity-notes",
+    "kind": "tool",
+    "title_zh": "Gravity Notes",
+    "title_en": "Gravity Notes",
+    "source_url": "https://www.producthunt.com/products/gravity-notes-for-mac",
+    "submitted_at": "2026-10-19",
+    "status": "pending",
+    "notes": "From suggested_tools.json / daily scan; needs use_when / avoid_when edit before publish."
+  },
+  {
+    "id": "eq-krea-3",
+    "kind": "tool",
+    "title_zh": "Krea 3",
+    "title_en": "Krea 3",
+    "source_url": "https://www.producthunt.com/products/krea",
+    "submitted_at": "2026-10-19",
+    "status": "pending",
+    "notes": "From suggested_tools.json / daily scan; needs use_when / avoid_when edit before publish."
+  },
+  {
+    "id": "eq-bee-frontier-and-bee-eclipse",
+    "kind": "tool",
+    "title_zh": "Bee Frontier and Bee Eclipse",
+    "title_en": "Bee Frontier and Bee Eclipse",
+    "source_url": "https://www.producthunt.com/products/bee-frontier-and-bee-eclipse",
+    "submitted_at": "2026-10-19",
+    "status": "pending",
+    "notes": "From suggested_tools.json / daily scan; needs use_when / avoid_when edit before publish."
+  },
+  {
+    "id": "eq-openbroca",
+    "kind": "tool",
+    "title_zh": "Openbroca",
+    "title_en": "Openbroca",
+    "source_url": "https://www.producthunt.com/products/openbroca",
+    "submitted_at": "2026-10-19",
+    "status": "pending",
+    "notes": "From suggested_tools.json / daily scan; needs use_when / avoid_when edit before publish."
+  },
+  {
+    "id": "eq-popcraft",
+    "kind": "tool",
+    "title_zh": "Popcraft",
+    "title_en": "Popcraft",
+    "source_url": "https://www.producthunt.com/products/popcraft",
+    "submitted_at": "2026-10-19",
+    "status": "pending",
+    "notes": "From suggested_tools.json / daily scan; needs use_when / avoid_when edit before publish."
+  },
+  {
+    "id": "eq-model-gpt-5-rumor",
+    "kind": "model",
+    "title_zh": "候选：下一代 GPT 旗舰（待官方确认）",
+    "title_en": "Candidate: next GPT flagship (await official)",
+    "source_url": "https://openai.com",
+    "submitted_at": "2026-10-18",
+    "status": "pending",
+    "notes": "Do not publish until official model page exists."
+  },
+  {
+    "id": "eq-news-krea3",
+    "kind": "news",
+    "title_zh": "候选资讯：Krea 3 图像模型（来自 PH 扫描）",
+    "title_en": "Candidate news: Krea 3 image model (from PH scan)",
+    "source_url": "https://www.producthunt.com/products/krea",
+    "submitted_at": "2026-10-19",
+    "status": "pending",
+    "notes": "Promote from daily scan to news.html only after editorial rewrite."
+  }
+]

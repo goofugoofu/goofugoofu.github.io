@@ -1,0 +1,205 @@
+[
+  {
+    "id": "news-2026-10-15-claude-haiku",
+    "date": "2026-10-15",
+    "title_zh": "Anthropic 发布 Claude Haiku 4.5：更快更省的轻量档",
+    "title_en": "Anthropic launches Claude Haiku 4.5: faster, cheaper light tier",
+    "summary_zh": "Haiku 4.5 面向高吞吐与低延迟场景，与 Sonnet/Opus 形成产品梯队。定价与限速以 Anthropic 官网为准。",
+    "summary_en": "Haiku 4.5 targets high-throughput, low-latency workloads alongside Sonnet/Opus. Pricing and rate limits: see Anthropic.",
+    "type": "release",
+    "related_model_ids": [
+      "claude-haiku-4-5"
+    ],
+    "related_tool_ids": [
+      "claude"
+    ],
+    "source": "Anthropic",
+    "source_url": "https://www.anthropic.com",
+    "status": "published"
+  },
+  {
+    "id": "news-2026-10-10-openai-api",
+    "date": "2026-10-10",
+    "title_zh": "OpenAI 平台模型页更新：GPT-4.1 / o 系列入口整理",
+    "title_en": "OpenAI platform model docs refreshed for GPT-4.1 and o-series",
+    "summary_zh": "开发者文档对长上下文与推理模型入口做了梳理。具体能力与价格请核对官方 Models 页。",
+    "summary_en": "Developer docs reorganized long-context and reasoning model entries. Verify capabilities and prices on the official Models page.",
+    "type": "product",
+    "related_model_ids": [
+      "gpt-4-1",
+      "o3",
+      "o4-mini"
+    ],
+    "related_tool_ids": [
+      "chatgpt"
+    ],
+    "source": "OpenAI",
+    "source_url": "https://platform.openai.com/docs/models",
+    "status": "published"
+  },
+  {
+    "id": "news-2026-09-29-claude-sonnet",
+    "date": "2026-09-29",
+    "title_zh": "Claude Sonnet 4.5 上线：编程与写作再加强",
+    "title_en": "Claude Sonnet 4.5 ships with stronger coding and writing",
+    "summary_zh": "Anthropic 更新 Sonnet 主力档，强调软件工程与长任务表现。对比 Opus 时注意成本差异。",
+    "summary_en": "Anthropic updates its Sonnet workhorse with emphasis on software engineering and long tasks. Compare cost vs Opus carefully.",
+    "type": "release",
+    "related_model_ids": [
+      "claude-sonnet-4-5"
+    ],
+    "related_tool_ids": [
+      "claude"
+    ],
+    "source": "Anthropic",
+    "source_url": "https://www.anthropic.com",
+    "status": "published"
+  },
+  {
+    "id": "news-2026-09-20-gemini",
+    "date": "2026-09-20",
+    "title_zh": "Gemini 2.5 Pro / Flash：百万级上下文多模态继续推进",
+    "title_en": "Gemini 2.5 Pro / Flash: million-token multimodal continues",
+    "summary_zh": "Google 在 AI Studio / API 侧持续推送 Gemini 2.5 系列。音视频与超长文档场景可优先试用 Flash 控成本。",
+    "summary_en": "Google continues Gemini 2.5 via AI Studio / API. Prefer Flash for A/V and huge docs when controlling cost.",
+    "type": "release",
+    "related_model_ids": [
+      "gemini-2-5-pro",
+      "gemini-2-5-flash"
+    ],
+    "related_tool_ids": [
+      "gemini"
+    ],
+    "source": "Google AI",
+    "source_url": "https://ai.google.dev/gemini-api/docs/models",
+    "status": "published"
+  },
+  {
+    "id": "news-2026-09-12-deepseek",
+    "date": "2026-09-12",
+    "title_zh": "DeepSeek API 与开源权重：V3 / R1 生态持续扩展",
+    "title_en": "DeepSeek API and open weights: V3 / R1 ecosystem keeps growing",
+    "summary_zh": "深度求索的开源与 API 双轨仍被国内团队广泛采用。部署时请核对许可证与商用条款。",
+    "summary_en": "DeepSeek’s open + API dual track remains popular with CN teams. Check license and commercial terms before deploy.",
+    "type": "product",
+    "related_model_ids": [
+      "deepseek-v3",
+      "deepseek-r1"
+    ],
+    "related_tool_ids": [],
+    "source": "DeepSeek",
+    "source_url": "https://www.deepseek.com",
+    "status": "published"
+  },
+  {
+    "id": "news-2026-09-05-qwen3",
+    "date": "2026-09-05",
+    "title_zh": "通义 Qwen3 系列：开源与阿里云商用同步更新",
+    "title_en": "Qwen3 series: open releases and Alibaba Cloud commercial updates",
+    "summary_zh": "Qwen 团队在开源仓库与云上 Model Studio 同步迭代。选型时分清开源权重与云端 Max 档。",
+    "summary_en": "Qwen iterates on GitHub and Alibaba Model Studio together. Separate open weights from cloud Max tiers when choosing.",
+    "type": "release",
+    "related_model_ids": [
+      "qwen3-235b",
+      "qwen-max"
+    ],
+    "related_tool_ids": [],
+    "source": "Qwen / Alibaba",
+    "source_url": "https://qwenlm.github.io",
+    "status": "published"
+  },
+  {
+    "id": "news-2026-08-28-kimi-k2",
+    "date": "2026-08-28",
+    "title_zh": "月之暗面 Kimi K2：开源 MoE 与长上下文产品线",
+    "title_en": "Moonshot Kimi K2: open MoE and long-context product line",
+    "summary_zh": "Kimi 产品与 K2 开源权重面向长文与智能体场景。具体参数与许可以官方公告为准。",
+    "summary_en": "Kimi products and K2 open weights target long-form and agents. Specs and license follow official notices.",
+    "type": "release",
+    "related_model_ids": [
+      "kimi-k2",
+      "kimi-chat"
+    ],
+    "related_tool_ids": [],
+    "source": "Moonshot",
+    "source_url": "https://www.moonshot.cn",
+    "status": "published"
+  },
+  {
+    "id": "news-2026-08-15-llama4",
+    "date": "2026-08-15",
+    "title_zh": "Meta Llama 4：开源多模态与超长上下文路线图进展",
+    "title_en": "Meta Llama 4: open multimodal and ultra-long context progress",
+    "summary_zh": "Llama 4 Maverick / Scout 继续推动自托管与云厂商托管。商用前务必阅读 Llama 社区许可。",
+    "summary_en": "Llama 4 Maverick / Scout drive self-host and cloud hosting. Read the Llama community license before commercial use.",
+    "type": "research",
+    "related_model_ids": [
+      "llama-4-maverick",
+      "llama-4-scout"
+    ],
+    "related_tool_ids": [],
+    "source": "Meta AI",
+    "source_url": "https://www.llama.com",
+    "status": "published"
+  },
+  {
+    "id": "news-2026-08-01-pricing-note",
+    "date": "2026-08-01",
+    "title_zh": "提醒：各厂商 API 定价频繁调整，请以官网为准",
+    "title_en": "Reminder: vendor API pricing changes often — check official pages",
+    "summary_zh": "本站模型卡中的定价说明仅为提示，不构成报价。采购与核算请直接打开各厂商定价页。",
+    "summary_en": "Pricing notes on model cards are reminders only, not quotes. Use each vendor’s official pricing page for procurement.",
+    "type": "pricing",
+    "related_model_ids": [],
+    "related_tool_ids": [],
+    "source": "AI Tool Map editorial",
+    "source_url": "https://goofugoofu.github.io/models.html",
+    "status": "published"
+  },
+  {
+    "id": "news-2026-10-01-glm",
+    "date": "2026-10-01",
+    "title_zh": "智谱 GLM-4.5：开源与清言产品线同步强化 Agent",
+    "title_en": "Zhipu GLM-4.5: open and ChatGLM products lean into agents",
+    "summary_zh": "智谱在开源权重与 API 两侧强化工具调用。国内落地可关注合规与私有化方案。",
+    "summary_en": "Zhipu strengthens tool use on open weights and API. Watch compliance and private-deploy options for China apps.",
+    "type": "release",
+    "related_model_ids": [
+      "glm-4-5"
+    ],
+    "related_tool_ids": [],
+    "source": "Zhipu AI",
+    "source_url": "https://www.zhipuai.cn",
+    "status": "published"
+  },
+  {
+    "id": "news-2026-09-18-grok",
+    "date": "2026-09-18",
+    "title_zh": "xAI Grok 与 X 平台：实时信息流继续作为卖点",
+    "title_en": "xAI Grok and X: realtime firehose remains the pitch",
+    "summary_zh": "Grok 强调与 X 数据结合的时效性。企业合规与内容审核需求需单独评估。",
+    "summary_en": "Grok leans on X data freshness. Evaluate enterprise compliance and moderation needs separately.",
+    "type": "product",
+    "related_model_ids": [
+      "grok-4"
+    ],
+    "related_tool_ids": [],
+    "source": "xAI",
+    "source_url": "https://x.ai",
+    "status": "published"
+  },
+  {
+    "id": "news-2026-10-08-policy",
+    "date": "2026-10-08",
+    "title_zh": "国内生成式 AI：备案与上架仍是产品上线关键路径",
+    "title_en": "China generative AI: filing and listing remain critical launch paths",
+    "summary_zh": "面向中国用户的生成式产品需关注算法备案与应用上架要求。本站仅作信息整理，不构成法律意见。",
+    "summary_en": "GenAI products for China users should track algorithm filing and app listing rules. This site is informational only, not legal advice.",
+    "type": "policy",
+    "related_model_ids": [],
+    "related_tool_ids": [],
+    "source": "Editorial note",
+    "source_url": "https://goofugoofu.github.io/about.html",
+    "status": "published"
+  }
+]

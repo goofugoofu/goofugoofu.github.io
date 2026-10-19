@@ -1,0 +1,288 @@
+[
+  {
+    "id": "chat-llm",
+    "title_zh": "通用对话大模型对比",
+    "title_en": "General chat LLM comparison",
+    "desc_zh": "面向日常对话、写作与通用问答的主流模型横评（能力描述概括性，以官网为准）。",
+    "desc_en": "Cross-cut of mainstream models for everyday chat, writing, and Q&A (high-level; verify on official sites).",
+    "scenario_id": "writing",
+    "columns": [
+      {
+        "id": "vendor",
+        "label_zh": "厂商",
+        "label_en": "Vendor"
+      },
+      {
+        "id": "context",
+        "label_zh": "上下文",
+        "label_en": "Context"
+      },
+      {
+        "id": "modal",
+        "label_zh": "模态",
+        "label_en": "Modalities"
+      },
+      {
+        "id": "license",
+        "label_zh": "许可",
+        "label_en": "License"
+      },
+      {
+        "id": "best",
+        "label_zh": "更适合",
+        "label_en": "Best for"
+      }
+    ],
+    "rows": [
+      {
+        "name": "GPT-4o",
+        "link": "model.html?id=gpt-4o",
+        "cells": {
+          "vendor": "OpenAI",
+          "context": "128K",
+          "modal": "text/image/audio",
+          "license": "proprietary",
+          "best_zh": "多模态日常",
+          "best_en": "Everyday multimodal"
+        }
+      },
+      {
+        "name": "Claude Sonnet 4.5",
+        "link": "model.html?id=claude-sonnet-4-5",
+        "cells": {
+          "vendor": "Anthropic",
+          "context": "200K",
+          "modal": "text/image",
+          "license": "proprietary",
+          "best_zh": "写作与编程",
+          "best_en": "Writing & coding"
+        }
+      },
+      {
+        "name": "Gemini 2.5 Pro",
+        "link": "model.html?id=gemini-2-5-pro",
+        "cells": {
+          "vendor": "Google",
+          "context": "1M",
+          "modal": "text/image/audio/video",
+          "license": "proprietary",
+          "best_zh": "超长与音视频",
+          "best_en": "Huge context & A/V"
+        }
+      },
+      {
+        "name": "DeepSeek-V3",
+        "link": "model.html?id=deepseek-v3",
+        "cells": {
+          "vendor": "DeepSeek",
+          "context": "128K",
+          "modal": "text",
+          "license": "open",
+          "best_zh": "性价比中文",
+          "best_en": "Value + Chinese"
+        }
+      },
+      {
+        "name": "Qwen3-235B",
+        "link": "model.html?id=qwen3-235b",
+        "cells": {
+          "vendor": "Alibaba",
+          "context": "128K",
+          "modal": "text",
+          "license": "open",
+          "best_zh": "开源中英",
+          "best_en": "Open bilingual"
+        }
+      },
+      {
+        "name": "Kimi K2",
+        "link": "model.html?id=kimi-k2",
+        "cells": {
+          "vendor": "Moonshot",
+          "context": "128K+",
+          "modal": "text",
+          "license": "open",
+          "best_zh": "长文与 Agent",
+          "best_en": "Long-form & agents"
+        }
+      }
+    ]
+  },
+  {
+    "id": "coding-assistants",
+    "title_zh": "编程助手对比",
+    "title_en": "Coding assistant comparison",
+    "desc_zh": "写代码、改 bug、读仓库场景下的模型 / 产品向对比。",
+    "desc_en": "Models/products for writing code, fixing bugs, and reading repos.",
+    "scenario_id": "coding",
+    "columns": [
+      {
+        "id": "type",
+        "label_zh": "类型",
+        "label_en": "Type"
+      },
+      {
+        "id": "strength",
+        "label_zh": "强项",
+        "label_en": "Strength"
+      },
+      {
+        "id": "context",
+        "label_zh": "上下文",
+        "label_en": "Context"
+      },
+      {
+        "id": "note",
+        "label_zh": "备注",
+        "label_en": "Note"
+      }
+    ],
+    "rows": [
+      {
+        "name": "Claude Opus 4.1",
+        "link": "model.html?id=claude-opus-4-1",
+        "cells": {
+          "type_zh": "模型",
+          "type_en": "Model",
+          "strength_zh": "复杂仓库",
+          "strength_en": "Hard repos",
+          "context": "200K",
+          "note_zh": "成本较高",
+          "note_en": "Higher cost"
+        }
+      },
+      {
+        "name": "Claude Sonnet 4.5",
+        "link": "model.html?id=claude-sonnet-4-5",
+        "cells": {
+          "type_zh": "模型",
+          "type_en": "Model",
+          "strength_zh": "日常编码",
+          "strength_en": "Daily coding",
+          "context": "200K",
+          "note_zh": "性价比主力",
+          "note_en": "Workhorse value"
+        }
+      },
+      {
+        "name": "GPT-4.1",
+        "link": "model.html?id=gpt-4-1",
+        "cells": {
+          "type_zh": "模型",
+          "type_en": "Model",
+          "strength_zh": "指令与工具",
+          "strength_en": "Instructions & tools",
+          "context": "1M",
+          "note_zh": "生态广",
+          "note_en": "Wide ecosystem"
+        }
+      },
+      {
+        "name": "DeepSeek-R1",
+        "link": "model.html?id=deepseek-r1",
+        "cells": {
+          "type_zh": "模型",
+          "type_en": "Model",
+          "strength_zh": "算法推理",
+          "strength_en": "Algo reasoning",
+          "context": "128K",
+          "note_zh": "开源可自托管",
+          "note_en": "Open, self-host"
+        }
+      },
+      {
+        "name": "Cursor / IDE 助手",
+        "link": "scenario.html?id=coding",
+        "cells": {
+          "type_zh": "产品场景",
+          "type_en": "Product scenario",
+          "strength_zh": "IDE 内联",
+          "strength_en": "In-IDE",
+          "context": "—",
+          "note_zh": "见编程场景工具",
+          "note_en": "See coding scenario tools"
+        }
+      }
+    ]
+  },
+  {
+    "id": "image-video-gen",
+    "title_zh": "图像 / 视频生成对比",
+    "title_en": "Image / video generation comparison",
+    "desc_zh": "从场景页工具与多模态模型中抽取的横向对照（非完整评测）。",
+    "desc_en": "Cross-cut from scenario tools and multimodal models (not a full benchmark).",
+    "scenario_id": "image-video",
+    "columns": [
+      {
+        "id": "focus",
+        "label_zh": "侧重",
+        "label_en": "Focus"
+      },
+      {
+        "id": "input",
+        "label_zh": "输入",
+        "label_en": "Input"
+      },
+      {
+        "id": "output",
+        "label_zh": "输出",
+        "label_en": "Output"
+      },
+      {
+        "id": "tip",
+        "label_zh": "选用提示",
+        "label_en": "Tip"
+      }
+    ],
+    "rows": [
+      {
+        "name": "Gemini 2.5 Pro",
+        "link": "model.html?id=gemini-2-5-pro",
+        "cells": {
+          "focus_zh": "理解+生成辅助",
+          "focus_en": "Understand + assist",
+          "input": "text/image/video",
+          "output": "text (+ tools)",
+          "tip_zh": "长视频理解",
+          "tip_en": "Long video understand"
+        }
+      },
+      {
+        "name": "Qwen2.5-VL",
+        "link": "model.html?id=qwen2-5-vl",
+        "cells": {
+          "focus_zh": "视觉理解",
+          "focus_en": "Vision understand",
+          "input": "image/video",
+          "output": "text",
+          "tip_zh": "中文 OCR/文档",
+          "tip_en": "CN OCR/docs"
+        }
+      },
+      {
+        "name": "GPT-4o",
+        "link": "model.html?id=gpt-4o",
+        "cells": {
+          "focus_zh": "看图对话",
+          "focus_en": "Vision chat",
+          "input": "image/audio",
+          "output": "text",
+          "tip_zh": "产品图快速沟通",
+          "tip_en": "Fast product-image chat"
+        }
+      },
+      {
+        "name": "图像/视频工具们",
+        "link": "scenario.html?id=image-video",
+        "cells": {
+          "focus_zh": "专用生成",
+          "focus_en": "Dedicated gen",
+          "input": "prompt",
+          "output": "image/video",
+          "tip_zh": "见场景工具列表",
+          "tip_en": "See scenario tool list"
+        }
+      }
+    ]
+  }
+]
