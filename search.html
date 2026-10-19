@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>搜索 · 大模型情报 | Search</title>
+  <meta name="description" content="全站搜索模型、工具与资讯。" />
+  <meta property="og:title" content="搜索 · 大模型情报" />
+  <meta property="og:type" content="website" />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://goofugoofu.github.io/search.html" />
+  <script src="js/theme-boot.js"></script>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div id="app"></div>
+  <script src="js/i18n.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    bootPage({
+      active: "search",
+      metaKey: "meta_desc_search",
+      render: async (ui) => {
+        const main = document.getElementById("main");
+        const [models, tools, news, daily] = await Promise.all([
+          fetchJSON("data/models.json"),
+          fetchJSON("data/tools.json"),
+          fetchJSON("data/news.json"),
+          fetchJSON("data/daily.json"),
+        ]);
+        const initial = qs("q") || "";
+
+        const run = () => {
+          const q = document.getElementById("search-q")?.value || "";
+          const results = searchCorpus(q, { models, tools, news, daily });
+          const box = document.getElementById("search-results");
+          if (!box) return;
+          if (!String(q).trim()) {
+            box.innerHTML = `<p class="help-hint" data-i18n="search_hint">${ui.search_hint}</p>`;
+            applyStaticUI(ui);
+            return;
+          }
+          if (!results.length) {
+            box.innerHTML = emptyState(ui, "search", { ctaHref: "index.html", ctaLabel: ui.empty_cta_home });
+            return;
+          }
+          box.innerHTML = results.slice(0, 40).map((r) => `
+            <a class="card search-result" href="${escapeHTML(r.href)}">
+              <div class="meta-row"><span class="badge">${escapeHTML(typeBadge(r.type, ui))}</span>${r.date ? `<span class="badge muted-badge">${escapeHTML(r.date)}</span>` : ""}</div>
+              <h3>${escapeHTML(tField(r, "title"))}</h3>
+              <p class="one-liner">${escapeHTML(tField(r, "summary"))}</p>
+            </a>
+          `).join("");
+        };
+
+        main.innerHTML = `
+          <section class="hero">
+            <h1 data-i18n="search_title">${ui.search_title}</h1>
+            <p data-i18n="search_sub">${ui.search_sub}</p>
+            <form class="hero-search" id="search-form" role="search">
+              <label class="sr-only" for="search-q">${ui.search_title}</label>
+              <input type="search" id="search-q" class="search-box search-box-lg" value="${escapeHTML(initial)}"
+                data-i18n-placeholder="search_placeholder" placeholder="${escapeHTML(ui.search_placeholder)}" />
+              <button type="submit" class="btn btn-primary" data-i18n="search_btn">${ui.search_btn}</button>
+            </form>
+          </section>
+          <section class="section">
+            <div class="grid" id="search-results"></div>
+          </section>
+        `;
+        applyStaticUI(ui);
+        const form = document.getElementById("search-form");
+        const input = document.getElementById("search-q");
+        form.addEventListener("submit", (e) => {
+          e.preventDefault();
+          const q = input.value.trim();
+          const url = new URL(location.href);
+          if (q) url.searchParams.set("q", q);
+          else url.searchParams.delete("q");
+          history.replaceState(null, "", url);
+          run();
+        });
+        input.addEventListener("input", () => {
+          clearTimeout(input._t);
+          input._t = setTimeout(run, 180);
+        });
+        run();
+      },
+    });
+  </script>
+</body>
+</html>

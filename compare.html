@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>对比 · 大模型情报 | Compare</title>
+  <meta name="description" content="大模型与 AI 工具场景对比表：对话、编程、图像视频。" />
+  <meta property="og:title" content="对比 · 大模型情报" />
+  <meta property="og:type" content="website" />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://goofugoofu.github.io/compare.html" />
+  <script src="js/theme-boot.js"></script>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div id="app"></div>
+  <script src="js/i18n.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    bootPage({
+      active: "compare",
+      metaKey: "meta_desc_compare",
+      render: async (ui) => {
+        const main = document.getElementById("main");
+        const compares = await fetchJSON("data/compares.json");
+        const id = qs("id");
+
+        if (!id) {
+          const cards = compares.map((c) => `
+            <a class="card card-compare" href="compare.html?id=${encodeURIComponent(c.id)}">
+              <h3>${escapeHTML(tField(c, "title"))}</h3>
+              <p>${escapeHTML(tField(c, "desc"))}</p>
+              <div class="meta-row"><span class="badge">${(c.rows || []).length}</span></div>
+            </a>
+          `).join("");
+          main.innerHTML = `
+            <section class="hero">
+              <h1 data-i18n="compare_title">${ui.compare_title}</h1>
+              <p data-i18n="compare_sub">${ui.compare_sub}</p>
+              <p class="help-hint" data-i18n="compare_hint">${ui.compare_hint}</p>
+            </section>
+            <section class="section">
+              <div class="grid grid-compares">${cards}</div>
+            </section>
+          `;
+          applyStaticUI(ui);
+          return;
+        }
+
+        const c = compares.find((x) => x.id === id);
+        if (!c) {
+          main.innerHTML = emptyState(ui, "tools", { ctaHref: "compare.html", ctaLabel: ui.back_compares })
+            + `<p class="muted small" style="text-align:center;margin-top:0.75rem">${escapeHTML(ui.compare_not_found)}</p>`;
+          applyStaticUI(ui);
+          return;
+        }
+
+        setPageMeta({
+          title: `${tField(c, "title")} · ${ui.site_name}`,
+          description: tField(c, "desc") || ui.meta_desc_compare,
+        });
+
+        const cols = c.columns || [];
+        const thead = `<tr><th>${getLang() === "zh" ? "名称" : "Name"}</th>${cols.map((col) =>
+          `<th>${escapeHTML(tField(col, "label"))}</th>`
+        ).join("")}</tr>`;
+        const tbody = (c.rows || []).map((row) => {
+          const nameCell = row.link
+            ? `<a href="${escapeHTML(row.link)}">${escapeHTML(row.name)}</a>`
+            : escapeHTML(row.name);
+          const cells = cols.map((col) => `<td>${escapeHTML(cellText(row.cells, col.id))}</td>`).join("");
+          return `<tr><th scope="row">${nameCell}</th>${cells}</tr>`;
+        }).join("");
+
+        main.innerHTML = `
+          <section class="detail-hero">
+            <a class="back-link" href="compare.html" data-i18n="back_compares">${ui.back_compares}</a>
+            <h1>${escapeHTML(tField(c, "title"))}</h1>
+            <p class="muted">${escapeHTML(tField(c, "desc"))}</p>
+            ${c.scenario_id ? `<p><a class="pill-link" href="scenario.html?id=${encodeURIComponent(c.scenario_id)}">${escapeHTML(ui.home_scenarios_title)}</a></p>` : ""}
+          </section>
+          <section class="section">
+            <div class="table-wrap">
+              <table class="compare-table">
+                <thead>${thead}</thead>
+                <tbody>${tbody}</tbody>
+              </table>
+            </div>
+            <p class="help-hint" data-i18n="compare_hint">${ui.compare_hint}</p>
+          </section>
+        `;
+        applyStaticUI(ui);
+      },
+    });
+  </script>
+</body>
+</html>

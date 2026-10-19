@@ -145,10 +145,14 @@ function headerHTML(active) {
         <div class="header-controls">
           <nav class="nav" aria-label="Main">
             <a href="index.html" class="${active === "home" ? "active" : ""}" data-i18n="nav_home">Home</a>
+            <a href="models.html" class="${active === "models" ? "active" : ""}" data-i18n="nav_models">Models</a>
+            <a href="index.html#scenarios" class="${active === "tools" || active === "scenarios" ? "active" : ""}" data-i18n="nav_tools">Tools</a>
+            <a href="news.html" class="${active === "news" ? "active" : ""}" data-i18n="nav_news">News</a>
+            <a href="compare.html" class="${active === "compare" ? "active" : ""}" data-i18n="nav_compare">Compare</a>
             <a href="daily.html" class="${active === "daily" ? "active" : ""}" data-i18n="nav_daily">Daily</a>
-            <a href="weekly.html" class="${active === "weekly" ? "active" : ""}" data-i18n="nav_weekly">Weekly</a>
             <a href="subscribe.html" class="${active === "subscribe" ? "active" : ""}" data-i18n="nav_subscribe">Subscribe</a>
             <a href="about.html" class="${active === "about" ? "active" : ""}" data-i18n="nav_about">About</a>
+            <a href="search.html" class="nav-search ${active === "search" ? "active" : ""}" data-i18n="nav_search" aria-label="Search">Search</a>
           </nav>
           <div class="theme-wrap">
             <span class="theme-label" data-i18n="theme_label">Theme</span>
@@ -165,12 +169,15 @@ function footerHTML() {
   return `
     <footer class="site-footer">
       <div class="container">
-        <p class="footer-tagline" data-i18n="footer">AI Tool Map · MVP</p>
+        <p class="footer-tagline" data-i18n="footer">AI Tool Map · portal</p>
         <nav class="footer-nav" aria-label="Footer">
+          <a href="models.html" data-i18n="nav_models">Models</a>
+          <a href="news.html" data-i18n="nav_news">News</a>
+          <a href="compare.html" data-i18n="nav_compare">Compare</a>
+          <a href="search.html" data-i18n="nav_search">Search</a>
+          <a href="daily.html" data-i18n="nav_daily">Daily</a>
           <a href="about.html" data-i18n="footer_about">About</a>
           <a href="subscribe.html" data-i18n="footer_subscribe">Subscribe</a>
-          <a href="daily.html" data-i18n="nav_daily">Daily</a>
-          <a href="weekly.html" data-i18n="nav_weekly">Weekly</a>
         </nav>
         <p class="footer-icp" id="footer-icp" data-i18n="footer_icp_empty">ICP备案号：待备案通过后填写</p>
       </div>
