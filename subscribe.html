@@ -3,7 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Subscribe · AI Tool Map</title>
+  <title>订阅与合作 · AI 工具地图 | Subscribe & business</title>
+  <meta name="description" content="订阅 AI 工具地图更新，或申请工具推荐位。微信/支付宝筹备中。 | Waitlist and sponsored listing inquiries." />
+  <meta property="og:title" content="订阅与合作 · AI 工具地图 | Subscribe & business" />
+  <meta property="og:description" content="订阅 AI 工具地图更新，或申请工具推荐位。微信/支付宝筹备中。" />
+  <meta property="og:type" content="website" />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:locale" content="zh_CN" />
+  <meta name="twitter:card" content="summary" />
+  <link rel="canonical" href="https://goofugoofu.github.io/subscribe.html" />
   <script src="js/theme-boot.js"></script>
   <link rel="stylesheet" href="css/styles.css" />
 </head>
@@ -19,6 +27,9 @@
         stripe_payment_link: "",
         stripe_sponsored_link: "",
         waitlist_mailto: "",
+        contact_email: "",
+        wechat_pay_enabled: false,
+        alipay_enabled: false,
         plans: [],
       }));
     }
@@ -37,14 +48,17 @@
 
     bootPage({
       active: "subscribe",
+      metaKey: "meta_desc_subscribe",
       render: async (ui) => {
         const main = document.getElementById("main");
         const mon = await loadMonetization();
         const payLink = (mon.stripe_payment_link || "").trim();
         const sponsoredLink = (mon.stripe_sponsored_link || "").trim();
-        const mailto = (mon.waitlist_mailto || "").trim();
+        const mailto = (mon.waitlist_mailto || mon.contact_email || "").trim();
         const plans = Array.isArray(mon.plans) ? mon.plans : [];
         const coming = comingLabel(ui);
+        const wechatOn = !!mon.wechat_pay_enabled;
+        const alipayOn = !!mon.alipay_enabled;
 
         const plansHTML = plans.map((p) => {
           const name = tField(p, "name") || p.id;
@@ -74,12 +88,32 @@
           ? `<a class="btn btn-ghost" href="mailto:${escapeHTML(mailto)}?subject=${encodeURIComponent("AI Tool Map sponsored listing")}">${ui.waitlist_mailto_btn}</a>`
           : "";
 
+        const wechatCard = `
+          <div class="pay-method ${wechatOn ? "" : "is-soon"}">
+            <div class="pay-method-icon" aria-hidden="true">💬</div>
+            <div>
+              <h3 data-i18n="pay_wechat">${ui.pay_wechat}</h3>
+              <p class="muted small">${wechatOn ? "" : escapeHTML(ui.pay_china_coming)}</p>
+            </div>
+            <span class="badge">${escapeHTML(wechatOn ? ui.pay_cta : ui.pay_china_coming)}</span>
+          </div>`;
+        const alipayCard = `
+          <div class="pay-method ${alipayOn ? "" : "is-soon"}">
+            <div class="pay-method-icon" aria-hidden="true">💙</div>
+            <div>
+              <h3 data-i18n="pay_alipay">${ui.pay_alipay}</h3>
+              <p class="muted small">${alipayOn ? "" : escapeHTML(ui.pay_china_coming)}</p>
+            </div>
+            <span class="badge">${escapeHTML(alipayOn ? ui.pay_cta : ui.pay_china_coming)}</span>
+          </div>`;
+
         main.innerHTML = `
           <section class="hero">
             <h1 data-i18n="subscribe_title">${ui.subscribe_title}</h1>
             <p data-i18n="subscribe_sub">${ui.subscribe_sub}</p>
             <div class="quick-links">
               <a class="quick-link" href="index.html"><span class="emoji">🏠</span><span data-i18n="nav_home">${ui.nav_home}</span></a>
+              <a class="quick-link" href="about.html"><span class="emoji">ℹ️</span><span data-i18n="nav_about">${ui.nav_about}</span></a>
               <a class="quick-link" href="weekly.html"><span class="emoji">✨</span><span data-i18n="quick_weekly">${ui.quick_weekly}</span></a>
             </div>
           </section>
@@ -92,8 +126,28 @@
               </div>
             </div>
             <div class="plans-grid">${plansHTML || `<div class="empty">${escapeHTML(coming)}</div>`}</div>
+          </section>
+
+          <section class="section">
+            <div class="section-head">
+              <div>
+                <h2 data-i18n="china_pay_heading">${ui.china_pay_heading}</h2>
+                <p data-i18n="china_pay_sub">${ui.china_pay_sub}</p>
+              </div>
+            </div>
+            <div class="pay-methods">${wechatCard}${alipayCard}</div>
+            <p class="notice-banner" data-i18n="pay_china_note">${ui.pay_china_note}</p>
+          </section>
+
+          <section class="section">
+            <div class="section-head">
+              <div>
+                <h2 data-i18n="pay_intl_heading">${ui.pay_intl_heading}</h2>
+                <p data-i18n="pay_intl_sub">${ui.pay_intl_sub}</p>
+              </div>
+            </div>
             <div class="cta-row">${payBtn}</div>
-            ${payLink ? "" : `<p class="notice-banner">${escapeHTML(coming)} — ${getLang() === "zh" ? "把 Stripe Payment Link 写进 data/monetization.json 后重新部署即可。" : "Paste a Stripe Payment Link into data/monetization.json and redeploy."}</p>`}
+            ${payLink ? "" : `<p class="notice-banner">${escapeHTML(coming)}</p>`}
           </section>
 
           <section class="section split-2">
@@ -102,7 +156,7 @@
               <p class="muted small" style="margin-bottom:1rem" data-i18n="subscribe_desc">${ui.subscribe_desc}</p>
               <form class="form" id="sub-form">
                 <label for="sub-email" data-i18n="email_placeholder">${ui.email_placeholder}</label>
-                <input id="sub-email" type="email" required data-i18n-placeholder="email_placeholder" placeholder="${ui.email_placeholder}" />
+                <input id="sub-email" type="email" required autocomplete="email" data-i18n-placeholder="email_placeholder" placeholder="${ui.email_placeholder}" />
                 <div class="cta-row">
                   <button type="submit" class="btn btn-primary" data-i18n="waitlist_btn">${ui.waitlist_btn}</button>
                   ${mailtoSub}
@@ -115,9 +169,9 @@
               <p class="muted small" style="margin-bottom:1rem" data-i18n="biz_desc">${ui.biz_desc}</p>
               <form class="form" id="biz-form">
                 <label for="biz-name" data-i18n="biz_name">${ui.biz_name}</label>
-                <input id="biz-name" type="text" required />
+                <input id="biz-name" type="text" required autocomplete="organization" />
                 <label for="biz-email" data-i18n="biz_email">${ui.biz_email}</label>
-                <input id="biz-email" type="email" required />
+                <input id="biz-email" type="email" required autocomplete="email" />
                 <label for="biz-msg" data-i18n="biz_message">${ui.biz_message}</label>
                 <textarea id="biz-msg" required></textarea>
                 <div class="cta-row">
@@ -137,9 +191,6 @@
           const email = document.getElementById("sub-email").value.trim();
           saveWaitlist({ type: "newsletter", email });
           document.getElementById("sub-note").classList.add("show");
-          if (mailto) {
-            // optional: also open mail client with prefilled body
-          }
         });
         document.getElementById("biz-form").addEventListener("submit", (e) => {
           e.preventDefault();

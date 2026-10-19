@@ -3,7 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Tool · AI Tool Map</title>
+  <title>工具详情 · AI 工具地图 | Tool detail</title>
+  <meta name="description" content="查看这款 AI 工具的适用场景与注意事项。 | When to use / avoid, pricing and sources." />
+  <meta property="og:title" content="工具详情 · AI 工具地图 | Tool detail" />
+  <meta property="og:description" content="查看这款 AI 工具的适用场景与注意事项。" />
+  <meta property="og:type" content="website" />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:locale" content="zh_CN" />
+  <meta name="twitter:card" content="summary" />
+  <link rel="canonical" href="https://goofugoofu.github.io/tool.html" />
   <script src="js/theme-boot.js"></script>
   <link rel="stylesheet" href="css/styles.css" />
 </head>
@@ -23,13 +31,18 @@
         ]);
         const tool = tools.find((t) => t.id === id);
         if (!tool) {
-          main.innerHTML = `<div class="empty"><strong>${escapeHTML(ui.tool_not_found)}</strong></div><p><a class="back-link" href="index.html">${ui.back_home}</a></p>`;
+          main.innerHTML = emptyState(ui, "tools", { ctaHref: "index.html", ctaLabel: ui.back_home }) + `<p class="muted small" style="text-align:center;margin-top:0.75rem">${escapeHTML(ui.tool_not_found)}</p>`;
           applyStaticUI(ui);
           return;
         }
         const scenarioMap = scenarioMapFrom(scenarios);
         const name = tField(tool, "name");
         document.title = `${name} · AI Tool Map`;
+        setPageMeta({
+          title: `${name} · ${ui.site_name}`,
+          description: tField(tool, "one_liner") || ui.meta_desc_tool,
+        });
+        injectJsonLd("ld-tool", toolJsonLd(tool));
         const badges = [
           `<span class="badge pricing">${pricingLabel(tool.pricing, ui)}</span>`,
         ];

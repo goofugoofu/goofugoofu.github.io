@@ -3,7 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Scenario · AI Tool Map</title>
+  <title>场景 · AI 工具地图 | Scenarios</title>
+  <meta name="description" content="按场景浏览推荐的 AI 工具。 | Browse recommended AI tools by scenario." />
+  <meta property="og:title" content="场景 · AI 工具地图 | Scenarios" />
+  <meta property="og:description" content="按场景浏览推荐的 AI 工具。" />
+  <meta property="og:type" content="website" />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:locale" content="zh_CN" />
+  <meta name="twitter:card" content="summary" />
+  <link rel="canonical" href="https://goofugoofu.github.io/scenario.html" />
   <script src="js/theme-boot.js"></script>
   <link rel="stylesheet" href="css/styles.css" />
 </head>
@@ -29,6 +37,23 @@
         }
         const list = tools.filter((t) => t.scenarios.includes(id));
         document.title = `${tField(scenario, "name")} · AI Tool Map`;
+        setPageMeta({
+          title: `${tField(scenario, "name")} · ${ui.site_name}`,
+          description: tField(scenario, "desc") || ui.meta_desc_scenario,
+        });
+        injectJsonLd("ld-scenario", {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          name: tField(scenario, "name"),
+          description: tField(scenario, "desc"),
+          numberOfItems: list.length,
+          itemListElement: list.slice(0, 30).map((t, n) => ({
+            "@type": "ListItem",
+            position: n + 1,
+            name: tField(t, "name"),
+            url: new URL(`tool.html?id=${encodeURIComponent(t.id)}`, location.href).href,
+          })),
+        });
         main.innerHTML = `
           <section class="detail-hero">
             <a class="back-link" href="index.html" data-i18n="back_home">${ui.back_home}</a>
