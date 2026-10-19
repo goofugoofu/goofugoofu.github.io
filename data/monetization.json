@@ -2,6 +2,10 @@
   "stripe_payment_link": "",
   "stripe_sponsored_link": "",
   "waitlist_mailto": "",
+  "contact_email": "",
+  "wechat_pay_enabled": false,
+  "alipay_enabled": false,
+  "icp_number": "",
   "plans": [
     {
       "id": "weekly",

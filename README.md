@@ -7,7 +7,7 @@ sdk: static
 app_file: index.html
 pinned: false
 license: mit
-short_description: Bilingual AI tool directory — scenarios, daily scans, weekly feed
+short_description: "Bilingual AI tool directory: scenarios and weekly feeds"
 ---
 
 # AI Tool Map (MVP)
@@ -22,8 +22,26 @@ Bilingual (ZH / EN) AI tool directory: scenario-based recommendations, daily upd
 - **Tool detail** — use when / avoid when, pricing, sources, sponsored & affiliate
 - **Daily Updates** — short outline summaries (filled by scanner + seeds)
 - **This Week’s New Tools** — weekly feed usable as newsletter copy
-- **Subscribe / Business** — demo forms for newsletter + sponsored listing interest
+- **Subscribe / Business** — waitlist forms; WeChat/Alipay “coming soon”; optional Stripe
+- **About** — mission + contact/business inquiry
+- **SEO + ICP footer** — meta/og tags; ICP placeholder for later filing number
 - **Daily scanner** — `scripts/scan-daily.py` pulls public sources into `data/daily.json` / `weekly.json`
+
+
+## Standing ops (`ops/`)
+
+Nine standing requirements are documented in **`ops/STANDING-OPS.md`** (SEO, chatbot/GEO, newsletter, X watch, monetization gates, etc.).
+
+| File | Purpose |
+|------|---------|
+| `ops/STANDING-OPS.md` | Maps the 9 requirements → routines/files |
+| `ops/monetization-gates.md` | **DRAFT** thresholds before paid spots / affiliates / sponsors |
+| `ops/newsletter-runbook.md` | Weekly issue from `weekly.json` → draft → review → send (ESP TBD) |
+| `llms.txt` | Guidance for AI agents / chatbots citing this site |
+| `robots.txt` | Allow crawlers; points to sitemap |
+| `sitemap.xml` | Main HTML + scenario/tool URLs — **base URL placeholder** `https://goofugoofu.github.io/` until custom domain |
+
+Until gates are met (or founder overrides), monetization stays soft: no hard paywall on core browse.
 
 ## Theme switcher
 
@@ -47,8 +65,10 @@ Themes apply via `data-theme` on `<html>` and CSS variables. `js/theme-boot.js` 
 - **GitHub Pages (live):** https://goofugoofu.github.io/
 - Source mirror: https://github.com/goofugoofu/ai-tool-map
 - Pages repo: https://github.com/goofugoofu/goofugoofu.github.io
+- **Hugging Face Space (live):** https://huggingface.co/spaces/TonyGooF/ai-tool-map
+- Space app URL: https://tonygoof-ai-tool-map.hf.space
 
-Hugging Face Space (`TonyGooF/ai-tool-map`) is **prepared** (`scripts/deploy-hf.sh` + README `sdk: static` frontmatter) but **not deployed yet** — shell has no write token until browser auth at https://hf.co/oauth/device is confirmed (do not confuse with App Store codes).
+Redeploy the Space with `./scripts/deploy-hf.sh` when the local tree changes. GitHub Pages is a separate push to `goofugoofu/goofugoofu.github.io`.
 
 ## Deploy to Hugging Face Space (static)
 
@@ -89,25 +109,31 @@ npx --yes serve -l 5173 .
 ```
 
 
-## Monetization (Stripe Payment Links)
+## Monetization
 
 Edit `data/monetization.json`:
 
 ```json
 {
-  "stripe_payment_link": "https://buy.stripe.com/....",
-  "stripe_sponsored_link": "https://buy.stripe.com/....",
-  "waitlist_mailto": "you@example.com",
+  "stripe_payment_link": "",
+  "stripe_sponsored_link": "",
+  "waitlist_mailto": "",
+  "contact_email": "",
+  "wechat_pay_enabled": false,
+  "alipay_enabled": false,
+  "icp_number": "",
   "plans": [ ... ]
 }
 ```
 
-- If `stripe_payment_link` is **non-empty**, the Subscribe page **Pay** CTA opens that URL.
-- If empty, the UI shows **收款链接待配置 / Coming soon** and saves emails to a **localStorage waitlist** (optional `mailto:` when `waitlist_mailto` is set).
-- Same rule for `stripe_sponsored_link` on the business / sponsored listing CTA.
-- After changing links, **redeploy** the Space (`./scripts/deploy-hf.sh` or `hf upload …`).
+- **China (primary):** WeChat Pay / Alipay show as **即将开通 / Coming soon** until merchant + ICP are ready. Do **not** invent payment URLs. Flip `wechat_pay_enabled` / `alipay_enabled` only when real checkout exists.
+- **Stripe (optional):** If `stripe_payment_link` is non-empty, the international Pay CTA opens that URL; empty = disabled.
+- Same rule for `stripe_sponsored_link` on sponsored listing.
+- `waitlist_mailto` / `contact_email` enable optional `mailto:` buttons; forms also save to a **localStorage waitlist**.
+- `icp_number`: when set, the footer shows the备案号; when empty, shows a placeholder (“待备案通过后填写”).
+- After changing config, redeploy Pages / Space.
 
-Payments are **not** live until you paste real Stripe Payment Links. Empty strings mean checkout is intentionally disabled.
+No fake checkout links — empty means intentionally disabled.
 
 ## Daily scanner
 
@@ -203,17 +229,26 @@ ai-tool-map/
   daily.html
   weekly.html
   subscribe.html
+  about.html
+  llms.txt
+  robots.txt
+  sitemap.xml
   css/styles.css
   js/i18n.js
   js/app.js
   js/theme-boot.js
   scripts/scan-daily.py
+  ops/
+    STANDING-OPS.md
+    monetization-gates.md
+    newsletter-runbook.md
   data/
     scenarios.json
     tools.json
     daily.json
     weekly.json
     ui.json
+    monetization.json
     manual_scan.json
     x_hits.json          # X posts for scanner ingest
     suggested_tools.json   # created by scanner
@@ -229,11 +264,13 @@ ai-tool-map/
 
 ## Gaps (still out of MVP)
 
-- Subscribe / business forms are front-end demos only
-- No auth, CMS, or payment
+- Subscribe / business / contact forms are front-end waitlists only
+- WeChat/Alipay and Stripe checkout not live until configured
+- No auth or CMS
 - RunningHub / Higgsfield still need real public feeds; X works via `x_hits.json` and/or bearer token
 - Suggested tools are not auto-published into `tools.json`
-- Not deployed publicly
+- Live on GitHub Pages and Hugging Face Space; China cloud + ICP still pending
+- `sitemap.xml` / canonical / `llms.txt` still use Pages placeholder host until custom domain
 
 ## License
 
