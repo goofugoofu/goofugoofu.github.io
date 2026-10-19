@@ -14,10 +14,20 @@ short_description: "Bilingual AI tool directory: scenarios and weekly feeds"
 
 Bilingual (ZH / EN) AI tool directory: scenario-based recommendations, daily update outlines, and a “this week’s new tools” feed that doubles as a newsletter source.
 
+## Portal pages
+
+The site is an LLM information portal (大模型情报 · AI Tool Map):
+
+- `models.html` / `model.html?id=` — model cards (`data/models.json`, `data/vendors.json`)
+- `news.html` — editorial news (`data/news.json`); `daily.html` stays the scan feed
+- `compare.html` / `compare.html?id=` — scenario compare tables (`data/compares.json`)
+- `search.html?q=` — search models + tools + news (+ daily)
+- Editorial candidates: `data/editorial_queue.json` and `ops/EDITORIAL-QUEUE.md`
+
 ## Features
 
 - **Language toggle** — only one language shown at a time; preference saved in `localStorage` (`ai-tool-map-lang`)
-- **Home** — scenario entry, today’s update summary, new-this-week tools, search
+- **Home** — portal flow: top stories, featured models, scenarios, compares, daily/tool teasers, search
 - **Scenario pages** — tools filtered by Writing / Image·Video / Coding / Agents / Research / Office
 - **Tool detail** — use when / avoid when, pricing, sources, sponsored & affiliate
 - **Daily Updates** — short outline summaries (filled by scanner + seeds)

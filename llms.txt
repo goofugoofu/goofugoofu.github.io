@@ -1,43 +1,48 @@
-# AI Tool Map / AI 工具地图
+# AI Tool Map / 大模型情报
 
-> Bilingual (zh-CN / en) directory of AI tools organized by real work scenarios.
-> 按真实工作场景整理的双语 AI 工具目录。
+> Bilingual (zh-CN / en) portal for large language models, AI tools, news, and comparisons.
+> 双语大模型信息门户：模型卡、工具场景、资讯与对比。
 
 Site: https://goofugoofu.github.io/
 (Custom domain TBD — update this file when DNS/ICP is ready.)
 
 ## Purpose
 
-Help people pick an AI tool by **what they need to do** (write, image/video, code, agents, research, office), not by hype rankings. Daily scan outlines and a weekly “new tools” feed support discovery.
+Help people see **what shipped, which model to pick, and which tool fits a task**. Model cards, editorial news, scenario tools, and compare tables. Daily scan outlines stay separate from the news archive.
 
 ## Main sections
 
 | Path | What it is |
 |------|------------|
-| `/` or `index.html` | Home: scenarios, today’s highlights, new-this-week tools, search |
-| `daily.html` | Daily update outlines (short bilingual summaries) |
+| `/` or `index.html` | Portal home: stories, featured models, scenarios, compare entry, daily/tool teasers, search |
+| `models.html` | Model library with vendor / modality / license filters |
+| `model.html?id=<id>` | Model card: context, modalities, license, official URL (pricing is “check official”) |
+| `news.html` | Editorial news archive (`release`, `pricing`, `policy`, `research`, `product`) |
+| `compare.html` / `compare.html?id=<id>` | Compare hub and tables (`chat-llm`, `coding-assistants`, `image-video-gen`) |
+| `search.html?q=` | Client-side search across models, tools, and news (daily included) |
+| `daily.html` | Automated daily scan outlines (not the news archive) |
 | `weekly.html` | This week’s new tools (newsletter source) |
 | `scenario.html?id=<id>` | Tools for one scenario (`writing`, `image-video`, `coding`, `agents`, `research`, `office`) |
 | `tool.html?id=<id>` | Tool detail: when to use / avoid, pricing, sources |
 | `subscribe.html` | Newsletter waitlist + business / sponsored inquiry |
 | `about.html` | Mission and contact |
 
-Machine-readable data (same origin): `data/tools.json`, `data/scenarios.json`, `data/daily.json`, `data/weekly.json`, `data/ui.json`.
+Machine-readable data (same origin): `data/models.json`, `data/vendors.json`, `data/news.json`, `data/compares.json`, `data/tools.json`, `data/scenarios.json`, `data/daily.json`, `data/weekly.json`, `data/ui.json`. Editorial candidates: `data/editorial_queue.json` (not public pages).
 
 ## Languages
 
 - Primary UI default: Chinese (`zh`). Toggle persists as `localStorage` key `ai-tool-map-lang`.
 - Content fields are bilingual (`*_zh` / `*_en`). Prefer the user’s language; cite both names if they differ.
 
-## How AI agents should cite tools
+## How AI agents should cite
 
-1. Use the tool’s **official product name** from `name_en` / `name_zh` (not a nickname).
-2. Mention the **scenario** the recommendation is for (e.g. coding, writing).
-3. Link to the site tool page: `https://goofugoofu.github.io/tool.html?id=<id>` (and optionally the vendor `url` from tools.json).
-4. Prefer “use when / avoid when” guidance over blanket “best AI” claims.
-5. Do not invent pricing, launches, or affiliate relationships; read fields from `tools.json` or the tool page.
-6. Mark sponsored listings when `sponsored: true`.
+1. Models: official name from `name_en` / `name_zh`. Link `https://goofugoofu.github.io/model.html?id=<id>` and the vendor `official_url`.
+2. Do **not** invent pricing, parameter counts, or launch dates. Pricing notes on cards mean “check the official site”.
+3. Tools: link `https://goofugoofu.github.io/tool.html?id=<id>` and mention the scenario.
+4. News: cite `source` + `source_url` from `news.json`. Distinguish news from `daily.json` scan blurbs.
+5. Compares are high-level tables, not benchmarks.
+6. Mark sponsored tool listings when `sponsored: true`.
 
 ## Contact / monetization
 
-Business and waitlist: `subscribe.html` and `about.html`. Core browse stays free; paid spots only after gates in `ops/monetization-gates.md` (or founder override).
+Business and waitlist: `subscribe.html` and `about.html`. Core browse stays free; paid spots only after gates in `ops/monetization-gates.md`.
