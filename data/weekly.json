@@ -1,19 +1,16 @@
 [
   {
-    "id": "week-2026-w42-scan",
-    "week_label_zh": "2026 年第 42 周",
-    "week_label_en": "Week 42, 2026",
-    "date_range": "2026-10-12 — 2026-10-18",
-    "title_zh": "本周扫描更新（2026-10-16）",
-    "title_en": "Weekly scan update (2026-10-16)",
+    "id": "week-2026-w43-scan",
+    "week_label_zh": "2026 年第 43 周",
+    "week_label_en": "Week 43, 2026",
+    "date_range": "2026-10-19 — 2026-10-25",
+    "title_zh": "本周扫描更新（2026-10-19）",
+    "title_en": "Weekly scan update (2026-10-19)",
     "intro_zh": "自动扫描写入。今日来源统计：Product Hunt×6、Hugging Face×4、Hugging Face Spaces×2、GitHub×6、X×7、RunningHub×1、Higgsfield×1。可作通讯草稿。",
     "intro_en": "Auto-scan write-up. Today's source counts: Product Hunt×6, Hugging Face×4, Hugging Face Spaces×2, GitHub×6, X×7, RunningHub×1, Higgsfield×1. Reuse as newsletter draft.",
     "tool_ids": [
-      "dreamscale-labs",
-      "kerno",
-      "embeddinggemma-2",
-      "qwen-image",
       "minicpm-v",
+      "embeddinggemma-2",
       "deepsite",
       "chatgpt",
       "claude",
@@ -22,26 +19,67 @@
       "higgsfield"
     ],
     "highlights_zh": [
-      "Navige（来自 Product Hunt）",
-      "CodeCrab（来自 Product Hunt）",
-      "Dreamscale Labs（来自 Product Hunt）",
-      "Shrine（来自 Product Hunt）",
-      "SuperLocalMemory（来自 Product Hunt）",
-      "Kerno 1.0（来自 Product Hunt）",
-      "embeddinggemma-2（来自 Hugging Face）",
-      "humanizer（来自 Hugging Face）"
+      "Gravity Notes（来自 Product Hunt）",
+      "Krea 3（来自 Product Hunt）",
+      "Bee Frontier and Bee Eclipse（来自 Product Hunt）",
+      "Openbroca（来自 Product Hunt）",
+      "Popcraft（来自 Product Hunt）",
+      "shim-cli（来自 Product Hunt）",
+      "DeepSeek-V4.1-Flash-1017（来自 Hugging Face）",
+      "MiniCPM-V-4.7-35B-A3B（来自 Hugging Face）"
     ],
     "highlights_en": [
-      "Navige (via Product Hunt)",
-      "CodeCrab (via Product Hunt)",
-      "Dreamscale Labs (via Product Hunt)",
-      "Shrine (via Product Hunt)",
-      "SuperLocalMemory (via Product Hunt)",
-      "Kerno 1.0 (via Product Hunt)",
-      "embeddinggemma-2 (via Hugging Face)",
-      "humanizer (via Hugging Face)"
+      "Gravity Notes (via Product Hunt)",
+      "Krea 3 (via Product Hunt)",
+      "Bee Frontier and Bee Eclipse (via Product Hunt)",
+      "Openbroca (via Product Hunt)",
+      "Popcraft (via Product Hunt)",
+      "shim-cli (via Product Hunt)",
+      "DeepSeek-V4.1-Flash-1017 (via Hugging Face)",
+      "MiniCPM-V-4.7-35B-A3B (via Hugging Face)"
     ],
-    "updated_at": "2026-10-16T06:05:25.292978+00:00"
+    "updated_at": "2026-10-19T00:27:01.036173+00:00"
+  },
+  {
+    "id": "week-2026-w42-scan",
+    "week_label_zh": "2026 年第 42 周",
+    "week_label_en": "Week 42, 2026",
+    "date_range": "2026-10-12 — 2026-10-18",
+    "title_zh": "本周扫描更新（2026-10-18）",
+    "title_en": "Weekly scan update (2026-10-18)",
+    "intro_zh": "自动扫描写入。今日来源统计：Product Hunt×6、Hugging Face×4、Hugging Face Spaces×2、GitHub×6、X×7、RunningHub×1、Higgsfield×1。可作通讯草稿。",
+    "intro_en": "Auto-scan write-up. Today's source counts: Product Hunt×6, Hugging Face×4, Hugging Face Spaces×2, GitHub×6, X×7, RunningHub×1, Higgsfield×1. Reuse as newsletter draft.",
+    "tool_ids": [
+      "claude",
+      "embeddinggemma-2",
+      "minicpm-v",
+      "deepsite",
+      "chatgpt",
+      "gemini",
+      "runninghub",
+      "higgsfield"
+    ],
+    "highlights_zh": [
+      "Notion: Context for your agents（来自 Product Hunt）",
+      "Craft Agents（来自 Product Hunt）",
+      "Step 5 Preview（来自 Product Hunt）",
+      "CrewTower Mod for Claude Code（来自 Product Hunt）",
+      "Grablo Spot（来自 Product Hunt）",
+      "Atelier（来自 Product Hunt）",
+      "embeddinggemma-2（来自 Hugging Face）",
+      "DeepSeek-V4.1-Flash-1017（来自 Hugging Face）"
+    ],
+    "highlights_en": [
+      "Notion: Context for your agents (via Product Hunt)",
+      "Craft Agents (via Product Hunt)",
+      "Step 5 Preview (via Product Hunt)",
+      "CrewTower Mod for Claude Code (via Product Hunt)",
+      "Grablo Spot (via Product Hunt)",
+      "Atelier (via Product Hunt)",
+      "embeddinggemma-2 (via Hugging Face)",
+      "DeepSeek-V4.1-Flash-1017 (via Hugging Face)"
+    ],
+    "updated_at": "2026-10-17T23:38:51.213978+00:00"
   },
   {
     "id": "week-2026-w42-1",
