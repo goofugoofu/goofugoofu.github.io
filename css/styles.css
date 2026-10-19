@@ -713,3 +713,125 @@ a.card:hover {
   color: var(--text-muted);
   font-size: 0.92rem;
 }
+
+/* Footer links + ICP placeholder */
+.site-footer .footer-tagline { margin: 0 0 0.65rem; }
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.35rem 1rem;
+  margin: 0 0 0.85rem;
+}
+.footer-nav a {
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  font-weight: 550;
+  text-decoration: none;
+}
+.footer-nav a:hover { color: var(--accent); text-decoration: none; }
+.footer-icp {
+  margin: 0;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  opacity: 0.85;
+  letter-spacing: 0.01em;
+}
+
+/* Empty state CTA */
+.empty-cta {
+  display: inline-flex;
+  margin-top: 0.85rem;
+  padding: 0.45rem 1rem;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  border: 1px solid var(--border);
+  color: var(--accent);
+  font-weight: 650;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+.empty-cta:hover { text-decoration: none; filter: brightness(1.06); }
+
+/* China payment method cards */
+.pay-methods {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+.pay-method {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 1.1rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow);
+}
+.pay-method.is-soon { opacity: 0.85; }
+.pay-method h3 {
+  margin: 0 0 0.15rem;
+  font-size: 1rem;
+}
+.pay-method .badge { margin-left: auto; flex-shrink: 0; }
+.pay-method-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  background: var(--accent-soft);
+  font-size: 1.25rem;
+  flex-shrink: 0;
+}
+
+.about-panel p {
+  margin: 0;
+  font-size: 1.02rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+}
+
+/* Mobile header / search polish */
+@media (max-width: 720px) {
+  .header-inner {
+    align-items: flex-start;
+  }
+  .header-controls {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .nav {
+    width: 100%;
+    order: 3;
+    padding-top: 0.15rem;
+    gap: 0.15rem;
+  }
+  .nav a {
+    padding: 0.4rem 0.65rem;
+    font-size: 0.88rem;
+  }
+  .theme-label { display: none; }
+  .theme-select { max-width: 9.5rem; }
+  .section-head .search-box,
+  .search-box {
+    max-width: none;
+    width: 100%;
+  }
+  .hero { padding-top: 1.35rem; }
+  .quick-link {
+    padding: 0.5rem 0.85rem;
+    font-size: 0.88rem;
+  }
+  .card-scenario { min-height: 0; }
+}
+
+@media (max-width: 420px) {
+  .container { width: min(1080px, calc(100% - 1.25rem)); }
+  .brand span[data-i18n="site_name"],
+  .brand > span:last-child {
+    font-size: 0.95rem;
+  }
+}

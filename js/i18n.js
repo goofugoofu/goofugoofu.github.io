@@ -14,6 +14,27 @@ const THEME_OPTIONS = [
   { id: "high-contrast", labelKey: "theme_high_contrast" },
 ];
 
+let _siteConfig = null;
+
+async function loadSiteConfig() {
+  if (_siteConfig) return _siteConfig;
+  try {
+    _siteConfig = await fetch("data/monetization.json").then((r) => {
+      if (!r.ok) throw new Error("monetization");
+      return r.json();
+    });
+  } catch (_) {
+    _siteConfig = {
+      icp_number: "",
+      contact_email: "",
+      waitlist_mailto: "",
+      wechat_pay_enabled: false,
+      alipay_enabled: false,
+    };
+  }
+  return _siteConfig;
+}
+
 function getLang() {
   const stored = localStorage.getItem(LANG_KEY);
   if (stored === "zh" || stored === "en") return stored;
@@ -80,6 +101,14 @@ function applyStaticUI(ui) {
     });
     select.value = getTheme();
   }
+  const icpEl = document.getElementById("footer-icp");
+  if (icpEl && ui) {
+    const cfg = _siteConfig || {};
+    const num = (cfg.icp_number || "").trim();
+    icpEl.textContent = num
+      ? `${ui.footer_icp_prefix || ""}${num}`
+      : (ui.footer_icp_empty || "");
+  }
 }
 
 function wireLangToggle(onChange) {
@@ -119,6 +148,7 @@ function headerHTML(active) {
             <a href="daily.html" class="${active === "daily" ? "active" : ""}" data-i18n="nav_daily">Daily</a>
             <a href="weekly.html" class="${active === "weekly" ? "active" : ""}" data-i18n="nav_weekly">Weekly</a>
             <a href="subscribe.html" class="${active === "subscribe" ? "active" : ""}" data-i18n="nav_subscribe">Subscribe</a>
+            <a href="about.html" class="${active === "about" ? "active" : ""}" data-i18n="nav_about">About</a>
           </nav>
           <div class="theme-wrap">
             <span class="theme-label" data-i18n="theme_label">Theme</span>
@@ -134,7 +164,16 @@ function headerHTML(active) {
 function footerHTML() {
   return `
     <footer class="site-footer">
-      <div class="container" data-i18n="footer">AI Tool Map · MVP</div>
+      <div class="container">
+        <p class="footer-tagline" data-i18n="footer">AI Tool Map · MVP</p>
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="about.html" data-i18n="footer_about">About</a>
+          <a href="subscribe.html" data-i18n="footer_subscribe">Subscribe</a>
+          <a href="daily.html" data-i18n="nav_daily">Daily</a>
+          <a href="weekly.html" data-i18n="nav_weekly">Weekly</a>
+        </nav>
+        <p class="footer-icp" id="footer-icp" data-i18n="footer_icp_empty">ICP备案号：待备案通过后填写</p>
+      </div>
     </footer>
   `;
 }
