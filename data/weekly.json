@@ -4,10 +4,10 @@
     "week_label_zh": "2026 年第 43 周",
     "week_label_en": "Week 43, 2026",
     "date_range": "2026-10-19 — 2026-10-25",
-    "title_zh": "本周扫描更新（2026-10-19）",
-    "title_en": "Weekly scan update (2026-10-19)",
-    "intro_zh": "自动扫描写入。今日来源统计：Product Hunt×6、Hugging Face×4、Hugging Face Spaces×2、GitHub×6、X×7、RunningHub×1、Higgsfield×1。可作通讯草稿。",
-    "intro_en": "Auto-scan write-up. Today's source counts: Product Hunt×6, Hugging Face×4, Hugging Face Spaces×2, GitHub×6, X×7, RunningHub×1, Higgsfield×1. Reuse as newsletter draft.",
+    "title_zh": "本周扫描更新（2026-10-20）",
+    "title_en": "Weekly scan update (2026-10-20)",
+    "intro_zh": "自动扫描写入。今日来源统计：Product Hunt×8、Hugging Face×5、Hugging Face Spaces×2、GitHub×8、X×7、RunningHub×1、Higgsfield×1。可作通讯草稿。",
+    "intro_en": "Auto-scan write-up. Today's source counts: Product Hunt×8, Hugging Face×5, Hugging Face Spaces×2, GitHub×8, X×7, RunningHub×1, Higgsfield×1. Reuse as newsletter draft.",
     "tool_ids": [
       "minicpm-v",
       "embeddinggemma-2",
@@ -19,26 +19,26 @@
       "higgsfield"
     ],
     "highlights_zh": [
-      "Gravity Notes（来自 Product Hunt）",
-      "Krea 3（来自 Product Hunt）",
-      "Bee Frontier and Bee Eclipse（来自 Product Hunt）",
-      "Openbroca（来自 Product Hunt）",
-      "Popcraft（来自 Product Hunt）",
-      "shim-cli（来自 Product Hunt）",
-      "DeepSeek-V4.1-Flash-1017（来自 Hugging Face）",
-      "MiniCPM-V-4.7-35B-A3B（来自 Hugging Face）"
+      "Lancetta（来自 Product Hunt）",
+      "CrawlForge MCP（来自 Product Hunt）",
+      "Own 1（来自 Product Hunt）",
+      "Beam.win（来自 Product Hunt）",
+      "Starkomand（来自 Product Hunt）",
+      "Beam（来自 Product Hunt）",
+      "walkai-talkai（来自 Product Hunt）",
+      "buddylist（来自 Product Hunt）"
     ],
     "highlights_en": [
-      "Gravity Notes (via Product Hunt)",
-      "Krea 3 (via Product Hunt)",
-      "Bee Frontier and Bee Eclipse (via Product Hunt)",
-      "Openbroca (via Product Hunt)",
-      "Popcraft (via Product Hunt)",
-      "shim-cli (via Product Hunt)",
-      "DeepSeek-V4.1-Flash-1017 (via Hugging Face)",
-      "MiniCPM-V-4.7-35B-A3B (via Hugging Face)"
+      "Lancetta (via Product Hunt)",
+      "CrawlForge MCP (via Product Hunt)",
+      "Own 1 (via Product Hunt)",
+      "Beam.win (via Product Hunt)",
+      "Starkomand (via Product Hunt)",
+      "Beam (via Product Hunt)",
+      "walkai-talkai (via Product Hunt)",
+      "buddylist (via Product Hunt)"
     ],
-    "updated_at": "2026-10-19T00:27:01.036173+00:00"
+    "updated_at": "2026-10-20T00:08:56.752202+00:00"
   },
   {
     "id": "week-2026-w42-scan",
