@@ -1,38 +1,14 @@
 [
   {
-    "id": "lancetta",
-    "name_zh": "Lancetta",
-    "name_en": "Lancetta",
-    "url": "https://www.producthunt.com/products/lancetta",
-    "scenarios": [
-      "coding"
-    ],
-    "one_liner_zh": "Know when to push your coding agents, and when to ease off",
-    "one_liner_en": "Know when to push your coding agents, and when to ease off",
-    "use_when_zh": "（待编辑）适合该工具定位的场景。",
-    "use_when_en": "(todo) When this tool’s positioning fits.",
-    "avoid_when_zh": "（待编辑）明确不适合的情况。",
-    "avoid_when_en": "(todo) When it is a poor fit.",
-    "pricing": "free",
-    "sources": [
-      "Product Hunt"
-    ],
-    "launched_or_updated_at": "2026-10-20",
-    "is_new_this_week": true,
-    "sponsored": false,
-    "affiliate_url": null,
-    "_suggested_by_scan": true
-  },
-  {
-    "id": "crawlforge-mcp",
-    "name_zh": "CrawlForge MCP",
-    "name_en": "CrawlForge MCP",
-    "url": "https://www.producthunt.com/products/crawlforge-mcp",
+    "id": "todo-is",
+    "name_zh": "ToDo.is",
+    "name_en": "ToDo.is",
+    "url": "https://www.producthunt.com/products/todo-is",
     "scenarios": [
       "agents"
     ],
-    "one_liner_zh": "Give your AI agent 31 web tools in one MCP server",
-    "one_liner_en": "Give your AI agent 31 web tools in one MCP server",
+    "one_liner_zh": "Write a to-do and your AI agent gets it done",
+    "one_liner_en": "Write a to-do and your AI agent gets it done",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -41,22 +17,22 @@
     "sources": [
       "Product Hunt"
     ],
-    "launched_or_updated_at": "2026-10-20",
+    "launched_or_updated_at": "2026-10-21",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
     "_suggested_by_scan": true
   },
   {
-    "id": "own-1",
-    "name_zh": "Own 1",
-    "name_en": "Own 1",
-    "url": "https://www.producthunt.com/products/own-1-a-powerful-personal-ai-computer",
+    "id": "stella",
+    "name_zh": "Stella",
+    "name_en": "Stella",
+    "url": "https://www.producthunt.com/products/stella-5",
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "Own your data. Own your AI. A mind of your own.",
-    "one_liner_en": "Own your data. Own your AI. A mind of your own.",
+    "one_liner_zh": "Your emotional wellness AI. A friend to figure it out with.",
+    "one_liner_en": "Your emotional wellness AI. A friend to figure it out with.",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -65,22 +41,22 @@
     "sources": [
       "Product Hunt"
     ],
-    "launched_or_updated_at": "2026-10-20",
+    "launched_or_updated_at": "2026-10-21",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
     "_suggested_by_scan": true
   },
   {
-    "id": "beam-win",
-    "name_zh": "Beam.win",
-    "name_en": "Beam.win",
-    "url": "https://www.producthunt.com/products/beam-win",
+    "id": "the-new-beings",
+    "name_zh": "The New Beings",
+    "name_en": "The New Beings",
+    "url": "https://www.producthunt.com/products/the-new-beings",
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "Run AI agents on one Mac and use its windows on another",
-    "one_liner_en": "Run AI agents on one Mac and use its windows on another",
+    "one_liner_zh": "AI agents on their break, performing a live talk show",
+    "one_liner_en": "AI agents on their break, performing a live talk show",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -89,71 +65,22 @@
     "sources": [
       "Product Hunt"
     ],
-    "launched_or_updated_at": "2026-10-20",
+    "launched_or_updated_at": "2026-10-21",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
     "_suggested_by_scan": true
   },
   {
-    "id": "starkomand",
-    "name_zh": "Starkomand",
-    "name_en": "Starkomand",
-    "url": "https://www.producthunt.com/products/starkomand",
+    "id": "harness",
+    "name_zh": "Harness²",
+    "name_en": "Harness²",
+    "url": "https://www.producthunt.com/products/harness-104",
     "scenarios": [
-      "coding"
-    ],
-    "one_liner_zh": "Run your AI coding agents on an infinite canvas.",
-    "one_liner_en": "Run your AI coding agents on an infinite canvas.",
-    "use_when_zh": "（待编辑）适合该工具定位的场景。",
-    "use_when_en": "(todo) When this tool’s positioning fits.",
-    "avoid_when_zh": "（待编辑）明确不适合的情况。",
-    "avoid_when_en": "(todo) When it is a poor fit.",
-    "pricing": "free",
-    "sources": [
-      "Product Hunt"
-    ],
-    "launched_or_updated_at": "2026-10-20",
-    "is_new_this_week": true,
-    "sponsored": false,
-    "affiliate_url": null,
-    "_suggested_by_scan": true
-  },
-  {
-    "id": "beam",
-    "name_zh": "Beam",
-    "name_en": "Beam",
-    "url": "https://www.producthunt.com/products/beam-13",
-    "scenarios": [
-      "research"
-    ],
-    "one_liner_zh": "Highly efficient agentic 501B parameter open model",
-    "one_liner_en": "Highly efficient agentic 501B parameter open model",
-    "use_when_zh": "（待编辑）适合该工具定位的场景。",
-    "use_when_en": "(todo) When this tool’s positioning fits.",
-    "avoid_when_zh": "（待编辑）明确不适合的情况。",
-    "avoid_when_en": "(todo) When it is a poor fit.",
-    "pricing": "free",
-    "sources": [
-      "Product Hunt"
-    ],
-    "launched_or_updated_at": "2026-10-20",
-    "is_new_this_week": true,
-    "sponsored": false,
-    "affiliate_url": null,
-    "_suggested_by_scan": true
-  },
-  {
-    "id": "walkai-talkai",
-    "name_zh": "walkai-talkai",
-    "name_en": "walkai-talkai",
-    "url": "https://www.producthunt.com/products/walkai-talkai",
-    "scenarios": [
-      "coding",
       "agents"
     ],
-    "one_liner_zh": "Talk to your AI coding agent over a walkie-talkie",
-    "one_liner_en": "Talk to your AI coding agent over a walkie-talkie",
+    "one_liner_zh": "Harness the agent. Then harness its self-improvement.",
+    "one_liner_en": "Harness the agent. Then harness its self-improvement.",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -162,22 +89,22 @@
     "sources": [
       "Product Hunt"
     ],
-    "launched_or_updated_at": "2026-10-20",
+    "launched_or_updated_at": "2026-10-21",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
     "_suggested_by_scan": true
   },
   {
-    "id": "buddylist",
-    "name_zh": "buddylist",
-    "name_en": "buddylist",
-    "url": "https://www.producthunt.com/products/buddylist-2",
+    "id": "esp-mosaico",
+    "name_zh": "ESP-Mosaico",
+    "name_en": "ESP-Mosaico",
+    "url": "https://www.producthunt.com/products/esp-mosaico",
     "scenarios": [
-      "coding"
+      "research"
     ],
-    "one_liner_zh": "Chat with your coding agents like it's 2005",
-    "one_liner_en": "Chat with your coding agents like it's 2005",
+    "one_liner_zh": "A modular development board built for agents",
+    "one_liner_en": "A modular development board built for agents",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -186,7 +113,31 @@
     "sources": [
       "Product Hunt"
     ],
-    "launched_or_updated_at": "2026-10-20",
+    "launched_or_updated_at": "2026-10-21",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null,
+    "_suggested_by_scan": true
+  },
+  {
+    "id": "lugh-xtudio",
+    "name_zh": "Lugh Xtudio",
+    "name_en": "Lugh Xtudio",
+    "url": "https://www.producthunt.com/products/lugh-xtudio",
+    "scenarios": [
+      "image-video"
+    ],
+    "one_liner_zh": "The video studio where AI agents edit with you",
+    "one_liner_en": "The video studio where AI agents edit with you",
+    "use_when_zh": "（待编辑）适合该工具定位的场景。",
+    "use_when_en": "(todo) When this tool’s positioning fits.",
+    "avoid_when_zh": "（待编辑）明确不适合的情况。",
+    "avoid_when_en": "(todo) When it is a poor fit.",
+    "pricing": "free",
+    "sources": [
+      "Product Hunt"
+    ],
+    "launched_or_updated_at": "2026-10-21",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -200,8 +151,8 @@
     "scenarios": [
       "image-video"
     ],
-    "one_liner_zh": "Trending HF model (image-text-to-text), likes≈1688. Full id: deepseek-ai/DeepSeek-V4.1-Flash-1017",
-    "one_liner_en": "Trending HF model (image-text-to-text), likes≈1688. Full id: deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "one_liner_zh": "Trending HF model (image-text-to-text), likes≈1951. Full id: deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "one_liner_en": "Trending HF model (image-text-to-text), likes≈1951. Full id: deepseek-ai/DeepSeek-V4.1-Flash-1017",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -210,7 +161,7 @@
     "sources": [
       "Hugging Face"
     ],
-    "launched_or_updated_at": "2026-10-20",
+    "launched_or_updated_at": "2026-10-21",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -224,8 +175,8 @@
     "scenarios": [
       "image-video"
     ],
-    "one_liner_zh": "Trending HF model (image-to-image), likes≈962. Full id: black-forest-labs/flux-3-image-klein-comfy",
-    "one_liner_en": "Trending HF model (image-to-image), likes≈962. Full id: black-forest-labs/flux-3-image-klein-comfy",
+    "one_liner_zh": "Trending HF model (image-to-image), likes≈1090. Full id: black-forest-labs/flux-3-image-klein-comfy",
+    "one_liner_en": "Trending HF model (image-to-image), likes≈1090. Full id: black-forest-labs/flux-3-image-klein-comfy",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -234,7 +185,7 @@
     "sources": [
       "Hugging Face"
     ],
-    "launched_or_updated_at": "2026-10-20",
+    "launched_or_updated_at": "2026-10-21",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -248,8 +199,8 @@
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "Trending HF model (text-to-speech), likes≈769. Full id: fishaudio/drama-3",
-    "one_liner_en": "Trending HF model (text-to-speech), likes≈769. Full id: fishaudio/drama-3",
+    "one_liner_zh": "Trending HF model (text-to-speech), likes≈836. Full id: fishaudio/drama-3",
+    "one_liner_en": "Trending HF model (text-to-speech), likes≈836. Full id: fishaudio/drama-3",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -258,7 +209,31 @@
     "sources": [
       "Hugging Face"
     ],
-    "launched_or_updated_at": "2026-10-20",
+    "launched_or_updated_at": "2026-10-21",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null,
+    "_suggested_by_scan": true
+  },
+  {
+    "id": "muse-spark-open-816b-a42b",
+    "name_zh": "Muse-Spark-Open-816B-A42B",
+    "name_en": "Muse-Spark-Open-816B-A42B",
+    "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
+    "scenarios": [
+      "image-video"
+    ],
+    "one_liner_zh": "Trending HF model (image-text-to-text), likes≈607. Full id: meta-models/Muse-Spark-Open-816B-A42B",
+    "one_liner_en": "Trending HF model (image-text-to-text), likes≈607. Full id: meta-models/Muse-Spark-Open-816B-A42B",
+    "use_when_zh": "（待编辑）适合该工具定位的场景。",
+    "use_when_en": "(todo) When this tool’s positioning fits.",
+    "avoid_when_zh": "（待编辑）明确不适合的情况。",
+    "avoid_when_en": "(todo) When it is a poor fit.",
+    "pricing": "free",
+    "sources": [
+      "Hugging Face"
+    ],
+    "launched_or_updated_at": "2026-10-21",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -272,8 +247,8 @@
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "Popular HF Space (docker), likes≈14139. id=open-llm-leaderboard/open_llm_leaderboard",
-    "one_liner_en": "Popular HF Space (docker), likes≈14139. id=open-llm-leaderboard/open_llm_leaderboard",
+    "one_liner_zh": "Popular HF Space (docker), likes≈14138. id=open-llm-leaderboard/open_llm_leaderboard",
+    "one_liner_en": "Popular HF Space (docker), likes≈14138. id=open-llm-leaderboard/open_llm_leaderboard",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -282,7 +257,7 @@
     "sources": [
       "Hugging Face Spaces"
     ],
-    "launched_or_updated_at": "2026-10-20",
+    "launched_or_updated_at": "2026-10-21",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -296,8 +271,8 @@
     "scenarios": [
       "coding"
     ],
-    "one_liner_zh": "The Agentic-Native Operating System ★84",
-    "one_liner_en": "The Agentic-Native Operating System ★84",
+    "one_liner_zh": "The Agentic-Native Operating System ★87",
+    "one_liner_en": "The Agentic-Native Operating System ★87",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -306,7 +281,7 @@
     "sources": [
       "GitHub"
     ],
-    "launched_or_updated_at": "2026-10-20",
+    "launched_or_updated_at": "2026-10-21",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -331,23 +306,22 @@
     "sources": [
       "GitHub"
     ],
-    "launched_or_updated_at": "2026-10-20",
+    "launched_or_updated_at": "2026-10-21",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
     "_suggested_by_scan": true
   },
   {
-    "id": "ai-agent-for-pc",
-    "name_zh": "VoltEmperorChaos/ai-agent-for-pc",
-    "name_en": "VoltEmperorChaos/ai-agent-for-pc",
-    "url": "https://github.com/VoltEmperorChaos/ai-agent-for-pc",
+    "id": "josie-voice",
+    "name_zh": "Goekdeniz-Guelmez/JOSIE-Voice",
+    "name_en": "Goekdeniz-Guelmez/JOSIE-Voice",
+    "url": "https://github.com/Goekdeniz-Guelmez/JOSIE-Voice",
     "scenarios": [
-      "coding",
-      "agents"
+      "coding"
     ],
-    "one_liner_zh": "A simple Windows AI agent that runs locally with a single .exe file. No command line or complex setup required. ★47",
-    "one_liner_en": "A simple Windows AI agent that runs locally with a single .exe file. No command line or complex setup required. ★47",
+    "one_liner_zh": "JOSIE Voice: a real-time, on-device voice assistant for Apple Silicon. Download the macOS app (DMG) from Releases. ★45",
+    "one_liner_en": "JOSIE Voice: a real-time, on-device voice assistant for Apple Silicon. Download the macOS app (DMG) from Releases. ★45",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -356,7 +330,32 @@
     "sources": [
       "GitHub"
     ],
-    "launched_or_updated_at": "2026-10-20",
+    "launched_or_updated_at": "2026-10-21",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null,
+    "_suggested_by_scan": true
+  },
+  {
+    "id": "autotrader",
+    "name_zh": "PkLavc/Autotrader",
+    "name_en": "PkLavc/Autotrader",
+    "url": "https://github.com/PkLavc/Autotrader",
+    "scenarios": [
+      "coding",
+      "research"
+    ],
+    "one_liner_zh": "Autonomous AI trading system powered by Kronos. Forecasts markets, builds portfolios and paper-trades automatically with",
+    "one_liner_en": "Autonomous AI trading system powered by Kronos. Forecasts markets, builds portfolios and paper-trades automatically with",
+    "use_when_zh": "（待编辑）适合该工具定位的场景。",
+    "use_when_en": "(todo) When this tool’s positioning fits.",
+    "avoid_when_zh": "（待编辑）明确不适合的情况。",
+    "avoid_when_en": "(todo) When it is a poor fit.",
+    "pricing": "free",
+    "sources": [
+      "GitHub"
+    ],
+    "launched_or_updated_at": "2026-10-21",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,

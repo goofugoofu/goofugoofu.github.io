@@ -1,5 +1,425 @@
 [
   {
+    "id": "daily-2026-10-21-1-todo-is",
+    "date": "2026-10-21",
+    "title_zh": "ToDo.is（来自 Product Hunt）",
+    "title_en": "ToDo.is (via Product Hunt)",
+    "summary_zh": "扫描来源：Product Hunt。Write a to-do and your AI agent gets it done 相关场景：智能体。",
+    "summary_en": "Source: Product Hunt. Write a to-do and your AI agent gets it done Scenarios: agents.",
+    "related_tool_ids": [],
+    "tags": [
+      "agents"
+    ],
+    "source": "Product Hunt",
+    "source_url": "https://www.producthunt.com/products/todo-is",
+    "scan_name": "ToDo.is"
+  },
+  {
+    "id": "daily-2026-10-21-2-stella",
+    "date": "2026-10-21",
+    "title_zh": "Stella（来自 Product Hunt）",
+    "title_en": "Stella (via Product Hunt)",
+    "summary_zh": "扫描来源：Product Hunt。Your emotional wellness AI. A friend to figure it out with. 相关场景：研究检索。",
+    "summary_en": "Source: Product Hunt. Your emotional wellness AI. A friend to figure it out with. Scenarios: research.",
+    "related_tool_ids": [],
+    "tags": [
+      "research"
+    ],
+    "source": "Product Hunt",
+    "source_url": "https://www.producthunt.com/products/stella-5",
+    "scan_name": "Stella"
+  },
+  {
+    "id": "daily-2026-10-21-3-the-new-beings",
+    "date": "2026-10-21",
+    "title_zh": "The New Beings（来自 Product Hunt）",
+    "title_en": "The New Beings (via Product Hunt)",
+    "summary_zh": "扫描来源：Product Hunt。AI agents on their break, performing a live talk show 相关场景：研究检索。",
+    "summary_en": "Source: Product Hunt. AI agents on their break, performing a live talk show Scenarios: research.",
+    "related_tool_ids": [],
+    "tags": [
+      "research"
+    ],
+    "source": "Product Hunt",
+    "source_url": "https://www.producthunt.com/products/the-new-beings",
+    "scan_name": "The New Beings"
+  },
+  {
+    "id": "daily-2026-10-21-4-harness",
+    "date": "2026-10-21",
+    "title_zh": "Harness²（来自 Product Hunt）",
+    "title_en": "Harness² (via Product Hunt)",
+    "summary_zh": "扫描来源：Product Hunt。Harness the agent. Then harness its self-improvement. 相关场景：智能体。",
+    "summary_en": "Source: Product Hunt. Harness the agent. Then harness its self-improvement. Scenarios: agents.",
+    "related_tool_ids": [],
+    "tags": [
+      "agents"
+    ],
+    "source": "Product Hunt",
+    "source_url": "https://www.producthunt.com/products/harness-104",
+    "scan_name": "Harness²"
+  },
+  {
+    "id": "daily-2026-10-21-5-esp-mosaico",
+    "date": "2026-10-21",
+    "title_zh": "ESP-Mosaico（来自 Product Hunt）",
+    "title_en": "ESP-Mosaico (via Product Hunt)",
+    "summary_zh": "扫描来源：Product Hunt。A modular development board built for agents 相关场景：研究检索。",
+    "summary_en": "Source: Product Hunt. A modular development board built for agents Scenarios: research.",
+    "related_tool_ids": [],
+    "tags": [
+      "research"
+    ],
+    "source": "Product Hunt",
+    "source_url": "https://www.producthunt.com/products/esp-mosaico",
+    "scan_name": "ESP-Mosaico"
+  },
+  {
+    "id": "daily-2026-10-21-6-lugh-xtudio",
+    "date": "2026-10-21",
+    "title_zh": "Lugh Xtudio（来自 Product Hunt）",
+    "title_en": "Lugh Xtudio (via Product Hunt)",
+    "summary_zh": "扫描来源：Product Hunt。The video studio where AI agents edit with you 相关场景：做图/视频。",
+    "summary_en": "Source: Product Hunt. The video studio where AI agents edit with you Scenarios: image-video.",
+    "related_tool_ids": [],
+    "tags": [
+      "image-video"
+    ],
+    "source": "Product Hunt",
+    "source_url": "https://www.producthunt.com/products/lugh-xtudio",
+    "scan_name": "Lugh Xtudio"
+  },
+  {
+    "id": "daily-2026-10-21-7-deepseek-v4-1-flash-1017",
+    "date": "2026-10-21",
+    "title_zh": "DeepSeek-V4.1-Flash-1017（来自 Hugging Face）",
+    "title_en": "DeepSeek-V4.1-Flash-1017 (via Hugging Face)",
+    "summary_zh": "扫描来源：Hugging Face。Trending HF model (image-text-to-text), likes≈1951. Full id: deepseek-ai/DeepSeek-V4.1-Flash-1017 相关场景：做图/视频。",
+    "summary_en": "Source: Hugging Face. Trending HF model (image-text-to-text), likes≈1951. Full id: deepseek-ai/DeepSeek-V4.1-Flash-1017 Scenarios: image-video.",
+    "related_tool_ids": [],
+    "tags": [
+      "image-video"
+    ],
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "scan_name": "DeepSeek-V4.1-Flash-1017"
+  },
+  {
+    "id": "daily-2026-10-21-8-flux-3-image-klein-comfy",
+    "date": "2026-10-21",
+    "title_zh": "flux-3-image-klein-comfy（来自 Hugging Face）",
+    "title_en": "flux-3-image-klein-comfy (via Hugging Face)",
+    "summary_zh": "扫描来源：Hugging Face。Trending HF model (image-to-image), likes≈1090. Full id: black-forest-labs/flux-3-image-klein-comfy 相关场景：做图/视频。",
+    "summary_en": "Source: Hugging Face. Trending HF model (image-to-image), likes≈1090. Full id: black-forest-labs/flux-3-image-klein-comfy Scenarios: image-video.",
+    "related_tool_ids": [],
+    "tags": [
+      "image-video"
+    ],
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+    "scan_name": "flux-3-image-klein-comfy"
+  },
+  {
+    "id": "daily-2026-10-21-9-drama-3",
+    "date": "2026-10-21",
+    "title_zh": "drama-3（来自 Hugging Face）",
+    "title_en": "drama-3 (via Hugging Face)",
+    "summary_zh": "扫描来源：Hugging Face。Trending HF model (text-to-speech), likes≈836. Full id: fishaudio/drama-3 相关场景：研究检索。",
+    "summary_en": "Source: Hugging Face. Trending HF model (text-to-speech), likes≈836. Full id: fishaudio/drama-3 Scenarios: research.",
+    "related_tool_ids": [],
+    "tags": [
+      "research"
+    ],
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/fishaudio/drama-3",
+    "scan_name": "drama-3"
+  },
+  {
+    "id": "daily-2026-10-21-10-muse-spark-open-816b-a42",
+    "date": "2026-10-21",
+    "title_zh": "Muse-Spark-Open-816B-A42B（来自 Hugging Face）",
+    "title_en": "Muse-Spark-Open-816B-A42B (via Hugging Face)",
+    "summary_zh": "扫描来源：Hugging Face。Trending HF model (image-text-to-text), likes≈607. Full id: meta-models/Muse-Spark-Open-816B-A42B 相关场景：做图/视频。",
+    "summary_en": "Source: Hugging Face. Trending HF model (image-text-to-text), likes≈607. Full id: meta-models/Muse-Spark-Open-816B-A42B Scenarios: image-video.",
+    "related_tool_ids": [],
+    "tags": [
+      "image-video"
+    ],
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
+    "scan_name": "Muse-Spark-Open-816B-A42B"
+  },
+  {
+    "id": "daily-2026-10-21-11-deepsite",
+    "date": "2026-10-21",
+    "title_zh": "deepsite（来自 Hugging Face Spaces）",
+    "title_en": "deepsite (via Hugging Face Spaces)",
+    "summary_zh": "扫描来源：Hugging Face Spaces。Popular HF Space (docker), likes≈16604. id=enzostvs/deepsite 相关场景：研究检索。",
+    "summary_en": "Source: Hugging Face Spaces. Popular HF Space (docker), likes≈16604. id=enzostvs/deepsite Scenarios: research.",
+    "related_tool_ids": [
+      "deepsite"
+    ],
+    "tags": [
+      "research"
+    ],
+    "source": "Hugging Face Spaces",
+    "source_url": "https://huggingface.co/spaces/enzostvs/deepsite",
+    "scan_name": "deepsite"
+  },
+  {
+    "id": "daily-2026-10-21-12-open-llm-leaderboard",
+    "date": "2026-10-21",
+    "title_zh": "open_llm_leaderboard（来自 Hugging Face Spaces）",
+    "title_en": "open_llm_leaderboard (via Hugging Face Spaces)",
+    "summary_zh": "扫描来源：Hugging Face Spaces。Popular HF Space (docker), likes≈14138. id=open-llm-leaderboard/open_llm_leaderboard 相关场景：研究检索。",
+    "summary_en": "Source: Hugging Face Spaces. Popular HF Space (docker), likes≈14138. id=open-llm-leaderboard/open_llm_leaderboard Scenarios: research.",
+    "related_tool_ids": [],
+    "tags": [
+      "research"
+    ],
+    "source": "Hugging Face Spaces",
+    "source_url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard",
+    "scan_name": "open_llm_leaderboard"
+  },
+  {
+    "id": "daily-2026-10-21-13-vahmoh25-veda",
+    "date": "2026-10-21",
+    "title_zh": "vahmoh25/Veda（来自 GitHub）",
+    "title_en": "vahmoh25/Veda (via GitHub)",
+    "summary_zh": "扫描来源：GitHub。The Agentic-Native Operating System ★87 相关场景：写代码。",
+    "summary_en": "Source: GitHub. The Agentic-Native Operating System ★87 Scenarios: coding.",
+    "related_tool_ids": [],
+    "tags": [
+      "coding"
+    ],
+    "source": "GitHub",
+    "source_url": "https://github.com/vahmoh25/Veda",
+    "scan_name": "vahmoh25/Veda"
+  },
+  {
+    "id": "daily-2026-10-21-14-fazmin-cve-intel",
+    "date": "2026-10-21",
+    "title_zh": "Fazmin/cve-intel（来自 GitHub）",
+    "title_en": "Fazmin/cve-intel (via GitHub)",
+    "summary_zh": "扫描来源：GitHub。Local security intelligence for CVE triage - 31 data sources and 32 tools, risk scores and an MCP server for AI agents, all in native Rust. Private by default. … 相关场景：写代码、智能体。",
+    "summary_en": "Source: GitHub. Local security intelligence for CVE triage - 31 data sources and 32 tools, risk scores and an MCP server for AI agents, all in native Rust. Private by default. … Scenarios: coding, agents.",
+    "related_tool_ids": [],
+    "tags": [
+      "coding",
+      "agents"
+    ],
+    "source": "GitHub",
+    "source_url": "https://github.com/Fazmin/cve-intel",
+    "scan_name": "Fazmin/cve-intel"
+  },
+  {
+    "id": "daily-2026-10-21-15-goekdeniz-guelmez-josie-",
+    "date": "2026-10-21",
+    "title_zh": "Goekdeniz-Guelmez/JOSIE-Voice（来自 GitHub）",
+    "title_en": "Goekdeniz-Guelmez/JOSIE-Voice (via GitHub)",
+    "summary_zh": "扫描来源：GitHub。JOSIE Voice: a real-time, on-device voice assistant for Apple Silicon. Download the macOS app (DMG) from Releases. ★45 相关场景：写代码。",
+    "summary_en": "Source: GitHub. JOSIE Voice: a real-time, on-device voice assistant for Apple Silicon. Download the macOS app (DMG) from Releases. ★45 Scenarios: coding.",
+    "related_tool_ids": [],
+    "tags": [
+      "coding"
+    ],
+    "source": "GitHub",
+    "source_url": "https://github.com/Goekdeniz-Guelmez/JOSIE-Voice",
+    "scan_name": "Goekdeniz-Guelmez/JOSIE-Voice"
+  },
+  {
+    "id": "daily-2026-10-21-16-pklavc-autotrader",
+    "date": "2026-10-21",
+    "title_zh": "PkLavc/Autotrader（来自 GitHub）",
+    "title_en": "PkLavc/Autotrader (via GitHub)",
+    "summary_zh": "扫描来源：GitHub。Autonomous AI trading system powered by Kronos. Forecasts markets, builds portfolios and paper-trades automatically with GitHub Actions. ★36 相关场景：写代码、研究检索。",
+    "summary_en": "Source: GitHub. Autonomous AI trading system powered by Kronos. Forecasts markets, builds portfolios and paper-trades automatically with GitHub Actions. ★36 Scenarios: coding, research.",
+    "related_tool_ids": [],
+    "tags": [
+      "coding",
+      "research"
+    ],
+    "source": "GitHub",
+    "source_url": "https://github.com/PkLavc/Autotrader",
+    "scan_name": "PkLavc/Autotrader"
+  },
+  {
+    "id": "daily-2026-10-21-17-pdfmathtranslate-pdfmath",
+    "date": "2026-10-21",
+    "title_zh": "PDFMathTranslate/PDFMathReader（来自 GitHub）",
+    "title_en": "PDFMathTranslate/PDFMathReader (via GitHub)",
+    "summary_zh": "扫描来源：GitHub。Read scientific documents in your language, in realtime, on any platform. 在任何平台上用您的语言实时翻译和阅读科学文献。 ★34 相关场景：写代码。",
+    "summary_en": "Source: GitHub. Read scientific documents in your language, in realtime, on any platform. 在任何平台上用您的语言实时翻译和阅读科学文献。 ★34 Scenarios: coding.",
+    "related_tool_ids": [],
+    "tags": [
+      "coding"
+    ],
+    "source": "GitHub",
+    "source_url": "https://github.com/PDFMathTranslate/PDFMathReader",
+    "scan_name": "PDFMathTranslate/PDFMathReader"
+  },
+  {
+    "id": "daily-2026-10-21-18-generated-computers-loca",
+    "date": "2026-10-21",
+    "title_zh": "Generated-Computers/Locals（来自 GitHub）",
+    "title_en": "Generated-Computers/Locals (via GitHub)",
+    "summary_zh": "扫描来源：GitHub。Run many AI agents at once on your Mac, about three times faster. ★33 相关场景：写代码。",
+    "summary_en": "Source: GitHub. Run many AI agents at once on your Mac, about three times faster. ★33 Scenarios: coding.",
+    "related_tool_ids": [],
+    "tags": [
+      "coding"
+    ],
+    "source": "GitHub",
+    "source_url": "https://github.com/Generated-Computers/Locals",
+    "scan_name": "Generated-Computers/Locals"
+  },
+  {
+    "id": "daily-2026-10-21-19-tracxn-ai-suite-launched",
+    "date": "2026-10-21",
+    "title_zh": "Tracxn AI Suite Launched With ChatGPT, Claude, Gemini and MCP Integratio（来自 X）",
+    "title_en": "Tracxn AI Suite Launched With ChatGPT, Claude, Gemini and MCP Integratio (via X)",
+    "summary_zh": "扫描来源：X。@sahyadristartup: Tracxn AI Suite Launched With ChatGPT, Claude, Gemini and MCP Integrations 相关场景：智能体。",
+    "summary_en": "Source: X. @sahyadristartup: Tracxn AI Suite Launched With ChatGPT, Claude, Gemini and MCP Integrations Scenarios: agents.",
+    "related_tool_ids": [
+      "chatgpt",
+      "claude",
+      "gemini"
+    ],
+    "tags": [
+      "agents"
+    ],
+    "source": "X",
+    "source_url": "https://x.com/sahyadristartup/status/2110974928497549580",
+    "scan_name": "Tracxn AI Suite Launched With ChatGPT, Claude, Gemini and MCP Integratio"
+  },
+  {
+    "id": "daily-2026-10-21-20-meta-muse-is-now-a-shopp",
+    "date": "2026-10-21",
+    "title_zh": "Meta Muse Is Now a Shopping Agent（来自 X）",
+    "title_en": "Meta Muse Is Now a Shopping Agent (via X)",
+    "summary_zh": "扫描来源：X。@umerdarazkha: Meta Muse Is Now a Shopping Agent: How Brands Get Recommended by Meta's AI 相关场景：智能体。",
+    "summary_en": "Source: X. @umerdarazkha: Meta Muse Is Now a Shopping Agent: How Brands Get Recommended by Meta's AI Scenarios: agents.",
+    "related_tool_ids": [],
+    "tags": [
+      "agents"
+    ],
+    "source": "X",
+    "source_url": "https://x.com/umerdarazkha/status/2110974484392145007",
+    "scan_name": "Meta Muse Is Now a Shopping Agent"
+  },
+  {
+    "id": "daily-2026-10-21-21-meta-has-launched-muse-s",
+    "date": "2026-10-21",
+    "title_zh": "Meta has launched Muse Spark Open, an 816-billion-parameter open-weight （来自 X）",
+    "title_en": "Meta has launched Muse Spark Open, an 816-billion-parameter open-weight  (via X)",
+    "summary_zh": "扫描来源：X。@CoderArmy: Meta has launched Muse Spark Open, an 816-billion-parameter open-weight AI model designed to run locally on Macs, with a focus on coding and AI agen… 相关场景：写代码、智能体。",
+    "summary_en": "Source: X. @CoderArmy: Meta has launched Muse Spark Open, an 816-billion-parameter open-weight AI model designed to run locally on Macs, with a focus on coding and AI agen… Scenarios: coding, agents.",
+    "related_tool_ids": [],
+    "tags": [
+      "coding",
+      "agents"
+    ],
+    "source": "X",
+    "source_url": "https://x.com/CoderArmy/status/2110974021600690216",
+    "scan_name": "Meta has launched Muse Spark Open, an 816-billion-parameter open-weight "
+  },
+  {
+    "id": "daily-2026-10-21-22-tryantimatter-ai-chat",
+    "date": "2026-10-21",
+    "title_zh": "@tryantimatter AI chat（来自 X）",
+    "title_en": "@tryantimatter AI chat (via X)",
+    "summary_zh": "扫描来源：X。@tryantimatter AI chat. Image generation. model exploration. one API. 相关场景：做图/视频。",
+    "summary_en": "Source: X. @tryantimatter AI chat. Image generation. model exploration. one API. Scenarios: image-video.",
+    "related_tool_ids": [],
+    "tags": [
+      "image-video"
+    ],
+    "source": "X",
+    "source_url": "https://x.com/100Bandsman/status/2110973870526050358",
+    "scan_name": "@tryantimatter AI chat"
+  },
+  {
+    "id": "daily-2026-10-21-23-nvidia-just-released-nem",
+    "date": "2026-10-21",
+    "title_zh": "NVIDIA just released Nemotron 3（来自 X）",
+    "title_en": "NVIDIA just released Nemotron 3 (via X)",
+    "summary_zh": "扫描来源：X。@trendingsources: NVIDIA just released Nemotron 3.5 Super VL: an open 120B-parameter multimodal AI model for enterprise agents 相关场景：研究检索。",
+    "summary_en": "Source: X. @trendingsources: NVIDIA just released Nemotron 3.5 Super VL: an open 120B-parameter multimodal AI model for enterprise agents Scenarios: research.",
+    "related_tool_ids": [],
+    "tags": [
+      "research"
+    ],
+    "source": "X",
+    "source_url": "https://x.com/trendingsources/status/2110973697339076991",
+    "scan_name": "NVIDIA just released Nemotron 3"
+  },
+  {
+    "id": "daily-2026-10-21-24-google-launched-gemini-4",
+    "date": "2026-10-21",
+    "title_zh": "Google launched Gemini 4 Argon this week（来自 X）",
+    "title_en": "Google launched Gemini 4 Argon this week (via X)",
+    "summary_zh": "扫描来源：X。@MissAITalks: Google launched Gemini 4 Argon this week. 相关场景：研究检索。",
+    "summary_en": "Source: X. @MissAITalks: Google launched Gemini 4 Argon this week. Scenarios: research.",
+    "related_tool_ids": [
+      "gemini"
+    ],
+    "tags": [
+      "research"
+    ],
+    "source": "X",
+    "source_url": "https://x.com/MissAITalks/status/2110973626271060324",
+    "scan_name": "Google launched Gemini 4 Argon this week"
+  },
+  {
+    "id": "daily-2026-10-21-25-ff-just-launched-a-human",
+    "date": "2026-10-21",
+    "title_zh": "FF just launched a humanoid robot for $2,490（来自 X）",
+    "title_en": "FF just launched a humanoid robot for $2,490 (via X)",
+    "summary_zh": "扫描来源：X。@Android_966: FF just launched a humanoid robot for $2,490. Nova walks, waves, gets back up on its own. Open SDK + NVIDIA Isaac. 相关场景：研究检索。",
+    "summary_en": "Source: X. @Android_966: FF just launched a humanoid robot for $2,490. Nova walks, waves, gets back up on its own. Open SDK + NVIDIA Isaac. Scenarios: research.",
+    "related_tool_ids": [],
+    "tags": [
+      "research"
+    ],
+    "source": "X",
+    "source_url": "https://x.com/Android_966/status/2110974262639051222",
+    "scan_name": "FF just launched a humanoid robot for $2,490"
+  },
+  {
+    "id": "daily-2026-10-21-26-runninghub-ai-agent-powe",
+    "date": "2026-10-21",
+    "title_zh": "RunningHub ｜ AI Agent-Powered Content Creation Platform with ComfyUI & Model API（来自 RunningHub）",
+    "title_en": "RunningHub ｜ AI Agent-Powered Content Creation Platform with ComfyUI & Model API (via RunningHub)",
+    "summary_zh": "扫描来源：RunningHub。Best-effort homepage check OK. TODO: wire a real changelog/API when available. 相关场景：做图/视频。",
+    "summary_en": "Source: RunningHub. Best-effort homepage check OK. TODO: wire a real changelog/API when available. Scenarios: image-video.",
+    "related_tool_ids": [
+      "runninghub"
+    ],
+    "tags": [
+      "image-video"
+    ],
+    "source": "RunningHub",
+    "source_url": "https://www.runninghub.ai",
+    "scan_name": "RunningHub ｜ AI Agent-Powered Content Creation Platform with ComfyUI & Model API"
+  },
+  {
+    "id": "daily-2026-10-21-27-higgsfield-ai-ai-native-",
+    "date": "2026-10-21",
+    "title_zh": "Higgsfield AI — AI-native creative suite（来自 Higgsfield）",
+    "title_en": "Higgsfield AI — AI-native creative suite (via Higgsfield)",
+    "summary_zh": "扫描来源：Higgsfield。Best-effort homepage check OK. TODO: public changelog/API not wired. 相关场景：做图/视频。",
+    "summary_en": "Source: Higgsfield. Best-effort homepage check OK. TODO: public changelog/API not wired. Scenarios: image-video.",
+    "related_tool_ids": [
+      "higgsfield"
+    ],
+    "tags": [
+      "image-video"
+    ],
+    "source": "Higgsfield",
+    "source_url": "https://higgsfield.ai",
+    "scan_name": "Higgsfield AI — AI-native creative suite"
+  },
+  {
     "id": "daily-2026-10-20-1-lancetta",
     "date": "2026-10-20",
     "title_zh": "Lancetta（来自 Product Hunt）",
@@ -342,434 +762,6 @@
   {
     "id": "daily-2026-10-20-23-slyyr-awesome-robotics",
     "date": "2026-10-20",
-    "title_zh": "slyyr/awesome-robotics（来自 GitHub）",
-    "title_en": "slyyr/awesome-robotics (via GitHub)",
-    "summary_zh": "扫描来源：GitHub。Free Robotics & AI learning resources, including courses, books, lectures, research papers, tutorials, projects, and more. A curated collection of resources to … 相关场景：写代码、研究检索。",
-    "summary_en": "Source: GitHub. Free Robotics & AI learning resources, including courses, books, lectures, research papers, tutorials, projects, and more. A curated collection of resources to … Scenarios: coding, research.",
-    "related_tool_ids": [],
-    "tags": [
-      "coding",
-      "research"
-    ],
-    "source": "GitHub",
-    "source_url": "https://github.com/slyyr/awesome-robotics",
-    "scan_name": "slyyr/awesome-robotics"
-  },
-  {
-    "id": "daily-2026-10-20-24-tracxn-ai-suite-launched",
-    "date": "2026-10-20",
-    "title_zh": "Tracxn AI Suite Launched With ChatGPT, Claude, Gemini and MCP Integratio（来自 X）",
-    "title_en": "Tracxn AI Suite Launched With ChatGPT, Claude, Gemini and MCP Integratio (via X)",
-    "summary_zh": "扫描来源：X。@sahyadristartup: Tracxn AI Suite Launched With ChatGPT, Claude, Gemini and MCP Integrations 相关场景：智能体。",
-    "summary_en": "Source: X. @sahyadristartup: Tracxn AI Suite Launched With ChatGPT, Claude, Gemini and MCP Integrations Scenarios: agents.",
-    "related_tool_ids": [
-      "chatgpt",
-      "claude",
-      "gemini"
-    ],
-    "tags": [
-      "agents"
-    ],
-    "source": "X",
-    "source_url": "https://x.com/sahyadristartup/status/2110974928497549580",
-    "scan_name": "Tracxn AI Suite Launched With ChatGPT, Claude, Gemini and MCP Integratio"
-  },
-  {
-    "id": "daily-2026-10-20-25-meta-muse-is-now-a-shopp",
-    "date": "2026-10-20",
-    "title_zh": "Meta Muse Is Now a Shopping Agent（来自 X）",
-    "title_en": "Meta Muse Is Now a Shopping Agent (via X)",
-    "summary_zh": "扫描来源：X。@umerdarazkha: Meta Muse Is Now a Shopping Agent: How Brands Get Recommended by Meta's AI 相关场景：智能体。",
-    "summary_en": "Source: X. @umerdarazkha: Meta Muse Is Now a Shopping Agent: How Brands Get Recommended by Meta's AI Scenarios: agents.",
-    "related_tool_ids": [],
-    "tags": [
-      "agents"
-    ],
-    "source": "X",
-    "source_url": "https://x.com/umerdarazkha/status/2110974484392145007",
-    "scan_name": "Meta Muse Is Now a Shopping Agent"
-  },
-  {
-    "id": "daily-2026-10-20-26-meta-has-launched-muse-s",
-    "date": "2026-10-20",
-    "title_zh": "Meta has launched Muse Spark Open, an 816-billion-parameter open-weight （来自 X）",
-    "title_en": "Meta has launched Muse Spark Open, an 816-billion-parameter open-weight  (via X)",
-    "summary_zh": "扫描来源：X。@CoderArmy: Meta has launched Muse Spark Open, an 816-billion-parameter open-weight AI model designed to run locally on Macs, with a focus on coding and AI agen… 相关场景：写代码、智能体。",
-    "summary_en": "Source: X. @CoderArmy: Meta has launched Muse Spark Open, an 816-billion-parameter open-weight AI model designed to run locally on Macs, with a focus on coding and AI agen… Scenarios: coding, agents.",
-    "related_tool_ids": [],
-    "tags": [
-      "coding",
-      "agents"
-    ],
-    "source": "X",
-    "source_url": "https://x.com/CoderArmy/status/2110974021600690216",
-    "scan_name": "Meta has launched Muse Spark Open, an 816-billion-parameter open-weight "
-  },
-  {
-    "id": "daily-2026-10-20-27-tryantimatter-ai-chat",
-    "date": "2026-10-20",
-    "title_zh": "@tryantimatter AI chat（来自 X）",
-    "title_en": "@tryantimatter AI chat (via X)",
-    "summary_zh": "扫描来源：X。@tryantimatter AI chat. Image generation. model exploration. one API. 相关场景：做图/视频。",
-    "summary_en": "Source: X. @tryantimatter AI chat. Image generation. model exploration. one API. Scenarios: image-video.",
-    "related_tool_ids": [],
-    "tags": [
-      "image-video"
-    ],
-    "source": "X",
-    "source_url": "https://x.com/100Bandsman/status/2110973870526050358",
-    "scan_name": "@tryantimatter AI chat"
-  },
-  {
-    "id": "daily-2026-10-20-28-nvidia-just-released-nem",
-    "date": "2026-10-20",
-    "title_zh": "NVIDIA just released Nemotron 3（来自 X）",
-    "title_en": "NVIDIA just released Nemotron 3 (via X)",
-    "summary_zh": "扫描来源：X。@trendingsources: NVIDIA just released Nemotron 3.5 Super VL: an open 120B-parameter multimodal AI model for enterprise agents 相关场景：研究检索。",
-    "summary_en": "Source: X. @trendingsources: NVIDIA just released Nemotron 3.5 Super VL: an open 120B-parameter multimodal AI model for enterprise agents Scenarios: research.",
-    "related_tool_ids": [],
-    "tags": [
-      "research"
-    ],
-    "source": "X",
-    "source_url": "https://x.com/trendingsources/status/2110973697339076991",
-    "scan_name": "NVIDIA just released Nemotron 3"
-  },
-  {
-    "id": "daily-2026-10-20-29-google-launched-gemini-4",
-    "date": "2026-10-20",
-    "title_zh": "Google launched Gemini 4 Argon this week（来自 X）",
-    "title_en": "Google launched Gemini 4 Argon this week (via X)",
-    "summary_zh": "扫描来源：X。@MissAITalks: Google launched Gemini 4 Argon this week. 相关场景：研究检索。",
-    "summary_en": "Source: X. @MissAITalks: Google launched Gemini 4 Argon this week. Scenarios: research.",
-    "related_tool_ids": [
-      "gemini"
-    ],
-    "tags": [
-      "research"
-    ],
-    "source": "X",
-    "source_url": "https://x.com/MissAITalks/status/2110973626271060324",
-    "scan_name": "Google launched Gemini 4 Argon this week"
-  },
-  {
-    "id": "daily-2026-10-20-30-ff-just-launched-a-human",
-    "date": "2026-10-20",
-    "title_zh": "FF just launched a humanoid robot for $2,490（来自 X）",
-    "title_en": "FF just launched a humanoid robot for $2,490 (via X)",
-    "summary_zh": "扫描来源：X。@Android_966: FF just launched a humanoid robot for $2,490. Nova walks, waves, gets back up on its own. Open SDK + NVIDIA Isaac. 相关场景：研究检索。",
-    "summary_en": "Source: X. @Android_966: FF just launched a humanoid robot for $2,490. Nova walks, waves, gets back up on its own. Open SDK + NVIDIA Isaac. Scenarios: research.",
-    "related_tool_ids": [],
-    "tags": [
-      "research"
-    ],
-    "source": "X",
-    "source_url": "https://x.com/Android_966/status/2110974262639051222",
-    "scan_name": "FF just launched a humanoid robot for $2,490"
-  },
-  {
-    "id": "daily-2026-10-20-31-runninghub-ai-agent-powe",
-    "date": "2026-10-20",
-    "title_zh": "RunningHub ｜ AI Agent-Powered Content Creation Platform with ComfyUI & Model API（来自 RunningHub）",
-    "title_en": "RunningHub ｜ AI Agent-Powered Content Creation Platform with ComfyUI & Model API (via RunningHub)",
-    "summary_zh": "扫描来源：RunningHub。Best-effort homepage check OK. TODO: wire a real changelog/API when available. 相关场景：做图/视频。",
-    "summary_en": "Source: RunningHub. Best-effort homepage check OK. TODO: wire a real changelog/API when available. Scenarios: image-video.",
-    "related_tool_ids": [
-      "runninghub"
-    ],
-    "tags": [
-      "image-video"
-    ],
-    "source": "RunningHub",
-    "source_url": "https://www.runninghub.ai",
-    "scan_name": "RunningHub ｜ AI Agent-Powered Content Creation Platform with ComfyUI & Model API"
-  },
-  {
-    "id": "daily-2026-10-20-32-higgsfield-ai-ai-native-",
-    "date": "2026-10-20",
-    "title_zh": "Higgsfield AI — AI-native creative suite（来自 Higgsfield）",
-    "title_en": "Higgsfield AI — AI-native creative suite (via Higgsfield)",
-    "summary_zh": "扫描来源：Higgsfield。Best-effort homepage check OK. TODO: public changelog/API not wired. 相关场景：做图/视频。",
-    "summary_en": "Source: Higgsfield. Best-effort homepage check OK. TODO: public changelog/API not wired. Scenarios: image-video.",
-    "related_tool_ids": [
-      "higgsfield"
-    ],
-    "tags": [
-      "image-video"
-    ],
-    "source": "Higgsfield",
-    "source_url": "https://higgsfield.ai",
-    "scan_name": "Higgsfield AI — AI-native creative suite"
-  },
-  {
-    "id": "daily-2026-10-19-1-gravity-notes",
-    "date": "2026-10-19",
-    "title_zh": "Gravity Notes（来自 Product Hunt）",
-    "title_en": "Gravity Notes (via Product Hunt)",
-    "summary_zh": "扫描来源：Product Hunt。One list of notes, for you and your AI agents 相关场景：研究检索。",
-    "summary_en": "Source: Product Hunt. One list of notes, for you and your AI agents Scenarios: research.",
-    "related_tool_ids": [],
-    "tags": [
-      "research"
-    ],
-    "source": "Product Hunt",
-    "source_url": "https://www.producthunt.com/products/gravity-notes-for-mac",
-    "scan_name": "Gravity Notes"
-  },
-  {
-    "id": "daily-2026-10-19-2-krea-3",
-    "date": "2026-10-19",
-    "title_zh": "Krea 3（来自 Product Hunt）",
-    "title_en": "Krea 3 (via Product Hunt)",
-    "summary_zh": "扫描来源：Product Hunt。Krea's AI image model: 2K edits in under 8 seconds 相关场景：做图/视频。",
-    "summary_en": "Source: Product Hunt. Krea's AI image model: 2K edits in under 8 seconds Scenarios: image-video.",
-    "related_tool_ids": [],
-    "tags": [
-      "image-video"
-    ],
-    "source": "Product Hunt",
-    "source_url": "https://www.producthunt.com/products/krea",
-    "scan_name": "Krea 3"
-  },
-  {
-    "id": "daily-2026-10-19-3-bee-frontier-and-bee-ecl",
-    "date": "2026-10-19",
-    "title_zh": "Bee Frontier and Bee Eclipse（来自 Product Hunt）",
-    "title_en": "Bee Frontier and Bee Eclipse (via Product Hunt)",
-    "summary_zh": "扫描来源：Product Hunt。Amazon's personal AI memory, now on your wrist or phone 相关场景：研究检索。",
-    "summary_en": "Source: Product Hunt. Amazon's personal AI memory, now on your wrist or phone Scenarios: research.",
-    "related_tool_ids": [],
-    "tags": [
-      "research"
-    ],
-    "source": "Product Hunt",
-    "source_url": "https://www.producthunt.com/products/bee-frontier-and-bee-eclipse",
-    "scan_name": "Bee Frontier and Bee Eclipse"
-  },
-  {
-    "id": "daily-2026-10-19-4-openbroca",
-    "date": "2026-10-19",
-    "title_zh": "Openbroca（来自 Product Hunt）",
-    "title_en": "Openbroca (via Product Hunt)",
-    "summary_zh": "扫描来源：Product Hunt。Lightweight AI dictation for Mac that sounds like you 相关场景：研究检索。",
-    "summary_en": "Source: Product Hunt. Lightweight AI dictation for Mac that sounds like you Scenarios: research.",
-    "related_tool_ids": [],
-    "tags": [
-      "research"
-    ],
-    "source": "Product Hunt",
-    "source_url": "https://www.producthunt.com/products/openbroca",
-    "scan_name": "Openbroca"
-  },
-  {
-    "id": "daily-2026-10-19-5-popcraft",
-    "date": "2026-10-19",
-    "title_zh": "Popcraft（来自 Product Hunt）",
-    "title_en": "Popcraft (via Product Hunt)",
-    "summary_zh": "扫描来源：Product Hunt。Generate video, images & audio from any AI agent 相关场景：做图/视频、智能体。",
-    "summary_en": "Source: Product Hunt. Generate video, images & audio from any AI agent Scenarios: image-video, agents.",
-    "related_tool_ids": [],
-    "tags": [
-      "image-video",
-      "agents"
-    ],
-    "source": "Product Hunt",
-    "source_url": "https://www.producthunt.com/products/popcraft",
-    "scan_name": "Popcraft"
-  },
-  {
-    "id": "daily-2026-10-19-6-shim-cli",
-    "date": "2026-10-19",
-    "title_zh": "shim-cli（来自 Product Hunt）",
-    "title_en": "shim-cli (via Product Hunt)",
-    "summary_zh": "扫描来源：Product Hunt。See what your coding agent sends. Mask what you can. 相关场景：写代码、智能体。",
-    "summary_en": "Source: Product Hunt. See what your coding agent sends. Mask what you can. Scenarios: coding, agents.",
-    "related_tool_ids": [],
-    "tags": [
-      "coding",
-      "agents"
-    ],
-    "source": "Product Hunt",
-    "source_url": "https://www.producthunt.com/products/shim-cli",
-    "scan_name": "shim-cli"
-  },
-  {
-    "id": "daily-2026-10-19-7-deepseek-v4-1-flash-1017",
-    "date": "2026-10-19",
-    "title_zh": "DeepSeek-V4.1-Flash-1017（来自 Hugging Face）",
-    "title_en": "DeepSeek-V4.1-Flash-1017 (via Hugging Face)",
-    "summary_zh": "扫描来源：Hugging Face。Trending HF model (image-text-to-text), likes≈1333. Full id: deepseek-ai/DeepSeek-V4.1-Flash-1017 相关场景：做图/视频。",
-    "summary_en": "Source: Hugging Face. Trending HF model (image-text-to-text), likes≈1333. Full id: deepseek-ai/DeepSeek-V4.1-Flash-1017 Scenarios: image-video.",
-    "related_tool_ids": [],
-    "tags": [
-      "image-video"
-    ],
-    "source": "Hugging Face",
-    "source_url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-    "scan_name": "DeepSeek-V4.1-Flash-1017"
-  },
-  {
-    "id": "daily-2026-10-19-8-minicpm-v-4-7-35b-a3b",
-    "date": "2026-10-19",
-    "title_zh": "MiniCPM-V-4.7-35B-A3B（来自 Hugging Face）",
-    "title_en": "MiniCPM-V-4.7-35B-A3B (via Hugging Face)",
-    "summary_zh": "扫描来源：Hugging Face。Trending HF model (image-text-to-text), likes≈1008. Full id: openbmb/MiniCPM-V-4.7-35B-A3B 相关场景：做图/视频。",
-    "summary_en": "Source: Hugging Face. Trending HF model (image-text-to-text), likes≈1008. Full id: openbmb/MiniCPM-V-4.7-35B-A3B Scenarios: image-video.",
-    "related_tool_ids": [
-      "minicpm-v"
-    ],
-    "tags": [
-      "image-video"
-    ],
-    "source": "Hugging Face",
-    "source_url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
-    "scan_name": "MiniCPM-V-4.7-35B-A3B"
-  },
-  {
-    "id": "daily-2026-10-19-9-embeddinggemma-2",
-    "date": "2026-10-19",
-    "title_zh": "embeddinggemma-2（来自 Hugging Face）",
-    "title_en": "embeddinggemma-2 (via Hugging Face)",
-    "summary_zh": "扫描来源：Hugging Face。Trending HF model (feature-extraction), likes≈2661. Full id: google/embeddinggemma-2 相关场景：研究检索。",
-    "summary_en": "Source: Hugging Face. Trending HF model (feature-extraction), likes≈2661. Full id: google/embeddinggemma-2 Scenarios: research.",
-    "related_tool_ids": [
-      "embeddinggemma-2"
-    ],
-    "tags": [
-      "research"
-    ],
-    "source": "Hugging Face",
-    "source_url": "https://huggingface.co/google/embeddinggemma-2",
-    "scan_name": "embeddinggemma-2"
-  },
-  {
-    "id": "daily-2026-10-19-10-humanizer",
-    "date": "2026-10-19",
-    "title_zh": "humanizer（来自 Hugging Face）",
-    "title_en": "humanizer (via Hugging Face)",
-    "summary_zh": "扫描来源：Hugging Face。Trending HF model (text-generation), likes≈1946. Full id: jialinyyzz/humanizer 相关场景：研究检索。",
-    "summary_en": "Source: Hugging Face. Trending HF model (text-generation), likes≈1946. Full id: jialinyyzz/humanizer Scenarios: research.",
-    "related_tool_ids": [],
-    "tags": [
-      "research"
-    ],
-    "source": "Hugging Face",
-    "source_url": "https://huggingface.co/jialinyyzz/humanizer",
-    "scan_name": "humanizer"
-  },
-  {
-    "id": "daily-2026-10-19-11-deepsite",
-    "date": "2026-10-19",
-    "title_zh": "deepsite（来自 Hugging Face Spaces）",
-    "title_en": "deepsite (via Hugging Face Spaces)",
-    "summary_zh": "扫描来源：Hugging Face Spaces。Popular HF Space (docker), likes≈16610. id=enzostvs/deepsite 相关场景：研究检索。",
-    "summary_en": "Source: Hugging Face Spaces. Popular HF Space (docker), likes≈16610. id=enzostvs/deepsite Scenarios: research.",
-    "related_tool_ids": [
-      "deepsite"
-    ],
-    "tags": [
-      "research"
-    ],
-    "source": "Hugging Face Spaces",
-    "source_url": "https://huggingface.co/spaces/enzostvs/deepsite",
-    "scan_name": "deepsite"
-  },
-  {
-    "id": "daily-2026-10-19-12-open-llm-leaderboard",
-    "date": "2026-10-19",
-    "title_zh": "open_llm_leaderboard（来自 Hugging Face Spaces）",
-    "title_en": "open_llm_leaderboard (via Hugging Face Spaces)",
-    "summary_zh": "扫描来源：Hugging Face Spaces。Popular HF Space (docker), likes≈14152. id=open-llm-leaderboard/open_llm_leaderboard 相关场景：研究检索。",
-    "summary_en": "Source: Hugging Face Spaces. Popular HF Space (docker), likes≈14152. id=open-llm-leaderboard/open_llm_leaderboard Scenarios: research.",
-    "related_tool_ids": [],
-    "tags": [
-      "research"
-    ],
-    "source": "Hugging Face Spaces",
-    "source_url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard",
-    "scan_name": "open_llm_leaderboard"
-  },
-  {
-    "id": "daily-2026-10-19-13-vahmoh25-veda",
-    "date": "2026-10-19",
-    "title_zh": "vahmoh25/Veda（来自 GitHub）",
-    "title_en": "vahmoh25/Veda (via GitHub)",
-    "summary_zh": "扫描来源：GitHub。The Agentic-Native Operating System ★82 相关场景：写代码。",
-    "summary_en": "Source: GitHub. The Agentic-Native Operating System ★82 Scenarios: coding.",
-    "related_tool_ids": [],
-    "tags": [
-      "coding"
-    ],
-    "source": "GitHub",
-    "source_url": "https://github.com/vahmoh25/Veda",
-    "scan_name": "vahmoh25/Veda"
-  },
-  {
-    "id": "daily-2026-10-19-14-voltemperorchaos-ai-agen",
-    "date": "2026-10-19",
-    "title_zh": "VoltEmperorChaos/ai-agent-for-pc（来自 GitHub）",
-    "title_en": "VoltEmperorChaos/ai-agent-for-pc (via GitHub)",
-    "summary_zh": "扫描来源：GitHub。A simple Windows AI agent that runs locally with a single .exe file. No command line or complex setup required. ★47 相关场景：写代码、智能体。",
-    "summary_en": "Source: GitHub. A simple Windows AI agent that runs locally with a single .exe file. No command line or complex setup required. ★47 Scenarios: coding, agents.",
-    "related_tool_ids": [],
-    "tags": [
-      "coding",
-      "agents"
-    ],
-    "source": "GitHub",
-    "source_url": "https://github.com/VoltEmperorChaos/ai-agent-for-pc",
-    "scan_name": "VoltEmperorChaos/ai-agent-for-pc"
-  },
-  {
-    "id": "daily-2026-10-19-15-fazmin-cve-intel",
-    "date": "2026-10-19",
-    "title_zh": "Fazmin/cve-intel（来自 GitHub）",
-    "title_en": "Fazmin/cve-intel (via GitHub)",
-    "summary_zh": "扫描来源：GitHub。Local security intelligence for CVE triage - 34 tools, 25 sources, risk scores and an MCP server for AI agents, all in native Rust. Private by default. ★42 相关场景：写代码、智能体。",
-    "summary_en": "Source: GitHub. Local security intelligence for CVE triage - 34 tools, 25 sources, risk scores and an MCP server for AI agents, all in native Rust. Private by default. ★42 Scenarios: coding, agents.",
-    "related_tool_ids": [],
-    "tags": [
-      "coding",
-      "agents"
-    ],
-    "source": "GitHub",
-    "source_url": "https://github.com/Fazmin/cve-intel",
-    "scan_name": "Fazmin/cve-intel"
-  },
-  {
-    "id": "daily-2026-10-19-16-pklavc-autotrader",
-    "date": "2026-10-19",
-    "title_zh": "PkLavc/Autotrader（来自 GitHub）",
-    "title_en": "PkLavc/Autotrader (via GitHub)",
-    "summary_zh": "扫描来源：GitHub。Autonomous AI trading system powered by Kronos. Forecasts markets, builds portfolios and paper-trades automatically with GitHub Actions. ★34 相关场景：写代码、研究检索。",
-    "summary_en": "Source: GitHub. Autonomous AI trading system powered by Kronos. Forecasts markets, builds portfolios and paper-trades automatically with GitHub Actions. ★34 Scenarios: coding, research.",
-    "related_tool_ids": [],
-    "tags": [
-      "coding",
-      "research"
-    ],
-    "source": "GitHub",
-    "source_url": "https://github.com/PkLavc/Autotrader",
-    "scan_name": "PkLavc/Autotrader"
-  },
-  {
-    "id": "daily-2026-10-19-17-generated-computers-loca",
-    "date": "2026-10-19",
-    "title_zh": "Generated-Computers/Locals（来自 GitHub）",
-    "title_en": "Generated-Computers/Locals (via GitHub)",
-    "summary_zh": "扫描来源：GitHub。Run many AI agents at once on your Mac, about three times faster. ★29 相关场景：写代码。",
-    "summary_en": "Source: GitHub. Run many AI agents at once on your Mac, about three times faster. ★29 Scenarios: coding.",
-    "related_tool_ids": [],
-    "tags": [
-      "coding"
-    ],
-    "source": "GitHub",
-    "source_url": "https://github.com/Generated-Computers/Locals",
-    "scan_name": "Generated-Computers/Locals"
-  },
-  {
-    "id": "daily-2026-10-19-18-slyyr-awesome-robotics",
-    "date": "2026-10-19",
     "title_zh": "slyyr/awesome-robotics（来自 GitHub）",
     "title_en": "slyyr/awesome-robotics (via GitHub)",
     "summary_zh": "扫描来源：GitHub。Free Robotics & AI learning resources, including courses, books, lectures, research papers, tutorials, projects, and more. A curated collection of resources to … 相关场景：写代码、研究检索。",

@@ -4,13 +4,11 @@
     "week_label_zh": "2026 年第 43 周",
     "week_label_en": "Week 43, 2026",
     "date_range": "2026-10-19 — 2026-10-25",
-    "title_zh": "本周扫描更新（2026-10-20）",
-    "title_en": "Weekly scan update (2026-10-20)",
-    "intro_zh": "自动扫描写入。今日来源统计：Product Hunt×8、Hugging Face×5、Hugging Face Spaces×2、GitHub×8、X×7、RunningHub×1、Higgsfield×1。可作通讯草稿。",
-    "intro_en": "Auto-scan write-up. Today's source counts: Product Hunt×8, Hugging Face×5, Hugging Face Spaces×2, GitHub×8, X×7, RunningHub×1, Higgsfield×1. Reuse as newsletter draft.",
+    "title_zh": "本周扫描更新（2026-10-21）",
+    "title_en": "Weekly scan update (2026-10-21)",
+    "intro_zh": "自动扫描写入。今日来源统计：Product Hunt×6、Hugging Face×4、Hugging Face Spaces×2、GitHub×6、X×7、RunningHub×1、Higgsfield×1。可作通讯草稿。",
+    "intro_en": "Auto-scan write-up. Today's source counts: Product Hunt×6, Hugging Face×4, Hugging Face Spaces×2, GitHub×6, X×7, RunningHub×1, Higgsfield×1. Reuse as newsletter draft.",
     "tool_ids": [
-      "minicpm-v",
-      "embeddinggemma-2",
       "deepsite",
       "chatgpt",
       "claude",
@@ -19,26 +17,26 @@
       "higgsfield"
     ],
     "highlights_zh": [
-      "Lancetta（来自 Product Hunt）",
-      "CrawlForge MCP（来自 Product Hunt）",
-      "Own 1（来自 Product Hunt）",
-      "Beam.win（来自 Product Hunt）",
-      "Starkomand（来自 Product Hunt）",
-      "Beam（来自 Product Hunt）",
-      "walkai-talkai（来自 Product Hunt）",
-      "buddylist（来自 Product Hunt）"
+      "ToDo.is（来自 Product Hunt）",
+      "Stella（来自 Product Hunt）",
+      "The New Beings（来自 Product Hunt）",
+      "Harness²（来自 Product Hunt）",
+      "ESP-Mosaico（来自 Product Hunt）",
+      "Lugh Xtudio（来自 Product Hunt）",
+      "DeepSeek-V4.1-Flash-1017（来自 Hugging Face）",
+      "flux-3-image-klein-comfy（来自 Hugging Face）"
     ],
     "highlights_en": [
-      "Lancetta (via Product Hunt)",
-      "CrawlForge MCP (via Product Hunt)",
-      "Own 1 (via Product Hunt)",
-      "Beam.win (via Product Hunt)",
-      "Starkomand (via Product Hunt)",
-      "Beam (via Product Hunt)",
-      "walkai-talkai (via Product Hunt)",
-      "buddylist (via Product Hunt)"
+      "ToDo.is (via Product Hunt)",
+      "Stella (via Product Hunt)",
+      "The New Beings (via Product Hunt)",
+      "Harness² (via Product Hunt)",
+      "ESP-Mosaico (via Product Hunt)",
+      "Lugh Xtudio (via Product Hunt)",
+      "DeepSeek-V4.1-Flash-1017 (via Hugging Face)",
+      "flux-3-image-klein-comfy (via Hugging Face)"
     ],
-    "updated_at": "2026-10-20T00:08:56.752202+00:00"
+    "updated_at": "2026-10-21T00:07:30.118924+00:00"
   },
   {
     "id": "week-2026-w42-scan",
