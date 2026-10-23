@@ -1,14 +1,14 @@
 [
   {
-    "id": "needle",
-    "name_zh": "Needle",
-    "name_en": "Needle",
-    "url": "https://www.producthunt.com/products/needle-3",
+    "id": "claude-duet",
+    "name_zh": "Claude Duet",
+    "name_en": "Claude Duet",
+    "url": "https://www.producthunt.com/products/claude",
     "scenarios": [
       "agents"
     ],
-    "one_liner_zh": "The agent-native outbound engine",
-    "one_liner_en": "The agent-native outbound engine",
+    "one_liner_zh": "Proactive agent that understands what needs your attention",
+    "one_liner_en": "Proactive agent that understands what needs your attention",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -17,22 +17,22 @@
     "sources": [
       "Product Hunt"
     ],
-    "launched_or_updated_at": "2026-10-22",
+    "launched_or_updated_at": "2026-10-23",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
     "_suggested_by_scan": true
   },
   {
-    "id": "scout-by-fini",
-    "name_zh": "Scout by Fini",
-    "name_en": "Scout by Fini",
-    "url": "https://www.producthunt.com/products/fini-2",
+    "id": "loom-record-for-agents",
+    "name_zh": "Loom Record for agents",
+    "name_en": "Loom Record for agents",
+    "url": "https://www.producthunt.com/products/loom",
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "The AI coworker for support teams, on Slack",
-    "one_liner_en": "The AI coworker for support teams, on Slack",
+    "one_liner_zh": "Hit record and hand off to AI, now in the new Loom app",
+    "one_liner_en": "Hit record and hand off to AI, now in the new Loom app",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -41,22 +41,47 @@
     "sources": [
       "Product Hunt"
     ],
-    "launched_or_updated_at": "2026-10-22",
+    "launched_or_updated_at": "2026-10-23",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
     "_suggested_by_scan": true
   },
   {
-    "id": "intelli-for-chatgpt-claude",
-    "name_zh": "Intelli for ChatGPT & Claude",
-    "name_en": "Intelli for ChatGPT & Claude",
-    "url": "https://www.producthunt.com/products/intelli",
+    "id": "cutbay",
+    "name_zh": "CutBay",
+    "name_en": "CutBay",
+    "url": "https://www.producthunt.com/products/cutbay",
+    "scenarios": [
+      "image-video",
+      "agents"
+    ],
+    "one_liner_zh": "AI Video Agent: Turn Anything into Videos via Chat",
+    "one_liner_en": "AI Video Agent: Turn Anything into Videos via Chat",
+    "use_when_zh": "（待编辑）适合该工具定位的场景。",
+    "use_when_en": "(todo) When this tool’s positioning fits.",
+    "avoid_when_zh": "（待编辑）明确不适合的情况。",
+    "avoid_when_en": "(todo) When it is a poor fit.",
+    "pricing": "free",
+    "sources": [
+      "Product Hunt"
+    ],
+    "launched_or_updated_at": "2026-10-23",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null,
+    "_suggested_by_scan": true
+  },
+  {
+    "id": "radaric",
+    "name_zh": "Radaric",
+    "name_en": "Radaric",
+    "url": "https://www.producthunt.com/products/radaric",
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "Run WhatsApp, Instagram & web chat from ChatGPT or Claude",
-    "one_liner_en": "Run WhatsApp, Instagram & web chat from ChatGPT or Claude",
+    "one_liner_zh": "AI feed reader that learns your editorial taste",
+    "one_liner_en": "AI feed reader that learns your editorial taste",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -65,22 +90,22 @@
     "sources": [
       "Product Hunt"
     ],
-    "launched_or_updated_at": "2026-10-22",
+    "launched_or_updated_at": "2026-10-23",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
     "_suggested_by_scan": true
   },
   {
-    "id": "askdoozy",
-    "name_zh": "AskDoozy",
-    "name_en": "AskDoozy",
-    "url": "https://www.producthunt.com/products/askdoozy",
+    "id": "concierge-by-juniors-ai",
+    "name_zh": "Concierge by Juniors AI",
+    "name_en": "Concierge by Juniors AI",
+    "url": "https://www.producthunt.com/products/concierge-by-juniors-ai",
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "An AI coworker in Slack that does your real work",
-    "one_liner_en": "An AI coworker in Slack that does your real work",
+    "one_liner_zh": "Omni-channel AI-first customer support (6 months free)",
+    "one_liner_en": "Omni-channel AI-first customer support (6 months free)",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -89,22 +114,22 @@
     "sources": [
       "Product Hunt"
     ],
-    "launched_or_updated_at": "2026-10-22",
+    "launched_or_updated_at": "2026-10-23",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
     "_suggested_by_scan": true
   },
   {
-    "id": "tend",
-    "name_zh": "Tend",
-    "name_en": "Tend",
-    "url": "https://www.producthunt.com/products/tend-5",
+    "id": "dadan",
+    "name_zh": "Dadan",
+    "name_en": "Dadan",
+    "url": "https://www.producthunt.com/products/dadan",
     "scenarios": [
-      "research"
+      "image-video"
     ],
-    "one_liner_zh": "Personal AI for businesses and entrepreneurs.",
-    "one_liner_en": "Personal AI for businesses and entrepreneurs.",
+    "one_liner_zh": "One AI video workspace for recordings, meetings and guides",
+    "one_liner_en": "One AI video workspace for recordings, meetings and guides",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -113,31 +138,7 @@
     "sources": [
       "Product Hunt"
     ],
-    "launched_or_updated_at": "2026-10-22",
-    "is_new_this_week": true,
-    "sponsored": false,
-    "affiliate_url": null,
-    "_suggested_by_scan": true
-  },
-  {
-    "id": "band-for-developers",
-    "name_zh": "BAND for Developers",
-    "name_en": "BAND for Developers",
-    "url": "https://www.producthunt.com/products/band",
-    "scenarios": [
-      "coding"
-    ],
-    "one_liner_zh": "Coding agents, meet teamwork",
-    "one_liner_en": "Coding agents, meet teamwork",
-    "use_when_zh": "（待编辑）适合该工具定位的场景。",
-    "use_when_en": "(todo) When this tool’s positioning fits.",
-    "avoid_when_zh": "（待编辑）明确不适合的情况。",
-    "avoid_when_en": "(todo) When it is a poor fit.",
-    "pricing": "free",
-    "sources": [
-      "Product Hunt"
-    ],
-    "launched_or_updated_at": "2026-10-22",
+    "launched_or_updated_at": "2026-10-23",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -151,8 +152,8 @@
     "scenarios": [
       "image-video"
     ],
-    "one_liner_zh": "Trending HF model (image-text-to-text), likes≈2160. Full id: deepseek-ai/DeepSeek-V4.1-Flash-1017",
-    "one_liner_en": "Trending HF model (image-text-to-text), likes≈2160. Full id: deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "one_liner_zh": "Trending HF model (image-text-to-text), likes≈2354. Full id: deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "one_liner_en": "Trending HF model (image-text-to-text), likes≈2354. Full id: deepseek-ai/DeepSeek-V4.1-Flash-1017",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -161,7 +162,7 @@
     "sources": [
       "Hugging Face"
     ],
-    "launched_or_updated_at": "2026-10-22",
+    "launched_or_updated_at": "2026-10-23",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -175,8 +176,8 @@
     "scenarios": [
       "image-video"
     ],
-    "one_liner_zh": "Trending HF model (image-to-image), likes≈1186. Full id: black-forest-labs/flux-3-image-klein-comfy",
-    "one_liner_en": "Trending HF model (image-to-image), likes≈1186. Full id: black-forest-labs/flux-3-image-klein-comfy",
+    "one_liner_zh": "Trending HF model (image-to-image), likes≈1300. Full id: black-forest-labs/flux-3-image-klein-comfy",
+    "one_liner_en": "Trending HF model (image-to-image), likes≈1300. Full id: black-forest-labs/flux-3-image-klein-comfy",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -185,22 +186,22 @@
     "sources": [
       "Hugging Face"
     ],
-    "launched_or_updated_at": "2026-10-22",
+    "launched_or_updated_at": "2026-10-23",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
     "_suggested_by_scan": true
   },
   {
-    "id": "muse-spark-open-816b-a42b",
-    "name_zh": "Muse-Spark-Open-816B-A42B",
-    "name_en": "Muse-Spark-Open-816B-A42B",
-    "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
+    "id": "moss-image-sft",
+    "name_zh": "MOSS-Image-SFT",
+    "name_en": "MOSS-Image-SFT",
+    "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
     "scenarios": [
       "image-video"
     ],
-    "one_liner_zh": "Trending HF model (image-text-to-text), likes≈636. Full id: meta-models/Muse-Spark-Open-816B-A42B",
-    "one_liner_en": "Trending HF model (image-text-to-text), likes≈636. Full id: meta-models/Muse-Spark-Open-816B-A42B",
+    "one_liner_zh": "Trending HF model (text-to-image), likes≈578. Full id: OpenMOSS-Team/MOSS-Image-SFT",
+    "one_liner_en": "Trending HF model (text-to-image), likes≈578. Full id: OpenMOSS-Team/MOSS-Image-SFT",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -209,22 +210,22 @@
     "sources": [
       "Hugging Face"
     ],
-    "launched_or_updated_at": "2026-10-22",
+    "launched_or_updated_at": "2026-10-23",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
     "_suggested_by_scan": true
   },
   {
-    "id": "drama-3",
-    "name_zh": "drama-3",
-    "name_en": "drama-3",
-    "url": "https://huggingface.co/fishaudio/drama-3",
+    "id": "flint",
+    "name_zh": "flint",
+    "name_en": "flint",
+    "url": "https://huggingface.co/RecursiveSI/flint",
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "Trending HF model (text-to-speech), likes≈888. Full id: fishaudio/drama-3",
-    "one_liner_en": "Trending HF model (text-to-speech), likes≈888. Full id: fishaudio/drama-3",
+    "one_liner_zh": "Trending HF model (text-generation), likes≈533. Full id: RecursiveSI/flint",
+    "one_liner_en": "Trending HF model (text-generation), likes≈533. Full id: RecursiveSI/flint",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -233,7 +234,7 @@
     "sources": [
       "Hugging Face"
     ],
-    "launched_or_updated_at": "2026-10-22",
+    "launched_or_updated_at": "2026-10-23",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -247,8 +248,8 @@
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "Popular HF Space (docker), likes≈14139. id=open-llm-leaderboard/open_llm_leaderboard",
-    "one_liner_en": "Popular HF Space (docker), likes≈14139. id=open-llm-leaderboard/open_llm_leaderboard",
+    "one_liner_zh": "Popular HF Space (docker), likes≈14141. id=open-llm-leaderboard/open_llm_leaderboard",
+    "one_liner_en": "Popular HF Space (docker), likes≈14141. id=open-llm-leaderboard/open_llm_leaderboard",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -257,22 +258,22 @@
     "sources": [
       "Hugging Face Spaces"
     ],
-    "launched_or_updated_at": "2026-10-22",
+    "launched_or_updated_at": "2026-10-23",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
     "_suggested_by_scan": true
   },
   {
-    "id": "veda",
-    "name_zh": "vahmoh25/Veda",
-    "name_en": "vahmoh25/Veda",
-    "url": "https://github.com/vahmoh25/Veda",
+    "id": "locals",
+    "name_zh": "Generated-Computers/Locals",
+    "name_en": "Generated-Computers/Locals",
+    "url": "https://github.com/Generated-Computers/Locals",
     "scenarios": [
       "coding"
     ],
-    "one_liner_zh": "The Agentic-Native Operating System ★87",
-    "one_liner_en": "The Agentic-Native Operating System ★87",
+    "one_liner_zh": "Run many AI agents at once on your Mac, up to 3x faster. ★286",
+    "one_liner_en": "Run many AI agents at once on your Mac, up to 3x faster. ★286",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -281,7 +282,7 @@
     "sources": [
       "GitHub"
     ],
-    "launched_or_updated_at": "2026-10-22",
+    "launched_or_updated_at": "2026-10-23",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -306,22 +307,22 @@
     "sources": [
       "GitHub"
     ],
-    "launched_or_updated_at": "2026-10-22",
+    "launched_or_updated_at": "2026-10-23",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
     "_suggested_by_scan": true
   },
   {
-    "id": "locals",
-    "name_zh": "Generated-Computers/Locals",
-    "name_en": "Generated-Computers/Locals",
-    "url": "https://github.com/Generated-Computers/Locals",
+    "id": "veda",
+    "name_zh": "vahmoh25/Veda",
+    "name_en": "vahmoh25/Veda",
+    "url": "https://github.com/vahmoh25/Veda",
     "scenarios": [
       "coding"
     ],
-    "one_liner_zh": "Run many AI agents at once on your Mac, up to 3x faster. ★50",
-    "one_liner_en": "Run many AI agents at once on your Mac, up to 3x faster. ★50",
+    "one_liner_zh": "The Agentic-Native Operating System ★89",
+    "one_liner_en": "The Agentic-Native Operating System ★89",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -330,7 +331,7 @@
     "sources": [
       "GitHub"
     ],
-    "launched_or_updated_at": "2026-10-22",
+    "launched_or_updated_at": "2026-10-23",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -344,8 +345,8 @@
     "scenarios": [
       "coding"
     ],
-    "one_liner_zh": "JOSIE Voice: a real-time, on-device voice assistant for Apple Silicon. Download the macOS app (DMG) from Releases. ★47",
-    "one_liner_en": "JOSIE Voice: a real-time, on-device voice assistant for Apple Silicon. Download the macOS app (DMG) from Releases. ★47",
+    "one_liner_zh": "JOSIE Voice: a real-time, on-device voice assistant for Apple Silicon. Download the macOS app (DMG) from Releases. ★48",
+    "one_liner_en": "JOSIE Voice: a real-time, on-device voice assistant for Apple Silicon. Download the macOS app (DMG) from Releases. ★48",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -354,7 +355,7 @@
     "sources": [
       "GitHub"
     ],
-    "launched_or_updated_at": "2026-10-22",
+    "launched_or_updated_at": "2026-10-23",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
