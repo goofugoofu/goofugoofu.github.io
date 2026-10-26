@@ -1,38 +1,14 @@
 [
   {
-    "id": "claude-duet",
-    "name_zh": "Claude Duet",
-    "name_en": "Claude Duet",
-    "url": "https://www.producthunt.com/products/claude",
-    "scenarios": [
-      "agents"
-    ],
-    "one_liner_zh": "Proactive agent that understands what needs your attention",
-    "one_liner_en": "Proactive agent that understands what needs your attention",
-    "use_when_zh": "（待编辑）适合该工具定位的场景。",
-    "use_when_en": "(todo) When this tool’s positioning fits.",
-    "avoid_when_zh": "（待编辑）明确不适合的情况。",
-    "avoid_when_en": "(todo) When it is a poor fit.",
-    "pricing": "free",
-    "sources": [
-      "Product Hunt"
-    ],
-    "launched_or_updated_at": "2026-10-23",
-    "is_new_this_week": true,
-    "sponsored": false,
-    "affiliate_url": null,
-    "_suggested_by_scan": true
-  },
-  {
-    "id": "loom-record-for-agents",
-    "name_zh": "Loom Record for agents",
-    "name_en": "Loom Record for agents",
-    "url": "https://www.producthunt.com/products/loom",
+    "id": "yourcast-2-0",
+    "name_zh": "Yourcast 2.0",
+    "name_en": "Yourcast 2.0",
+    "url": "https://www.producthunt.com/products/yourcast",
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "Hit record and hand off to AI, now in the new Loom app",
-    "one_liner_en": "Hit record and hand off to AI, now in the new Loom app",
+    "one_liner_zh": "AI summaries with tap-to-jump timestamps, right in Telegram",
+    "one_liner_en": "AI summaries with tap-to-jump timestamps, right in Telegram",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -41,47 +17,22 @@
     "sources": [
       "Product Hunt"
     ],
-    "launched_or_updated_at": "2026-10-23",
+    "launched_or_updated_at": "2026-10-26",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
     "_suggested_by_scan": true
   },
   {
-    "id": "cutbay",
-    "name_zh": "CutBay",
-    "name_en": "CutBay",
-    "url": "https://www.producthunt.com/products/cutbay",
-    "scenarios": [
-      "image-video",
-      "agents"
-    ],
-    "one_liner_zh": "AI Video Agent: Turn Anything into Videos via Chat",
-    "one_liner_en": "AI Video Agent: Turn Anything into Videos via Chat",
-    "use_when_zh": "（待编辑）适合该工具定位的场景。",
-    "use_when_en": "(todo) When this tool’s positioning fits.",
-    "avoid_when_zh": "（待编辑）明确不适合的情况。",
-    "avoid_when_en": "(todo) When it is a poor fit.",
-    "pricing": "free",
-    "sources": [
-      "Product Hunt"
-    ],
-    "launched_or_updated_at": "2026-10-23",
-    "is_new_this_week": true,
-    "sponsored": false,
-    "affiliate_url": null,
-    "_suggested_by_scan": true
-  },
-  {
-    "id": "radaric",
-    "name_zh": "Radaric",
-    "name_en": "Radaric",
-    "url": "https://www.producthunt.com/products/radaric",
+    "id": "moli-by-lexmount",
+    "name_zh": "Moli by Lexmount",
+    "name_en": "Moli by Lexmount",
+    "url": "https://www.producthunt.com/products/lexmount-browser",
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "AI feed reader that learns your editorial taste",
-    "one_liner_en": "AI feed reader that learns your editorial taste",
+    "one_liner_zh": "The fastest headless browser for agents and harnesses",
+    "one_liner_en": "The fastest headless browser for agents and harnesses",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -90,22 +41,22 @@
     "sources": [
       "Product Hunt"
     ],
-    "launched_or_updated_at": "2026-10-23",
+    "launched_or_updated_at": "2026-10-26",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
     "_suggested_by_scan": true
   },
   {
-    "id": "concierge-by-juniors-ai",
-    "name_zh": "Concierge by Juniors AI",
-    "name_en": "Concierge by Juniors AI",
-    "url": "https://www.producthunt.com/products/concierge-by-juniors-ai",
+    "id": "agentgrid-io",
+    "name_zh": "AgentGrid.io",
+    "name_en": "AgentGrid.io",
+    "url": "https://www.producthunt.com/products/agentgrid-io",
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "Omni-channel AI-first customer support (6 months free)",
-    "one_liner_en": "Omni-channel AI-first customer support (6 months free)",
+    "one_liner_zh": "Shared workspace for humans and agents",
+    "one_liner_en": "Shared workspace for humans and agents",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -114,22 +65,22 @@
     "sources": [
       "Product Hunt"
     ],
-    "launched_or_updated_at": "2026-10-23",
+    "launched_or_updated_at": "2026-10-26",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
     "_suggested_by_scan": true
   },
   {
-    "id": "dadan",
-    "name_zh": "Dadan",
-    "name_en": "Dadan",
-    "url": "https://www.producthunt.com/products/dadan",
+    "id": "llama-windows",
+    "name_zh": "Llama Windows",
+    "name_en": "Llama Windows",
+    "url": "https://www.producthunt.com/products/llama-windows",
     "scenarios": [
-      "image-video"
+      "research"
     ],
-    "one_liner_zh": "One AI video workspace for recordings, meetings and guides",
-    "one_liner_en": "One AI video workspace for recordings, meetings and guides",
+    "one_liner_zh": "One local AI server for all your Windows apps",
+    "one_liner_en": "One local AI server for all your Windows apps",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -138,7 +89,55 @@
     "sources": [
       "Product Hunt"
     ],
-    "launched_or_updated_at": "2026-10-23",
+    "launched_or_updated_at": "2026-10-26",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null,
+    "_suggested_by_scan": true
+  },
+  {
+    "id": "papermark-data-rooms",
+    "name_zh": "Papermark Data Rooms",
+    "name_en": "Papermark Data Rooms",
+    "url": "https://www.producthunt.com/products/papermark-2",
+    "scenarios": [
+      "research"
+    ],
+    "one_liner_zh": "Secure data rooms your AI agents can run. Live in",
+    "one_liner_en": "Secure data rooms your AI agents can run. Live in",
+    "use_when_zh": "（待编辑）适合该工具定位的场景。",
+    "use_when_en": "(todo) When this tool’s positioning fits.",
+    "avoid_when_zh": "（待编辑）明确不适合的情况。",
+    "avoid_when_en": "(todo) When it is a poor fit.",
+    "pricing": "free",
+    "sources": [
+      "Product Hunt"
+    ],
+    "launched_or_updated_at": "2026-10-26",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null,
+    "_suggested_by_scan": true
+  },
+  {
+    "id": "specsight",
+    "name_zh": "Specsight",
+    "name_en": "Specsight",
+    "url": "https://www.producthunt.com/products/specsight",
+    "scenarios": [
+      "research"
+    ],
+    "one_liner_zh": "Product observability for teams shipping fast with AI",
+    "one_liner_en": "Product observability for teams shipping fast with AI",
+    "use_when_zh": "（待编辑）适合该工具定位的场景。",
+    "use_when_en": "(todo) When this tool’s positioning fits.",
+    "avoid_when_zh": "（待编辑）明确不适合的情况。",
+    "avoid_when_en": "(todo) When it is a poor fit.",
+    "pricing": "free",
+    "sources": [
+      "Product Hunt"
+    ],
+    "launched_or_updated_at": "2026-10-26",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -152,8 +151,8 @@
     "scenarios": [
       "image-video"
     ],
-    "one_liner_zh": "Trending HF model (image-text-to-text), likes≈2354. Full id: deepseek-ai/DeepSeek-V4.1-Flash-1017",
-    "one_liner_en": "Trending HF model (image-text-to-text), likes≈2354. Full id: deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "one_liner_zh": "Trending HF model (image-text-to-text), likes≈2979. Full id: deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "one_liner_en": "Trending HF model (image-text-to-text), likes≈2979. Full id: deepseek-ai/DeepSeek-V4.1-Flash-1017",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -162,55 +161,7 @@
     "sources": [
       "Hugging Face"
     ],
-    "launched_or_updated_at": "2026-10-23",
-    "is_new_this_week": true,
-    "sponsored": false,
-    "affiliate_url": null,
-    "_suggested_by_scan": true
-  },
-  {
-    "id": "flux-3-image-klein-comfy",
-    "name_zh": "flux-3-image-klein-comfy",
-    "name_en": "flux-3-image-klein-comfy",
-    "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
-    "scenarios": [
-      "image-video"
-    ],
-    "one_liner_zh": "Trending HF model (image-to-image), likes≈1300. Full id: black-forest-labs/flux-3-image-klein-comfy",
-    "one_liner_en": "Trending HF model (image-to-image), likes≈1300. Full id: black-forest-labs/flux-3-image-klein-comfy",
-    "use_when_zh": "（待编辑）适合该工具定位的场景。",
-    "use_when_en": "(todo) When this tool’s positioning fits.",
-    "avoid_when_zh": "（待编辑）明确不适合的情况。",
-    "avoid_when_en": "(todo) When it is a poor fit.",
-    "pricing": "free",
-    "sources": [
-      "Hugging Face"
-    ],
-    "launched_or_updated_at": "2026-10-23",
-    "is_new_this_week": true,
-    "sponsored": false,
-    "affiliate_url": null,
-    "_suggested_by_scan": true
-  },
-  {
-    "id": "moss-image-sft",
-    "name_zh": "MOSS-Image-SFT",
-    "name_en": "MOSS-Image-SFT",
-    "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
-    "scenarios": [
-      "image-video"
-    ],
-    "one_liner_zh": "Trending HF model (text-to-image), likes≈578. Full id: OpenMOSS-Team/MOSS-Image-SFT",
-    "one_liner_en": "Trending HF model (text-to-image), likes≈578. Full id: OpenMOSS-Team/MOSS-Image-SFT",
-    "use_when_zh": "（待编辑）适合该工具定位的场景。",
-    "use_when_en": "(todo) When this tool’s positioning fits.",
-    "avoid_when_zh": "（待编辑）明确不适合的情况。",
-    "avoid_when_en": "(todo) When it is a poor fit.",
-    "pricing": "free",
-    "sources": [
-      "Hugging Face"
-    ],
-    "launched_or_updated_at": "2026-10-23",
+    "launched_or_updated_at": "2026-10-26",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -224,8 +175,8 @@
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "Trending HF model (text-generation), likes≈533. Full id: RecursiveSI/flint",
-    "one_liner_en": "Trending HF model (text-generation), likes≈533. Full id: RecursiveSI/flint",
+    "one_liner_zh": "Trending HF model (text-generation), likes≈857. Full id: RecursiveSI/flint",
+    "one_liner_en": "Trending HF model (text-generation), likes≈857. Full id: RecursiveSI/flint",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -234,7 +185,55 @@
     "sources": [
       "Hugging Face"
     ],
-    "launched_or_updated_at": "2026-10-23",
+    "launched_or_updated_at": "2026-10-26",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null,
+    "_suggested_by_scan": true
+  },
+  {
+    "id": "flux-3-image-klein-comfy",
+    "name_zh": "flux-3-image-klein-comfy",
+    "name_en": "flux-3-image-klein-comfy",
+    "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+    "scenarios": [
+      "image-video"
+    ],
+    "one_liner_zh": "Trending HF model (image-to-image), likes≈1602. Full id: black-forest-labs/flux-3-image-klein-comfy",
+    "one_liner_en": "Trending HF model (image-to-image), likes≈1602. Full id: black-forest-labs/flux-3-image-klein-comfy",
+    "use_when_zh": "（待编辑）适合该工具定位的场景。",
+    "use_when_en": "(todo) When this tool’s positioning fits.",
+    "avoid_when_zh": "（待编辑）明确不适合的情况。",
+    "avoid_when_en": "(todo) When it is a poor fit.",
+    "pricing": "free",
+    "sources": [
+      "Hugging Face"
+    ],
+    "launched_or_updated_at": "2026-10-26",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null,
+    "_suggested_by_scan": true
+  },
+  {
+    "id": "spark-x2-6-4b",
+    "name_zh": "Spark-X2.6-4B",
+    "name_en": "Spark-X2.6-4B",
+    "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
+    "scenarios": [
+      "research"
+    ],
+    "one_liner_zh": "Trending HF model (text-generation), likes≈495. Full id: XHToken/Spark-X2.6-4B",
+    "one_liner_en": "Trending HF model (text-generation), likes≈495. Full id: XHToken/Spark-X2.6-4B",
+    "use_when_zh": "（待编辑）适合该工具定位的场景。",
+    "use_when_en": "(todo) When this tool’s positioning fits.",
+    "avoid_when_zh": "（待编辑）明确不适合的情况。",
+    "avoid_when_en": "(todo) When it is a poor fit.",
+    "pricing": "free",
+    "sources": [
+      "Hugging Face"
+    ],
+    "launched_or_updated_at": "2026-10-26",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -248,8 +247,8 @@
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "Popular HF Space (docker), likes≈14141. id=open-llm-leaderboard/open_llm_leaderboard",
-    "one_liner_en": "Popular HF Space (docker), likes≈14141. id=open-llm-leaderboard/open_llm_leaderboard",
+    "one_liner_zh": "Popular HF Space (docker), likes≈14145. id=open-llm-leaderboard/open_llm_leaderboard",
+    "one_liner_en": "Popular HF Space (docker), likes≈14145. id=open-llm-leaderboard/open_llm_leaderboard",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -258,7 +257,7 @@
     "sources": [
       "Hugging Face Spaces"
     ],
-    "launched_or_updated_at": "2026-10-23",
+    "launched_or_updated_at": "2026-10-26",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -272,8 +271,8 @@
     "scenarios": [
       "coding"
     ],
-    "one_liner_zh": "Run many AI agents at once on your Mac, up to 3x faster. ★286",
-    "one_liner_en": "Run many AI agents at once on your Mac, up to 3x faster. ★286",
+    "one_liner_zh": "Run many AI agents at once on your Mac, up to 3x faster. ★348",
+    "one_liner_en": "Run many AI agents at once on your Mac, up to 3x faster. ★348",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -282,7 +281,7 @@
     "sources": [
       "GitHub"
     ],
-    "launched_or_updated_at": "2026-10-23",
+    "launched_or_updated_at": "2026-10-26",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -297,8 +296,8 @@
       "coding",
       "agents"
     ],
-    "one_liner_zh": "Local security intelligence for CVE triage - 38 data sources and 36 tools, risk scores and an MCP server for AI agents, ",
-    "one_liner_en": "Local security intelligence for CVE triage - 38 data sources and 36 tools, risk scores and an MCP server for AI agents, ",
+    "one_liner_zh": "Local security intelligence for CVE triage - 39 data sources and 36 tools, risk scores and an MCP server for AI agents, ",
+    "one_liner_en": "Local security intelligence for CVE triage - 39 data sources and 36 tools, risk scores and an MCP server for AI agents, ",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -307,22 +306,22 @@
     "sources": [
       "GitHub"
     ],
-    "launched_or_updated_at": "2026-10-23",
+    "launched_or_updated_at": "2026-10-26",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
     "_suggested_by_scan": true
   },
   {
-    "id": "veda",
-    "name_zh": "vahmoh25/Veda",
-    "name_en": "vahmoh25/Veda",
-    "url": "https://github.com/vahmoh25/Veda",
+    "id": "recursia",
+    "name_zh": "cocacola-lab/Recursia",
+    "name_en": "cocacola-lab/Recursia",
+    "url": "https://github.com/cocacola-lab/Recursia",
     "scenarios": [
       "coding"
     ],
-    "one_liner_zh": "The Agentic-Native Operating System ★89",
-    "one_liner_en": "The Agentic-Native Operating System ★89",
+    "one_liner_zh": "Recursive self-improvement for robot manipulation, with real-robot experiments and shared executable skills. ★88",
+    "one_liner_en": "Recursive self-improvement for robot manipulation, with real-robot experiments and shared executable skills. ★88",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -331,22 +330,22 @@
     "sources": [
       "GitHub"
     ],
-    "launched_or_updated_at": "2026-10-23",
+    "launched_or_updated_at": "2026-10-26",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
     "_suggested_by_scan": true
   },
   {
-    "id": "josie-voice",
-    "name_zh": "Goekdeniz-Guelmez/JOSIE-Voice",
-    "name_en": "Goekdeniz-Guelmez/JOSIE-Voice",
-    "url": "https://github.com/Goekdeniz-Guelmez/JOSIE-Voice",
+    "id": "agentshield",
+    "name_zh": "agentshield-dev/agentshield",
+    "name_en": "agentshield-dev/agentshield",
+    "url": "https://github.com/agentshield-dev/agentshield",
     "scenarios": [
       "coding"
     ],
-    "one_liner_zh": "JOSIE Voice: a real-time, on-device voice assistant for Apple Silicon. Download the macOS app (DMG) from Releases. ★48",
-    "one_liner_en": "JOSIE Voice: a real-time, on-device voice assistant for Apple Silicon. Download the macOS app (DMG) from Releases. ★48",
+    "one_liner_zh": "Agentshield is open source defense for Kubernetes and AWS. It learns how your workloads really talk, flags lateral movem",
+    "one_liner_en": "Agentshield is open source defense for Kubernetes and AWS. It learns how your workloads really talk, flags lateral movem",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -355,7 +354,7 @@
     "sources": [
       "GitHub"
     ],
-    "launched_or_updated_at": "2026-10-23",
+    "launched_or_updated_at": "2026-10-26",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,

@@ -1,5 +1,44 @@
 [
   {
+    "id": "week-2026-w44-scan",
+    "week_label_zh": "2026 年第 44 周",
+    "week_label_en": "Week 44, 2026",
+    "date_range": "2026-10-26 — 2026-11-01",
+    "title_zh": "本周扫描更新（2026-10-26）",
+    "title_en": "Weekly scan update (2026-10-26)",
+    "intro_zh": "自动扫描写入。今日来源统计：Product Hunt×6、Hugging Face×4、Hugging Face Spaces×2、GitHub×6、X×7、RunningHub×1、Higgsfield×1。可作通讯草稿。",
+    "intro_en": "Auto-scan write-up. Today's source counts: Product Hunt×6, Hugging Face×4, Hugging Face Spaces×2, GitHub×6, X×7, RunningHub×1, Higgsfield×1. Reuse as newsletter draft.",
+    "tool_ids": [
+      "deepsite",
+      "chatgpt",
+      "claude",
+      "gemini",
+      "runninghub",
+      "higgsfield"
+    ],
+    "highlights_zh": [
+      "Yourcast 2.0（来自 Product Hunt）",
+      "Moli by Lexmount（来自 Product Hunt）",
+      "AgentGrid.io（来自 Product Hunt）",
+      "Llama Windows（来自 Product Hunt）",
+      "Papermark Data Rooms（来自 Product Hunt）",
+      "Specsight（来自 Product Hunt）",
+      "DeepSeek-V4.1-Flash-1017（来自 Hugging Face）",
+      "flint（来自 Hugging Face）"
+    ],
+    "highlights_en": [
+      "Yourcast 2.0 (via Product Hunt)",
+      "Moli by Lexmount (via Product Hunt)",
+      "AgentGrid.io (via Product Hunt)",
+      "Llama Windows (via Product Hunt)",
+      "Papermark Data Rooms (via Product Hunt)",
+      "Specsight (via Product Hunt)",
+      "DeepSeek-V4.1-Flash-1017 (via Hugging Face)",
+      "flint (via Hugging Face)"
+    ],
+    "updated_at": "2026-10-26T00:06:08.187985+00:00"
+  },
+  {
     "id": "week-2026-w43-scan",
     "week_label_zh": "2026 年第 43 周",
     "week_label_en": "Week 43, 2026",
