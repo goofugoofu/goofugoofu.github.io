@@ -420,6 +420,222 @@
     "scan_name": "Higgsfield AI — AI-native creative suite"
   },
   {
+    "id": "daily-2026-10-24-1-kiwi",
+    "date": "2026-10-24",
+    "title_zh": "Kiwi（来自 Product Hunt）",
+    "title_en": "Kiwi (via Product Hunt)",
+    "summary_zh": "扫描来源：Product Hunt。A proactive AI assistant that texts you before you ask 相关场景：研究检索。",
+    "summary_en": "Source: Product Hunt. A proactive AI assistant that texts you before you ask Scenarios: research.",
+    "related_tool_ids": [],
+    "tags": [
+      "research"
+    ],
+    "source": "Product Hunt",
+    "source_url": "https://www.producthunt.com/products/kiwi-7",
+    "scan_name": "Kiwi"
+  },
+  {
+    "id": "daily-2026-10-24-2-tabsh",
+    "date": "2026-10-24",
+    "title_zh": "tabsh（来自 Product Hunt）",
+    "title_en": "tabsh (via Product Hunt)",
+    "summary_zh": "扫描来源：Product Hunt。Work with agents with an IDE in your browser tab 相关场景：写代码。",
+    "summary_en": "Source: Product Hunt. Work with agents with an IDE in your browser tab Scenarios: coding.",
+    "related_tool_ids": [],
+    "tags": [
+      "coding"
+    ],
+    "source": "Product Hunt",
+    "source_url": "https://www.producthunt.com/products/tabsh",
+    "scan_name": "tabsh"
+  },
+  {
+    "id": "daily-2026-10-24-3-strawberry-1-0",
+    "date": "2026-10-24",
+    "title_zh": "Strawberry 1.0（来自 Product Hunt）",
+    "title_en": "Strawberry 1.0 (via Product Hunt)",
+    "summary_zh": "扫描来源：Product Hunt。AI Browser that saves your team >100h/week 相关场景：研究检索。",
+    "summary_en": "Source: Product Hunt. AI Browser that saves your team >100h/week Scenarios: research.",
+    "related_tool_ids": [],
+    "tags": [
+      "research"
+    ],
+    "source": "Product Hunt",
+    "source_url": "https://www.producthunt.com/products/strawberry",
+    "scan_name": "Strawberry 1.0"
+  },
+  {
+    "id": "daily-2026-10-24-4-n8n-chat-ui",
+    "date": "2026-10-24",
+    "title_zh": "N8N Chat UI（来自 Product Hunt）",
+    "title_en": "N8N Chat UI (via Product Hunt)",
+    "summary_zh": "扫描来源：Product Hunt。Beautiful, no-code, on-brand AI chat widgets for n8n 相关场景：写代码。",
+    "summary_en": "Source: Product Hunt. Beautiful, no-code, on-brand AI chat widgets for n8n Scenarios: coding.",
+    "related_tool_ids": [],
+    "tags": [
+      "coding"
+    ],
+    "source": "Product Hunt",
+    "source_url": "https://www.producthunt.com/products/n8n-chat-ui-2",
+    "scan_name": "N8N Chat UI"
+  },
+  {
+    "id": "daily-2026-10-24-5-minimax-m3-1-flash",
+    "date": "2026-10-24",
+    "title_zh": "MiniMax M3.1 Flash（来自 Product Hunt）",
+    "title_en": "MiniMax M3.1 Flash (via Product Hunt)",
+    "summary_zh": "扫描来源：Product Hunt。MiniMax’s Flash model, 3x faster and 70% cheaper for agents 相关场景：研究检索。",
+    "summary_en": "Source: Product Hunt. MiniMax’s Flash model, 3x faster and 70% cheaper for agents Scenarios: research.",
+    "related_tool_ids": [],
+    "tags": [
+      "research"
+    ],
+    "source": "Product Hunt",
+    "source_url": "https://www.producthunt.com/products/minimax-4",
+    "scan_name": "MiniMax M3.1 Flash"
+  },
+  {
+    "id": "daily-2026-10-24-6-surgepix",
+    "date": "2026-10-24",
+    "title_zh": "SurgePix（来自 Product Hunt）",
+    "title_en": "SurgePix (via Product Hunt)",
+    "summary_zh": "扫描来源：Product Hunt。AI visuals. Edit every layer. Agent-callable. 相关场景：智能体。",
+    "summary_en": "Source: Product Hunt. AI visuals. Edit every layer. Agent-callable. Scenarios: agents.",
+    "related_tool_ids": [],
+    "tags": [
+      "agents"
+    ],
+    "source": "Product Hunt",
+    "source_url": "https://www.producthunt.com/products/surgepix",
+    "scan_name": "SurgePix"
+  },
+  {
+    "id": "daily-2026-10-24-7-nanbeige4-3-33b",
+    "date": "2026-10-24",
+    "title_zh": "Nanbeige4.3-33B（来自 Hugging Face）",
+    "title_en": "Nanbeige4.3-33B (via Hugging Face)",
+    "summary_zh": "扫描来源：Hugging Face。Trending HF model (text-generation), likes≈548. Full id: Nanbeige/Nanbeige4.3-33B 相关场景：研究检索。",
+    "summary_en": "Source: Hugging Face. Trending HF model (text-generation), likes≈548. Full id: Nanbeige/Nanbeige4.3-33B Scenarios: research.",
+    "related_tool_ids": [],
+    "tags": [
+      "research"
+    ],
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+    "scan_name": "Nanbeige4.3-33B"
+  },
+  {
+    "id": "daily-2026-10-24-8-spark-x2-6-4b",
+    "date": "2026-10-24",
+    "title_zh": "Spark-X2.6-4B（来自 Hugging Face）",
+    "title_en": "Spark-X2.6-4B (via Hugging Face)",
+    "summary_zh": "扫描来源：Hugging Face。Trending HF model (text-generation), likes≈626. Full id: XHToken/Spark-X2.6-4B 相关场景：研究检索。",
+    "summary_en": "Source: Hugging Face. Trending HF model (text-generation), likes≈626. Full id: XHToken/Spark-X2.6-4B Scenarios: research.",
+    "related_tool_ids": [],
+    "tags": [
+      "research"
+    ],
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
+    "scan_name": "Spark-X2.6-4B"
+  },
+  {
+    "id": "daily-2026-10-24-9-cocacola-lab-recursia",
+    "date": "2026-10-24",
+    "title_zh": "cocacola-lab/Recursia（来自 GitHub）",
+    "title_en": "cocacola-lab/Recursia (via GitHub)",
+    "summary_zh": "扫描来源：GitHub。Recursive self-improvement for robot manipulation, with real-robot experiments and shared executable skills. ★93 相关场景：写代码。",
+    "summary_en": "Source: GitHub. Recursive self-improvement for robot manipulation, with real-robot experiments and shared executable skills. ★93 Scenarios: coding.",
+    "related_tool_ids": [],
+    "tags": [
+      "coding"
+    ],
+    "source": "GitHub",
+    "source_url": "https://github.com/cocacola-lab/Recursia",
+    "scan_name": "cocacola-lab/Recursia"
+  },
+  {
+    "id": "daily-2026-10-24-10-cinderubasp-interviewcop",
+    "date": "2026-10-24",
+    "title_zh": "Cinderubasp/InterviewCopilot-rpocket-team（来自 GitHub）",
+    "title_en": "Cinderubasp/InterviewCopilot-rpocket-team (via GitHub)",
+    "summary_zh": "扫描来源：GitHub。EdTech application designed to bridge the gap between learning and landing your dream job ★54 相关场景：写代码。",
+    "summary_en": "Source: GitHub. EdTech application designed to bridge the gap between learning and landing your dream job ★54 Scenarios: coding.",
+    "related_tool_ids": [],
+    "tags": [
+      "coding"
+    ],
+    "source": "GitHub",
+    "source_url": "https://github.com/Cinderubasp/InterviewCopilot-rpocket-team",
+    "scan_name": "Cinderubasp/InterviewCopilot-rpocket-team"
+  },
+  {
+    "id": "daily-2026-10-24-11-google-launched-gemini-4",
+    "date": "2026-10-24",
+    "title_zh": "Google launched Gemini 4 Argon this week（来自 X）",
+    "title_en": "Google launched Gemini 4 Argon this week (via X)",
+    "summary_zh": "扫描来源：X。@MissAITalks: Google launched Gemini 4 Argon this week. 相关场景：研究检索。",
+    "summary_en": "Source: X. @MissAITalks: Google launched Gemini 4 Argon this week. Scenarios: research.",
+    "related_tool_ids": [
+      "gemini"
+    ],
+    "tags": [
+      "research"
+    ],
+    "source": "X",
+    "source_url": "https://x.com/MissAITalks/status/2110973626271060324",
+    "scan_name": "Google launched Gemini 4 Argon this week"
+  },
+  {
+    "id": "daily-2026-10-24-12-ff-just-launched-a-human",
+    "date": "2026-10-24",
+    "title_zh": "FF just launched a humanoid robot for $2,490（来自 X）",
+    "title_en": "FF just launched a humanoid robot for $2,490 (via X)",
+    "summary_zh": "扫描来源：X。@Android_966: FF just launched a humanoid robot for $2,490. Nova walks, waves, gets back up on its own. Open SDK + NVIDIA Isaac. 相关场景：研究检索。",
+    "summary_en": "Source: X. @Android_966: FF just launched a humanoid robot for $2,490. Nova walks, waves, gets back up on its own. Open SDK + NVIDIA Isaac. Scenarios: research.",
+    "related_tool_ids": [],
+    "tags": [
+      "research"
+    ],
+    "source": "X",
+    "source_url": "https://x.com/Android_966/status/2110974262639051222",
+    "scan_name": "FF just launched a humanoid robot for $2,490"
+  },
+  {
+    "id": "daily-2026-10-24-13-runninghub-ai-agent-powe",
+    "date": "2026-10-24",
+    "title_zh": "RunningHub ｜ AI Agent-Powered Content Creation Platform with ComfyUI & Model API（来自 RunningHub）",
+    "title_en": "RunningHub ｜ AI Agent-Powered Content Creation Platform with ComfyUI & Model API (via RunningHub)",
+    "summary_zh": "扫描来源：RunningHub。Best-effort homepage check OK. TODO: wire a real changelog/API when available. 相关场景：做图/视频。",
+    "summary_en": "Source: RunningHub. Best-effort homepage check OK. TODO: wire a real changelog/API when available. Scenarios: image-video.",
+    "related_tool_ids": [
+      "runninghub"
+    ],
+    "tags": [
+      "image-video"
+    ],
+    "source": "RunningHub",
+    "source_url": "https://www.runninghub.ai",
+    "scan_name": "RunningHub ｜ AI Agent-Powered Content Creation Platform with ComfyUI & Model API"
+  },
+  {
+    "id": "daily-2026-10-24-14-higgsfield-ai-ai-native-",
+    "date": "2026-10-24",
+    "title_zh": "Higgsfield AI — AI-native creative suite（来自 Higgsfield）",
+    "title_en": "Higgsfield AI — AI-native creative suite (via Higgsfield)",
+    "summary_zh": "扫描来源：Higgsfield。Best-effort homepage check OK. TODO: public changelog/API not wired. 相关场景：做图/视频。",
+    "summary_en": "Source: Higgsfield. Best-effort homepage check OK. TODO: public changelog/API not wired. Scenarios: image-video.",
+    "related_tool_ids": [
+      "higgsfield"
+    ],
+    "tags": [
+      "image-video"
+    ],
+    "source": "Higgsfield",
+    "source_url": "https://higgsfield.ai",
+    "scan_name": "Higgsfield AI — AI-native creative suite"
+  },
+  {
     "id": "daily-2026-10-23-1-claude-duet",
     "date": "2026-10-23",
     "title_zh": "Claude Duet（来自 Product Hunt）",

@@ -1,5 +1,41 @@
 [
   {
+    "id": "week-2026-w43-scan",
+    "week_label_zh": "2026 年第 43 周",
+    "week_label_en": "Week 43, 2026",
+    "date_range": "2026-10-19 — 2026-10-25",
+    "title_zh": "本周扫描更新（2026-10-24）",
+    "title_en": "Weekly scan update (2026-10-24)",
+    "intro_zh": "自动扫描写入。今日来源统计：Product Hunt×6、Hugging Face×2、GitHub×2、X×2、RunningHub×1、Higgsfield×1。可作通讯草稿。",
+    "intro_en": "Auto-scan write-up. Today's source counts: Product Hunt×6, Hugging Face×2, GitHub×2, X×2, RunningHub×1, Higgsfield×1. Reuse as newsletter draft.",
+    "tool_ids": [
+      "gemini",
+      "runninghub",
+      "higgsfield"
+    ],
+    "highlights_zh": [
+      "Kiwi（来自 Product Hunt）",
+      "tabsh（来自 Product Hunt）",
+      "Strawberry 1.0（来自 Product Hunt）",
+      "N8N Chat UI（来自 Product Hunt）",
+      "MiniMax M3.1 Flash（来自 Product Hunt）",
+      "SurgePix（来自 Product Hunt）",
+      "Nanbeige4.3-33B（来自 Hugging Face）",
+      "Spark-X2.6-4B（来自 Hugging Face）"
+    ],
+    "highlights_en": [
+      "Kiwi (via Product Hunt)",
+      "tabsh (via Product Hunt)",
+      "Strawberry 1.0 (via Product Hunt)",
+      "N8N Chat UI (via Product Hunt)",
+      "MiniMax M3.1 Flash (via Product Hunt)",
+      "SurgePix (via Product Hunt)",
+      "Nanbeige4.3-33B (via Hugging Face)",
+      "Spark-X2.6-4B (via Hugging Face)"
+    ],
+    "updated_at": "2026-10-26T16:23:48.201214+00:00"
+  },
+  {
     "id": "week-2026-w44-scan",
     "week_label_zh": "2026 年第 44 周",
     "week_label_en": "Week 44, 2026",
@@ -37,45 +73,6 @@
       "flint (via Hugging Face)"
     ],
     "updated_at": "2026-10-26T00:06:08.187985+00:00"
-  },
-  {
-    "id": "week-2026-w43-scan",
-    "week_label_zh": "2026 年第 43 周",
-    "week_label_en": "Week 43, 2026",
-    "date_range": "2026-10-19 — 2026-10-25",
-    "title_zh": "本周扫描更新（2026-10-23）",
-    "title_en": "Weekly scan update (2026-10-23)",
-    "intro_zh": "自动扫描写入。今日来源统计：Product Hunt×6、Hugging Face×4、Hugging Face Spaces×2、GitHub×6、X×7、RunningHub×1、Higgsfield×1。可作通讯草稿。",
-    "intro_en": "Auto-scan write-up. Today's source counts: Product Hunt×6, Hugging Face×4, Hugging Face Spaces×2, GitHub×6, X×7, RunningHub×1, Higgsfield×1. Reuse as newsletter draft.",
-    "tool_ids": [
-      "claude",
-      "deepsite",
-      "chatgpt",
-      "gemini",
-      "runninghub",
-      "higgsfield"
-    ],
-    "highlights_zh": [
-      "Claude Duet（来自 Product Hunt）",
-      "Loom Record for agents（来自 Product Hunt）",
-      "CutBay（来自 Product Hunt）",
-      "Radaric（来自 Product Hunt）",
-      "Concierge by Juniors AI（来自 Product Hunt）",
-      "Dadan（来自 Product Hunt）",
-      "DeepSeek-V4.1-Flash-1017（来自 Hugging Face）",
-      "flux-3-image-klein-comfy（来自 Hugging Face）"
-    ],
-    "highlights_en": [
-      "Claude Duet (via Product Hunt)",
-      "Loom Record for agents (via Product Hunt)",
-      "CutBay (via Product Hunt)",
-      "Radaric (via Product Hunt)",
-      "Concierge by Juniors AI (via Product Hunt)",
-      "Dadan (via Product Hunt)",
-      "DeepSeek-V4.1-Flash-1017 (via Hugging Face)",
-      "flux-3-image-klein-comfy (via Hugging Face)"
-    ],
-    "updated_at": "2026-10-23T00:06:33.016137+00:00"
   },
   {
     "id": "week-2026-w42-scan",

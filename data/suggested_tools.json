@@ -1,14 +1,14 @@
 [
   {
-    "id": "yourcast-2-0",
-    "name_zh": "Yourcast 2.0",
-    "name_en": "Yourcast 2.0",
-    "url": "https://www.producthunt.com/products/yourcast",
+    "id": "kiwi",
+    "name_zh": "Kiwi",
+    "name_en": "Kiwi",
+    "url": "https://www.producthunt.com/products/kiwi-7",
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "AI summaries with tap-to-jump timestamps, right in Telegram",
-    "one_liner_en": "AI summaries with tap-to-jump timestamps, right in Telegram",
+    "one_liner_zh": "A proactive AI assistant that texts you before you ask",
+    "one_liner_en": "A proactive AI assistant that texts you before you ask",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -24,15 +24,15 @@
     "_suggested_by_scan": true
   },
   {
-    "id": "moli-by-lexmount",
-    "name_zh": "Moli by Lexmount",
-    "name_en": "Moli by Lexmount",
-    "url": "https://www.producthunt.com/products/lexmount-browser",
+    "id": "tabsh",
+    "name_zh": "tabsh",
+    "name_en": "tabsh",
+    "url": "https://www.producthunt.com/products/tabsh",
     "scenarios": [
-      "research"
+      "coding"
     ],
-    "one_liner_zh": "The fastest headless browser for agents and harnesses",
-    "one_liner_en": "The fastest headless browser for agents and harnesses",
+    "one_liner_zh": "Work with agents with an IDE in your browser tab",
+    "one_liner_en": "Work with agents with an IDE in your browser tab",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -48,15 +48,15 @@
     "_suggested_by_scan": true
   },
   {
-    "id": "agentgrid-io",
-    "name_zh": "AgentGrid.io",
-    "name_en": "AgentGrid.io",
-    "url": "https://www.producthunt.com/products/agentgrid-io",
+    "id": "strawberry-1-0",
+    "name_zh": "Strawberry 1.0",
+    "name_en": "Strawberry 1.0",
+    "url": "https://www.producthunt.com/products/strawberry",
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "Shared workspace for humans and agents",
-    "one_liner_en": "Shared workspace for humans and agents",
+    "one_liner_zh": "AI Browser that saves your team >100h/week",
+    "one_liner_en": "AI Browser that saves your team >100h/week",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -72,15 +72,15 @@
     "_suggested_by_scan": true
   },
   {
-    "id": "llama-windows",
-    "name_zh": "Llama Windows",
-    "name_en": "Llama Windows",
-    "url": "https://www.producthunt.com/products/llama-windows",
+    "id": "n8n-chat-ui",
+    "name_zh": "N8N Chat UI",
+    "name_en": "N8N Chat UI",
+    "url": "https://www.producthunt.com/products/n8n-chat-ui-2",
     "scenarios": [
-      "research"
+      "coding"
     ],
-    "one_liner_zh": "One local AI server for all your Windows apps",
-    "one_liner_en": "One local AI server for all your Windows apps",
+    "one_liner_zh": "Beautiful, no-code, on-brand AI chat widgets for n8n",
+    "one_liner_en": "Beautiful, no-code, on-brand AI chat widgets for n8n",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -96,15 +96,15 @@
     "_suggested_by_scan": true
   },
   {
-    "id": "papermark-data-rooms",
-    "name_zh": "Papermark Data Rooms",
-    "name_en": "Papermark Data Rooms",
-    "url": "https://www.producthunt.com/products/papermark-2",
+    "id": "minimax-m3-1-flash",
+    "name_zh": "MiniMax M3.1 Flash",
+    "name_en": "MiniMax M3.1 Flash",
+    "url": "https://www.producthunt.com/products/minimax-4",
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "Secure data rooms your AI agents can run. Live in",
-    "one_liner_en": "Secure data rooms your AI agents can run. Live in",
+    "one_liner_zh": "MiniMax’s Flash model, 3x faster and 70% cheaper for agents",
+    "one_liner_en": "MiniMax’s Flash model, 3x faster and 70% cheaper for agents",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -120,15 +120,15 @@
     "_suggested_by_scan": true
   },
   {
-    "id": "specsight",
-    "name_zh": "Specsight",
-    "name_en": "Specsight",
-    "url": "https://www.producthunt.com/products/specsight",
+    "id": "surgepix",
+    "name_zh": "SurgePix",
+    "name_en": "SurgePix",
+    "url": "https://www.producthunt.com/products/surgepix",
     "scenarios": [
-      "research"
+      "agents"
     ],
-    "one_liner_zh": "Product observability for teams shipping fast with AI",
-    "one_liner_en": "Product observability for teams shipping fast with AI",
+    "one_liner_zh": "AI visuals. Edit every layer. Agent-callable.",
+    "one_liner_en": "AI visuals. Edit every layer. Agent-callable.",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -151,8 +151,8 @@
     "scenarios": [
       "image-video"
     ],
-    "one_liner_zh": "Trending HF model (image-text-to-text), likes≈2979. Full id: deepseek-ai/DeepSeek-V4.1-Flash-1017",
-    "one_liner_en": "Trending HF model (image-text-to-text), likes≈2979. Full id: deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "one_liner_zh": "Trending HF model (image-text-to-text), likes≈3129. Full id: deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "one_liner_en": "Trending HF model (image-text-to-text), likes≈3129. Full id: deepseek-ai/DeepSeek-V4.1-Flash-1017",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -175,8 +175,8 @@
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "Trending HF model (text-generation), likes≈857. Full id: RecursiveSI/flint",
-    "one_liner_en": "Trending HF model (text-generation), likes≈857. Full id: RecursiveSI/flint",
+    "one_liner_zh": "Trending HF model (text-generation), likes≈897. Full id: RecursiveSI/flint",
+    "one_liner_en": "Trending HF model (text-generation), likes≈897. Full id: RecursiveSI/flint",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -192,15 +192,15 @@
     "_suggested_by_scan": true
   },
   {
-    "id": "flux-3-image-klein-comfy",
-    "name_zh": "flux-3-image-klein-comfy",
-    "name_en": "flux-3-image-klein-comfy",
-    "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+    "id": "nanbeige4-3-33b",
+    "name_zh": "Nanbeige4.3-33B",
+    "name_en": "Nanbeige4.3-33B",
+    "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
     "scenarios": [
-      "image-video"
+      "research"
     ],
-    "one_liner_zh": "Trending HF model (image-to-image), likes≈1602. Full id: black-forest-labs/flux-3-image-klein-comfy",
-    "one_liner_en": "Trending HF model (image-to-image), likes≈1602. Full id: black-forest-labs/flux-3-image-klein-comfy",
+    "one_liner_zh": "Trending HF model (text-generation), likes≈548. Full id: Nanbeige/Nanbeige4.3-33B",
+    "one_liner_en": "Trending HF model (text-generation), likes≈548. Full id: Nanbeige/Nanbeige4.3-33B",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -223,8 +223,8 @@
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "Trending HF model (text-generation), likes≈495. Full id: XHToken/Spark-X2.6-4B",
-    "one_liner_en": "Trending HF model (text-generation), likes≈495. Full id: XHToken/Spark-X2.6-4B",
+    "one_liner_zh": "Trending HF model (text-generation), likes≈626. Full id: XHToken/Spark-X2.6-4B",
+    "one_liner_en": "Trending HF model (text-generation), likes≈626. Full id: XHToken/Spark-X2.6-4B",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -271,8 +271,8 @@
     "scenarios": [
       "coding"
     ],
-    "one_liner_zh": "Run many AI agents at once on your Mac, up to 3x faster. ★348",
-    "one_liner_en": "Run many AI agents at once on your Mac, up to 3x faster. ★348",
+    "one_liner_zh": "Run many AI agents at once on your Mac, up to 3x faster. ★353",
+    "one_liner_en": "Run many AI agents at once on your Mac, up to 3x faster. ★353",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -320,8 +320,8 @@
     "scenarios": [
       "coding"
     ],
-    "one_liner_zh": "Recursive self-improvement for robot manipulation, with real-robot experiments and shared executable skills. ★88",
-    "one_liner_en": "Recursive self-improvement for robot manipulation, with real-robot experiments and shared executable skills. ★88",
+    "one_liner_zh": "Recursive self-improvement for robot manipulation, with real-robot experiments and shared executable skills. ★93",
+    "one_liner_en": "Recursive self-improvement for robot manipulation, with real-robot experiments and shared executable skills. ★93",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -337,15 +337,15 @@
     "_suggested_by_scan": true
   },
   {
-    "id": "agentshield",
-    "name_zh": "agentshield-dev/agentshield",
-    "name_en": "agentshield-dev/agentshield",
-    "url": "https://github.com/agentshield-dev/agentshield",
+    "id": "interviewcopilot-rpocket-team",
+    "name_zh": "Cinderubasp/InterviewCopilot-rpocket-team",
+    "name_en": "Cinderubasp/InterviewCopilot-rpocket-team",
+    "url": "https://github.com/Cinderubasp/InterviewCopilot-rpocket-team",
     "scenarios": [
       "coding"
     ],
-    "one_liner_zh": "Agentshield is open source defense for Kubernetes and AWS. It learns how your workloads really talk, flags lateral movem",
-    "one_liner_en": "Agentshield is open source defense for Kubernetes and AWS. It learns how your workloads really talk, flags lateral movem",
+    "one_liner_zh": "EdTech application designed to bridge the gap between learning and landing your dream job ★54",
+    "one_liner_en": "EdTech application designed to bridge the gap between learning and landing your dream job ★54",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",

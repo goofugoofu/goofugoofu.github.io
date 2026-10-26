@@ -1,5 +1,77 @@
 [
   {
+    "id": "news-2026-10-21-gcp-openai",
+    "date": "2026-10-21",
+    "title_zh": "Google Cloud 将 OpenAI GPT-6 系列接入 Model Garden（私有预览）",
+    "title_en": "Google Cloud brings OpenAI GPT-6 models to Model Garden (private preview)",
+    "summary_zh": "GCP 宣布在统一企业 AI 平台上提供 GPT-6 Astra / GPT-6.1 Sol / GPT-6 Luna，与 Gemini 等模型并列。能力与计费以 Google Cloud 公告为准。",
+    "summary_en": "GCP is rolling out GPT-6 Astra, GPT-6.1 Sol, and GPT-6 Luna in Model Garden beside Gemini and 200+ other models. Capabilities and billing: see the Google Cloud post.",
+    "type": "product",
+    "related_model_ids": [
+      "gpt-4-1",
+      "o3"
+    ],
+    "related_tool_ids": [
+      "chatgpt",
+      "gemini"
+    ],
+    "source": "Google Cloud",
+    "source_url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers",
+    "status": "published"
+  },
+  {
+    "id": "news-2026-10-21-haiku45-sunset-note",
+    "date": "2026-10-21",
+    "title_zh": "Anthropic：Claude Haiku 4.5 将退出聊天模型选择器，改推 Haiku 5.5",
+    "title_en": "Anthropic: Claude Haiku 4.5 leaving chat model selector for Haiku 5.5",
+    "summary_zh": "帮助中心说明自 2026-10-29 起 Free/Pro/Max 聊天界面不再展示 Haiku 4.5，改用 Haiku 5.5；API / Claude Code / 团队版仍可继续用 4.5。",
+    "summary_en": "Help Center: from 2026-10-29 Haiku 4.5 leaves the Free/Pro/Max chat selector in favor of Haiku 5.5; API, Claude Code, and Team/Enterprise keep 4.5.",
+    "type": "product",
+    "related_model_ids": [
+      "claude-haiku-4-5"
+    ],
+    "related_tool_ids": [
+      "claude"
+    ],
+    "source": "Anthropic Help Center",
+    "source_url": "https://support.claude.com/en/articles/17444146-claude-haiku-4-5-is-leaving-the-model-selector",
+    "status": "published"
+  },
+  {
+    "id": "news-2026-10-17-deepseek-flash",
+    "date": "2026-10-17",
+    "title_zh": "DeepSeek 发布 V4.1-Flash-1017：更快完成任务并开放 Search API",
+    "title_en": "DeepSeek ships V4.1-Flash-1017 with faster runs and Search API",
+    "summary_zh": "官方将 Flash 升级为 1017 快照，强调性能–成本 Pareto；同日开放自研 Search & Fetch API。API 仍用 deepseek-flash，价格以官网为准。",
+    "summary_en": "DeepSeek upgrades Flash to the 1017 snapshot (performance–cost Pareto) and opens its Search & Fetch APIs. Keep calling deepseek-flash; verify pricing on official docs.",
+    "type": "release",
+    "related_model_ids": [
+      "deepseek-v3",
+      "deepseek-r1"
+    ],
+    "related_tool_ids": [],
+    "source": "DeepSeek",
+    "source_url": "https://api-docs.deepseek.com/news/news261017/",
+    "status": "published"
+  },
+  {
+    "id": "news-2026-10-15-muse-spark-open",
+    "date": "2026-10-15",
+    "title_zh": "Meta 开源 Muse Spark Open：美系开源权重新档，面向智能体与编程",
+    "title_en": "Meta open-weights Muse Spark Open for agents and coding",
+    "summary_zh": "Muse Spark Open（约 816B 总参 / 42B 激活，1M 上下文）权重可下载并支持多推理引擎。商用前请阅读 Meta 许可与安全说明。",
+    "summary_en": "Muse Spark Open (~816B total / 42B active, 1M context) weights are downloadable across major hubs and engines. Read Meta’s license and safety notes before commercial use.",
+    "type": "release",
+    "related_model_ids": [
+      "llama-4-maverick",
+      "llama-4-scout"
+    ],
+    "related_tool_ids": [],
+    "source": "Meta AI Research",
+    "source_url": "https://research.meta.ai/blog/muse-spark-open",
+    "status": "published"
+  },
+  {
     "id": "news-2026-10-15-claude-haiku",
     "date": "2026-10-15",
     "title_zh": "Anthropic 发布 Claude Haiku 4.5：更快更省的轻量档",
@@ -15,6 +87,41 @@
     ],
     "source": "Anthropic",
     "source_url": "https://www.anthropic.com",
+    "status": "published"
+  },
+  {
+    "id": "news-2026-10-13-gemini-argon",
+    "date": "2026-10-13",
+    "title_zh": "Gemini 4 Argon 对开发者开放：百万级统一上下文与长解码",
+    "title_en": "Gemini 4 Argon opens to developers: unified 1M context and long decode",
+    "summary_zh": "Google 宣布 Argon 可通过付费 Gemini API / AI Studio 使用，面向长程软件工程与知识工作。入门价与后续调价以 Google 定价页为准。",
+    "summary_en": "Google makes Argon available on the paid Gemini API / AI Studio for long-horizon engineering and knowledge work. Introductory and later prices: see Google’s pricing page.",
+    "type": "release",
+    "related_model_ids": [
+      "gemini-2-5-pro",
+      "gemini-2-5-flash"
+    ],
+    "related_tool_ids": [
+      "gemini"
+    ],
+    "source": "Google",
+    "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/",
+    "status": "published"
+  },
+  {
+    "id": "news-2026-10-12-muse-wonder",
+    "date": "2026-10-12",
+    "title_zh": "Meta 发布 Muse Wonder / Wonder Full：面向智能体的前沿闭源档",
+    "title_en": "Meta launches Muse Wonder / Wonder Full frontier agent models",
+    "summary_zh": "Wonder 经 Meta Model API 与 Muse Code 提供；Wonder Full 目前仅订阅可用。定价示例约 $4/$20 per MTok，请以官方为准。",
+    "summary_en": "Wonder is on Meta Model API and Muse Code; Wonder Full is subscription-only for now. Listed API pricing around $4/$20 per MTok — confirm on Meta’s pages.",
+    "type": "release",
+    "related_model_ids": [
+      "llama-4-maverick"
+    ],
+    "related_tool_ids": [],
+    "source": "Meta",
+    "source_url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
     "status": "published"
   },
   {
@@ -35,6 +142,36 @@
     ],
     "source": "OpenAI",
     "source_url": "https://platform.openai.com/docs/models",
+    "status": "published"
+  },
+  {
+    "id": "news-2026-10-08-policy",
+    "date": "2026-10-08",
+    "title_zh": "国内生成式 AI：备案与上架仍是产品上线关键路径",
+    "title_en": "China generative AI: filing and listing remain critical launch paths",
+    "summary_zh": "面向中国用户的生成式产品需关注算法备案与应用上架要求。本站仅作信息整理，不构成法律意见。",
+    "summary_en": "GenAI products for China users should track algorithm filing and app listing rules. This site is informational only, not legal advice.",
+    "type": "policy",
+    "related_model_ids": [],
+    "related_tool_ids": [],
+    "source": "Editorial note",
+    "source_url": "https://goofugoofu.github.io/about.html",
+    "status": "published"
+  },
+  {
+    "id": "news-2026-10-01-glm",
+    "date": "2026-10-01",
+    "title_zh": "智谱 GLM-4.5：开源与清言产品线同步强化 Agent",
+    "title_en": "Zhipu GLM-4.5: open and ChatGLM products lean into agents",
+    "summary_zh": "智谱在开源权重与 API 两侧强化工具调用。国内落地可关注合规与私有化方案。",
+    "summary_en": "Zhipu strengthens tool use on open weights and API. Watch compliance and private-deploy options for China apps.",
+    "type": "release",
+    "related_model_ids": [
+      "glm-4-5"
+    ],
+    "related_tool_ids": [],
+    "source": "Zhipu AI",
+    "source_url": "https://www.zhipuai.cn",
     "status": "published"
   },
   {
@@ -72,6 +209,22 @@
     ],
     "source": "Google AI",
     "source_url": "https://ai.google.dev/gemini-api/docs/models",
+    "status": "published"
+  },
+  {
+    "id": "news-2026-09-18-grok",
+    "date": "2026-09-18",
+    "title_zh": "xAI Grok 与 X 平台：实时信息流继续作为卖点",
+    "title_en": "xAI Grok and X: realtime firehose remains the pitch",
+    "summary_zh": "Grok 强调与 X 数据结合的时效性。企业合规与内容审核需求需单独评估。",
+    "summary_en": "Grok leans on X data freshness. Evaluate enterprise compliance and moderation needs separately.",
+    "type": "product",
+    "related_model_ids": [
+      "grok-4"
+    ],
+    "related_tool_ids": [],
+    "source": "xAI",
+    "source_url": "https://x.ai",
     "status": "published"
   },
   {
@@ -154,52 +307,6 @@
     "related_tool_ids": [],
     "source": "AI Tool Map editorial",
     "source_url": "https://goofugoofu.github.io/models.html",
-    "status": "published"
-  },
-  {
-    "id": "news-2026-10-01-glm",
-    "date": "2026-10-01",
-    "title_zh": "智谱 GLM-4.5：开源与清言产品线同步强化 Agent",
-    "title_en": "Zhipu GLM-4.5: open and ChatGLM products lean into agents",
-    "summary_zh": "智谱在开源权重与 API 两侧强化工具调用。国内落地可关注合规与私有化方案。",
-    "summary_en": "Zhipu strengthens tool use on open weights and API. Watch compliance and private-deploy options for China apps.",
-    "type": "release",
-    "related_model_ids": [
-      "glm-4-5"
-    ],
-    "related_tool_ids": [],
-    "source": "Zhipu AI",
-    "source_url": "https://www.zhipuai.cn",
-    "status": "published"
-  },
-  {
-    "id": "news-2026-09-18-grok",
-    "date": "2026-09-18",
-    "title_zh": "xAI Grok 与 X 平台：实时信息流继续作为卖点",
-    "title_en": "xAI Grok and X: realtime firehose remains the pitch",
-    "summary_zh": "Grok 强调与 X 数据结合的时效性。企业合规与内容审核需求需单独评估。",
-    "summary_en": "Grok leans on X data freshness. Evaluate enterprise compliance and moderation needs separately.",
-    "type": "product",
-    "related_model_ids": [
-      "grok-4"
-    ],
-    "related_tool_ids": [],
-    "source": "xAI",
-    "source_url": "https://x.ai",
-    "status": "published"
-  },
-  {
-    "id": "news-2026-10-08-policy",
-    "date": "2026-10-08",
-    "title_zh": "国内生成式 AI：备案与上架仍是产品上线关键路径",
-    "title_en": "China generative AI: filing and listing remain critical launch paths",
-    "summary_zh": "面向中国用户的生成式产品需关注算法备案与应用上架要求。本站仅作信息整理，不构成法律意见。",
-    "summary_en": "GenAI products for China users should track algorithm filing and app listing rules. This site is informational only, not legal advice.",
-    "type": "policy",
-    "related_model_ids": [],
-    "related_tool_ids": [],
-    "source": "Editorial note",
-    "source_url": "https://goofugoofu.github.io/about.html",
     "status": "published"
   }
 ]
