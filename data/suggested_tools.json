@@ -1,53 +1,5 @@
 [
   {
-    "id": "kiwi",
-    "name_zh": "Kiwi",
-    "name_en": "Kiwi",
-    "url": "https://www.producthunt.com/products/kiwi-7",
-    "scenarios": [
-      "research"
-    ],
-    "one_liner_zh": "A proactive AI assistant that texts you before you ask",
-    "one_liner_en": "A proactive AI assistant that texts you before you ask",
-    "use_when_zh": "（待编辑）适合该工具定位的场景。",
-    "use_when_en": "(todo) When this tool’s positioning fits.",
-    "avoid_when_zh": "（待编辑）明确不适合的情况。",
-    "avoid_when_en": "(todo) When it is a poor fit.",
-    "pricing": "free",
-    "sources": [
-      "Product Hunt"
-    ],
-    "launched_or_updated_at": "2026-10-26",
-    "is_new_this_week": true,
-    "sponsored": false,
-    "affiliate_url": null,
-    "_suggested_by_scan": true
-  },
-  {
-    "id": "tabsh",
-    "name_zh": "tabsh",
-    "name_en": "tabsh",
-    "url": "https://www.producthunt.com/products/tabsh",
-    "scenarios": [
-      "coding"
-    ],
-    "one_liner_zh": "Work with agents with an IDE in your browser tab",
-    "one_liner_en": "Work with agents with an IDE in your browser tab",
-    "use_when_zh": "（待编辑）适合该工具定位的场景。",
-    "use_when_en": "(todo) When this tool’s positioning fits.",
-    "avoid_when_zh": "（待编辑）明确不适合的情况。",
-    "avoid_when_en": "(todo) When it is a poor fit.",
-    "pricing": "free",
-    "sources": [
-      "Product Hunt"
-    ],
-    "launched_or_updated_at": "2026-10-26",
-    "is_new_this_week": true,
-    "sponsored": false,
-    "affiliate_url": null,
-    "_suggested_by_scan": true
-  },
-  {
     "id": "strawberry-1-0",
     "name_zh": "Strawberry 1.0",
     "name_en": "Strawberry 1.0",
@@ -96,15 +48,15 @@
     "_suggested_by_scan": true
   },
   {
-    "id": "minimax-m3-1-flash",
-    "name_zh": "MiniMax M3.1 Flash",
-    "name_en": "MiniMax M3.1 Flash",
-    "url": "https://www.producthunt.com/products/minimax-4",
+    "id": "kiwi",
+    "name_zh": "Kiwi",
+    "name_en": "Kiwi",
+    "url": "https://www.producthunt.com/products/kiwi-7",
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "MiniMax’s Flash model, 3x faster and 70% cheaper for agents",
-    "one_liner_en": "MiniMax’s Flash model, 3x faster and 70% cheaper for agents",
+    "one_liner_zh": "A proactive AI assistant that texts you before you ask",
+    "one_liner_en": "A proactive AI assistant that texts you before you ask",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -120,15 +72,63 @@
     "_suggested_by_scan": true
   },
   {
-    "id": "surgepix",
-    "name_zh": "SurgePix",
-    "name_en": "SurgePix",
-    "url": "https://www.producthunt.com/products/surgepix",
+    "id": "tabsh",
+    "name_zh": "tabsh",
+    "name_en": "tabsh",
+    "url": "https://www.producthunt.com/products/tabsh",
+    "scenarios": [
+      "coding"
+    ],
+    "one_liner_zh": "Work with agents with an IDE in your browser tab",
+    "one_liner_en": "Work with agents with an IDE in your browser tab",
+    "use_when_zh": "（待编辑）适合该工具定位的场景。",
+    "use_when_en": "(todo) When this tool’s positioning fits.",
+    "avoid_when_zh": "（待编辑）明确不适合的情况。",
+    "avoid_when_en": "(todo) When it is a poor fit.",
+    "pricing": "free",
+    "sources": [
+      "Product Hunt"
+    ],
+    "launched_or_updated_at": "2026-10-26",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null,
+    "_suggested_by_scan": true
+  },
+  {
+    "id": "whoiscooking",
+    "name_zh": "WhoIsCooking",
+    "name_en": "WhoIsCooking",
+    "url": "https://www.producthunt.com/products/whoiscooking",
     "scenarios": [
       "agents"
     ],
-    "one_liner_zh": "AI visuals. Edit every layer. Agent-callable.",
-    "one_liner_en": "AI visuals. Edit every layer. Agent-callable.",
+    "one_liner_zh": "See which AI agent is heating your Mac and cool it down.",
+    "one_liner_en": "See which AI agent is heating your Mac and cool it down.",
+    "use_when_zh": "（待编辑）适合该工具定位的场景。",
+    "use_when_en": "(todo) When this tool’s positioning fits.",
+    "avoid_when_zh": "（待编辑）明确不适合的情况。",
+    "avoid_when_en": "(todo) When it is a poor fit.",
+    "pricing": "free",
+    "sources": [
+      "Product Hunt"
+    ],
+    "launched_or_updated_at": "2026-10-26",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null,
+    "_suggested_by_scan": true
+  },
+  {
+    "id": "avp",
+    "name_zh": "AVP",
+    "name_en": "AVP",
+    "url": "https://www.producthunt.com/products/avp",
+    "scenarios": [
+      "coding"
+    ],
+    "one_liner_zh": "Open source alternative to Git for AI coding agents",
+    "one_liner_en": "Open source alternative to Git for AI coding agents",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -151,8 +151,8 @@
     "scenarios": [
       "image-video"
     ],
-    "one_liner_zh": "Trending HF model (image-text-to-text), likes≈3129. Full id: deepseek-ai/DeepSeek-V4.1-Flash-1017",
-    "one_liner_en": "Trending HF model (image-text-to-text), likes≈3129. Full id: deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "one_liner_zh": "Trending HF model (image-text-to-text), likes≈3187. Full id: deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "one_liner_en": "Trending HF model (image-text-to-text), likes≈3187. Full id: deepseek-ai/DeepSeek-V4.1-Flash-1017",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -175,8 +175,8 @@
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "Trending HF model (text-generation), likes≈897. Full id: RecursiveSI/flint",
-    "one_liner_en": "Trending HF model (text-generation), likes≈897. Full id: RecursiveSI/flint",
+    "one_liner_zh": "Trending HF model (text-generation), likes≈919. Full id: RecursiveSI/flint",
+    "one_liner_en": "Trending HF model (text-generation), likes≈919. Full id: RecursiveSI/flint",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -199,8 +199,8 @@
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "Trending HF model (text-generation), likes≈548. Full id: Nanbeige/Nanbeige4.3-33B",
-    "one_liner_en": "Trending HF model (text-generation), likes≈548. Full id: Nanbeige/Nanbeige4.3-33B",
+    "one_liner_zh": "Trending HF model (text-generation), likes≈595. Full id: Nanbeige/Nanbeige4.3-33B",
+    "one_liner_en": "Trending HF model (text-generation), likes≈595. Full id: Nanbeige/Nanbeige4.3-33B",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -223,8 +223,8 @@
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "Trending HF model (text-generation), likes≈626. Full id: XHToken/Spark-X2.6-4B",
-    "one_liner_en": "Trending HF model (text-generation), likes≈626. Full id: XHToken/Spark-X2.6-4B",
+    "one_liner_zh": "Trending HF model (text-generation), likes≈642. Full id: XHToken/Spark-X2.6-4B",
+    "one_liner_en": "Trending HF model (text-generation), likes≈642. Full id: XHToken/Spark-X2.6-4B",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -247,8 +247,8 @@
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "Popular HF Space (docker), likes≈14145. id=open-llm-leaderboard/open_llm_leaderboard",
-    "one_liner_en": "Popular HF Space (docker), likes≈14145. id=open-llm-leaderboard/open_llm_leaderboard",
+    "one_liner_zh": "Popular HF Space (docker), likes≈14146. id=open-llm-leaderboard/open_llm_leaderboard",
+    "one_liner_en": "Popular HF Space (docker), likes≈14146. id=open-llm-leaderboard/open_llm_leaderboard",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -271,8 +271,8 @@
     "scenarios": [
       "coding"
     ],
-    "one_liner_zh": "Run many AI agents at once on your Mac, up to 3x faster. ★353",
-    "one_liner_en": "Run many AI agents at once on your Mac, up to 3x faster. ★353",
+    "one_liner_zh": "Run many AI agents at once on your Mac, up to 3x faster. ★354",
+    "one_liner_en": "Run many AI agents at once on your Mac, up to 3x faster. ★354",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -320,8 +320,8 @@
     "scenarios": [
       "coding"
     ],
-    "one_liner_zh": "Recursive self-improvement for robot manipulation, with real-robot experiments and shared executable skills. ★93",
-    "one_liner_en": "Recursive self-improvement for robot manipulation, with real-robot experiments and shared executable skills. ★93",
+    "one_liner_zh": "Recursive self-improvement for robot manipulation, with real-robot experiments and shared executable skills. ★97",
+    "one_liner_en": "Recursive self-improvement for robot manipulation, with real-robot experiments and shared executable skills. ★97",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -337,15 +337,15 @@
     "_suggested_by_scan": true
   },
   {
-    "id": "interviewcopilot-rpocket-team",
-    "name_zh": "Cinderubasp/InterviewCopilot-rpocket-team",
-    "name_en": "Cinderubasp/InterviewCopilot-rpocket-team",
-    "url": "https://github.com/Cinderubasp/InterviewCopilot-rpocket-team",
+    "id": "agentshield",
+    "name_zh": "agentshield-dev/agentshield",
+    "name_en": "agentshield-dev/agentshield",
+    "url": "https://github.com/agentshield-dev/agentshield",
     "scenarios": [
       "coding"
     ],
-    "one_liner_zh": "EdTech application designed to bridge the gap between learning and landing your dream job ★54",
-    "one_liner_en": "EdTech application designed to bridge the gap between learning and landing your dream job ★54",
+    "one_liner_zh": "Agentshield is open source defense for Kubernetes and AWS. It learns how your workloads really talk, flags lateral movem",
+    "one_liner_en": "Agentshield is open source defense for Kubernetes and AWS. It learns how your workloads really talk, flags lateral movem",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",

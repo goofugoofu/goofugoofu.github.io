@@ -1,5 +1,125 @@
 [
   {
+    "id": "daily-2026-10-27-1-strawberry-1-0",
+    "date": "2026-10-27",
+    "title_zh": "Strawberry 1.0（来自 Product Hunt）",
+    "title_en": "Strawberry 1.0 (via Product Hunt)",
+    "summary_zh": "扫描来源：Product Hunt。AI Browser that saves your team >100h/week 相关场景：研究检索。",
+    "summary_en": "Source: Product Hunt. AI Browser that saves your team >100h/week Scenarios: research.",
+    "related_tool_ids": [],
+    "tags": [
+      "research"
+    ],
+    "source": "Product Hunt",
+    "source_url": "https://www.producthunt.com/products/strawberry",
+    "scan_name": "Strawberry 1.0"
+  },
+  {
+    "id": "daily-2026-10-27-2-n8n-chat-ui",
+    "date": "2026-10-27",
+    "title_zh": "N8N Chat UI（来自 Product Hunt）",
+    "title_en": "N8N Chat UI (via Product Hunt)",
+    "summary_zh": "扫描来源：Product Hunt。Beautiful, no-code, on-brand AI chat widgets for n8n 相关场景：写代码。",
+    "summary_en": "Source: Product Hunt. Beautiful, no-code, on-brand AI chat widgets for n8n Scenarios: coding.",
+    "related_tool_ids": [],
+    "tags": [
+      "coding"
+    ],
+    "source": "Product Hunt",
+    "source_url": "https://www.producthunt.com/products/n8n-chat-ui-2",
+    "scan_name": "N8N Chat UI"
+  },
+  {
+    "id": "daily-2026-10-27-3-kiwi",
+    "date": "2026-10-27",
+    "title_zh": "Kiwi（来自 Product Hunt）",
+    "title_en": "Kiwi (via Product Hunt)",
+    "summary_zh": "扫描来源：Product Hunt。A proactive AI assistant that texts you before you ask 相关场景：研究检索。",
+    "summary_en": "Source: Product Hunt. A proactive AI assistant that texts you before you ask Scenarios: research.",
+    "related_tool_ids": [],
+    "tags": [
+      "research"
+    ],
+    "source": "Product Hunt",
+    "source_url": "https://www.producthunt.com/products/kiwi-7",
+    "scan_name": "Kiwi"
+  },
+  {
+    "id": "daily-2026-10-27-4-tabsh",
+    "date": "2026-10-27",
+    "title_zh": "tabsh（来自 Product Hunt）",
+    "title_en": "tabsh (via Product Hunt)",
+    "summary_zh": "扫描来源：Product Hunt。Work with agents with an IDE in your browser tab 相关场景：写代码。",
+    "summary_en": "Source: Product Hunt. Work with agents with an IDE in your browser tab Scenarios: coding.",
+    "related_tool_ids": [],
+    "tags": [
+      "coding"
+    ],
+    "source": "Product Hunt",
+    "source_url": "https://www.producthunt.com/products/tabsh",
+    "scan_name": "tabsh"
+  },
+  {
+    "id": "daily-2026-10-27-5-whoiscooking",
+    "date": "2026-10-27",
+    "title_zh": "WhoIsCooking（来自 Product Hunt）",
+    "title_en": "WhoIsCooking (via Product Hunt)",
+    "summary_zh": "扫描来源：Product Hunt。See which AI agent is heating your Mac and cool it down. 相关场景：智能体。",
+    "summary_en": "Source: Product Hunt. See which AI agent is heating your Mac and cool it down. Scenarios: agents.",
+    "related_tool_ids": [],
+    "tags": [
+      "agents"
+    ],
+    "source": "Product Hunt",
+    "source_url": "https://www.producthunt.com/products/whoiscooking",
+    "scan_name": "WhoIsCooking"
+  },
+  {
+    "id": "daily-2026-10-27-6-avp",
+    "date": "2026-10-27",
+    "title_zh": "AVP（来自 Product Hunt）",
+    "title_en": "AVP (via Product Hunt)",
+    "summary_zh": "扫描来源：Product Hunt。Open source alternative to Git for AI coding agents 相关场景：写代码。",
+    "summary_en": "Source: Product Hunt. Open source alternative to Git for AI coding agents Scenarios: coding.",
+    "related_tool_ids": [],
+    "tags": [
+      "coding"
+    ],
+    "source": "Product Hunt",
+    "source_url": "https://www.producthunt.com/products/avp",
+    "scan_name": "AVP"
+  },
+  {
+    "id": "daily-2026-10-27-7-nanbeige4-3-33b",
+    "date": "2026-10-27",
+    "title_zh": "Nanbeige4.3-33B（来自 Hugging Face）",
+    "title_en": "Nanbeige4.3-33B (via Hugging Face)",
+    "summary_zh": "扫描来源：Hugging Face。Trending HF model (text-generation), likes≈595. Full id: Nanbeige/Nanbeige4.3-33B 相关场景：研究检索。",
+    "summary_en": "Source: Hugging Face. Trending HF model (text-generation), likes≈595. Full id: Nanbeige/Nanbeige4.3-33B Scenarios: research.",
+    "related_tool_ids": [],
+    "tags": [
+      "research"
+    ],
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+    "scan_name": "Nanbeige4.3-33B"
+  },
+  {
+    "id": "daily-2026-10-27-8-cinderubasp-interviewcop",
+    "date": "2026-10-27",
+    "title_zh": "Cinderubasp/InterviewCopilot-rpocket-team（来自 GitHub）",
+    "title_en": "Cinderubasp/InterviewCopilot-rpocket-team (via GitHub)",
+    "summary_zh": "扫描来源：GitHub。EdTech application designed to bridge the gap between learning and landing your dream job ★54 相关场景：写代码。",
+    "summary_en": "Source: GitHub. EdTech application designed to bridge the gap between learning and landing your dream job ★54 Scenarios: coding.",
+    "related_tool_ids": [],
+    "tags": [
+      "coding"
+    ],
+    "source": "GitHub",
+    "source_url": "https://github.com/Cinderubasp/InterviewCopilot-rpocket-team",
+    "scan_name": "Cinderubasp/InterviewCopilot-rpocket-team"
+  },
+  {
     "id": "daily-2026-10-26-1-yourcast-2-0",
     "date": "2026-10-26",
     "title_zh": "Yourcast 2.0（来自 Product Hunt）",
