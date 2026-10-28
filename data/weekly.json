@@ -4,32 +4,39 @@
     "week_label_zh": "2026 年第 44 周",
     "week_label_en": "Week 44, 2026",
     "date_range": "2026-10-26 — 2026-11-01",
-    "title_zh": "本周扫描更新（2026-10-27）",
-    "title_en": "Weekly scan update (2026-10-27)",
-    "intro_zh": "自动扫描写入。今日来源统计：Product Hunt×6、Hugging Face×1、GitHub×1。可作通讯草稿。",
-    "intro_en": "Auto-scan write-up. Today's source counts: Product Hunt×6, Hugging Face×1, GitHub×1. Reuse as newsletter draft.",
-    "tool_ids": [],
+    "title_zh": "本周扫描更新（2026-10-28）",
+    "title_en": "Weekly scan update (2026-10-28)",
+    "intro_zh": "自动扫描写入。今日来源统计：Product Hunt×6、Hugging Face×3、Hugging Face Spaces×2、GitHub×5、X×7、RunningHub×1、Higgsfield×1。可作通讯草稿。",
+    "intro_en": "Auto-scan write-up. Today's source counts: Product Hunt×6, Hugging Face×3, Hugging Face Spaces×2, GitHub×5, X×7, RunningHub×1, Higgsfield×1. Reuse as newsletter draft.",
+    "tool_ids": [
+      "deepsite",
+      "chatgpt",
+      "claude",
+      "gemini",
+      "runninghub",
+      "higgsfield"
+    ],
     "highlights_zh": [
-      "Strawberry 1.0（来自 Product Hunt）",
-      "N8N Chat UI（来自 Product Hunt）",
-      "Kiwi（来自 Product Hunt）",
-      "tabsh（来自 Product Hunt）",
-      "WhoIsCooking（来自 Product Hunt）",
-      "AVP（来自 Product Hunt）",
-      "Nanbeige4.3-33B（来自 Hugging Face）",
-      "Cinderubasp/InterviewCopilot-rpocket-team（来自 GitHub）"
+      "Nuvio 5.0（来自 Product Hunt）",
+      "Off Grid AI（来自 Product Hunt）",
+      "GPT-6.1 Terra（来自 Product Hunt）",
+      "Notra（来自 Product Hunt）",
+      "NuPlay（来自 Product Hunt）",
+      "PulseDev（来自 Product Hunt）",
+      "DeepSeek-V4.1-Flash-1017（来自 Hugging Face）",
+      "flint（来自 Hugging Face）"
     ],
     "highlights_en": [
-      "Strawberry 1.0 (via Product Hunt)",
-      "N8N Chat UI (via Product Hunt)",
-      "Kiwi (via Product Hunt)",
-      "tabsh (via Product Hunt)",
-      "WhoIsCooking (via Product Hunt)",
-      "AVP (via Product Hunt)",
-      "Nanbeige4.3-33B (via Hugging Face)",
-      "Cinderubasp/InterviewCopilot-rpocket-team (via GitHub)"
+      "Nuvio 5.0 (via Product Hunt)",
+      "Off Grid AI (via Product Hunt)",
+      "GPT-6.1 Terra (via Product Hunt)",
+      "Notra (via Product Hunt)",
+      "NuPlay (via Product Hunt)",
+      "PulseDev (via Product Hunt)",
+      "DeepSeek-V4.1-Flash-1017 (via Hugging Face)",
+      "flint (via Hugging Face)"
     ],
-    "updated_at": "2026-10-27T00:02:41.941261+00:00"
+    "updated_at": "2026-10-28T00:07:47.843839+00:00"
   },
   {
     "id": "week-2026-w43-scan",

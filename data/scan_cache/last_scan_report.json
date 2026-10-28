@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-28",
+  "sources": {
+    "product_hunt": {
+      "status": "live",
+      "count": 6
+    },
+    "huggingface": {
+      "status": "models:live; spaces:live",
+      "count": 6
+    },
+    "github": {
+      "status": "live",
+      "count": 6
+    },
+    "x_twitter": {
+      "status": "live (7 hits; file:7 from x_hits.json; api:skipped (no X_BEARER_TOKEN))",
+      "count": 7
+    },
+    "runninghub": {
+      "status": "best-effort homepage (no public feed API; TODO)",
+      "count": 1
+    },
+    "higgsfield": {
+      "status": "best-effort homepage (no public feed API; TODO)",
+      "count": 1
+    },
+    "manual": {
+      "status": "merged 2 enabled manual/stub items",
+      "count": 2
+    }
+  },
+  "counts": {
+    "raw": 29,
+    "deduped": 27,
+    "daily_written": 25,
+    "suggestions": 15
+  },
+  "sample_titles": [
+    "Nuvio 5.0 (via Product Hunt)",
+    "Off Grid AI (via Product Hunt)",
+    "GPT-6.1 Terra (via Product Hunt)",
+    "Notra (via Product Hunt)",
+    "NuPlay (via Product Hunt)"
+  ]
+}
