@@ -1,14 +1,38 @@
 [
   {
-    "id": "nuvio-5-0",
-    "name_zh": "Nuvio 5.0",
-    "name_en": "Nuvio 5.0",
-    "url": "https://www.producthunt.com/products/nuvio",
+    "id": "trigger-dev-webhooks-for-your-ai-agents",
+    "name_zh": "Trigger.dev: Webhooks for your AI agents",
+    "name_en": "Trigger.dev: Webhooks for your AI agents",
+    "url": "https://www.producthunt.com/products/trigger-dev",
+    "scenarios": [
+      "research"
+    ],
+    "one_liner_zh": "Run AI agents with Slack, Supabase and 50+ other services",
+    "one_liner_en": "Run AI agents with Slack, Supabase and 50+ other services",
+    "use_when_zh": "（待编辑）适合该工具定位的场景。",
+    "use_when_en": "(todo) When this tool’s positioning fits.",
+    "avoid_when_zh": "（待编辑）明确不适合的情况。",
+    "avoid_when_en": "(todo) When it is a poor fit.",
+    "pricing": "free",
+    "sources": [
+      "Product Hunt"
+    ],
+    "launched_or_updated_at": "2026-10-28",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null,
+    "_suggested_by_scan": true
+  },
+  {
+    "id": "agent-handshake-by-fini",
+    "name_zh": "Agent Handshake by Fini",
+    "name_en": "Agent Handshake by Fini",
+    "url": "https://www.producthunt.com/products/fini-2",
     "scenarios": [
       "agents"
     ],
-    "one_liner_zh": "Hand your financial admin to your AI agent",
-    "one_liner_en": "Hand your financial admin to your AI agent",
+    "one_liner_zh": "Agent-to-agent customer support that holds its answer",
+    "one_liner_en": "Agent-to-agent customer support that holds its answer",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -17,22 +41,22 @@
     "sources": [
       "Product Hunt"
     ],
-    "launched_or_updated_at": "2026-10-27",
+    "launched_or_updated_at": "2026-10-28",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
     "_suggested_by_scan": true
   },
   {
-    "id": "off-grid-ai",
-    "name_zh": "Off Grid AI",
-    "name_en": "Off Grid AI",
-    "url": "https://www.producthunt.com/products/off-grid-ai",
+    "id": "botgauge",
+    "name_zh": "BotGauge",
+    "name_en": "BotGauge",
+    "url": "https://www.producthunt.com/products/botgauge-2",
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "Private AI on your phone and computer.",
-    "one_liner_en": "Private AI on your phone and computer.",
+    "one_liner_zh": "The trust layer for your agents",
+    "one_liner_en": "The trust layer for your agents",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -41,22 +65,22 @@
     "sources": [
       "Product Hunt"
     ],
-    "launched_or_updated_at": "2026-10-27",
+    "launched_or_updated_at": "2026-10-28",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
     "_suggested_by_scan": true
   },
   {
-    "id": "gpt-6-1-terra",
-    "name_zh": "GPT-6.1 Terra",
-    "name_en": "GPT-6.1 Terra",
-    "url": "https://www.producthunt.com/products/openai",
+    "id": "hob",
+    "name_zh": "Hob",
+    "name_en": "Hob",
+    "url": "https://www.producthunt.com/products/hob-3",
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "Fast, capable computer use at half the price",
-    "one_liner_en": "Fast, capable computer use at half the price",
+    "one_liner_zh": "Open-source, on device alternative to Claude and ChatGPT",
+    "one_liner_en": "Open-source, on device alternative to Claude and ChatGPT",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -65,22 +89,22 @@
     "sources": [
       "Product Hunt"
     ],
-    "launched_or_updated_at": "2026-10-27",
+    "launched_or_updated_at": "2026-10-28",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
     "_suggested_by_scan": true
   },
   {
-    "id": "notra",
-    "name_zh": "Notra",
-    "name_en": "Notra",
-    "url": "https://www.producthunt.com/products/notra-3",
+    "id": "dedica",
+    "name_zh": "Dedica",
+    "name_en": "Dedica",
+    "url": "https://www.producthunt.com/products/dedica",
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "Notra is a GEO tool that helps you rank in AI Search.",
-    "one_liner_en": "Notra is a GEO tool that helps you rank in AI Search.",
+    "one_liner_zh": "Check if AI agents can use your website",
+    "one_liner_en": "Check if AI agents can use your website",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -89,22 +113,22 @@
     "sources": [
       "Product Hunt"
     ],
-    "launched_or_updated_at": "2026-10-27",
+    "launched_or_updated_at": "2026-10-28",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
     "_suggested_by_scan": true
   },
   {
-    "id": "nuplay",
-    "name_zh": "NuPlay",
-    "name_en": "NuPlay",
-    "url": "https://www.producthunt.com/products/nuplay",
+    "id": "openllm",
+    "name_zh": "OpenLLM",
+    "name_en": "OpenLLM",
+    "url": "https://www.producthunt.com/products/openllm",
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "AI transformation, run on one self-improving platform",
-    "one_liner_en": "AI transformation, run on one self-improving platform",
+    "one_liner_zh": "Take your AI tokens anywhere",
+    "one_liner_en": "Take your AI tokens anywhere",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -113,31 +137,7 @@
     "sources": [
       "Product Hunt"
     ],
-    "launched_or_updated_at": "2026-10-27",
-    "is_new_this_week": true,
-    "sponsored": false,
-    "affiliate_url": null,
-    "_suggested_by_scan": true
-  },
-  {
-    "id": "pulsedev",
-    "name_zh": "PulseDev",
-    "name_en": "PulseDev",
-    "url": "https://www.producthunt.com/products/pulsedev",
-    "scenarios": [
-      "agents"
-    ],
-    "one_liner_zh": "Click any UI bug on localhost and your AI agent fixes it",
-    "one_liner_en": "Click any UI bug on localhost and your AI agent fixes it",
-    "use_when_zh": "（待编辑）适合该工具定位的场景。",
-    "use_when_en": "(todo) When this tool’s positioning fits.",
-    "avoid_when_zh": "（待编辑）明确不适合的情况。",
-    "avoid_when_en": "(todo) When it is a poor fit.",
-    "pricing": "free",
-    "sources": [
-      "Product Hunt"
-    ],
-    "launched_or_updated_at": "2026-10-27",
+    "launched_or_updated_at": "2026-10-28",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -151,8 +151,8 @@
     "scenarios": [
       "image-video"
     ],
-    "one_liner_zh": "Trending HF model (image-text-to-text), likes≈3375. Full id: deepseek-ai/DeepSeek-V4.1-Flash-1017",
-    "one_liner_en": "Trending HF model (image-text-to-text), likes≈3375. Full id: deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "one_liner_zh": "Trending HF model (image-text-to-text), likes≈3543. Full id: deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "one_liner_en": "Trending HF model (image-text-to-text), likes≈3543. Full id: deepseek-ai/DeepSeek-V4.1-Flash-1017",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -161,7 +161,7 @@
     "sources": [
       "Hugging Face"
     ],
-    "launched_or_updated_at": "2026-10-27",
+    "launched_or_updated_at": "2026-10-28",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -175,8 +175,8 @@
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "Trending HF model (text-generation), likes≈971. Full id: RecursiveSI/flint",
-    "one_liner_en": "Trending HF model (text-generation), likes≈971. Full id: RecursiveSI/flint",
+    "one_liner_zh": "Trending HF model (text-generation), likes≈1154. Full id: RecursiveSI/flint",
+    "one_liner_en": "Trending HF model (text-generation), likes≈1154. Full id: RecursiveSI/flint",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -185,7 +185,7 @@
     "sources": [
       "Hugging Face"
     ],
-    "launched_or_updated_at": "2026-10-27",
+    "launched_or_updated_at": "2026-10-28",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -199,8 +199,8 @@
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "Trending HF model (text-generation), likes≈667. Full id: Nanbeige/Nanbeige4.3-33B",
-    "one_liner_en": "Trending HF model (text-generation), likes≈667. Full id: Nanbeige/Nanbeige4.3-33B",
+    "one_liner_zh": "Trending HF model (text-generation), likes≈720. Full id: Nanbeige/Nanbeige4.3-33B",
+    "one_liner_en": "Trending HF model (text-generation), likes≈720. Full id: Nanbeige/Nanbeige4.3-33B",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -209,7 +209,7 @@
     "sources": [
       "Hugging Face"
     ],
-    "launched_or_updated_at": "2026-10-27",
+    "launched_or_updated_at": "2026-10-28",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -223,8 +223,8 @@
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "Trending HF model (text-generation), likes≈782. Full id: XHToken/Spark-X2.6-4B",
-    "one_liner_en": "Trending HF model (text-generation), likes≈782. Full id: XHToken/Spark-X2.6-4B",
+    "one_liner_zh": "Trending HF model (text-generation), likes≈855. Full id: XHToken/Spark-X2.6-4B",
+    "one_liner_en": "Trending HF model (text-generation), likes≈855. Full id: XHToken/Spark-X2.6-4B",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -233,7 +233,7 @@
     "sources": [
       "Hugging Face"
     ],
-    "launched_or_updated_at": "2026-10-27",
+    "launched_or_updated_at": "2026-10-28",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -247,8 +247,8 @@
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "Popular HF Space (docker), likes≈14147. id=open-llm-leaderboard/open_llm_leaderboard",
-    "one_liner_en": "Popular HF Space (docker), likes≈14147. id=open-llm-leaderboard/open_llm_leaderboard",
+    "one_liner_zh": "Popular HF Space (docker), likes≈14148. id=open-llm-leaderboard/open_llm_leaderboard",
+    "one_liner_en": "Popular HF Space (docker), likes≈14148. id=open-llm-leaderboard/open_llm_leaderboard",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -257,7 +257,7 @@
     "sources": [
       "Hugging Face Spaces"
     ],
-    "launched_or_updated_at": "2026-10-27",
+    "launched_or_updated_at": "2026-10-28",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -271,8 +271,8 @@
     "scenarios": [
       "coding"
     ],
-    "one_liner_zh": "Run many AI agents at once on your Mac, up to 3x faster. ★356",
-    "one_liner_en": "Run many AI agents at once on your Mac, up to 3x faster. ★356",
+    "one_liner_zh": "Run many AI agents at once on your Mac, up to 3x faster. ★422",
+    "one_liner_en": "Run many AI agents at once on your Mac, up to 3x faster. ★422",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -281,31 +281,7 @@
     "sources": [
       "GitHub"
     ],
-    "launched_or_updated_at": "2026-10-27",
-    "is_new_this_week": true,
-    "sponsored": false,
-    "affiliate_url": null,
-    "_suggested_by_scan": true
-  },
-  {
-    "id": "recursia",
-    "name_zh": "cocacola-lab/Recursia",
-    "name_en": "cocacola-lab/Recursia",
-    "url": "https://github.com/cocacola-lab/Recursia",
-    "scenarios": [
-      "coding"
-    ],
-    "one_liner_zh": "Recursive self-improvement for robot manipulation, with real-robot experiments and shared executable skills. ★108",
-    "one_liner_en": "Recursive self-improvement for robot manipulation, with real-robot experiments and shared executable skills. ★108",
-    "use_when_zh": "（待编辑）适合该工具定位的场景。",
-    "use_when_en": "(todo) When this tool’s positioning fits.",
-    "avoid_when_zh": "（待编辑）明确不适合的情况。",
-    "avoid_when_en": "(todo) When it is a poor fit.",
-    "pricing": "free",
-    "sources": [
-      "GitHub"
-    ],
-    "launched_or_updated_at": "2026-10-27",
+    "launched_or_updated_at": "2026-10-28",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -330,7 +306,31 @@
     "sources": [
       "GitHub"
     ],
-    "launched_or_updated_at": "2026-10-27",
+    "launched_or_updated_at": "2026-10-28",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null,
+    "_suggested_by_scan": true
+  },
+  {
+    "id": "recursia",
+    "name_zh": "cocacola-lab/Recursia",
+    "name_en": "cocacola-lab/Recursia",
+    "url": "https://github.com/cocacola-lab/Recursia",
+    "scenarios": [
+      "coding"
+    ],
+    "one_liner_zh": "Recursive self-improvement for robot manipulation, with real-robot experiments and shared executable skills. ★110",
+    "one_liner_en": "Recursive self-improvement for robot manipulation, with real-robot experiments and shared executable skills. ★110",
+    "use_when_zh": "（待编辑）适合该工具定位的场景。",
+    "use_when_en": "(todo) When this tool’s positioning fits.",
+    "avoid_when_zh": "（待编辑）明确不适合的情况。",
+    "avoid_when_en": "(todo) When it is a poor fit.",
+    "pricing": "free",
+    "sources": [
+      "GitHub"
+    ],
+    "launched_or_updated_at": "2026-10-28",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -354,7 +354,7 @@
     "sources": [
       "GitHub"
     ],
-    "launched_or_updated_at": "2026-10-27",
+    "launched_or_updated_at": "2026-10-28",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
