@@ -4,32 +4,39 @@
     "week_label_zh": "2026 年第 44 周",
     "week_label_en": "Week 44, 2026",
     "date_range": "2026-10-26 — 2026-11-01",
-    "title_zh": "本周扫描更新（2026-10-29）",
-    "title_en": "Weekly scan update (2026-10-29)",
-    "intro_zh": "自动扫描写入。今日来源统计：Product Hunt×6、Hugging Face×1、GitHub×1。可作通讯草稿。",
-    "intro_en": "Auto-scan write-up. Today's source counts: Product Hunt×6, Hugging Face×1, GitHub×1. Reuse as newsletter draft.",
-    "tool_ids": [],
+    "title_zh": "本周扫描更新（2026-10-30）",
+    "title_en": "Weekly scan update (2026-10-30)",
+    "intro_zh": "自动扫描写入。今日来源统计：Product Hunt×6、Hugging Face×3、Hugging Face Spaces×2、GitHub×5、X×7、RunningHub×1、Higgsfield×1。可作通讯草稿。",
+    "intro_en": "Auto-scan write-up. Today's source counts: Product Hunt×6, Hugging Face×3, Hugging Face Spaces×2, GitHub×5, X×7, RunningHub×1, Higgsfield×1. Reuse as newsletter draft.",
+    "tool_ids": [
+      "deepsite",
+      "chatgpt",
+      "claude",
+      "gemini",
+      "runninghub",
+      "higgsfield"
+    ],
     "highlights_zh": [
-      "Trigger.dev: Webhooks for your AI agents（来自 Product Hunt）",
-      "Agent Handshake by Fini（来自 Product Hunt）",
-      "BotGauge（来自 Product Hunt）",
-      "Hob（来自 Product Hunt）",
-      "Dedica（来自 Product Hunt）",
-      "OpenLLM（来自 Product Hunt）",
-      "Nanbeige4.3-33B（来自 Hugging Face）",
-      "Cinderubasp/InterviewCopilot-rpocket-team（来自 GitHub）"
+      "JIMMY（来自 Product Hunt）",
+      "MAO（来自 Product Hunt）",
+      "Radar（来自 Product Hunt）",
+      "Flatbread（来自 Product Hunt）",
+      "TopAgent（来自 Product Hunt）",
+      "Gologin Cloud Browser（来自 Product Hunt）",
+      "DeepSeek-V4.1-Flash-1017（来自 Hugging Face）",
+      "flint（来自 Hugging Face）"
     ],
     "highlights_en": [
-      "Trigger.dev: Webhooks for your AI agents (via Product Hunt)",
-      "Agent Handshake by Fini (via Product Hunt)",
-      "BotGauge (via Product Hunt)",
-      "Hob (via Product Hunt)",
-      "Dedica (via Product Hunt)",
-      "OpenLLM (via Product Hunt)",
-      "Nanbeige4.3-33B (via Hugging Face)",
-      "Cinderubasp/InterviewCopilot-rpocket-team (via GitHub)"
+      "JIMMY (via Product Hunt)",
+      "MAO (via Product Hunt)",
+      "Radar (via Product Hunt)",
+      "Flatbread (via Product Hunt)",
+      "TopAgent (via Product Hunt)",
+      "Gologin Cloud Browser (via Product Hunt)",
+      "DeepSeek-V4.1-Flash-1017 (via Hugging Face)",
+      "flint (via Hugging Face)"
     ],
-    "updated_at": "2026-10-29T00:08:23.921286+00:00"
+    "updated_at": "2026-10-30T00:06:38.528025+00:00"
   },
   {
     "id": "week-2026-w43-scan",
