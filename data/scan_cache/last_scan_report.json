@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-11-03",
   "sources": {
     "product_hunt": {
       "status": "live",
@@ -33,14 +33,14 @@
   "counts": {
     "raw": 29,
     "deduped": 27,
-    "daily_written": 25,
+    "daily_written": 8,
     "suggestions": 15
   },
   "sample_titles": [
-    "Nuvio 5.0 (via Product Hunt)",
-    "Off Grid AI (via Product Hunt)",
-    "GPT-6.1 Terra (via Product Hunt)",
-    "Notra (via Product Hunt)",
-    "NuPlay (via Product Hunt)"
+    "diff-tour (via Product Hunt)",
+    "Xmind 2027 (via Product Hunt)",
+    "Display 1.0 (via Product Hunt)",
+    "Friday Work (via Product Hunt)",
+    "Agent Inbox (via Product Hunt)"
   ]
 }

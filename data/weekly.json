@@ -4,39 +4,32 @@
     "week_label_zh": "2026 年第 45 周",
     "week_label_en": "Week 45, 2026",
     "date_range": "2026-11-02 — 2026-11-08",
-    "title_zh": "本周扫描更新（2026-11-02）",
-    "title_en": "Weekly scan update (2026-11-02)",
-    "intro_zh": "自动扫描写入。今日来源统计：Product Hunt×6、Hugging Face×4、Hugging Face Spaces×2、GitHub×6、X×7、RunningHub×1、Higgsfield×1。可作通讯草稿。",
-    "intro_en": "Auto-scan write-up. Today's source counts: Product Hunt×6, Hugging Face×4, Hugging Face Spaces×2, GitHub×6, X×7, RunningHub×1, Higgsfield×1. Reuse as newsletter draft.",
-    "tool_ids": [
-      "chatgpt",
-      "claude",
-      "deepsite",
-      "gemini",
-      "runninghub",
-      "higgsfield"
-    ],
+    "title_zh": "本周扫描更新（2026-11-03）",
+    "title_en": "Weekly scan update (2026-11-03)",
+    "intro_zh": "自动扫描写入。今日来源统计：Product Hunt×6、GitHub×2。可作通讯草稿。",
+    "intro_en": "Auto-scan write-up. Today's source counts: Product Hunt×6, GitHub×2. Reuse as newsletter draft.",
+    "tool_ids": [],
     "highlights_zh": [
-      "Riverside Agents（来自 Product Hunt）",
-      "Embage（来自 Product Hunt）",
-      "Termy（来自 Product Hunt）",
-      "Usage for Claude + ChatGPT 4.0（来自 Product Hunt）",
-      "Click（来自 Product Hunt）",
-      "Fluent 2（来自 Product Hunt）",
-      "DeepSeek-V4.1-Flash-1017（来自 Hugging Face）",
-      "LFM3-1.7B（来自 Hugging Face）"
+      "diff-tour（来自 Product Hunt）",
+      "Xmind 2027（来自 Product Hunt）",
+      "Display 1.0（来自 Product Hunt）",
+      "Friday Work（来自 Product Hunt）",
+      "Agent Inbox（来自 Product Hunt）",
+      "Hera（来自 Product Hunt）",
+      "Goekdeniz-Guelmez/JOSIE-Voice（来自 GitHub）",
+      "OFat34764e/InterviewCopilot-rpocket-team（来自 GitHub）"
     ],
     "highlights_en": [
-      "Riverside Agents (via Product Hunt)",
-      "Embage (via Product Hunt)",
-      "Termy (via Product Hunt)",
-      "Usage for Claude + ChatGPT 4.0 (via Product Hunt)",
-      "Click (via Product Hunt)",
-      "Fluent 2 (via Product Hunt)",
-      "DeepSeek-V4.1-Flash-1017 (via Hugging Face)",
-      "LFM3-1.7B (via Hugging Face)"
+      "diff-tour (via Product Hunt)",
+      "Xmind 2027 (via Product Hunt)",
+      "Display 1.0 (via Product Hunt)",
+      "Friday Work (via Product Hunt)",
+      "Agent Inbox (via Product Hunt)",
+      "Hera (via Product Hunt)",
+      "Goekdeniz-Guelmez/JOSIE-Voice (via GitHub)",
+      "OFat34764e/InterviewCopilot-rpocket-team (via GitHub)"
     ],
-    "updated_at": "2026-11-02T00:07:40.922852+00:00"
+    "updated_at": "2026-11-03T00:09:46.898879+00:00"
   },
   {
     "id": "week-2026-w44-scan",

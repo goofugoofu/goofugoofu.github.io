@@ -1,5 +1,127 @@
 [
   {
+    "id": "daily-2026-11-03-1-diff-tour",
+    "date": "2026-11-03",
+    "title_zh": "diff-tour（来自 Product Hunt）",
+    "title_en": "diff-tour (via Product Hunt)",
+    "summary_zh": "扫描来源：Product Hunt。AI writes the code. Learn to read it like a senior engineer. 相关场景：写代码。",
+    "summary_en": "Source: Product Hunt. AI writes the code. Learn to read it like a senior engineer. Scenarios: coding.",
+    "related_tool_ids": [],
+    "tags": [
+      "coding"
+    ],
+    "source": "Product Hunt",
+    "source_url": "https://www.producthunt.com/products/diff-tour",
+    "scan_name": "diff-tour"
+  },
+  {
+    "id": "daily-2026-11-03-2-xmind-2027",
+    "date": "2026-11-03",
+    "title_zh": "Xmind 2027（来自 Product Hunt）",
+    "title_en": "Xmind 2027 (via Product Hunt)",
+    "summary_zh": "扫描来源：Product Hunt。Your mind map is now an AI thinking partner 相关场景：研究检索。",
+    "summary_en": "Source: Product Hunt. Your mind map is now an AI thinking partner Scenarios: research.",
+    "related_tool_ids": [],
+    "tags": [
+      "research"
+    ],
+    "source": "Product Hunt",
+    "source_url": "https://www.producthunt.com/products/xmind",
+    "scan_name": "Xmind 2027"
+  },
+  {
+    "id": "daily-2026-11-03-3-display-1-0",
+    "date": "2026-11-03",
+    "title_zh": "Display 1.0（来自 Product Hunt）",
+    "title_en": "Display 1.0 (via Product Hunt)",
+    "summary_zh": "扫描来源：Product Hunt。Create docs and apps with any agent, in one workspace 相关场景：智能体、办公效率。",
+    "summary_en": "Source: Product Hunt. Create docs and apps with any agent, in one workspace Scenarios: agents, office.",
+    "related_tool_ids": [],
+    "tags": [
+      "agents",
+      "office"
+    ],
+    "source": "Product Hunt",
+    "source_url": "https://www.producthunt.com/products/display-dev",
+    "scan_name": "Display 1.0"
+  },
+  {
+    "id": "daily-2026-11-03-4-friday-work",
+    "date": "2026-11-03",
+    "title_zh": "Friday Work（来自 Product Hunt）",
+    "title_en": "Friday Work (via Product Hunt)",
+    "summary_zh": "扫描来源：Product Hunt。When Claude hits its limit, your task keeps going 相关场景：研究检索。",
+    "summary_en": "Source: Product Hunt. When Claude hits its limit, your task keeps going Scenarios: research.",
+    "related_tool_ids": [],
+    "tags": [
+      "research"
+    ],
+    "source": "Product Hunt",
+    "source_url": "https://www.producthunt.com/products/friday-work",
+    "scan_name": "Friday Work"
+  },
+  {
+    "id": "daily-2026-11-03-5-agent-inbox",
+    "date": "2026-11-03",
+    "title_zh": "Agent Inbox（来自 Product Hunt）",
+    "title_en": "Agent Inbox (via Product Hunt)",
+    "summary_zh": "扫描来源：Product Hunt。Give your agent an email address, Slack and Telegram handle 相关场景：智能体、办公效率。",
+    "summary_en": "Source: Product Hunt. Give your agent an email address, Slack and Telegram handle Scenarios: agents, office.",
+    "related_tool_ids": [],
+    "tags": [
+      "agents",
+      "office"
+    ],
+    "source": "Product Hunt",
+    "source_url": "https://www.producthunt.com/products/agent-inbox",
+    "scan_name": "Agent Inbox"
+  },
+  {
+    "id": "daily-2026-11-03-6-hera",
+    "date": "2026-11-03",
+    "title_zh": "Hera（来自 Product Hunt）",
+    "title_en": "Hera (via Product Hunt)",
+    "summary_zh": "扫描来源：Product Hunt。AI Creative Canvas 相关场景：研究检索。",
+    "summary_en": "Source: Product Hunt. AI Creative Canvas Scenarios: research.",
+    "related_tool_ids": [],
+    "tags": [
+      "research"
+    ],
+    "source": "Product Hunt",
+    "source_url": "https://www.producthunt.com/products/hera-6",
+    "scan_name": "Hera"
+  },
+  {
+    "id": "daily-2026-11-03-7-goekdeniz-guelmez-josie-",
+    "date": "2026-11-03",
+    "title_zh": "Goekdeniz-Guelmez/JOSIE-Voice（来自 GitHub）",
+    "title_en": "Goekdeniz-Guelmez/JOSIE-Voice (via GitHub)",
+    "summary_zh": "扫描来源：GitHub。JOSIE Voice: a real-time, on-device voice assistant for Apple Silicon. Download the macOS app (DMG) from Releases. ★53 相关场景：写代码。",
+    "summary_en": "Source: GitHub. JOSIE Voice: a real-time, on-device voice assistant for Apple Silicon. Download the macOS app (DMG) from Releases. ★53 Scenarios: coding.",
+    "related_tool_ids": [],
+    "tags": [
+      "coding"
+    ],
+    "source": "GitHub",
+    "source_url": "https://github.com/Goekdeniz-Guelmez/JOSIE-Voice",
+    "scan_name": "Goekdeniz-Guelmez/JOSIE-Voice"
+  },
+  {
+    "id": "daily-2026-11-03-8-ofat34764e-interviewcopi",
+    "date": "2026-11-03",
+    "title_zh": "OFat34764e/InterviewCopilot-rpocket-team（来自 GitHub）",
+    "title_en": "OFat34764e/InterviewCopilot-rpocket-team (via GitHub)",
+    "summary_zh": "扫描来源：GitHub。EdTech application designed to bridge the gap between learning and landing your dream job ★52 相关场景：写代码。",
+    "summary_en": "Source: GitHub. EdTech application designed to bridge the gap between learning and landing your dream job ★52 Scenarios: coding.",
+    "related_tool_ids": [],
+    "tags": [
+      "coding"
+    ],
+    "source": "GitHub",
+    "source_url": "https://github.com/OFat34764e/InterviewCopilot-rpocket-team",
+    "scan_name": "OFat34764e/InterviewCopilot-rpocket-team"
+  },
+  {
     "id": "daily-2026-11-02-1-riverside-agents",
     "date": "2026-11-02",
     "title_zh": "Riverside Agents（来自 Product Hunt）",
@@ -1425,125 +1547,5 @@
     "source": "Hugging Face",
     "source_url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
     "scan_name": "Nanbeige4.3-33B"
-  },
-  {
-    "id": "daily-2026-10-27-8-cinderubasp-interviewcop",
-    "date": "2026-10-27",
-    "title_zh": "Cinderubasp/InterviewCopilot-rpocket-team（来自 GitHub）",
-    "title_en": "Cinderubasp/InterviewCopilot-rpocket-team (via GitHub)",
-    "summary_zh": "扫描来源：GitHub。EdTech application designed to bridge the gap between learning and landing your dream job ★54 相关场景：写代码。",
-    "summary_en": "Source: GitHub. EdTech application designed to bridge the gap between learning and landing your dream job ★54 Scenarios: coding.",
-    "related_tool_ids": [],
-    "tags": [
-      "coding"
-    ],
-    "source": "GitHub",
-    "source_url": "https://github.com/Cinderubasp/InterviewCopilot-rpocket-team",
-    "scan_name": "Cinderubasp/InterviewCopilot-rpocket-team"
-  },
-  {
-    "id": "daily-2026-10-26-1-yourcast-2-0",
-    "date": "2026-10-26",
-    "title_zh": "Yourcast 2.0（来自 Product Hunt）",
-    "title_en": "Yourcast 2.0 (via Product Hunt)",
-    "summary_zh": "扫描来源：Product Hunt。AI summaries with tap-to-jump timestamps, right in Telegram 相关场景：研究检索。",
-    "summary_en": "Source: Product Hunt. AI summaries with tap-to-jump timestamps, right in Telegram Scenarios: research.",
-    "related_tool_ids": [],
-    "tags": [
-      "research"
-    ],
-    "source": "Product Hunt",
-    "source_url": "https://www.producthunt.com/products/yourcast",
-    "scan_name": "Yourcast 2.0"
-  },
-  {
-    "id": "daily-2026-10-26-2-moli-by-lexmount",
-    "date": "2026-10-26",
-    "title_zh": "Moli by Lexmount（来自 Product Hunt）",
-    "title_en": "Moli by Lexmount (via Product Hunt)",
-    "summary_zh": "扫描来源：Product Hunt。The fastest headless browser for agents and harnesses 相关场景：研究检索。",
-    "summary_en": "Source: Product Hunt. The fastest headless browser for agents and harnesses Scenarios: research.",
-    "related_tool_ids": [],
-    "tags": [
-      "research"
-    ],
-    "source": "Product Hunt",
-    "source_url": "https://www.producthunt.com/products/lexmount-browser",
-    "scan_name": "Moli by Lexmount"
-  },
-  {
-    "id": "daily-2026-10-26-3-agentgrid-io",
-    "date": "2026-10-26",
-    "title_zh": "AgentGrid.io（来自 Product Hunt）",
-    "title_en": "AgentGrid.io (via Product Hunt)",
-    "summary_zh": "扫描来源：Product Hunt。Shared workspace for humans and agents 相关场景：研究检索。",
-    "summary_en": "Source: Product Hunt. Shared workspace for humans and agents Scenarios: research.",
-    "related_tool_ids": [],
-    "tags": [
-      "research"
-    ],
-    "source": "Product Hunt",
-    "source_url": "https://www.producthunt.com/products/agentgrid-io",
-    "scan_name": "AgentGrid.io"
-  },
-  {
-    "id": "daily-2026-10-26-4-llama-windows",
-    "date": "2026-10-26",
-    "title_zh": "Llama Windows（来自 Product Hunt）",
-    "title_en": "Llama Windows (via Product Hunt)",
-    "summary_zh": "扫描来源：Product Hunt。One local AI server for all your Windows apps 相关场景：研究检索。",
-    "summary_en": "Source: Product Hunt. One local AI server for all your Windows apps Scenarios: research.",
-    "related_tool_ids": [],
-    "tags": [
-      "research"
-    ],
-    "source": "Product Hunt",
-    "source_url": "https://www.producthunt.com/products/llama-windows",
-    "scan_name": "Llama Windows"
-  },
-  {
-    "id": "daily-2026-10-26-5-papermark-data-rooms",
-    "date": "2026-10-26",
-    "title_zh": "Papermark Data Rooms（来自 Product Hunt）",
-    "title_en": "Papermark Data Rooms (via Product Hunt)",
-    "summary_zh": "扫描来源：Product Hunt。Secure data rooms your AI agents can run. Live in 相关场景：研究检索。",
-    "summary_en": "Source: Product Hunt. Secure data rooms your AI agents can run. Live in Scenarios: research.",
-    "related_tool_ids": [],
-    "tags": [
-      "research"
-    ],
-    "source": "Product Hunt",
-    "source_url": "https://www.producthunt.com/products/papermark-2",
-    "scan_name": "Papermark Data Rooms"
-  },
-  {
-    "id": "daily-2026-10-26-6-specsight",
-    "date": "2026-10-26",
-    "title_zh": "Specsight（来自 Product Hunt）",
-    "title_en": "Specsight (via Product Hunt)",
-    "summary_zh": "扫描来源：Product Hunt。Product observability for teams shipping fast with AI 相关场景：研究检索。",
-    "summary_en": "Source: Product Hunt. Product observability for teams shipping fast with AI Scenarios: research.",
-    "related_tool_ids": [],
-    "tags": [
-      "research"
-    ],
-    "source": "Product Hunt",
-    "source_url": "https://www.producthunt.com/products/specsight",
-    "scan_name": "Specsight"
-  },
-  {
-    "id": "daily-2026-10-26-7-deepseek-v4-1-flash-1017",
-    "date": "2026-10-26",
-    "title_zh": "DeepSeek-V4.1-Flash-1017（来自 Hugging Face）",
-    "title_en": "DeepSeek-V4.1-Flash-1017 (via Hugging Face)",
-    "summary_zh": "扫描来源：Hugging Face。Trending HF model (image-text-to-text), likes≈2979. Full id: deepseek-ai/DeepSeek-V4.1-Flash-1017 相关场景：做图/视频。",
-    "summary_en": "Source: Hugging Face. Trending HF model (image-text-to-text), likes≈2979. Full id: deepseek-ai/DeepSeek-V4.1-Flash-1017 Scenarios: image-video.",
-    "related_tool_ids": [],
-    "tags": [
-      "image-video"
-    ],
-    "source": "Hugging Face",
-    "source_url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-    "scan_name": "DeepSeek-V4.1-Flash-1017"
   }
 ]
