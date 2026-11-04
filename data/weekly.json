@@ -4,32 +4,39 @@
     "week_label_zh": "2026 年第 45 周",
     "week_label_en": "Week 45, 2026",
     "date_range": "2026-11-02 — 2026-11-08",
-    "title_zh": "本周扫描更新（2026-11-03）",
-    "title_en": "Weekly scan update (2026-11-03)",
-    "intro_zh": "自动扫描写入。今日来源统计：Product Hunt×6、GitHub×2。可作通讯草稿。",
-    "intro_en": "Auto-scan write-up. Today's source counts: Product Hunt×6, GitHub×2. Reuse as newsletter draft.",
-    "tool_ids": [],
+    "title_zh": "本周扫描更新（2026-11-04）",
+    "title_en": "Weekly scan update (2026-11-04)",
+    "intro_zh": "自动扫描写入。今日来源统计：Product Hunt×6、Hugging Face×4、Hugging Face Spaces×2、GitHub×4、X×7、RunningHub×1、Higgsfield×1。可作通讯草稿。",
+    "intro_en": "Auto-scan write-up. Today's source counts: Product Hunt×6, Hugging Face×4, Hugging Face Spaces×2, GitHub×4, X×7, RunningHub×1, Higgsfield×1. Reuse as newsletter draft.",
+    "tool_ids": [
+      "deepsite",
+      "chatgpt",
+      "claude",
+      "gemini",
+      "runninghub",
+      "higgsfield"
+    ],
     "highlights_zh": [
-      "diff-tour（来自 Product Hunt）",
-      "Xmind 2027（来自 Product Hunt）",
-      "Display 1.0（来自 Product Hunt）",
-      "Friday Work（来自 Product Hunt）",
-      "Agent Inbox（来自 Product Hunt）",
-      "Hera（来自 Product Hunt）",
-      "Goekdeniz-Guelmez/JOSIE-Voice（来自 GitHub）",
-      "OFat34764e/InterviewCopilot-rpocket-team（来自 GitHub）"
+      "MagicaLCore（来自 Product Hunt）",
+      "AgentKit by Scalekit（来自 Product Hunt）",
+      "Teamily AI（来自 Product Hunt）",
+      "Peji（来自 Product Hunt）",
+      "Infino AI（来自 Product Hunt）",
+      "Synter Canvas（来自 Product Hunt）",
+      "LFM3-1.7B（来自 Hugging Face）",
+      "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B（来自 Hugging Face）"
     ],
     "highlights_en": [
-      "diff-tour (via Product Hunt)",
-      "Xmind 2027 (via Product Hunt)",
-      "Display 1.0 (via Product Hunt)",
-      "Friday Work (via Product Hunt)",
-      "Agent Inbox (via Product Hunt)",
-      "Hera (via Product Hunt)",
-      "Goekdeniz-Guelmez/JOSIE-Voice (via GitHub)",
-      "OFat34764e/InterviewCopilot-rpocket-team (via GitHub)"
+      "MagicaLCore (via Product Hunt)",
+      "AgentKit by Scalekit (via Product Hunt)",
+      "Teamily AI (via Product Hunt)",
+      "Peji (via Product Hunt)",
+      "Infino AI (via Product Hunt)",
+      "Synter Canvas (via Product Hunt)",
+      "LFM3-1.7B (via Hugging Face)",
+      "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B (via Hugging Face)"
     ],
-    "updated_at": "2026-11-03T00:09:46.898879+00:00"
+    "updated_at": "2026-11-04T00:04:04.507825+00:00"
   },
   {
     "id": "week-2026-w44-scan",

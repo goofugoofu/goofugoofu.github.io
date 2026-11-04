@@ -1,38 +1,14 @@
 [
   {
-    "id": "diff-tour",
-    "name_zh": "diff-tour",
-    "name_en": "diff-tour",
-    "url": "https://www.producthunt.com/products/diff-tour",
-    "scenarios": [
-      "coding"
-    ],
-    "one_liner_zh": "AI writes the code. Learn to read it like a senior engineer.",
-    "one_liner_en": "AI writes the code. Learn to read it like a senior engineer.",
-    "use_when_zh": "（待编辑）适合该工具定位的场景。",
-    "use_when_en": "(todo) When this tool’s positioning fits.",
-    "avoid_when_zh": "（待编辑）明确不适合的情况。",
-    "avoid_when_en": "(todo) When it is a poor fit.",
-    "pricing": "free",
-    "sources": [
-      "Product Hunt"
-    ],
-    "launched_or_updated_at": "2026-11-02",
-    "is_new_this_week": true,
-    "sponsored": false,
-    "affiliate_url": null,
-    "_suggested_by_scan": true
-  },
-  {
-    "id": "xmind-2027",
-    "name_zh": "Xmind 2027",
-    "name_en": "Xmind 2027",
-    "url": "https://www.producthunt.com/products/xmind",
+    "id": "magicalcore",
+    "name_zh": "MagicaLCore",
+    "name_en": "MagicaLCore",
+    "url": "https://www.producthunt.com/products/magical-core-image-classifier",
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "Your mind map is now an AI thinking partner",
-    "one_liner_en": "Your mind map is now an AI thinking partner",
+    "one_liner_zh": "Six kinds of machine learning models, trained on your iPad",
+    "one_liner_en": "Six kinds of machine learning models, trained on your iPad",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -41,23 +17,22 @@
     "sources": [
       "Product Hunt"
     ],
-    "launched_or_updated_at": "2026-11-02",
+    "launched_or_updated_at": "2026-11-03",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
     "_suggested_by_scan": true
   },
   {
-    "id": "display-1-0",
-    "name_zh": "Display 1.0",
-    "name_en": "Display 1.0",
-    "url": "https://www.producthunt.com/products/display-dev",
+    "id": "agentkit-by-scalekit",
+    "name_zh": "AgentKit by Scalekit",
+    "name_en": "AgentKit by Scalekit",
+    "url": "https://www.producthunt.com/products/scalekit",
     "scenarios": [
-      "agents",
-      "office"
+      "agents"
     ],
-    "one_liner_zh": "Create docs and apps with any agent, in one workspace",
-    "one_liner_en": "Create docs and apps with any agent, in one workspace",
+    "one_liner_zh": "MCP gateway for production agents that acts on your behalf",
+    "one_liner_en": "MCP gateway for production agents that acts on your behalf",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -66,22 +41,22 @@
     "sources": [
       "Product Hunt"
     ],
-    "launched_or_updated_at": "2026-11-02",
+    "launched_or_updated_at": "2026-11-03",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
     "_suggested_by_scan": true
   },
   {
-    "id": "friday-work",
-    "name_zh": "Friday Work",
-    "name_en": "Friday Work",
-    "url": "https://www.producthunt.com/products/friday-work",
+    "id": "teamily-ai",
+    "name_zh": "Teamily AI",
+    "name_en": "Teamily AI",
+    "url": "https://www.producthunt.com/products/teamily-ai-human-ai-social-network",
     "scenarios": [
-      "research"
+      "agents"
     ],
-    "one_liner_zh": "When Claude hits its limit, your task keeps going",
-    "one_liner_en": "When Claude hits its limit, your task keeps going",
+    "one_liner_zh": "Your personal agent, agent teams & people in one messenger",
+    "one_liner_en": "Your personal agent, agent teams & people in one messenger",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -90,47 +65,22 @@
     "sources": [
       "Product Hunt"
     ],
-    "launched_or_updated_at": "2026-11-02",
+    "launched_or_updated_at": "2026-11-03",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
     "_suggested_by_scan": true
   },
   {
-    "id": "agent-inbox",
-    "name_zh": "Agent Inbox",
-    "name_en": "Agent Inbox",
-    "url": "https://www.producthunt.com/products/agent-inbox",
-    "scenarios": [
-      "agents",
-      "office"
-    ],
-    "one_liner_zh": "Give your agent an email address, Slack and Telegram handle",
-    "one_liner_en": "Give your agent an email address, Slack and Telegram handle",
-    "use_when_zh": "（待编辑）适合该工具定位的场景。",
-    "use_when_en": "(todo) When this tool’s positioning fits.",
-    "avoid_when_zh": "（待编辑）明确不适合的情况。",
-    "avoid_when_en": "(todo) When it is a poor fit.",
-    "pricing": "free",
-    "sources": [
-      "Product Hunt"
-    ],
-    "launched_or_updated_at": "2026-11-02",
-    "is_new_this_week": true,
-    "sponsored": false,
-    "affiliate_url": null,
-    "_suggested_by_scan": true
-  },
-  {
-    "id": "hera",
-    "name_zh": "Hera",
-    "name_en": "Hera",
-    "url": "https://www.producthunt.com/products/hera-6",
+    "id": "peji",
+    "name_zh": "Peji",
+    "name_en": "Peji",
+    "url": "https://www.producthunt.com/products/peji",
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "AI Creative Canvas",
-    "one_liner_en": "AI Creative Canvas",
+    "one_liner_zh": "An AI chat with a real browser you control",
+    "one_liner_en": "An AI chat with a real browser you control",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -139,7 +89,56 @@
     "sources": [
       "Product Hunt"
     ],
-    "launched_or_updated_at": "2026-11-02",
+    "launched_or_updated_at": "2026-11-03",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null,
+    "_suggested_by_scan": true
+  },
+  {
+    "id": "infino-ai",
+    "name_zh": "Infino AI",
+    "name_en": "Infino AI",
+    "url": "https://www.producthunt.com/products/infino-ai",
+    "scenarios": [
+      "research",
+      "writing"
+    ],
+    "one_liner_zh": "Search, vectors and SQL over one Parquet copy, for agents",
+    "one_liner_en": "Search, vectors and SQL over one Parquet copy, for agents",
+    "use_when_zh": "（待编辑）适合该工具定位的场景。",
+    "use_when_en": "(todo) When this tool’s positioning fits.",
+    "avoid_when_zh": "（待编辑）明确不适合的情况。",
+    "avoid_when_en": "(todo) When it is a poor fit.",
+    "pricing": "free",
+    "sources": [
+      "Product Hunt"
+    ],
+    "launched_or_updated_at": "2026-11-03",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null,
+    "_suggested_by_scan": true
+  },
+  {
+    "id": "synter-canvas",
+    "name_zh": "Synter Canvas",
+    "name_en": "Synter Canvas",
+    "url": "https://www.producthunt.com/products/synter-canvas",
+    "scenarios": [
+      "agents"
+    ],
+    "one_liner_zh": "Your AI agent runs ads across 30+ ad platforms",
+    "one_liner_en": "Your AI agent runs ads across 30+ ad platforms",
+    "use_when_zh": "（待编辑）适合该工具定位的场景。",
+    "use_when_en": "(todo) When this tool’s positioning fits.",
+    "avoid_when_zh": "（待编辑）明确不适合的情况。",
+    "avoid_when_en": "(todo) When it is a poor fit.",
+    "pricing": "free",
+    "sources": [
+      "Product Hunt"
+    ],
+    "launched_or_updated_at": "2026-11-03",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -153,8 +152,8 @@
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "Trending HF model (text-generation), likes≈998. Full id: LiquidAI/LFM3-1.7B",
-    "one_liner_en": "Trending HF model (text-generation), likes≈998. Full id: LiquidAI/LFM3-1.7B",
+    "one_liner_zh": "Trending HF model (text-generation), likes≈1399. Full id: LiquidAI/LFM3-1.7B",
+    "one_liner_en": "Trending HF model (text-generation), likes≈1399. Full id: LiquidAI/LFM3-1.7B",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -163,31 +162,7 @@
     "sources": [
       "Hugging Face"
     ],
-    "launched_or_updated_at": "2026-11-02",
-    "is_new_this_week": true,
-    "sponsored": false,
-    "affiliate_url": null,
-    "_suggested_by_scan": true
-  },
-  {
-    "id": "deepseek-v4-1-flash-1017",
-    "name_zh": "DeepSeek-V4.1-Flash-1017",
-    "name_en": "DeepSeek-V4.1-Flash-1017",
-    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-    "scenarios": [
-      "image-video"
-    ],
-    "one_liner_zh": "Trending HF model (image-text-to-text), likes≈4695. Full id: deepseek-ai/DeepSeek-V4.1-Flash-1017",
-    "one_liner_en": "Trending HF model (image-text-to-text), likes≈4695. Full id: deepseek-ai/DeepSeek-V4.1-Flash-1017",
-    "use_when_zh": "（待编辑）适合该工具定位的场景。",
-    "use_when_en": "(todo) When this tool’s positioning fits.",
-    "avoid_when_zh": "（待编辑）明确不适合的情况。",
-    "avoid_when_en": "(todo) When it is a poor fit.",
-    "pricing": "free",
-    "sources": [
-      "Hugging Face"
-    ],
-    "launched_or_updated_at": "2026-11-02",
+    "launched_or_updated_at": "2026-11-03",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -201,8 +176,8 @@
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "Trending HF model (automatic-speech-recognition), likes≈681. Full id: nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
-    "one_liner_en": "Trending HF model (automatic-speech-recognition), likes≈681. Full id: nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+    "one_liner_zh": "Trending HF model (automatic-speech-recognition), likes≈737. Full id: nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+    "one_liner_en": "Trending HF model (automatic-speech-recognition), likes≈737. Full id: nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -211,7 +186,31 @@
     "sources": [
       "Hugging Face"
     ],
-    "launched_or_updated_at": "2026-11-02",
+    "launched_or_updated_at": "2026-11-03",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null,
+    "_suggested_by_scan": true
+  },
+  {
+    "id": "deepseek-v4-1-flash-1017",
+    "name_zh": "DeepSeek-V4.1-Flash-1017",
+    "name_en": "DeepSeek-V4.1-Flash-1017",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "scenarios": [
+      "image-video"
+    ],
+    "one_liner_zh": "Trending HF model (image-text-to-text), likes≈4849. Full id: deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "one_liner_en": "Trending HF model (image-text-to-text), likes≈4849. Full id: deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "use_when_zh": "（待编辑）适合该工具定位的场景。",
+    "use_when_en": "(todo) When this tool’s positioning fits.",
+    "avoid_when_zh": "（待编辑）明确不适合的情况。",
+    "avoid_when_en": "(todo) When it is a poor fit.",
+    "pricing": "free",
+    "sources": [
+      "Hugging Face"
+    ],
+    "launched_or_updated_at": "2026-11-03",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -225,8 +224,8 @@
     "scenarios": [
       "image-video"
     ],
-    "one_liner_zh": "Trending HF model (image-text-to-text), likes≈1500. Full id: mistralai/Mistral-Large-4-1T-A52B",
-    "one_liner_en": "Trending HF model (image-text-to-text), likes≈1500. Full id: mistralai/Mistral-Large-4-1T-A52B",
+    "one_liner_zh": "Trending HF model (image-text-to-text), likes≈1543. Full id: mistralai/Mistral-Large-4-1T-A52B",
+    "one_liner_en": "Trending HF model (image-text-to-text), likes≈1543. Full id: mistralai/Mistral-Large-4-1T-A52B",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -235,7 +234,7 @@
     "sources": [
       "Hugging Face"
     ],
-    "launched_or_updated_at": "2026-11-02",
+    "launched_or_updated_at": "2026-11-03",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -259,31 +258,7 @@
     "sources": [
       "Hugging Face Spaces"
     ],
-    "launched_or_updated_at": "2026-11-02",
-    "is_new_this_week": true,
-    "sponsored": false,
-    "affiliate_url": null,
-    "_suggested_by_scan": true
-  },
-  {
-    "id": "tokeneconomizer",
-    "name_zh": "microsoft/TokenEconomizer",
-    "name_en": "microsoft/TokenEconomizer",
-    "url": "https://github.com/microsoft/TokenEconomizer",
-    "scenarios": [
-      "coding"
-    ],
-    "one_liner_zh": "Experience-Driven Black-Box Cost Control for Coding Agents ★4466",
-    "one_liner_en": "Experience-Driven Black-Box Cost Control for Coding Agents ★4466",
-    "use_when_zh": "（待编辑）适合该工具定位的场景。",
-    "use_when_en": "(todo) When this tool’s positioning fits.",
-    "avoid_when_zh": "（待编辑）明确不适合的情况。",
-    "avoid_when_en": "(todo) When it is a poor fit.",
-    "pricing": "free",
-    "sources": [
-      "GitHub"
-    ],
-    "launched_or_updated_at": "2026-11-02",
+    "launched_or_updated_at": "2026-11-03",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -308,7 +283,7 @@
     "sources": [
       "GitHub"
     ],
-    "launched_or_updated_at": "2026-11-02",
+    "launched_or_updated_at": "2026-11-03",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -333,7 +308,7 @@
     "sources": [
       "GitHub"
     ],
-    "launched_or_updated_at": "2026-11-02",
+    "launched_or_updated_at": "2026-11-03",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -357,7 +332,31 @@
     "sources": [
       "GitHub"
     ],
-    "launched_or_updated_at": "2026-11-02",
+    "launched_or_updated_at": "2026-11-03",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null,
+    "_suggested_by_scan": true
+  },
+  {
+    "id": "frontier-ui",
+    "name_zh": "Jumbomuffin777/Frontier-UI",
+    "name_en": "Jumbomuffin777/Frontier-UI",
+    "url": "https://github.com/Jumbomuffin777/Frontier-UI",
+    "scenarios": [
+      "coding"
+    ],
+    "one_liner_zh": "ChatGPT-style generative UI for Open WebUI: photo galleries, live maps with real routes, multi-day trips, budgets, calcu",
+    "one_liner_en": "ChatGPT-style generative UI for Open WebUI: photo galleries, live maps with real routes, multi-day trips, budgets, calcu",
+    "use_when_zh": "（待编辑）适合该工具定位的场景。",
+    "use_when_en": "(todo) When this tool’s positioning fits.",
+    "avoid_when_zh": "（待编辑）明确不适合的情况。",
+    "avoid_when_en": "(todo) When it is a poor fit.",
+    "pricing": "free",
+    "sources": [
+      "GitHub"
+    ],
+    "launched_or_updated_at": "2026-11-03",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
