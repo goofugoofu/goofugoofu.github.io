@@ -4,39 +4,32 @@
     "week_label_zh": "2026 年第 45 周",
     "week_label_en": "Week 45, 2026",
     "date_range": "2026-11-02 — 2026-11-08",
-    "title_zh": "本周扫描更新（2026-11-04）",
-    "title_en": "Weekly scan update (2026-11-04)",
-    "intro_zh": "自动扫描写入。今日来源统计：Product Hunt×6、Hugging Face×4、Hugging Face Spaces×2、GitHub×4、X×7、RunningHub×1、Higgsfield×1。可作通讯草稿。",
-    "intro_en": "Auto-scan write-up. Today's source counts: Product Hunt×6, Hugging Face×4, Hugging Face Spaces×2, GitHub×4, X×7, RunningHub×1, Higgsfield×1. Reuse as newsletter draft.",
-    "tool_ids": [
-      "deepsite",
-      "chatgpt",
-      "claude",
-      "gemini",
-      "runninghub",
-      "higgsfield"
-    ],
+    "title_zh": "本周扫描更新（2026-11-05）",
+    "title_en": "Weekly scan update (2026-11-05)",
+    "intro_zh": "自动扫描写入。今日来源统计：Product Hunt×6、Hugging Face×1、GitHub×2。可作通讯草稿。",
+    "intro_en": "Auto-scan write-up. Today's source counts: Product Hunt×6, Hugging Face×1, GitHub×2. Reuse as newsletter draft.",
+    "tool_ids": [],
     "highlights_zh": [
-      "MagicaLCore（来自 Product Hunt）",
-      "AgentKit by Scalekit（来自 Product Hunt）",
-      "Teamily AI（来自 Product Hunt）",
-      "Peji（来自 Product Hunt）",
-      "Infino AI（来自 Product Hunt）",
-      "Synter Canvas（来自 Product Hunt）",
-      "LFM3-1.7B（来自 Hugging Face）",
-      "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B（来自 Hugging Face）"
+      "PasteGuard for Mac（来自 Product Hunt）",
+      "Datashake MCP（来自 Product Hunt）",
+      "Hashference（来自 Product Hunt）",
+      "TrackEdge（来自 Product Hunt）",
+      "Freeport Markets（来自 Product Hunt）",
+      "Wanaka Studio（来自 Product Hunt）",
+      "idol（来自 Hugging Face）",
+      "vixhal-baraiya/qwenFS（来自 GitHub）"
     ],
     "highlights_en": [
-      "MagicaLCore (via Product Hunt)",
-      "AgentKit by Scalekit (via Product Hunt)",
-      "Teamily AI (via Product Hunt)",
-      "Peji (via Product Hunt)",
-      "Infino AI (via Product Hunt)",
-      "Synter Canvas (via Product Hunt)",
-      "LFM3-1.7B (via Hugging Face)",
-      "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B (via Hugging Face)"
+      "PasteGuard for Mac (via Product Hunt)",
+      "Datashake MCP (via Product Hunt)",
+      "Hashference (via Product Hunt)",
+      "TrackEdge (via Product Hunt)",
+      "Freeport Markets (via Product Hunt)",
+      "Wanaka Studio (via Product Hunt)",
+      "idol (via Hugging Face)",
+      "vixhal-baraiya/qwenFS (via GitHub)"
     ],
-    "updated_at": "2026-11-04T00:04:04.507825+00:00"
+    "updated_at": "2026-11-05T00:17:29.357562+00:00"
   },
   {
     "id": "week-2026-w44-scan",

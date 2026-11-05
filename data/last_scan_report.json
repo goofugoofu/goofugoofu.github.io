@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "sources": {
     "product_hunt": {
       "status": "live",
@@ -33,14 +33,14 @@
   "counts": {
     "raw": 29,
     "deduped": 27,
-    "daily_written": 25,
+    "daily_written": 9,
     "suggestions": 15
   },
   "sample_titles": [
-    "MagicaLCore (via Product Hunt)",
-    "AgentKit by Scalekit (via Product Hunt)",
-    "Teamily AI (via Product Hunt)",
-    "Peji (via Product Hunt)",
-    "Infino AI (via Product Hunt)"
+    "PasteGuard for Mac (via Product Hunt)",
+    "Datashake MCP (via Product Hunt)",
+    "Hashference (via Product Hunt)",
+    "TrackEdge (via Product Hunt)",
+    "Freeport Markets (via Product Hunt)"
   ]
 }
