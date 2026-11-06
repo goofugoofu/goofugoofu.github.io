@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "sources": {
     "product_hunt": {
       "status": "live",
@@ -33,14 +33,14 @@
   "counts": {
     "raw": 29,
     "deduped": 27,
-    "daily_written": 9,
+    "daily_written": 24,
     "suggestions": 15
   },
   "sample_titles": [
-    "PasteGuard for Mac (via Product Hunt)",
-    "Datashake MCP (via Product Hunt)",
-    "Hashference (via Product Hunt)",
-    "TrackEdge (via Product Hunt)",
-    "Freeport Markets (via Product Hunt)"
+    "CC Auto Review (via Product Hunt)",
+    "Tencent Hy4 (via Product Hunt)",
+    "Stitch.ai (via Product Hunt)",
+    "Pushary for Teams (via Product Hunt)",
+    "ChatNest (via Product Hunt)"
   ]
 }

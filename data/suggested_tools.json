@@ -1,14 +1,38 @@
 [
   {
-    "id": "pasteguard-for-mac",
-    "name_zh": "PasteGuard for Mac",
-    "name_en": "PasteGuard for Mac",
-    "url": "https://www.producthunt.com/products/pasteguard-2",
+    "id": "cc-auto-review",
+    "name_zh": "CC Auto Review",
+    "name_en": "CC Auto Review",
+    "url": "https://www.producthunt.com/products/cc-auto-review",
+    "scenarios": [
+      "coding"
+    ],
+    "one_liner_zh": "macOS app that reviews GitHub PRs w/ your local Claude Code",
+    "one_liner_en": "macOS app that reviews GitHub PRs w/ your local Claude Code",
+    "use_when_zh": "（待编辑）适合该工具定位的场景。",
+    "use_when_en": "(todo) When this tool’s positioning fits.",
+    "avoid_when_zh": "（待编辑）明确不适合的情况。",
+    "avoid_when_en": "(todo) When it is a poor fit.",
+    "pricing": "free",
+    "sources": [
+      "Product Hunt"
+    ],
+    "launched_or_updated_at": "2026-11-05",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null,
+    "_suggested_by_scan": true
+  },
+  {
+    "id": "tencent-hy4",
+    "name_zh": "Tencent Hy4",
+    "name_en": "Tencent Hy4",
+    "url": "https://www.producthunt.com/products/hunyuan-a13b",
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "Keep secrets and personal data out of AI chats",
-    "one_liner_en": "Keep secrets and personal data out of AI chats",
+    "one_liner_zh": "Tencent’s flagship model learns to see and use a computer",
+    "one_liner_en": "Tencent’s flagship model learns to see and use a computer",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -17,47 +41,22 @@
     "sources": [
       "Product Hunt"
     ],
-    "launched_or_updated_at": "2026-11-04",
+    "launched_or_updated_at": "2026-11-05",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
     "_suggested_by_scan": true
   },
   {
-    "id": "datashake-mcp",
-    "name_zh": "Datashake MCP",
-    "name_en": "Datashake MCP",
-    "url": "https://www.producthunt.com/products/datashake-hub",
-    "scenarios": [
-      "coding",
-      "agents"
-    ],
-    "one_liner_zh": "Plug review and social data straight into your AI assistant",
-    "one_liner_en": "Plug review and social data straight into your AI assistant",
-    "use_when_zh": "（待编辑）适合该工具定位的场景。",
-    "use_when_en": "(todo) When this tool’s positioning fits.",
-    "avoid_when_zh": "（待编辑）明确不适合的情况。",
-    "avoid_when_en": "(todo) When it is a poor fit.",
-    "pricing": "free",
-    "sources": [
-      "Product Hunt"
-    ],
-    "launched_or_updated_at": "2026-11-04",
-    "is_new_this_week": true,
-    "sponsored": false,
-    "affiliate_url": null,
-    "_suggested_by_scan": true
-  },
-  {
-    "id": "hashference",
-    "name_zh": "Hashference",
-    "name_en": "Hashference",
-    "url": "https://www.producthunt.com/products/hashference",
+    "id": "stitch-ai",
+    "name_zh": "Stitch.ai",
+    "name_en": "Stitch.ai",
+    "url": "https://www.producthunt.com/products/stitch-ai",
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "Fund 45+ top AI models using your idle CPU/GPU compute",
-    "one_liner_en": "Fund 45+ top AI models using your idle CPU/GPU compute",
+    "one_liner_zh": "Your AI workspace for mail, calendar, notes, tasks and more",
+    "one_liner_en": "Your AI workspace for mail, calendar, notes, tasks and more",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -66,22 +65,22 @@
     "sources": [
       "Product Hunt"
     ],
-    "launched_or_updated_at": "2026-11-04",
+    "launched_or_updated_at": "2026-11-05",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
     "_suggested_by_scan": true
   },
   {
-    "id": "trackedge",
-    "name_zh": "TrackEdge",
-    "name_en": "TrackEdge",
-    "url": "https://www.producthunt.com/products/trackedge-2",
+    "id": "pushary-for-teams",
+    "name_zh": "Pushary for Teams",
+    "name_en": "Pushary for Teams",
+    "url": "https://www.producthunt.com/products/pushary",
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "Hidden AI buttons on your MacBook’s trackpad",
-    "one_liner_en": "Hidden AI buttons on your MacBook’s trackpad",
+    "one_liner_zh": "See who said yes to your team’s AI agents",
+    "one_liner_en": "See who said yes to your team’s AI agents",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -90,46 +89,22 @@
     "sources": [
       "Product Hunt"
     ],
-    "launched_or_updated_at": "2026-11-04",
+    "launched_or_updated_at": "2026-11-05",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
     "_suggested_by_scan": true
   },
   {
-    "id": "freeport-markets",
-    "name_zh": "Freeport Markets",
-    "name_en": "Freeport Markets",
-    "url": "https://www.producthunt.com/products/freeport-markets",
-    "scenarios": [
-      "writing"
-    ],
-    "one_liner_zh": "Our proprietary AI finds the top onchain wallets to copy",
-    "one_liner_en": "Our proprietary AI finds the top onchain wallets to copy",
-    "use_when_zh": "（待编辑）适合该工具定位的场景。",
-    "use_when_en": "(todo) When this tool’s positioning fits.",
-    "avoid_when_zh": "（待编辑）明确不适合的情况。",
-    "avoid_when_en": "(todo) When it is a poor fit.",
-    "pricing": "free",
-    "sources": [
-      "Product Hunt"
-    ],
-    "launched_or_updated_at": "2026-11-04",
-    "is_new_this_week": true,
-    "sponsored": false,
-    "affiliate_url": null,
-    "_suggested_by_scan": true
-  },
-  {
-    "id": "wanaka-studio",
-    "name_zh": "Wanaka Studio",
-    "name_en": "Wanaka Studio",
-    "url": "https://www.producthunt.com/products/wanaka-studio",
+    "id": "chatnest",
+    "name_zh": "ChatNest",
+    "name_en": "ChatNest",
+    "url": "https://www.producthunt.com/products/chatnest-2",
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "Make and publish 3D games with the first AI game engine",
-    "one_liner_en": "Make and publish 3D games with the first AI game engine",
+    "one_liner_zh": "Folders and a prompt library for your AI chats",
+    "one_liner_en": "Folders and a prompt library for your AI chats",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -138,46 +113,46 @@
     "sources": [
       "Product Hunt"
     ],
-    "launched_or_updated_at": "2026-11-04",
+    "launched_or_updated_at": "2026-11-05",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
     "_suggested_by_scan": true
   },
   {
-    "id": "nvidia-nemotron-3-5-transcribe-30b-a4b",
-    "name_zh": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
-    "name_en": "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
-    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+    "id": "living-brain",
+    "name_zh": "Living Brain",
+    "name_en": "Living Brain",
+    "url": "https://www.producthunt.com/products/chatandbuild",
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "Trending HF model (automatic-speech-recognition), likes≈1485. Full id: nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
-    "one_liner_en": "Trending HF model (automatic-speech-recognition), likes≈1485. Full id: nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+    "one_liner_zh": "Interoperable, efficient memory layer for agentic AI",
+    "one_liner_en": "Interoperable, efficient memory layer for agentic AI",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
     "avoid_when_en": "(todo) When it is a poor fit.",
     "pricing": "free",
     "sources": [
-      "Hugging Face"
+      "Product Hunt"
     ],
-    "launched_or_updated_at": "2026-11-04",
+    "launched_or_updated_at": "2026-11-05",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
     "_suggested_by_scan": true
   },
   {
-    "id": "deepseek-v4-1-flash-1017",
-    "name_zh": "DeepSeek-V4.1-Flash-1017",
-    "name_en": "DeepSeek-V4.1-Flash-1017",
-    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "id": "kimi-k3-1-pro",
+    "name_zh": "Kimi-K3.1-Pro",
+    "name_en": "Kimi-K3.1-Pro",
+    "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
     "scenarios": [
       "image-video"
     ],
-    "one_liner_zh": "Trending HF model (image-text-to-text), likes≈5267. Full id: deepseek-ai/DeepSeek-V4.1-Flash-1017",
-    "one_liner_en": "Trending HF model (image-text-to-text), likes≈5267. Full id: deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "one_liner_zh": "Trending HF model (image-text-to-text), likes≈916. Full id: moonshotai/Kimi-K3.1-Pro",
+    "one_liner_en": "Trending HF model (image-text-to-text), likes≈916. Full id: moonshotai/Kimi-K3.1-Pro",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -186,7 +161,7 @@
     "sources": [
       "Hugging Face"
     ],
-    "launched_or_updated_at": "2026-11-04",
+    "launched_or_updated_at": "2026-11-05",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -200,8 +175,8 @@
     "scenarios": [
       "image-video"
     ],
-    "one_liner_zh": "Trending HF model (image-to-3d), likes≈618. Full id: speridlabs/idol",
-    "one_liner_en": "Trending HF model (image-to-3d), likes≈618. Full id: speridlabs/idol",
+    "one_liner_zh": "Trending HF model (image-to-3d), likes≈769. Full id: speridlabs/idol",
+    "one_liner_en": "Trending HF model (image-to-3d), likes≈769. Full id: speridlabs/idol",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -210,22 +185,22 @@
     "sources": [
       "Hugging Face"
     ],
-    "launched_or_updated_at": "2026-11-04",
+    "launched_or_updated_at": "2026-11-05",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
     "_suggested_by_scan": true
   },
   {
-    "id": "lfm3-1-7b",
-    "name_zh": "LFM3-1.7B",
-    "name_en": "LFM3-1.7B",
-    "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+    "id": "ltx-2-5",
+    "name_zh": "LTX-2.5",
+    "name_en": "LTX-2.5",
+    "url": "https://huggingface.co/Lightricks/LTX-2.5",
     "scenarios": [
-      "research"
+      "image-video"
     ],
-    "one_liner_zh": "Trending HF model (text-generation), likes≈1485. Full id: LiquidAI/LFM3-1.7B",
-    "one_liner_en": "Trending HF model (text-generation), likes≈1485. Full id: LiquidAI/LFM3-1.7B",
+    "one_liner_zh": "Trending HF model (image-to-video), likes≈10725. Full id: Lightricks/LTX-2.5",
+    "one_liner_en": "Trending HF model (image-to-video), likes≈10725. Full id: Lightricks/LTX-2.5",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -234,7 +209,31 @@
     "sources": [
       "Hugging Face"
     ],
-    "launched_or_updated_at": "2026-11-04",
+    "launched_or_updated_at": "2026-11-05",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null,
+    "_suggested_by_scan": true
+  },
+  {
+    "id": "pika-h3-flex",
+    "name_zh": "Pika-H3-Flex",
+    "name_en": "Pika-H3-Flex",
+    "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex",
+    "scenarios": [
+      "image-video"
+    ],
+    "one_liner_zh": "Trending HF model (image-to-video), likes≈473. Full id: Pika-Labs/Pika-H3-Flex",
+    "one_liner_en": "Trending HF model (image-to-video), likes≈473. Full id: Pika-Labs/Pika-H3-Flex",
+    "use_when_zh": "（待编辑）适合该工具定位的场景。",
+    "use_when_en": "(todo) When this tool’s positioning fits.",
+    "avoid_when_zh": "（待编辑）明确不适合的情况。",
+    "avoid_when_en": "(todo) When it is a poor fit.",
+    "pricing": "free",
+    "sources": [
+      "Hugging Face"
+    ],
+    "launched_or_updated_at": "2026-11-05",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -258,32 +257,7 @@
     "sources": [
       "Hugging Face Spaces"
     ],
-    "launched_or_updated_at": "2026-11-04",
-    "is_new_this_week": true,
-    "sponsored": false,
-    "affiliate_url": null,
-    "_suggested_by_scan": true
-  },
-  {
-    "id": "cve-intel",
-    "name_zh": "Fazmin/cve-intel",
-    "name_en": "Fazmin/cve-intel",
-    "url": "https://github.com/Fazmin/cve-intel",
-    "scenarios": [
-      "coding",
-      "agents"
-    ],
-    "one_liner_zh": "Local security intelligence for CVE triage - 40 data sources and 41 tools, risk scores and an MCP server for AI agents, ",
-    "one_liner_en": "Local security intelligence for CVE triage - 40 data sources and 41 tools, risk scores and an MCP server for AI agents, ",
-    "use_when_zh": "（待编辑）适合该工具定位的场景。",
-    "use_when_en": "(todo) When this tool’s positioning fits.",
-    "avoid_when_zh": "（待编辑）明确不适合的情况。",
-    "avoid_when_en": "(todo) When it is a poor fit.",
-    "pricing": "free",
-    "sources": [
-      "GitHub"
-    ],
-    "launched_or_updated_at": "2026-11-04",
+    "launched_or_updated_at": "2026-11-05",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -308,7 +282,7 @@
     "sources": [
       "GitHub"
     ],
-    "launched_or_updated_at": "2026-11-04",
+    "launched_or_updated_at": "2026-11-05",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -322,8 +296,8 @@
     "scenarios": [
       "coding"
     ],
-    "one_liner_zh": "Qwen3.5-2B with a filesystem compiled and inserted directly into its weights. ★86",
-    "one_liner_en": "Qwen3.5-2B with a filesystem compiled and inserted directly into its weights. ★86",
+    "one_liner_zh": "Qwen3.5-2B with a filesystem compiled and inserted directly into its weights. ★91",
+    "one_liner_en": "Qwen3.5-2B with a filesystem compiled and inserted directly into its weights. ★91",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -332,7 +306,31 @@
     "sources": [
       "GitHub"
     ],
-    "launched_or_updated_at": "2026-11-04",
+    "launched_or_updated_at": "2026-11-05",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null,
+    "_suggested_by_scan": true
+  },
+  {
+    "id": "frontier-ui",
+    "name_zh": "Jumbomuffin777/Frontier-UI",
+    "name_en": "Jumbomuffin777/Frontier-UI",
+    "url": "https://github.com/Jumbomuffin777/Frontier-UI",
+    "scenarios": [
+      "coding"
+    ],
+    "one_liner_zh": "ChatGPT-style generative UI for Open WebUI: photo galleries, live maps with real routes, multi-day trips, budgets, calcu",
+    "one_liner_en": "ChatGPT-style generative UI for Open WebUI: photo galleries, live maps with real routes, multi-day trips, budgets, calcu",
+    "use_when_zh": "（待编辑）适合该工具定位的场景。",
+    "use_when_en": "(todo) When this tool’s positioning fits.",
+    "avoid_when_zh": "（待编辑）明确不适合的情况。",
+    "avoid_when_en": "(todo) When it is a poor fit.",
+    "pricing": "free",
+    "sources": [
+      "GitHub"
+    ],
+    "launched_or_updated_at": "2026-11-05",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -356,7 +354,7 @@
     "sources": [
       "GitHub"
     ],
-    "launched_or_updated_at": "2026-11-04",
+    "launched_or_updated_at": "2026-11-05",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
