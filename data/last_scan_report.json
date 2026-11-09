@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-09",
   "sources": {
     "product_hunt": {
       "status": "live",
@@ -33,14 +33,14 @@
   "counts": {
     "raw": 29,
     "deduped": 27,
-    "daily_written": 24,
+    "daily_written": 27,
     "suggestions": 15
   },
   "sample_titles": [
-    "CC Auto Review (via Product Hunt)",
-    "Tencent Hy4 (via Product Hunt)",
-    "Stitch.ai (via Product Hunt)",
-    "Pushary for Teams (via Product Hunt)",
-    "ChatNest (via Product Hunt)"
+    "outages.live (via Product Hunt)",
+    "NoMac (via Product Hunt)",
+    "Inkling 2 Small (via Product Hunt)",
+    "Agent Clan (via Product Hunt)",
+    "AXL (via Product Hunt)"
   ]
 }
