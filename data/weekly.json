@@ -4,40 +4,34 @@
     "week_label_zh": "2026 年第 46 周",
     "week_label_en": "Week 46, 2026",
     "date_range": "2026-11-09 — 2026-11-15",
-    "title_zh": "本周扫描更新（2026-11-09）",
-    "title_en": "Weekly scan update (2026-11-09)",
-    "intro_zh": "自动扫描写入。今日来源统计：Product Hunt×6、Hugging Face×4、Hugging Face Spaces×2、GitHub×6、X×7、RunningHub×1、Higgsfield×1。可作通讯草稿。",
-    "intro_en": "Auto-scan write-up. Today's source counts: Product Hunt×6, Hugging Face×4, Hugging Face Spaces×2, GitHub×6, X×7, RunningHub×1, Higgsfield×1. Reuse as newsletter draft.",
+    "title_zh": "本周扫描更新（2026-11-10）",
+    "title_en": "Weekly scan update (2026-11-10)",
+    "intro_zh": "自动扫描写入。今日来源统计：Product Hunt×6、Hugging Face×1、GitHub×1、RunningHub×1。可作通讯草稿。",
+    "intro_en": "Auto-scan write-up. Today's source counts: Product Hunt×6, Hugging Face×1, GitHub×1, RunningHub×1. Reuse as newsletter draft.",
     "tool_ids": [
-      "kling",
-      "deepsite",
-      "chatgpt",
-      "claude",
-      "gemini",
-      "runninghub",
-      "higgsfield"
+      "runninghub"
     ],
     "highlights_zh": [
-      "outages.live（来自 Product Hunt）",
-      "NoMac（来自 Product Hunt）",
-      "Inkling 2 Small（来自 Product Hunt）",
-      "Agent Clan（来自 Product Hunt）",
-      "AXL（来自 Product Hunt）",
-      "Memorias（来自 Product Hunt）",
-      "idol（来自 Hugging Face）",
-      "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic（来自 Hugging Face）"
+      "Terse - Durable Actors（来自 Product Hunt）",
+      "Flic Cue（来自 Product Hunt）",
+      "Watchflows（来自 Product Hunt）",
+      "Pawse.ai（来自 Product Hunt）",
+      "Egoist AI Passport（来自 Product Hunt）",
+      "Arcjet AI security models（来自 Product Hunt）",
+      "Ripple-65B-Preview（来自 Hugging Face）",
+      "AstralBeneathSilver/Deadline-resp-Tracker-AI（来自 GitHub）"
     ],
     "highlights_en": [
-      "outages.live (via Product Hunt)",
-      "NoMac (via Product Hunt)",
-      "Inkling 2 Small (via Product Hunt)",
-      "Agent Clan (via Product Hunt)",
-      "AXL (via Product Hunt)",
-      "Memorias (via Product Hunt)",
-      "idol (via Hugging Face)",
-      "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic (via Hugging Face)"
+      "Terse - Durable Actors (via Product Hunt)",
+      "Flic Cue (via Product Hunt)",
+      "Watchflows (via Product Hunt)",
+      "Pawse.ai (via Product Hunt)",
+      "Egoist AI Passport (via Product Hunt)",
+      "Arcjet AI security models (via Product Hunt)",
+      "Ripple-65B-Preview (via Hugging Face)",
+      "AstralBeneathSilver/Deadline-resp-Tracker-AI (via GitHub)"
     ],
-    "updated_at": "2026-11-09T00:04:59.437474+00:00"
+    "updated_at": "2026-11-10T00:03:10.924437+00:00"
   },
   {
     "id": "week-2026-w45-scan",

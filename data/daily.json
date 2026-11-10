@@ -1,5 +1,142 @@
 [
   {
+    "id": "daily-2026-11-10-1-terse-durable-actors",
+    "date": "2026-11-10",
+    "title_zh": "Terse - Durable Actors（来自 Product Hunt）",
+    "title_en": "Terse - Durable Actors (via Product Hunt)",
+    "summary_zh": "扫描来源：Product Hunt。Infrastructure for Multiplayer AI Products 相关场景：研究检索。",
+    "summary_en": "Source: Product Hunt. Infrastructure for Multiplayer AI Products Scenarios: research.",
+    "related_tool_ids": [],
+    "tags": [
+      "research"
+    ],
+    "source": "Product Hunt",
+    "source_url": "https://www.producthunt.com/products/terse-durable-actors",
+    "scan_name": "Terse - Durable Actors"
+  },
+  {
+    "id": "daily-2026-11-10-2-flic-cue",
+    "date": "2026-11-10",
+    "title_zh": "Flic Cue（来自 Product Hunt）",
+    "title_en": "Flic Cue (via Product Hunt)",
+    "summary_zh": "扫描来源：Product Hunt。The AI Voice Button: hold to talk, shake to undo, open SDKs 相关场景：研究检索。",
+    "summary_en": "Source: Product Hunt. The AI Voice Button: hold to talk, shake to undo, open SDKs Scenarios: research.",
+    "related_tool_ids": [],
+    "tags": [
+      "research"
+    ],
+    "source": "Product Hunt",
+    "source_url": "https://www.producthunt.com/products/flic-cue",
+    "scan_name": "Flic Cue"
+  },
+  {
+    "id": "daily-2026-11-10-3-watchflows",
+    "date": "2026-11-10",
+    "title_zh": "Watchflows（来自 Product Hunt）",
+    "title_en": "Watchflows (via Product Hunt)",
+    "summary_zh": "扫描来源：Product Hunt。Visual automation for your Mac, with AI built in 相关场景：做图/视频。",
+    "summary_en": "Source: Product Hunt. Visual automation for your Mac, with AI built in Scenarios: image-video.",
+    "related_tool_ids": [],
+    "tags": [
+      "image-video"
+    ],
+    "source": "Product Hunt",
+    "source_url": "https://www.producthunt.com/products/watchflows",
+    "scan_name": "Watchflows"
+  },
+  {
+    "id": "daily-2026-11-10-4-pawse-ai",
+    "date": "2026-11-10",
+    "title_zh": "Pawse.ai（来自 Product Hunt）",
+    "title_en": "Pawse.ai (via Product Hunt)",
+    "summary_zh": "扫描来源：Product Hunt。Sound engineered for dogs, not humans 相关场景：研究检索。",
+    "summary_en": "Source: Product Hunt. Sound engineered for dogs, not humans Scenarios: research.",
+    "related_tool_ids": [],
+    "tags": [
+      "research"
+    ],
+    "source": "Product Hunt",
+    "source_url": "https://www.producthunt.com/products/pawse-ai",
+    "scan_name": "Pawse.ai"
+  },
+  {
+    "id": "daily-2026-11-10-5-egoist-ai-passport",
+    "date": "2026-11-10",
+    "title_zh": "Egoist AI Passport（来自 Product Hunt）",
+    "title_en": "Egoist AI Passport (via Product Hunt)",
+    "summary_zh": "扫描来源：Product Hunt。Secure and share your personal data with AI tools. 相关场景：研究检索。",
+    "summary_en": "Source: Product Hunt. Secure and share your personal data with AI tools. Scenarios: research.",
+    "related_tool_ids": [],
+    "tags": [
+      "research"
+    ],
+    "source": "Product Hunt",
+    "source_url": "https://www.producthunt.com/products/egoist-ai-passport",
+    "scan_name": "Egoist AI Passport"
+  },
+  {
+    "id": "daily-2026-11-10-6-arcjet-ai-security-model",
+    "date": "2026-11-10",
+    "title_zh": "Arcjet AI security models（来自 Product Hunt）",
+    "title_en": "Arcjet AI security models (via Product Hunt)",
+    "summary_zh": "扫描来源：Product Hunt。A family of custom-trained security models for coding agents 相关场景：写代码。",
+    "summary_en": "Source: Product Hunt. A family of custom-trained security models for coding agents Scenarios: coding.",
+    "related_tool_ids": [],
+    "tags": [
+      "coding"
+    ],
+    "source": "Product Hunt",
+    "source_url": "https://www.producthunt.com/products/arcjet",
+    "scan_name": "Arcjet AI security models"
+  },
+  {
+    "id": "daily-2026-11-10-7-ripple-65b-preview",
+    "date": "2026-11-10",
+    "title_zh": "Ripple-65B-Preview（来自 Hugging Face）",
+    "title_en": "Ripple-65B-Preview (via Hugging Face)",
+    "summary_zh": "扫描来源：Hugging Face。Trending HF model (model), likes≈453. Full id: ricursiveAI/Ripple-65B-Preview 相关场景：研究检索。",
+    "summary_en": "Source: Hugging Face. Trending HF model (model), likes≈453. Full id: ricursiveAI/Ripple-65B-Preview Scenarios: research.",
+    "related_tool_ids": [],
+    "tags": [
+      "research"
+    ],
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview",
+    "scan_name": "Ripple-65B-Preview"
+  },
+  {
+    "id": "daily-2026-11-10-8-astralbeneathsilver-dead",
+    "date": "2026-11-10",
+    "title_zh": "AstralBeneathSilver/Deadline-resp-Tracker-AI（来自 GitHub）",
+    "title_en": "AstralBeneathSilver/Deadline-resp-Tracker-AI (via GitHub)",
+    "summary_zh": "扫描来源：GitHub。📅 AI-powered academic deadline assistant that uses Gemini Vision to extract assignments, exams, projects & submission dates from academic documents, with smart … 相关场景：写代码。",
+    "summary_en": "Source: GitHub. 📅 AI-powered academic deadline assistant that uses Gemini Vision to extract assignments, exams, projects & submission dates from academic documents, with smart … Scenarios: coding.",
+    "related_tool_ids": [],
+    "tags": [
+      "coding"
+    ],
+    "source": "GitHub",
+    "source_url": "https://github.com/AstralBeneathSilver/Deadline-resp-Tracker-AI",
+    "scan_name": "AstralBeneathSilver/Deadline-resp-Tracker-AI"
+  },
+  {
+    "id": "daily-2026-11-10-9-runninghub",
+    "date": "2026-11-10",
+    "title_zh": "RunningHub（来自 RunningHub）",
+    "title_en": "RunningHub (via RunningHub)",
+    "summary_zh": "扫描来源：RunningHub。Best-effort homepage check OK. TODO: wire a real changelog/API when available. 相关场景：做图/视频。",
+    "summary_en": "Source: RunningHub. Best-effort homepage check OK. TODO: wire a real changelog/API when available. Scenarios: image-video.",
+    "related_tool_ids": [
+      "runninghub"
+    ],
+    "tags": [
+      "image-video"
+    ],
+    "source": "RunningHub",
+    "source_url": "https://www.runninghub.ai",
+    "scan_name": "RunningHub"
+  },
+  {
     "id": "daily-2026-11-09-1-outages-live",
     "date": "2026-11-09",
     "title_zh": "outages.live（来自 Product Hunt）",
@@ -1418,144 +1555,5 @@
     "source": "Product Hunt",
     "source_url": "https://www.producthunt.com/products/hera-6",
     "scan_name": "Hera"
-  },
-  {
-    "id": "daily-2026-11-03-7-goekdeniz-guelmez-josie-",
-    "date": "2026-11-03",
-    "title_zh": "Goekdeniz-Guelmez/JOSIE-Voice（来自 GitHub）",
-    "title_en": "Goekdeniz-Guelmez/JOSIE-Voice (via GitHub)",
-    "summary_zh": "扫描来源：GitHub。JOSIE Voice: a real-time, on-device voice assistant for Apple Silicon. Download the macOS app (DMG) from Releases. ★53 相关场景：写代码。",
-    "summary_en": "Source: GitHub. JOSIE Voice: a real-time, on-device voice assistant for Apple Silicon. Download the macOS app (DMG) from Releases. ★53 Scenarios: coding.",
-    "related_tool_ids": [],
-    "tags": [
-      "coding"
-    ],
-    "source": "GitHub",
-    "source_url": "https://github.com/Goekdeniz-Guelmez/JOSIE-Voice",
-    "scan_name": "Goekdeniz-Guelmez/JOSIE-Voice"
-  },
-  {
-    "id": "daily-2026-11-03-8-ofat34764e-interviewcopi",
-    "date": "2026-11-03",
-    "title_zh": "OFat34764e/InterviewCopilot-rpocket-team（来自 GitHub）",
-    "title_en": "OFat34764e/InterviewCopilot-rpocket-team (via GitHub)",
-    "summary_zh": "扫描来源：GitHub。EdTech application designed to bridge the gap between learning and landing your dream job ★52 相关场景：写代码。",
-    "summary_en": "Source: GitHub. EdTech application designed to bridge the gap between learning and landing your dream job ★52 Scenarios: coding.",
-    "related_tool_ids": [],
-    "tags": [
-      "coding"
-    ],
-    "source": "GitHub",
-    "source_url": "https://github.com/OFat34764e/InterviewCopilot-rpocket-team",
-    "scan_name": "OFat34764e/InterviewCopilot-rpocket-team"
-  },
-  {
-    "id": "daily-2026-11-02-1-riverside-agents",
-    "date": "2026-11-02",
-    "title_zh": "Riverside Agents（来自 Product Hunt）",
-    "title_en": "Riverside Agents (via Product Hunt)",
-    "summary_zh": "扫描来源：Product Hunt。A team of AI agents for video: produce, edit, clip, post 相关场景：做图/视频。",
-    "summary_en": "Source: Product Hunt. A team of AI agents for video: produce, edit, clip, post Scenarios: image-video.",
-    "related_tool_ids": [],
-    "tags": [
-      "image-video"
-    ],
-    "source": "Product Hunt",
-    "source_url": "https://www.producthunt.com/products/riverside-fm",
-    "scan_name": "Riverside Agents"
-  },
-  {
-    "id": "daily-2026-11-02-2-embage",
-    "date": "2026-11-02",
-    "title_zh": "Embage（来自 Product Hunt）",
-    "title_en": "Embage (via Product Hunt)",
-    "summary_zh": "扫描来源：Product Hunt。Build agent for your customers, run workflows, analyzed. 相关场景：智能体。",
-    "summary_en": "Source: Product Hunt. Build agent for your customers, run workflows, analyzed. Scenarios: agents.",
-    "related_tool_ids": [],
-    "tags": [
-      "agents"
-    ],
-    "source": "Product Hunt",
-    "source_url": "https://www.producthunt.com/products/embage",
-    "scan_name": "Embage"
-  },
-  {
-    "id": "daily-2026-11-02-3-termy",
-    "date": "2026-11-02",
-    "title_zh": "Termy（来自 Product Hunt）",
-    "title_en": "Termy (via Product Hunt)",
-    "summary_zh": "扫描来源：Product Hunt。Your coding agent, in the notch 相关场景：写代码、智能体。",
-    "summary_en": "Source: Product Hunt. Your coding agent, in the notch Scenarios: coding, agents.",
-    "related_tool_ids": [],
-    "tags": [
-      "coding",
-      "agents"
-    ],
-    "source": "Product Hunt",
-    "source_url": "https://www.producthunt.com/products/termy-6ded6eb5-533c-4df5-a4f6-94b97ed8ca62",
-    "scan_name": "Termy"
-  },
-  {
-    "id": "daily-2026-11-02-4-usage-for-claude-chatgpt",
-    "date": "2026-11-02",
-    "title_zh": "Usage for Claude + ChatGPT 4.0（来自 Product Hunt）",
-    "title_en": "Usage for Claude + ChatGPT 4.0 (via Product Hunt)",
-    "summary_zh": "扫描来源：Product Hunt。Claude + ChatGPT limits on your Mac, iPhone, iPad and Watch 相关场景：研究检索。",
-    "summary_en": "Source: Product Hunt. Claude + ChatGPT limits on your Mac, iPhone, iPad and Watch Scenarios: research.",
-    "related_tool_ids": [
-      "chatgpt",
-      "claude"
-    ],
-    "tags": [
-      "research"
-    ],
-    "source": "Product Hunt",
-    "source_url": "https://www.producthunt.com/products/usage-for-claude",
-    "scan_name": "Usage for Claude + ChatGPT 4.0"
-  },
-  {
-    "id": "daily-2026-11-02-5-click",
-    "date": "2026-11-02",
-    "title_zh": "Click（来自 Product Hunt）",
-    "title_en": "Click (via Product Hunt)",
-    "summary_zh": "扫描来源：Product Hunt。Managed agents API that works with any model 相关场景：研究检索。",
-    "summary_en": "Source: Product Hunt. Managed agents API that works with any model Scenarios: research.",
-    "related_tool_ids": [],
-    "tags": [
-      "research"
-    ],
-    "source": "Product Hunt",
-    "source_url": "https://www.producthunt.com/products/click-6",
-    "scan_name": "Click"
-  },
-  {
-    "id": "daily-2026-11-02-6-fluent-2",
-    "date": "2026-11-02",
-    "title_zh": "Fluent 2（来自 Product Hunt）",
-    "title_en": "Fluent 2 (via Product Hunt)",
-    "summary_zh": "扫描来源：Product Hunt。AI teammates that run locally on your Mac 相关场景：研究检索。",
-    "summary_en": "Source: Product Hunt. AI teammates that run locally on your Mac Scenarios: research.",
-    "related_tool_ids": [],
-    "tags": [
-      "research"
-    ],
-    "source": "Product Hunt",
-    "source_url": "https://www.producthunt.com/products/fluent-ai-writing-assistant-for-macos",
-    "scan_name": "Fluent 2"
-  },
-  {
-    "id": "daily-2026-11-02-7-deepseek-v4-1-flash-1017",
-    "date": "2026-11-02",
-    "title_zh": "DeepSeek-V4.1-Flash-1017（来自 Hugging Face）",
-    "title_en": "DeepSeek-V4.1-Flash-1017 (via Hugging Face)",
-    "summary_zh": "扫描来源：Hugging Face。Trending HF model (image-text-to-text), likes≈4300. Full id: deepseek-ai/DeepSeek-V4.1-Flash-1017 相关场景：做图/视频。",
-    "summary_en": "Source: Hugging Face. Trending HF model (image-text-to-text), likes≈4300. Full id: deepseek-ai/DeepSeek-V4.1-Flash-1017 Scenarios: image-video.",
-    "related_tool_ids": [],
-    "tags": [
-      "image-video"
-    ],
-    "source": "Hugging Face",
-    "source_url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-    "scan_name": "DeepSeek-V4.1-Flash-1017"
   }
 ]

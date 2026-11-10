@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "sources": {
     "product_hunt": {
       "status": "live",
@@ -33,14 +33,14 @@
   "counts": {
     "raw": 29,
     "deduped": 27,
-    "daily_written": 27,
+    "daily_written": 9,
     "suggestions": 15
   },
   "sample_titles": [
-    "outages.live (via Product Hunt)",
-    "NoMac (via Product Hunt)",
-    "Inkling 2 Small (via Product Hunt)",
-    "Agent Clan (via Product Hunt)",
-    "AXL (via Product Hunt)"
+    "Terse - Durable Actors (via Product Hunt)",
+    "Flic Cue (via Product Hunt)",
+    "Watchflows (via Product Hunt)",
+    "Pawse.ai (via Product Hunt)",
+    "Egoist AI Passport (via Product Hunt)"
   ]
 }
