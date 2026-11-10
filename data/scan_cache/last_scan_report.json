@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-10",
   "sources": {
     "product_hunt": {
       "status": "live",
@@ -33,14 +33,14 @@
   "counts": {
     "raw": 29,
     "deduped": 27,
-    "daily_written": 8,
+    "daily_written": 9,
     "suggestions": 15
   },
   "sample_titles": [
-    "diff-tour (via Product Hunt)",
-    "Xmind 2027 (via Product Hunt)",
-    "Display 1.0 (via Product Hunt)",
-    "Friday Work (via Product Hunt)",
-    "Agent Inbox (via Product Hunt)"
+    "Terse - Durable Actors (via Product Hunt)",
+    "Flic Cue (via Product Hunt)",
+    "Watchflows (via Product Hunt)",
+    "Pawse.ai (via Product Hunt)",
+    "Egoist AI Passport (via Product Hunt)"
   ]
 }
