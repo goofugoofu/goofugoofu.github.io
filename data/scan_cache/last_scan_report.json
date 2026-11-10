@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "sources": {
     "product_hunt": {
       "status": "live",
@@ -33,14 +33,14 @@
   "counts": {
     "raw": 29,
     "deduped": 27,
-    "daily_written": 9,
+    "daily_written": 24,
     "suggestions": 15
   },
   "sample_titles": [
-    "Terse - Durable Actors (via Product Hunt)",
-    "Flic Cue (via Product Hunt)",
-    "Watchflows (via Product Hunt)",
-    "Pawse.ai (via Product Hunt)",
-    "Egoist AI Passport (via Product Hunt)"
+    "Wipecraft (via Product Hunt)",
+    "Ownkube (via Product Hunt)",
+    "Maxma (via Product Hunt)",
+    "Seldon (via Product Hunt)",
+    "TOWeb 15 (via Product Hunt)"
   ]
 }
