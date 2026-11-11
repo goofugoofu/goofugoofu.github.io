@@ -1,5 +1,190 @@
 [
   {
+    "id": "daily-2026-11-12-1-kippy-ai",
+    "date": "2026-11-12",
+    "title_zh": "Kippy AI（来自 Product Hunt）",
+    "title_en": "Kippy AI (via Product Hunt)",
+    "summary_zh": "扫描来源：Product Hunt。Learn languages while having fun! 相关场景：研究检索。",
+    "summary_en": "Source: Product Hunt. Learn languages while having fun! Scenarios: research.",
+    "related_tool_ids": [],
+    "tags": [
+      "research"
+    ],
+    "source": "Product Hunt",
+    "source_url": "https://www.producthunt.com/products/kippy-ai",
+    "scan_name": "Kippy AI"
+  },
+  {
+    "id": "daily-2026-11-12-2-skillbox",
+    "date": "2026-11-12",
+    "title_zh": "Skillbox（来自 Product Hunt）",
+    "title_en": "Skillbox (via Product Hunt)",
+    "summary_zh": "扫描来源：Product Hunt。One library for your AI skills, synced to every agent 相关场景：智能体。",
+    "summary_en": "Source: Product Hunt. One library for your AI skills, synced to every agent Scenarios: agents.",
+    "related_tool_ids": [],
+    "tags": [
+      "agents"
+    ],
+    "source": "Product Hunt",
+    "source_url": "https://www.producthunt.com/products/skillbox-5",
+    "scan_name": "Skillbox"
+  },
+  {
+    "id": "daily-2026-11-12-3-nod-by-n8n",
+    "date": "2026-11-12",
+    "title_zh": "Nod by n8n（来自 Product Hunt）",
+    "title_en": "Nod by n8n (via Product Hunt)",
+    "summary_zh": "扫描来源：Product Hunt。Open source personal agent with its own computer 相关场景：智能体。",
+    "summary_en": "Source: Product Hunt. Open source personal agent with its own computer Scenarios: agents.",
+    "related_tool_ids": [],
+    "tags": [
+      "agents"
+    ],
+    "source": "Product Hunt",
+    "source_url": "https://www.producthunt.com/products/n8n-io",
+    "scan_name": "Nod by n8n"
+  },
+  {
+    "id": "daily-2026-11-12-4-muse-ember-by-meta",
+    "date": "2026-11-12",
+    "title_zh": "Muse Ember by Meta（来自 Product Hunt）",
+    "title_en": "Muse Ember by Meta (via Product Hunt)",
+    "summary_zh": "扫描来源：Product Hunt。Meta's low-cost AI model for high-volume agent tasks 相关场景：智能体。",
+    "summary_en": "Source: Product Hunt. Meta's low-cost AI model for high-volume agent tasks Scenarios: agents.",
+    "related_tool_ids": [],
+    "tags": [
+      "agents"
+    ],
+    "source": "Product Hunt",
+    "source_url": "https://www.producthunt.com/products/meta-ai",
+    "scan_name": "Muse Ember by Meta"
+  },
+  {
+    "id": "daily-2026-11-12-5-call-e",
+    "date": "2026-11-12",
+    "title_zh": "CALL-E（来自 Product Hunt）",
+    "title_en": "CALL-E (via Product Hunt)",
+    "summary_zh": "扫描来源：Product Hunt。The phone line for AI agents 相关场景：研究检索。",
+    "summary_en": "Source: Product Hunt. The phone line for AI agents Scenarios: research.",
+    "related_tool_ids": [],
+    "tags": [
+      "research"
+    ],
+    "source": "Product Hunt",
+    "source_url": "https://www.producthunt.com/products/call-e",
+    "scan_name": "CALL-E"
+  },
+  {
+    "id": "daily-2026-11-12-6-bonds-chat",
+    "date": "2026-11-12",
+    "title_zh": "bonds chat（来自 Product Hunt）",
+    "title_en": "bonds chat (via Product Hunt)",
+    "summary_zh": "扫描来源：Product Hunt。Multiplayer AI that dies if you and your friends flake 相关场景：研究检索。",
+    "summary_en": "Source: Product Hunt. Multiplayer AI that dies if you and your friends flake Scenarios: research.",
+    "related_tool_ids": [],
+    "tags": [
+      "research"
+    ],
+    "source": "Product Hunt",
+    "source_url": "https://www.producthunt.com/products/bonds-2",
+    "scan_name": "bonds chat"
+  },
+  {
+    "id": "daily-2026-11-12-7-minimax-h3-image",
+    "date": "2026-11-12",
+    "title_zh": "MiniMax-H3-Image（来自 Hugging Face）",
+    "title_en": "MiniMax-H3-Image (via Hugging Face)",
+    "summary_zh": "扫描来源：Hugging Face。Trending HF model (text-to-image), likes≈697. Full id: MiniMaxAI/MiniMax-H3-Image 相关场景：做图/视频。",
+    "summary_en": "Source: Hugging Face. Trending HF model (text-to-image), likes≈697. Full id: MiniMaxAI/MiniMax-H3-Image Scenarios: image-video.",
+    "related_tool_ids": [],
+    "tags": [
+      "image-video"
+    ],
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+    "scan_name": "MiniMax-H3-Image"
+  },
+  {
+    "id": "daily-2026-11-12-8-arete-27b",
+    "date": "2026-11-12",
+    "title_zh": "Arete-27B（来自 Hugging Face）",
+    "title_en": "Arete-27B (via Hugging Face)",
+    "summary_zh": "扫描来源：Hugging Face。Trending HF model (text-generation), likes≈434. Full id: NousResearch/Arete-27B 相关场景：研究检索。",
+    "summary_en": "Source: Hugging Face. Trending HF model (text-generation), likes≈434. Full id: NousResearch/Arete-27B Scenarios: research.",
+    "related_tool_ids": [],
+    "tags": [
+      "research"
+    ],
+    "source": "Hugging Face",
+    "source_url": "https://huggingface.co/NousResearch/Arete-27B",
+    "scan_name": "Arete-27B"
+  },
+  {
+    "id": "daily-2026-11-12-9-astralbeneathsilver-dead",
+    "date": "2026-11-12",
+    "title_zh": "AstralBeneathSilver/Deadline-resp-Tracker-AI（来自 GitHub）",
+    "title_en": "AstralBeneathSilver/Deadline-resp-Tracker-AI (via GitHub)",
+    "summary_zh": "扫描来源：GitHub。📅 AI-powered academic deadline assistant that uses Gemini Vision to extract assignments, exams, projects & submission dates from academic documents, with smart … 相关场景：写代码。",
+    "summary_en": "Source: GitHub. 📅 AI-powered academic deadline assistant that uses Gemini Vision to extract assignments, exams, projects & submission dates from academic documents, with smart … Scenarios: coding.",
+    "related_tool_ids": [],
+    "tags": [
+      "coding"
+    ],
+    "source": "GitHub",
+    "source_url": "https://github.com/AstralBeneathSilver/Deadline-resp-Tracker-AI",
+    "scan_name": "AstralBeneathSilver/Deadline-resp-Tracker-AI"
+  },
+  {
+    "id": "daily-2026-11-12-10-faraflow-faraflow",
+    "date": "2026-11-12",
+    "title_zh": "faraflow/faraflow（来自 GitHub）",
+    "title_en": "faraflow/faraflow (via GitHub)",
+    "summary_zh": "扫描来源：GitHub。Visual builder and execution engine for AI powered organizations ★53 相关场景：做图/视频、写代码。",
+    "summary_en": "Source: GitHub. Visual builder and execution engine for AI powered organizations ★53 Scenarios: image-video, coding.",
+    "related_tool_ids": [],
+    "tags": [
+      "image-video",
+      "coding"
+    ],
+    "source": "GitHub",
+    "source_url": "https://github.com/faraflow/faraflow",
+    "scan_name": "faraflow/faraflow"
+  },
+  {
+    "id": "daily-2026-11-12-11-kokoc30-auto-stitch",
+    "date": "2026-11-12",
+    "title_zh": "kokoc30/Auto-Stitch（来自 GitHub）",
+    "title_en": "kokoc30/Auto-Stitch (via GitHub)",
+    "summary_zh": "扫描来源：GitHub。AI-powered video editing platform for transforming long-form content into short, engaging videos. Public product showcase. ★49 相关场景：做图/视频、写代码、写文案。",
+    "summary_en": "Source: GitHub. AI-powered video editing platform for transforming long-form content into short, engaging videos. Public product showcase. ★49 Scenarios: image-video, coding, writing.",
+    "related_tool_ids": [],
+    "tags": [
+      "image-video",
+      "coding",
+      "writing"
+    ],
+    "source": "GitHub",
+    "source_url": "https://github.com/kokoc30/Auto-Stitch",
+    "scan_name": "kokoc30/Auto-Stitch"
+  },
+  {
+    "id": "daily-2026-11-12-12-runninghub",
+    "date": "2026-11-12",
+    "title_zh": "RunningHub（来自 RunningHub）",
+    "title_en": "RunningHub (via RunningHub)",
+    "summary_zh": "扫描来源：RunningHub。Best-effort homepage check OK. TODO: wire a real changelog/API when available. 相关场景：做图/视频。",
+    "summary_en": "Source: RunningHub. Best-effort homepage check OK. TODO: wire a real changelog/API when available. Scenarios: image-video.",
+    "related_tool_ids": [
+      "runninghub"
+    ],
+    "tags": [
+      "image-video"
+    ],
+    "source": "RunningHub",
+    "source_url": "https://www.runninghub.ai",
+    "scan_name": "RunningHub"
+  },
+  {
     "id": "daily-2026-11-11-1-wipecraft",
     "date": "2026-11-11",
     "title_zh": "Wipecraft（来自 Product Hunt）",
@@ -1371,187 +1556,5 @@
     "source": "Product Hunt",
     "source_url": "https://www.producthunt.com/products/trackedge-2",
     "scan_name": "TrackEdge"
-  },
-  {
-    "id": "daily-2026-11-05-5-freeport-markets",
-    "date": "2026-11-05",
-    "title_zh": "Freeport Markets（来自 Product Hunt）",
-    "title_en": "Freeport Markets (via Product Hunt)",
-    "summary_zh": "扫描来源：Product Hunt。Our proprietary AI finds the top onchain wallets to copy 相关场景：写文案。",
-    "summary_en": "Source: Product Hunt. Our proprietary AI finds the top onchain wallets to copy Scenarios: writing.",
-    "related_tool_ids": [],
-    "tags": [
-      "writing"
-    ],
-    "source": "Product Hunt",
-    "source_url": "https://www.producthunt.com/products/freeport-markets",
-    "scan_name": "Freeport Markets"
-  },
-  {
-    "id": "daily-2026-11-05-6-wanaka-studio",
-    "date": "2026-11-05",
-    "title_zh": "Wanaka Studio（来自 Product Hunt）",
-    "title_en": "Wanaka Studio (via Product Hunt)",
-    "summary_zh": "扫描来源：Product Hunt。Make and publish 3D games with the first AI game engine 相关场景：研究检索。",
-    "summary_en": "Source: Product Hunt. Make and publish 3D games with the first AI game engine Scenarios: research.",
-    "related_tool_ids": [],
-    "tags": [
-      "research"
-    ],
-    "source": "Product Hunt",
-    "source_url": "https://www.producthunt.com/products/wanaka-studio",
-    "scan_name": "Wanaka Studio"
-  },
-  {
-    "id": "daily-2026-11-05-7-idol",
-    "date": "2026-11-05",
-    "title_zh": "idol（来自 Hugging Face）",
-    "title_en": "idol (via Hugging Face)",
-    "summary_zh": "扫描来源：Hugging Face。Trending HF model (image-to-3d), likes≈618. Full id: speridlabs/idol 相关场景：做图/视频。",
-    "summary_en": "Source: Hugging Face. Trending HF model (image-to-3d), likes≈618. Full id: speridlabs/idol Scenarios: image-video.",
-    "related_tool_ids": [],
-    "tags": [
-      "image-video"
-    ],
-    "source": "Hugging Face",
-    "source_url": "https://huggingface.co/speridlabs/idol",
-    "scan_name": "idol"
-  },
-  {
-    "id": "daily-2026-11-05-8-vixhal-baraiya-qwenfs",
-    "date": "2026-11-05",
-    "title_zh": "vixhal-baraiya/qwenFS（来自 GitHub）",
-    "title_en": "vixhal-baraiya/qwenFS (via GitHub)",
-    "summary_zh": "扫描来源：GitHub。Qwen3.5-2B with a filesystem compiled and inserted directly into its weights. ★86 相关场景：写代码。",
-    "summary_en": "Source: GitHub. Qwen3.5-2B with a filesystem compiled and inserted directly into its weights. ★86 Scenarios: coding.",
-    "related_tool_ids": [],
-    "tags": [
-      "coding"
-    ],
-    "source": "GitHub",
-    "source_url": "https://github.com/vixhal-baraiya/qwenFS",
-    "scan_name": "vixhal-baraiya/qwenFS"
-  },
-  {
-    "id": "daily-2026-11-05-9-faraflow-faraflow",
-    "date": "2026-11-05",
-    "title_zh": "faraflow/faraflow（来自 GitHub）",
-    "title_en": "faraflow/faraflow (via GitHub)",
-    "summary_zh": "扫描来源：GitHub。Visual builder and execution engine for AI powered organizations ★51 相关场景：做图/视频、写代码。",
-    "summary_en": "Source: GitHub. Visual builder and execution engine for AI powered organizations ★51 Scenarios: image-video, coding.",
-    "related_tool_ids": [],
-    "tags": [
-      "image-video",
-      "coding"
-    ],
-    "source": "GitHub",
-    "source_url": "https://github.com/faraflow/faraflow",
-    "scan_name": "faraflow/faraflow"
-  },
-  {
-    "id": "daily-2026-11-04-1-magicalcore",
-    "date": "2026-11-04",
-    "title_zh": "MagicaLCore（来自 Product Hunt）",
-    "title_en": "MagicaLCore (via Product Hunt)",
-    "summary_zh": "扫描来源：Product Hunt。Six kinds of machine learning models, trained on your iPad 相关场景：研究检索。",
-    "summary_en": "Source: Product Hunt. Six kinds of machine learning models, trained on your iPad Scenarios: research.",
-    "related_tool_ids": [],
-    "tags": [
-      "research"
-    ],
-    "source": "Product Hunt",
-    "source_url": "https://www.producthunt.com/products/magical-core-image-classifier",
-    "scan_name": "MagicaLCore"
-  },
-  {
-    "id": "daily-2026-11-04-2-agentkit-by-scalekit",
-    "date": "2026-11-04",
-    "title_zh": "AgentKit by Scalekit（来自 Product Hunt）",
-    "title_en": "AgentKit by Scalekit (via Product Hunt)",
-    "summary_zh": "扫描来源：Product Hunt。MCP gateway for production agents that acts on your behalf 相关场景：智能体。",
-    "summary_en": "Source: Product Hunt. MCP gateway for production agents that acts on your behalf Scenarios: agents.",
-    "related_tool_ids": [],
-    "tags": [
-      "agents"
-    ],
-    "source": "Product Hunt",
-    "source_url": "https://www.producthunt.com/products/scalekit",
-    "scan_name": "AgentKit by Scalekit"
-  },
-  {
-    "id": "daily-2026-11-04-3-teamily-ai",
-    "date": "2026-11-04",
-    "title_zh": "Teamily AI（来自 Product Hunt）",
-    "title_en": "Teamily AI (via Product Hunt)",
-    "summary_zh": "扫描来源：Product Hunt。Your personal agent, agent teams & people in one messenger 相关场景：智能体。",
-    "summary_en": "Source: Product Hunt. Your personal agent, agent teams & people in one messenger Scenarios: agents.",
-    "related_tool_ids": [],
-    "tags": [
-      "agents"
-    ],
-    "source": "Product Hunt",
-    "source_url": "https://www.producthunt.com/products/teamily-ai-human-ai-social-network",
-    "scan_name": "Teamily AI"
-  },
-  {
-    "id": "daily-2026-11-04-4-peji",
-    "date": "2026-11-04",
-    "title_zh": "Peji（来自 Product Hunt）",
-    "title_en": "Peji (via Product Hunt)",
-    "summary_zh": "扫描来源：Product Hunt。An AI chat with a real browser you control 相关场景：研究检索。",
-    "summary_en": "Source: Product Hunt. An AI chat with a real browser you control Scenarios: research.",
-    "related_tool_ids": [],
-    "tags": [
-      "research"
-    ],
-    "source": "Product Hunt",
-    "source_url": "https://www.producthunt.com/products/peji",
-    "scan_name": "Peji"
-  },
-  {
-    "id": "daily-2026-11-04-5-infino-ai",
-    "date": "2026-11-04",
-    "title_zh": "Infino AI（来自 Product Hunt）",
-    "title_en": "Infino AI (via Product Hunt)",
-    "summary_zh": "扫描来源：Product Hunt。Search, vectors and SQL over one Parquet copy, for agents 相关场景：研究检索、写文案。",
-    "summary_en": "Source: Product Hunt. Search, vectors and SQL over one Parquet copy, for agents Scenarios: research, writing.",
-    "related_tool_ids": [],
-    "tags": [
-      "research",
-      "writing"
-    ],
-    "source": "Product Hunt",
-    "source_url": "https://www.producthunt.com/products/infino-ai",
-    "scan_name": "Infino AI"
-  },
-  {
-    "id": "daily-2026-11-04-6-synter-canvas",
-    "date": "2026-11-04",
-    "title_zh": "Synter Canvas（来自 Product Hunt）",
-    "title_en": "Synter Canvas (via Product Hunt)",
-    "summary_zh": "扫描来源：Product Hunt。Your AI agent runs ads across 30+ ad platforms 相关场景：智能体。",
-    "summary_en": "Source: Product Hunt. Your AI agent runs ads across 30+ ad platforms Scenarios: agents.",
-    "related_tool_ids": [],
-    "tags": [
-      "agents"
-    ],
-    "source": "Product Hunt",
-    "source_url": "https://www.producthunt.com/products/synter-canvas",
-    "scan_name": "Synter Canvas"
-  },
-  {
-    "id": "daily-2026-11-04-7-lfm3-1-7b",
-    "date": "2026-11-04",
-    "title_zh": "LFM3-1.7B（来自 Hugging Face）",
-    "title_en": "LFM3-1.7B (via Hugging Face)",
-    "summary_zh": "扫描来源：Hugging Face。Trending HF model (text-generation), likes≈1399. Full id: LiquidAI/LFM3-1.7B 相关场景：研究检索。",
-    "summary_en": "Source: Hugging Face. Trending HF model (text-generation), likes≈1399. Full id: LiquidAI/LFM3-1.7B Scenarios: research.",
-    "related_tool_ids": [],
-    "tags": [
-      "research"
-    ],
-    "source": "Hugging Face",
-    "source_url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
-    "scan_name": "LFM3-1.7B"
   }
 ]

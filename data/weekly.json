@@ -4,38 +4,34 @@
     "week_label_zh": "2026 年第 46 周",
     "week_label_en": "Week 46, 2026",
     "date_range": "2026-11-09 — 2026-11-15",
-    "title_zh": "本周扫描更新（2026-11-11）",
-    "title_en": "Weekly scan update (2026-11-11)",
-    "intro_zh": "自动扫描写入。今日来源统计：Product Hunt×6、Hugging Face×3、Hugging Face Spaces×2、GitHub×5、X×7、Higgsfield×1。可作通讯草稿。",
-    "intro_en": "Auto-scan write-up. Today's source counts: Product Hunt×6, Hugging Face×3, Hugging Face Spaces×2, GitHub×5, X×7, Higgsfield×1. Reuse as newsletter draft.",
+    "title_zh": "本周扫描更新（2026-11-12）",
+    "title_en": "Weekly scan update (2026-11-12)",
+    "intro_zh": "自动扫描写入。今日来源统计：Product Hunt×6、Hugging Face×2、GitHub×3、RunningHub×1。可作通讯草稿。",
+    "intro_en": "Auto-scan write-up. Today's source counts: Product Hunt×6, Hugging Face×2, GitHub×3, RunningHub×1. Reuse as newsletter draft.",
     "tool_ids": [
-      "deepsite",
-      "chatgpt",
-      "claude",
-      "gemini",
-      "higgsfield"
+      "runninghub"
     ],
     "highlights_zh": [
-      "Wipecraft（来自 Product Hunt）",
-      "Ownkube（来自 Product Hunt）",
-      "Maxma（来自 Product Hunt）",
-      "Seldon（来自 Product Hunt）",
-      "TOWeb 15（来自 Product Hunt）",
-      "Alsona（来自 Product Hunt）",
-      "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic（来自 Hugging Face）",
-      "idol（来自 Hugging Face）"
+      "Kippy AI（来自 Product Hunt）",
+      "Skillbox（来自 Product Hunt）",
+      "Nod by n8n（来自 Product Hunt）",
+      "Muse Ember by Meta（来自 Product Hunt）",
+      "CALL-E（来自 Product Hunt）",
+      "bonds chat（来自 Product Hunt）",
+      "MiniMax-H3-Image（来自 Hugging Face）",
+      "Arete-27B（来自 Hugging Face）"
     ],
     "highlights_en": [
-      "Wipecraft (via Product Hunt)",
-      "Ownkube (via Product Hunt)",
-      "Maxma (via Product Hunt)",
-      "Seldon (via Product Hunt)",
-      "TOWeb 15 (via Product Hunt)",
-      "Alsona (via Product Hunt)",
-      "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic (via Hugging Face)",
-      "idol (via Hugging Face)"
+      "Kippy AI (via Product Hunt)",
+      "Skillbox (via Product Hunt)",
+      "Nod by n8n (via Product Hunt)",
+      "Muse Ember by Meta (via Product Hunt)",
+      "CALL-E (via Product Hunt)",
+      "bonds chat (via Product Hunt)",
+      "MiniMax-H3-Image (via Hugging Face)",
+      "Arete-27B (via Hugging Face)"
     ],
-    "updated_at": "2026-11-10T23:57:20.715135+00:00"
+    "updated_at": "2026-11-11T23:57:01.145539+00:00"
   },
   {
     "id": "week-2026-w45-scan",
