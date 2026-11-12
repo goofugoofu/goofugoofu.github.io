@@ -1,14 +1,14 @@
 [
   {
-    "id": "kippy-ai",
-    "name_zh": "Kippy AI",
-    "name_en": "Kippy AI",
-    "url": "https://www.producthunt.com/products/kippy-ai",
+    "id": "spacefast-by-automattic",
+    "name_zh": "Spacefast by Automattic",
+    "name_en": "Spacefast by Automattic",
+    "url": "https://www.producthunt.com/products/spacefast-by-automattic",
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "Learn languages while having fun!",
-    "one_liner_en": "Learn languages while having fun!",
+    "one_liner_zh": "Give your AI agents a place to build, run, and ship",
+    "one_liner_en": "Give your AI agents a place to build, run, and ship",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -17,22 +17,47 @@
     "sources": [
       "Product Hunt"
     ],
-    "launched_or_updated_at": "2026-11-11",
+    "launched_or_updated_at": "2026-11-12",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
     "_suggested_by_scan": true
   },
   {
-    "id": "skillbox",
-    "name_zh": "Skillbox",
-    "name_en": "Skillbox",
-    "url": "https://www.producthunt.com/products/skillbox-5",
+    "id": "crossfade",
+    "name_zh": "Crossfade",
+    "name_en": "Crossfade",
+    "url": "https://www.producthunt.com/products/crossfade",
+    "scenarios": [
+      "coding",
+      "agents"
+    ],
+    "one_liner_zh": "Let your coding agent design in your open Figma file",
+    "one_liner_en": "Let your coding agent design in your open Figma file",
+    "use_when_zh": "（待编辑）适合该工具定位的场景。",
+    "use_when_en": "(todo) When this tool’s positioning fits.",
+    "avoid_when_zh": "（待编辑）明确不适合的情况。",
+    "avoid_when_en": "(todo) When it is a poor fit.",
+    "pricing": "free",
+    "sources": [
+      "Product Hunt"
+    ],
+    "launched_or_updated_at": "2026-11-12",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null,
+    "_suggested_by_scan": true
+  },
+  {
+    "id": "plurai-simulation",
+    "name_zh": "Plurai Simulation",
+    "name_en": "Plurai Simulation",
+    "url": "https://www.producthunt.com/products/plurai",
     "scenarios": [
       "agents"
     ],
-    "one_liner_zh": "One library for your AI skills, synced to every agent",
-    "one_liner_en": "One library for your AI skills, synced to every agent",
+    "one_liner_zh": "A simulated world that makes your agent improve on every run",
+    "one_liner_en": "A simulated world that makes your agent improve on every run",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -41,70 +66,22 @@
     "sources": [
       "Product Hunt"
     ],
-    "launched_or_updated_at": "2026-11-11",
+    "launched_or_updated_at": "2026-11-12",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
     "_suggested_by_scan": true
   },
   {
-    "id": "nod-by-n8n",
-    "name_zh": "Nod by n8n",
-    "name_en": "Nod by n8n",
-    "url": "https://www.producthunt.com/products/n8n-io",
-    "scenarios": [
-      "agents"
-    ],
-    "one_liner_zh": "Open source personal agent with its own computer",
-    "one_liner_en": "Open source personal agent with its own computer",
-    "use_when_zh": "（待编辑）适合该工具定位的场景。",
-    "use_when_en": "(todo) When this tool’s positioning fits.",
-    "avoid_when_zh": "（待编辑）明确不适合的情况。",
-    "avoid_when_en": "(todo) When it is a poor fit.",
-    "pricing": "free",
-    "sources": [
-      "Product Hunt"
-    ],
-    "launched_or_updated_at": "2026-11-11",
-    "is_new_this_week": true,
-    "sponsored": false,
-    "affiliate_url": null,
-    "_suggested_by_scan": true
-  },
-  {
-    "id": "muse-ember-by-meta",
-    "name_zh": "Muse Ember by Meta",
-    "name_en": "Muse Ember by Meta",
-    "url": "https://www.producthunt.com/products/meta-ai",
-    "scenarios": [
-      "agents"
-    ],
-    "one_liner_zh": "Meta's low-cost AI model for high-volume agent tasks",
-    "one_liner_en": "Meta's low-cost AI model for high-volume agent tasks",
-    "use_when_zh": "（待编辑）适合该工具定位的场景。",
-    "use_when_en": "(todo) When this tool’s positioning fits.",
-    "avoid_when_zh": "（待编辑）明确不适合的情况。",
-    "avoid_when_en": "(todo) When it is a poor fit.",
-    "pricing": "free",
-    "sources": [
-      "Product Hunt"
-    ],
-    "launched_or_updated_at": "2026-11-11",
-    "is_new_this_week": true,
-    "sponsored": false,
-    "affiliate_url": null,
-    "_suggested_by_scan": true
-  },
-  {
-    "id": "call-e",
-    "name_zh": "CALL-E",
-    "name_en": "CALL-E",
-    "url": "https://www.producthunt.com/products/call-e",
+    "id": "omnigraph",
+    "name_zh": "Omnigraph",
+    "name_en": "Omnigraph",
+    "url": "https://www.producthunt.com/products/omnigraph",
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "The phone line for AI agents",
-    "one_liner_en": "The phone line for AI agents",
+    "one_liner_zh": "Open source graph database for your AI agents",
+    "one_liner_en": "Open source graph database for your AI agents",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -113,22 +90,22 @@
     "sources": [
       "Product Hunt"
     ],
-    "launched_or_updated_at": "2026-11-11",
+    "launched_or_updated_at": "2026-11-12",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
     "_suggested_by_scan": true
   },
   {
-    "id": "bonds-chat",
-    "name_zh": "bonds chat",
-    "name_en": "bonds chat",
-    "url": "https://www.producthunt.com/products/bonds-2",
+    "id": "insight7-voice-ai-agents",
+    "name_zh": "Insight7 Voice AI Agents",
+    "name_en": "Insight7 Voice AI Agents",
+    "url": "https://www.producthunt.com/products/insight7",
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "Multiplayer AI that dies if you and your friends flake",
-    "one_liner_en": "Multiplayer AI that dies if you and your friends flake",
+    "one_liner_zh": "AI voice agents that call your customers for you",
+    "one_liner_en": "AI voice agents that call your customers for you",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -137,7 +114,31 @@
     "sources": [
       "Product Hunt"
     ],
-    "launched_or_updated_at": "2026-11-11",
+    "launched_or_updated_at": "2026-11-12",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null,
+    "_suggested_by_scan": true
+  },
+  {
+    "id": "harness-memory",
+    "name_zh": "Harness Memory",
+    "name_en": "Harness Memory",
+    "url": "https://www.producthunt.com/products/epsilla",
+    "scenarios": [
+      "research"
+    ],
+    "one_liner_zh": "Long-term memory for agents, across every harness",
+    "one_liner_en": "Long-term memory for agents, across every harness",
+    "use_when_zh": "（待编辑）适合该工具定位的场景。",
+    "use_when_en": "(todo) When this tool’s positioning fits.",
+    "avoid_when_zh": "（待编辑）明确不适合的情况。",
+    "avoid_when_en": "(todo) When it is a poor fit.",
+    "pricing": "free",
+    "sources": [
+      "Product Hunt"
+    ],
+    "launched_or_updated_at": "2026-11-12",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -151,8 +152,8 @@
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "Trending HF model (text-generation), likes≈2994. Full id: xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
-    "one_liner_en": "Trending HF model (text-generation), likes≈2994. Full id: xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+    "one_liner_zh": "Trending HF model (text-generation), likes≈4719. Full id: xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+    "one_liner_en": "Trending HF model (text-generation), likes≈4719. Full id: xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -161,7 +162,7 @@
     "sources": [
       "Hugging Face"
     ],
-    "launched_or_updated_at": "2026-11-11",
+    "launched_or_updated_at": "2026-11-12",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -175,8 +176,8 @@
     "scenarios": [
       "image-video"
     ],
-    "one_liner_zh": "Trending HF model (text-to-image), likes≈697. Full id: MiniMaxAI/MiniMax-H3-Image",
-    "one_liner_en": "Trending HF model (text-to-image), likes≈697. Full id: MiniMaxAI/MiniMax-H3-Image",
+    "one_liner_zh": "Trending HF model (text-to-image), likes≈866. Full id: MiniMaxAI/MiniMax-H3-Image",
+    "one_liner_en": "Trending HF model (text-to-image), likes≈866. Full id: MiniMaxAI/MiniMax-H3-Image",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -185,31 +186,7 @@
     "sources": [
       "Hugging Face"
     ],
-    "launched_or_updated_at": "2026-11-11",
-    "is_new_this_week": true,
-    "sponsored": false,
-    "affiliate_url": null,
-    "_suggested_by_scan": true
-  },
-  {
-    "id": "idol",
-    "name_zh": "idol",
-    "name_en": "idol",
-    "url": "https://huggingface.co/speridlabs/idol",
-    "scenarios": [
-      "image-video"
-    ],
-    "one_liner_zh": "Trending HF model (image-to-3d), likes≈2143. Full id: speridlabs/idol",
-    "one_liner_en": "Trending HF model (image-to-3d), likes≈2143. Full id: speridlabs/idol",
-    "use_when_zh": "（待编辑）适合该工具定位的场景。",
-    "use_when_en": "(todo) When this tool’s positioning fits.",
-    "avoid_when_zh": "（待编辑）明确不适合的情况。",
-    "avoid_when_en": "(todo) When it is a poor fit.",
-    "pricing": "free",
-    "sources": [
-      "Hugging Face"
-    ],
-    "launched_or_updated_at": "2026-11-11",
+    "launched_or_updated_at": "2026-11-12",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -223,8 +200,8 @@
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "Trending HF model (text-generation), likes≈434. Full id: NousResearch/Arete-27B",
-    "one_liner_en": "Trending HF model (text-generation), likes≈434. Full id: NousResearch/Arete-27B",
+    "one_liner_zh": "Trending HF model (text-generation), likes≈484. Full id: NousResearch/Arete-27B",
+    "one_liner_en": "Trending HF model (text-generation), likes≈484. Full id: NousResearch/Arete-27B",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -233,7 +210,31 @@
     "sources": [
       "Hugging Face"
     ],
-    "launched_or_updated_at": "2026-11-11",
+    "launched_or_updated_at": "2026-11-12",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null,
+    "_suggested_by_scan": true
+  },
+  {
+    "id": "idol",
+    "name_zh": "idol",
+    "name_en": "idol",
+    "url": "https://huggingface.co/speridlabs/idol",
+    "scenarios": [
+      "image-video"
+    ],
+    "one_liner_zh": "Trending HF model (image-to-3d), likes≈2230. Full id: speridlabs/idol",
+    "one_liner_en": "Trending HF model (image-to-3d), likes≈2230. Full id: speridlabs/idol",
+    "use_when_zh": "（待编辑）适合该工具定位的场景。",
+    "use_when_en": "(todo) When this tool’s positioning fits.",
+    "avoid_when_zh": "（待编辑）明确不适合的情况。",
+    "avoid_when_en": "(todo) When it is a poor fit.",
+    "pricing": "free",
+    "sources": [
+      "Hugging Face"
+    ],
+    "launched_or_updated_at": "2026-11-12",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -247,8 +248,8 @@
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "Popular HF Space (docker), likes≈14156. id=open-llm-leaderboard/open_llm_leaderboard",
-    "one_liner_en": "Popular HF Space (docker), likes≈14156. id=open-llm-leaderboard/open_llm_leaderboard",
+    "one_liner_zh": "Popular HF Space (docker), likes≈14158. id=open-llm-leaderboard/open_llm_leaderboard",
+    "one_liner_en": "Popular HF Space (docker), likes≈14158. id=open-llm-leaderboard/open_llm_leaderboard",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -257,7 +258,7 @@
     "sources": [
       "Hugging Face Spaces"
     ],
-    "launched_or_updated_at": "2026-11-11",
+    "launched_or_updated_at": "2026-11-12",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -283,7 +284,7 @@
     "sources": [
       "GitHub"
     ],
-    "launched_or_updated_at": "2026-11-11",
+    "launched_or_updated_at": "2026-11-12",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -307,7 +308,7 @@
     "sources": [
       "GitHub"
     ],
-    "launched_or_updated_at": "2026-11-11",
+    "launched_or_updated_at": "2026-11-12",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -331,22 +332,23 @@
     "sources": [
       "GitHub"
     ],
-    "launched_or_updated_at": "2026-11-11",
+    "launched_or_updated_at": "2026-11-12",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
     "_suggested_by_scan": true
   },
   {
-    "id": "deadline-resp-tracker-ai",
-    "name_zh": "AstralBeneathSilver/Deadline-resp-Tracker-AI",
-    "name_en": "AstralBeneathSilver/Deadline-resp-Tracker-AI",
-    "url": "https://github.com/AstralBeneathSilver/Deadline-resp-Tracker-AI",
+    "id": "faraflow",
+    "name_zh": "faraflow/faraflow",
+    "name_en": "faraflow/faraflow",
+    "url": "https://github.com/faraflow/faraflow",
     "scenarios": [
+      "image-video",
       "coding"
     ],
-    "one_liner_zh": "📅 AI-powered academic deadline assistant that uses Gemini Vision to extract assignments, exams, projects & submission da",
-    "one_liner_en": "📅 AI-powered academic deadline assistant that uses Gemini Vision to extract assignments, exams, projects & submission da",
+    "one_liner_zh": "Visual builder and execution engine for AI powered organizations ★53",
+    "one_liner_en": "Visual builder and execution engine for AI powered organizations ★53",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -355,7 +357,7 @@
     "sources": [
       "GitHub"
     ],
-    "launched_or_updated_at": "2026-11-11",
+    "launched_or_updated_at": "2026-11-12",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,

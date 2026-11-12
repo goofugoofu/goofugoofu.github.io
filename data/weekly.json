@@ -4,34 +4,39 @@
     "week_label_zh": "2026 年第 46 周",
     "week_label_en": "Week 46, 2026",
     "date_range": "2026-11-09 — 2026-11-15",
-    "title_zh": "本周扫描更新（2026-11-12）",
-    "title_en": "Weekly scan update (2026-11-12)",
-    "intro_zh": "自动扫描写入。今日来源统计：Product Hunt×6、Hugging Face×2、GitHub×3、RunningHub×1。可作通讯草稿。",
-    "intro_en": "Auto-scan write-up. Today's source counts: Product Hunt×6, Hugging Face×2, GitHub×3, RunningHub×1. Reuse as newsletter draft.",
+    "title_zh": "本周扫描更新（2026-11-13）",
+    "title_en": "Weekly scan update (2026-11-13)",
+    "intro_zh": "自动扫描写入。今日来源统计：Product Hunt×6、Hugging Face×2、Hugging Face Spaces×2、GitHub×4、X×7、RunningHub×1、Higgsfield×1。可作通讯草稿。",
+    "intro_en": "Auto-scan write-up. Today's source counts: Product Hunt×6, Hugging Face×2, Hugging Face Spaces×2, GitHub×4, X×7, RunningHub×1, Higgsfield×1. Reuse as newsletter draft.",
     "tool_ids": [
-      "runninghub"
+      "deepsite",
+      "chatgpt",
+      "claude",
+      "gemini",
+      "runninghub",
+      "higgsfield"
     ],
     "highlights_zh": [
-      "Kippy AI（来自 Product Hunt）",
-      "Skillbox（来自 Product Hunt）",
-      "Nod by n8n（来自 Product Hunt）",
-      "Muse Ember by Meta（来自 Product Hunt）",
-      "CALL-E（来自 Product Hunt）",
-      "bonds chat（来自 Product Hunt）",
-      "MiniMax-H3-Image（来自 Hugging Face）",
-      "Arete-27B（来自 Hugging Face）"
+      "Spacefast by Automattic（来自 Product Hunt）",
+      "Crossfade（来自 Product Hunt）",
+      "Plurai Simulation（来自 Product Hunt）",
+      "Omnigraph（来自 Product Hunt）",
+      "Insight7 Voice AI Agents（来自 Product Hunt）",
+      "Harness Memory（来自 Product Hunt）",
+      "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic（来自 Hugging Face）",
+      "idol（来自 Hugging Face）"
     ],
     "highlights_en": [
-      "Kippy AI (via Product Hunt)",
-      "Skillbox (via Product Hunt)",
-      "Nod by n8n (via Product Hunt)",
-      "Muse Ember by Meta (via Product Hunt)",
-      "CALL-E (via Product Hunt)",
-      "bonds chat (via Product Hunt)",
-      "MiniMax-H3-Image (via Hugging Face)",
-      "Arete-27B (via Hugging Face)"
+      "Spacefast by Automattic (via Product Hunt)",
+      "Crossfade (via Product Hunt)",
+      "Plurai Simulation (via Product Hunt)",
+      "Omnigraph (via Product Hunt)",
+      "Insight7 Voice AI Agents (via Product Hunt)",
+      "Harness Memory (via Product Hunt)",
+      "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic (via Hugging Face)",
+      "idol (via Hugging Face)"
     ],
-    "updated_at": "2026-11-11T23:57:01.145539+00:00"
+    "updated_at": "2026-11-12T23:53:38.184581+00:00"
   },
   {
     "id": "week-2026-w45-scan",
