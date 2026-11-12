@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "sources": {
     "product_hunt": {
       "status": "live",
@@ -33,14 +33,14 @@
   "counts": {
     "raw": 29,
     "deduped": 27,
-    "daily_written": 12,
+    "daily_written": 23,
     "suggestions": 15
   },
   "sample_titles": [
-    "Kippy AI (via Product Hunt)",
-    "Skillbox (via Product Hunt)",
-    "Nod by n8n (via Product Hunt)",
-    "Muse Ember by Meta (via Product Hunt)",
-    "CALL-E (via Product Hunt)"
+    "Spacefast by Automattic (via Product Hunt)",
+    "Crossfade (via Product Hunt)",
+    "Plurai Simulation (via Product Hunt)",
+    "Omnigraph (via Product Hunt)",
+    "Insight7 Voice AI Agents (via Product Hunt)"
   ]
 }
