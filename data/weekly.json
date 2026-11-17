@@ -4,39 +4,32 @@
     "week_label_zh": "2026 年第 47 周",
     "week_label_en": "Week 47, 2026",
     "date_range": "2026-11-16 — 2026-11-22",
-    "title_zh": "本周扫描更新（2026-11-16）",
-    "title_en": "Weekly scan update (2026-11-16)",
-    "intro_zh": "自动扫描写入。今日来源统计：Product Hunt×6、Hugging Face×4、Hugging Face Spaces×2、GitHub×6、X×7、RunningHub×1、Higgsfield×1。可作通讯草稿。",
-    "intro_en": "Auto-scan write-up. Today's source counts: Product Hunt×6, Hugging Face×4, Hugging Face Spaces×2, GitHub×6, X×7, RunningHub×1, Higgsfield×1. Reuse as newsletter draft.",
+    "title_zh": "本周扫描更新（2026-11-17）",
+    "title_en": "Weekly scan update (2026-11-17)",
+    "intro_zh": "自动扫描写入。今日来源统计：Product Hunt×6、GitHub×1。可作通讯草稿。",
+    "intro_en": "Auto-scan write-up. Today's source counts: Product Hunt×6, GitHub×1. Reuse as newsletter draft.",
     "tool_ids": [
-      "deepsite",
-      "chatgpt",
-      "claude",
-      "gemini",
-      "runninghub",
-      "higgsfield"
+      "chatgpt"
     ],
     "highlights_zh": [
-      "Pixel Office（来自 Product Hunt）",
-      "Talyn（来自 Product Hunt）",
-      "Spiik（来自 Product Hunt）",
-      "Canvas by AgentGrid.io（来自 Product Hunt）",
-      "Frevana Multiplayer（来自 Product Hunt）",
-      "Perit Marketplace（来自 Product Hunt）",
-      "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic（来自 Hugging Face）",
-      "MiniMax-H3-Image（来自 Hugging Face）"
+      "Boost.space AgentOS（来自 Product Hunt）",
+      "Pharen Hub（来自 Product Hunt）",
+      "ChatGPT Wallet（来自 Product Hunt）",
+      "AgentWatch（来自 Product Hunt）",
+      "Docsy（来自 Product Hunt）",
+      "Intelligent Eyewear（来自 Product Hunt）",
+      "rohitjee7022-blip/Anonymous-Campus（来自 GitHub）"
     ],
     "highlights_en": [
-      "Pixel Office (via Product Hunt)",
-      "Talyn (via Product Hunt)",
-      "Spiik (via Product Hunt)",
-      "Canvas by AgentGrid.io (via Product Hunt)",
-      "Frevana Multiplayer (via Product Hunt)",
-      "Perit Marketplace (via Product Hunt)",
-      "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic (via Hugging Face)",
-      "MiniMax-H3-Image (via Hugging Face)"
+      "Boost.space AgentOS (via Product Hunt)",
+      "Pharen Hub (via Product Hunt)",
+      "ChatGPT Wallet (via Product Hunt)",
+      "AgentWatch (via Product Hunt)",
+      "Docsy (via Product Hunt)",
+      "Intelligent Eyewear (via Product Hunt)",
+      "rohitjee7022-blip/Anonymous-Campus (via GitHub)"
     ],
-    "updated_at": "2026-11-16T00:11:39.264526+00:00"
+    "updated_at": "2026-11-17T00:11:08.385106+00:00"
   },
   {
     "id": "week-2026-w46-scan",

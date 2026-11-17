@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "sources": {
     "product_hunt": {
       "status": "live",
@@ -33,14 +33,14 @@
   "counts": {
     "raw": 29,
     "deduped": 27,
-    "daily_written": 27,
+    "daily_written": 7,
     "suggestions": 15
   },
   "sample_titles": [
-    "Pixel Office (via Product Hunt)",
-    "Talyn (via Product Hunt)",
-    "Spiik (via Product Hunt)",
-    "Canvas by AgentGrid.io (via Product Hunt)",
-    "Frevana Multiplayer (via Product Hunt)"
+    "Boost.space AgentOS (via Product Hunt)",
+    "Pharen Hub (via Product Hunt)",
+    "ChatGPT Wallet (via Product Hunt)",
+    "AgentWatch (via Product Hunt)",
+    "Docsy (via Product Hunt)"
   ]
 }
