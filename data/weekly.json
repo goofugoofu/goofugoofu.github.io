@@ -4,32 +4,39 @@
     "week_label_zh": "2026 年第 47 周",
     "week_label_en": "Week 47, 2026",
     "date_range": "2026-11-16 — 2026-11-22",
-    "title_zh": "本周扫描更新（2026-11-17）",
-    "title_en": "Weekly scan update (2026-11-17)",
-    "intro_zh": "自动扫描写入。今日来源统计：Product Hunt×6、GitHub×1。可作通讯草稿。",
-    "intro_en": "Auto-scan write-up. Today's source counts: Product Hunt×6, GitHub×1. Reuse as newsletter draft.",
+    "title_zh": "本周扫描更新（2026-11-18）",
+    "title_en": "Weekly scan update (2026-11-18)",
+    "intro_zh": "自动扫描写入。今日来源统计：Product Hunt×6、Hugging Face×4、Hugging Face Spaces×2、GitHub×6、X×7、RunningHub×1、Higgsfield×1。可作通讯草稿。",
+    "intro_en": "Auto-scan write-up. Today's source counts: Product Hunt×6, Hugging Face×4, Hugging Face Spaces×2, GitHub×6, X×7, RunningHub×1, Higgsfield×1. Reuse as newsletter draft.",
     "tool_ids": [
-      "chatgpt"
+      "deepsite",
+      "chatgpt",
+      "claude",
+      "gemini",
+      "runninghub",
+      "higgsfield"
     ],
     "highlights_zh": [
-      "Boost.space AgentOS（来自 Product Hunt）",
-      "Pharen Hub（来自 Product Hunt）",
-      "ChatGPT Wallet（来自 Product Hunt）",
-      "AgentWatch（来自 Product Hunt）",
-      "Docsy（来自 Product Hunt）",
-      "Intelligent Eyewear（来自 Product Hunt）",
-      "rohitjee7022-blip/Anonymous-Campus（来自 GitHub）"
+      "RankSpot（来自 Product Hunt）",
+      "GatherHQ Agent Research（来自 Product Hunt）",
+      "Versine（来自 Product Hunt）",
+      "Trading Agents（来自 Product Hunt）",
+      "infaiw（来自 Product Hunt）",
+      "Glass Page（来自 Product Hunt）",
+      "MiniMax-H3-Image（来自 Hugging Face）",
+      "Qwen3.8-27B（来自 Hugging Face）"
     ],
     "highlights_en": [
-      "Boost.space AgentOS (via Product Hunt)",
-      "Pharen Hub (via Product Hunt)",
-      "ChatGPT Wallet (via Product Hunt)",
-      "AgentWatch (via Product Hunt)",
-      "Docsy (via Product Hunt)",
-      "Intelligent Eyewear (via Product Hunt)",
-      "rohitjee7022-blip/Anonymous-Campus (via GitHub)"
+      "RankSpot (via Product Hunt)",
+      "GatherHQ Agent Research (via Product Hunt)",
+      "Versine (via Product Hunt)",
+      "Trading Agents (via Product Hunt)",
+      "infaiw (via Product Hunt)",
+      "Glass Page (via Product Hunt)",
+      "MiniMax-H3-Image (via Hugging Face)",
+      "Qwen3.8-27B (via Hugging Face)"
     ],
-    "updated_at": "2026-11-17T00:11:08.385106+00:00"
+    "updated_at": "2026-11-18T00:08:27.824840+00:00"
   },
   {
     "id": "week-2026-w46-scan",

@@ -1,14 +1,14 @@
 [
   {
-    "id": "boost-space-agentos",
-    "name_zh": "Boost.space AgentOS",
-    "name_en": "Boost.space AgentOS",
-    "url": "https://www.producthunt.com/products/boost-space",
+    "id": "rankspot",
+    "name_zh": "RankSpot",
+    "name_en": "RankSpot",
+    "url": "https://www.producthunt.com/products/rankspot",
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "One operating system for all your AI agents",
-    "one_liner_en": "One operating system for all your AI agents",
+    "one_liner_zh": "Pay-as-you-go SEO and AI Search execution layer for agents",
+    "one_liner_en": "Pay-as-you-go SEO and AI Search execution layer for agents",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -17,22 +17,47 @@
     "sources": [
       "Product Hunt"
     ],
-    "launched_or_updated_at": "2026-11-16",
+    "launched_or_updated_at": "2026-11-17",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
     "_suggested_by_scan": true
   },
   {
-    "id": "pharen-hub",
-    "name_zh": "Pharen Hub",
-    "name_en": "Pharen Hub",
-    "url": "https://www.producthunt.com/products/pharen-hub",
+    "id": "gatherhq-agent-research",
+    "name_zh": "GatherHQ Agent Research",
+    "name_en": "GatherHQ Agent Research",
+    "url": "https://www.producthunt.com/products/gatherhq-agent-research",
+    "scenarios": [
+      "agents",
+      "research"
+    ],
+    "one_liner_zh": "Let your agent take surveys for you",
+    "one_liner_en": "Let your agent take surveys for you",
+    "use_when_zh": "（待编辑）适合该工具定位的场景。",
+    "use_when_en": "(todo) When this tool’s positioning fits.",
+    "avoid_when_zh": "（待编辑）明确不适合的情况。",
+    "avoid_when_en": "(todo) When it is a poor fit.",
+    "pricing": "free",
+    "sources": [
+      "Product Hunt"
+    ],
+    "launched_or_updated_at": "2026-11-17",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null,
+    "_suggested_by_scan": true
+  },
+  {
+    "id": "versine",
+    "name_zh": "Versine",
+    "name_en": "Versine",
+    "url": "https://www.producthunt.com/products/versine",
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "One AI workspace for your whole company",
-    "one_liner_en": "One AI workspace for your whole company",
+    "one_liner_zh": "Let your AI send and receive money. We're Venmo for agents.",
+    "one_liner_en": "Let your AI send and receive money. We're Venmo for agents.",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -41,22 +66,22 @@
     "sources": [
       "Product Hunt"
     ],
-    "launched_or_updated_at": "2026-11-16",
+    "launched_or_updated_at": "2026-11-17",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
     "_suggested_by_scan": true
   },
   {
-    "id": "chatgpt-wallet",
-    "name_zh": "ChatGPT Wallet",
-    "name_en": "ChatGPT Wallet",
-    "url": "https://www.producthunt.com/products/chatgpt",
+    "id": "trading-agents",
+    "name_zh": "Trading Agents",
+    "name_en": "Trading Agents",
+    "url": "https://www.producthunt.com/products/alpha-vantage",
     "scenarios": [
       "research"
     ],
-    "one_liner_zh": "Let ChatGPT agents buy things without seeing your card",
-    "one_liner_en": "Let ChatGPT agents buy things without seeing your card",
+    "one_liner_zh": "An equity research desk that argues with itself",
+    "one_liner_en": "An equity research desk that argues with itself",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -65,22 +90,22 @@
     "sources": [
       "Product Hunt"
     ],
-    "launched_or_updated_at": "2026-11-16",
+    "launched_or_updated_at": "2026-11-17",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
     "_suggested_by_scan": true
   },
   {
-    "id": "agentwatch",
-    "name_zh": "AgentWatch",
-    "name_en": "AgentWatch",
-    "url": "https://www.producthunt.com/products/agentwatch-ai-traffic-tracker",
+    "id": "infaiw",
+    "name_zh": "infaiw",
+    "name_en": "infaiw",
+    "url": "https://www.producthunt.com/products/infaiw",
     "scenarios": [
-      "agents"
+      "research"
     ],
-    "one_liner_zh": "Monitor AI shopping agent sales and visibility on Shopify",
-    "one_liner_en": "Monitor AI shopping agent sales and visibility on Shopify",
+    "one_liner_zh": "Delegate work to sidecar agents that pass an approval script",
+    "one_liner_en": "Delegate work to sidecar agents that pass an approval script",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -89,23 +114,23 @@
     "sources": [
       "Product Hunt"
     ],
-    "launched_or_updated_at": "2026-11-16",
+    "launched_or_updated_at": "2026-11-17",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
     "_suggested_by_scan": true
   },
   {
-    "id": "docsy",
-    "name_zh": "Docsy",
-    "name_en": "Docsy",
-    "url": "https://www.producthunt.com/products/docsy-4",
+    "id": "glass-page",
+    "name_zh": "Glass Page",
+    "name_en": "Glass Page",
+    "url": "https://www.producthunt.com/products/glass-page",
     "scenarios": [
       "coding",
-      "office"
+      "agents"
     ],
-    "one_liner_zh": "Open source docs for humans and coding agents",
-    "one_liner_en": "Open source docs for humans and coding agents",
+    "one_liner_zh": "A place for people to review an agent's work",
+    "one_liner_en": "A place for people to review an agent's work",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -114,55 +139,7 @@
     "sources": [
       "Product Hunt"
     ],
-    "launched_or_updated_at": "2026-11-16",
-    "is_new_this_week": true,
-    "sponsored": false,
-    "affiliate_url": null,
-    "_suggested_by_scan": true
-  },
-  {
-    "id": "intelligent-eyewear",
-    "name_zh": "Intelligent Eyewear",
-    "name_en": "Intelligent Eyewear",
-    "url": "https://www.producthunt.com/products/sumsung",
-    "scenarios": [
-      "research"
-    ],
-    "one_liner_zh": "Samsung and Google bring Gemini AI to smart eyewear",
-    "one_liner_en": "Samsung and Google bring Gemini AI to smart eyewear",
-    "use_when_zh": "（待编辑）适合该工具定位的场景。",
-    "use_when_en": "(todo) When this tool’s positioning fits.",
-    "avoid_when_zh": "（待编辑）明确不适合的情况。",
-    "avoid_when_en": "(todo) When it is a poor fit.",
-    "pricing": "free",
-    "sources": [
-      "Product Hunt"
-    ],
-    "launched_or_updated_at": "2026-11-16",
-    "is_new_this_week": true,
-    "sponsored": false,
-    "affiliate_url": null,
-    "_suggested_by_scan": true
-  },
-  {
-    "id": "deepseek-v4-pro-qwen3-5-9b-uncensored-heretic",
-    "name_zh": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
-    "name_en": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
-    "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
-    "scenarios": [
-      "research"
-    ],
-    "one_liner_zh": "Trending HF model (text-generation), likes≈8695. Full id: xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
-    "one_liner_en": "Trending HF model (text-generation), likes≈8695. Full id: xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
-    "use_when_zh": "（待编辑）适合该工具定位的场景。",
-    "use_when_en": "(todo) When this tool’s positioning fits.",
-    "avoid_when_zh": "（待编辑）明确不适合的情况。",
-    "avoid_when_en": "(todo) When it is a poor fit.",
-    "pricing": "free",
-    "sources": [
-      "Hugging Face"
-    ],
-    "launched_or_updated_at": "2026-11-16",
+    "launched_or_updated_at": "2026-11-17",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -176,8 +153,8 @@
     "scenarios": [
       "image-video"
     ],
-    "one_liner_zh": "Trending HF model (text-to-image), likes≈1313. Full id: MiniMaxAI/MiniMax-H3-Image",
-    "one_liner_en": "Trending HF model (text-to-image), likes≈1313. Full id: MiniMaxAI/MiniMax-H3-Image",
+    "one_liner_zh": "Trending HF model (text-to-image), likes≈1458. Full id: MiniMaxAI/MiniMax-H3-Image",
+    "one_liner_en": "Trending HF model (text-to-image), likes≈1458. Full id: MiniMaxAI/MiniMax-H3-Image",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -186,7 +163,7 @@
     "sources": [
       "Hugging Face"
     ],
-    "launched_or_updated_at": "2026-11-16",
+    "launched_or_updated_at": "2026-11-17",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -200,8 +177,8 @@
     "scenarios": [
       "image-video"
     ],
-    "one_liner_zh": "Trending HF model (image-text-to-text), likes≈20265. Full id: Qwen/Qwen3.8-27B",
-    "one_liner_en": "Trending HF model (image-text-to-text), likes≈20265. Full id: Qwen/Qwen3.8-27B",
+    "one_liner_zh": "Trending HF model (image-text-to-text), likes≈20427. Full id: Qwen/Qwen3.8-27B",
+    "one_liner_en": "Trending HF model (image-text-to-text), likes≈20427. Full id: Qwen/Qwen3.8-27B",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -210,7 +187,7 @@
     "sources": [
       "Hugging Face"
     ],
-    "launched_or_updated_at": "2026-11-16",
+    "launched_or_updated_at": "2026-11-17",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -224,8 +201,8 @@
     "scenarios": [
       "image-video"
     ],
-    "one_liner_zh": "Trending HF model (image-to-video), likes≈12227. Full id: Lightricks/LTX-2.5",
-    "one_liner_en": "Trending HF model (image-to-video), likes≈12227. Full id: Lightricks/LTX-2.5",
+    "one_liner_zh": "Trending HF model (image-to-video), likes≈12401. Full id: Lightricks/LTX-2.5",
+    "one_liner_en": "Trending HF model (image-to-video), likes≈12401. Full id: Lightricks/LTX-2.5",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -234,7 +211,31 @@
     "sources": [
       "Hugging Face"
     ],
-    "launched_or_updated_at": "2026-11-16",
+    "launched_or_updated_at": "2026-11-17",
+    "is_new_this_week": true,
+    "sponsored": false,
+    "affiliate_url": null,
+    "_suggested_by_scan": true
+  },
+  {
+    "id": "haru-4b",
+    "name_zh": "Haru-4B",
+    "name_en": "Haru-4B",
+    "url": "https://huggingface.co/higurashi-ai/Haru-4B",
+    "scenarios": [
+      "research"
+    ],
+    "one_liner_zh": "Trending HF model (audio-to-audio), likes≈499. Full id: higurashi-ai/Haru-4B",
+    "one_liner_en": "Trending HF model (audio-to-audio), likes≈499. Full id: higurashi-ai/Haru-4B",
+    "use_when_zh": "（待编辑）适合该工具定位的场景。",
+    "use_when_en": "(todo) When this tool’s positioning fits.",
+    "avoid_when_zh": "（待编辑）明确不适合的情况。",
+    "avoid_when_en": "(todo) When it is a poor fit.",
+    "pricing": "free",
+    "sources": [
+      "Hugging Face"
+    ],
+    "launched_or_updated_at": "2026-11-17",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -258,7 +259,7 @@
     "sources": [
       "Hugging Face Spaces"
     ],
-    "launched_or_updated_at": "2026-11-16",
+    "launched_or_updated_at": "2026-11-17",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -284,7 +285,7 @@
     "sources": [
       "GitHub"
     ],
-    "launched_or_updated_at": "2026-11-16",
+    "launched_or_updated_at": "2026-11-17",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -298,8 +299,8 @@
     "scenarios": [
       "coding"
     ],
-    "one_liner_zh": "Qwen3.5-2B with a filesystem compiled and inserted directly into its weights. ★96",
-    "one_liner_en": "Qwen3.5-2B with a filesystem compiled and inserted directly into its weights. ★96",
+    "one_liner_zh": "Qwen3.5-2B with a filesystem compiled and inserted directly into its weights. ★97",
+    "one_liner_en": "Qwen3.5-2B with a filesystem compiled and inserted directly into its weights. ★97",
     "use_when_zh": "（待编辑）适合该工具定位的场景。",
     "use_when_en": "(todo) When this tool’s positioning fits.",
     "avoid_when_zh": "（待编辑）明确不适合的情况。",
@@ -308,7 +309,7 @@
     "sources": [
       "GitHub"
     ],
-    "launched_or_updated_at": "2026-11-16",
+    "launched_or_updated_at": "2026-11-17",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -332,7 +333,7 @@
     "sources": [
       "GitHub"
     ],
-    "launched_or_updated_at": "2026-11-16",
+    "launched_or_updated_at": "2026-11-17",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,
@@ -356,7 +357,7 @@
     "sources": [
       "GitHub"
     ],
-    "launched_or_updated_at": "2026-11-16",
+    "launched_or_updated_at": "2026-11-17",
     "is_new_this_week": true,
     "sponsored": false,
     "affiliate_url": null,

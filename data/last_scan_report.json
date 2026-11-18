@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "sources": {
     "product_hunt": {
       "status": "live",
@@ -33,14 +33,14 @@
   "counts": {
     "raw": 29,
     "deduped": 27,
-    "daily_written": 7,
+    "daily_written": 27,
     "suggestions": 15
   },
   "sample_titles": [
-    "Boost.space AgentOS (via Product Hunt)",
-    "Pharen Hub (via Product Hunt)",
-    "ChatGPT Wallet (via Product Hunt)",
-    "AgentWatch (via Product Hunt)",
-    "Docsy (via Product Hunt)"
+    "RankSpot (via Product Hunt)",
+    "GatherHQ Agent Research (via Product Hunt)",
+    "Versine (via Product Hunt)",
+    "Trading Agents (via Product Hunt)",
+    "infaiw (via Product Hunt)"
   ]
 }
