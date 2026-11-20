@@ -4,34 +4,39 @@
     "week_label_zh": "2026 年第 47 周",
     "week_label_en": "Week 47, 2026",
     "date_range": "2026-11-16 — 2026-11-22",
-    "title_zh": "本周扫描更新（2026-11-19）",
-    "title_en": "Weekly scan update (2026-11-19)",
-    "intro_zh": "自动扫描写入。今日来源统计：Product Hunt×6、Hugging Face×2。可作通讯草稿。",
-    "intro_en": "Auto-scan write-up. Today's source counts: Product Hunt×6, Hugging Face×2. Reuse as newsletter draft.",
+    "title_zh": "本周扫描更新（2026-11-20）",
+    "title_en": "Weekly scan update (2026-11-20)",
+    "intro_zh": "自动扫描写入。今日来源统计：Product Hunt×6、Hugging Face×3、Hugging Face Spaces×2、GitHub×6、X×7、RunningHub×1、Higgsfield×1。可作通讯草稿。",
+    "intro_en": "Auto-scan write-up. Today's source counts: Product Hunt×6, Hugging Face×3, Hugging Face Spaces×2, GitHub×6, X×7, RunningHub×1, Higgsfield×1. Reuse as newsletter draft.",
     "tool_ids": [
-      "kling"
+      "deepsite",
+      "chatgpt",
+      "claude",
+      "gemini",
+      "runninghub",
+      "higgsfield"
     ],
     "highlights_zh": [
-      "S.Space（来自 Product Hunt）",
-      "LinkBit（来自 Product Hunt）",
-      "Pitch Avatar HR Suite（来自 Product Hunt）",
-      "Dippr（来自 Product Hunt）",
-      "Incredible Agents（来自 Product Hunt）",
-      "Tencent Hy4 flash（来自 Product Hunt）",
-      "Qwen3.8-27B-pi-adapted（来自 Hugging Face）",
-      "Inkling-2-Small（来自 Hugging Face）"
+      "Noteshell（来自 Product Hunt）",
+      "OfinTech Desk（来自 Product Hunt）",
+      "CodeDesign v3（来自 Product Hunt）",
+      "Rezora IO（来自 Product Hunt）",
+      "Tecla（来自 Product Hunt）",
+      "Ableten Hybrid AI Travel Planner（来自 Product Hunt）",
+      "Haru-4B（来自 Hugging Face）",
+      "Hy4-flash（来自 Hugging Face）"
     ],
     "highlights_en": [
-      "S.Space (via Product Hunt)",
-      "LinkBit (via Product Hunt)",
-      "Pitch Avatar HR Suite (via Product Hunt)",
-      "Dippr (via Product Hunt)",
-      "Incredible Agents (via Product Hunt)",
-      "Tencent Hy4 flash (via Product Hunt)",
-      "Qwen3.8-27B-pi-adapted (via Hugging Face)",
-      "Inkling-2-Small (via Hugging Face)"
+      "Noteshell (via Product Hunt)",
+      "OfinTech Desk (via Product Hunt)",
+      "CodeDesign v3 (via Product Hunt)",
+      "Rezora IO (via Product Hunt)",
+      "Tecla (via Product Hunt)",
+      "Ableten Hybrid AI Travel Planner (via Product Hunt)",
+      "Haru-4B (via Hugging Face)",
+      "Hy4-flash (via Hugging Face)"
     ],
-    "updated_at": "2026-11-19T00:14:47.794171+00:00"
+    "updated_at": "2026-11-20T00:04:51.935240+00:00"
   },
   {
     "id": "week-2026-w46-scan",

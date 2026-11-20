@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "sources": {
     "product_hunt": {
       "status": "live",
@@ -33,14 +33,14 @@
   "counts": {
     "raw": 29,
     "deduped": 27,
-    "daily_written": 8,
+    "daily_written": 26,
     "suggestions": 15
   },
   "sample_titles": [
-    "S.Space (via Product Hunt)",
-    "LinkBit (via Product Hunt)",
-    "Pitch Avatar HR Suite (via Product Hunt)",
-    "Dippr (via Product Hunt)",
-    "Incredible Agents (via Product Hunt)"
+    "Noteshell (via Product Hunt)",
+    "OfinTech Desk (via Product Hunt)",
+    "CodeDesign v3 (via Product Hunt)",
+    "Rezora IO (via Product Hunt)",
+    "Tecla (via Product Hunt)"
   ]
 }
